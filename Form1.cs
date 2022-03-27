@@ -116,11 +116,12 @@ namespace WindowsFormsApp1
 
         private void Form1_DragDrop(object sender, DragEventArgs e)
         {
-            string[] files = e.Data.GetData(DataFormats.FileDrop) as string[]; 
+            string[] files = e.Data.GetData(DataFormats.FileDrop) as string[];
             if (files != null && files.Any())
+                AampPath = files.First();
                 try
                 {
-                    GetAAMPProperties(files.First());
+                    GetAAMPProperties(AampPath);
                 }
                 catch
                 {

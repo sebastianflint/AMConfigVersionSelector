@@ -1,0 +1,429 @@
+<EventDescriptionDictionary ClassName="Common.Auditing.EventDescriptionDictionary">
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9000" ActualName="Denied execution" Description="Denied execution request." FormatString="AppSense Application Manager denied execution of '{Full File Path}' on '{Client Name}' in '{Session ID}'. Deciding Rule: '{Rule Name}'. File owner: '{File Owner}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="File Owner" Description="The file owner." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9060" ActualName="Denied execution (Trusted Ownership)" Description="Denied execution request (Trusted Ownership). " FormatString="AppSense Application Manager denied execution of '{Full File Path}' on '{Client Name}' in '{Session ID}'. File owner: '{File Owner}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="File Owner" Description="The file owner." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9061" ActualName="Denied execution (Rule Policy)" Description="Denied execution request (Rule Policy). " FormatString="AppSense Application Manager denied execution of '{Full File Path}' on '{Client Name}' in '{Session ID}'. Deciding Rule: '{Rule Name}'. File owner: '{File Owner}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="File Owner" Description="The file owner." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9001" ActualName="Allowed execution" Description="Allowed execution request." FormatString="AppSense Application Manager granted execution of '{Full File Path}' on '{Client Name}' in '{Session ID}'. File owner: '{File Owner}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="File Owner" Description="The file owner." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9002" ActualName="Overwrite changed owner" Description="Overwrite of an allowed executable." FormatString="AppSense Application Manager intercepted the overwrite of the allowed executable '{Full File Path}' on '{Client Name}' in '{Session ID}'. Ownership of this file was changed to that of the user. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9003" ActualName="Rename changed owner" Description="Rename of a denied executable." FormatString="AppSense Application Manager intercepted the renaming of the denied executable '{Full File Path}' on '{Client Name}' in '{Session ID}'. Ownership of this file was changed to that of the user. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9004" ActualName="Application limit denial" Description="Application limit denial." FormatString="AppSense Application Manager denied execution of '{Full File Path}' on '{Client Name}' in '{Session ID}' due to the application limit being reached. Deciding Rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9005" ActualName="Time limit denial" Description="Time limit denial." FormatString="AppSense Application Manager denied execution of '{Full File Path}' on '{Client Name}' in '{Session ID}' due to a time limit. Deciding Rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9006" ActualName="Self-authorization" Description="Self-authorization decision by user." FormatString="File '{Full File Path}' on '{Client Name}' in '{Session ID}' self-authorized ({For How Long}) by user. Self-Authorize rule: '{Rule Name}'. AppSense Application Manager will {Action Taken}.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="For How Long" Description="Did the user choose 'once', 'session' or 'always'?" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Action Taken" Description="Did they run it natively?" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9007" ActualName="Self-authorized allow" Description="Self-authorized execution request." FormatString="AppSense Application Manager {Action Taken} self-authorized file '{Full File Path}' on '{Client Name}' in '{Session ID}'. Self-Authorize rule: '{Rule Name}'.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Action Taken" Description="Did they run it natively?" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9009" ActualName="Scripted rule timeout" Description="Script execution timed out." FormatString="The scripted rule '{Scripted Rule Name}' timed out after '{Timeout Period}' seconds on '{Client Name}' in '{Session ID}'. The rule has not been applied.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Scripted Rule Name" Description="The scripted rule name." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Timeout Period" Description="The time taken for the script to timeout." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9010" ActualName="Scripted rule fail" Description="Script failed to complete." FormatString="The scripted rule '{Scripted Rule Name}' failed to complete (Error: Source='{Source}', Description='{Description}', Line='{Line}', Position='{Position}') on '{Client Name}' in '{Session ID}'. The rule has not been applied.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Scripted Rule Name" Description="The scripted rule name." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Source" Description="The error source." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Description" Description="The error description." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Line" Description="The error line." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Position" Description="The error position." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9011" ActualName="Scripted rule success" Description="Script completed successfully." FormatString="The scripted rule '{Scripted Rule Name}' executed successfully on '{Client Name}' in '{Session ID}'. The rule has {Scripted Rule Result}.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Scripted Rule Name" Description="The scripted rule name." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Scripted Rule Result" Description="The scripted rule result." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9012" ActualName="Trusted Vendor denial" Description="Digital Certificate failed Trusted Vendor check." FormatString="AppSense Application Manager denied execution of '{Full File Path}' on '{Client Name}' in '{Session ID}'. Failed to verify certificate '{Cert Desc}'. Error {TV Reason}. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Cert Desc" Description="The description of the certificate." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="TV Reason" Description="The reason the TV check failed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9013" ActualName="Network Item denied" Description="Denied Network Item request." FormatString="AppSense Application Manager denied access to the network item '{Network Item}' using application '{Application}' on '{Client Name}' in '{Session ID}'. Deciding Rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Network Item" Description="The name of the network item denied." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Application" Description="The application used to access the resource." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9014" ActualName="Network Item allowed" Description="Allowed Network Item request." FormatString="AppSense Application Manager allowed access to the network item '{Network Item}' using application '{Application}' on '{Client Name}' in '{Session ID}'. Deciding Rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Network Item" Description="The name of the resource denied." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Application" Description="The application used to access the resource." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9015" ActualName="Application started" Description="An allowed application started running." FormatString="The allowed application '{Full File Path}' started running on '{Client Name}' in '{Session ID}'. File owner: '{File Owner}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="File Owner" Description="The file owner." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9099" ActualName="Agent not licensed" Description="AppSense Application Manager is not licensed." FormatString="AppSense Application Manager software is not licensed.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary" />
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9016" ActualName="Unable to change ownership" Description="The file's ownership could not be changed." FormatString="The file '{Full File Path}' owner could not be changed on '{Client Name}' in '{Session ID}'. The most likely reason for this was insufficient user rights to the file. Error code: '{Error Code}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Error Code" Description="The reported error code." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9017" ActualName="Application Termination" Description="An Application has been terminated by Application Manager." FormatString="'{Full File Path}' has been terminated by Application Manager on '{Client Name}' in '{Session ID}'. The termination trigger was '{Termination Trigger}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Termination Trigger" Description="The trigger which initiated the termination." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9018" ActualName="Application User Privileges changed" Description="The application's user privileges have been changed." FormatString="'{Username}' has had user privileges '{State}' for '{Full File Path}' with policy '{User Privilege Policy}' on '{Client Name}' in '{Session ID}'. Deciding Rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Username" Description="The User whose Privileges have been changed" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="State" Description="User Privileges Elevated or Restricted" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The Full File Path" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="User Privilege Policy" Description="The user privilege policy applied" />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9019" ActualName="Web Installation allowed" Description="Allowed Web Installation request." FormatString="AppSense Application Manager allowed the web installation of '{Web Item}' from '{Website URL}' on '{Computer Name}' in '{Session ID}'. The installer URL was '{Installer URL}', with Class Id '{CLSID}' and version number '{Version}'.  Deciding rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Website URL" Description="The URL from the Address Bar." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Computer Name" Description="The computer the web item was installed on." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Installer URL" Description="The codebase of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="CLSID" Description="The class ID of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Version" Description="The version number of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Web Item" Description="The name of the web item being managed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9020" ActualName="Web Installation restricted" Description="Restricted Web Installation request." FormatString="AppSense Application Manager restricted the web installation of '{Web Item}' from '{Website URL}' on '{Computer Name}' in '{Session ID}'. The installer URL was '{Installer URL}', with Class Id '{CLSID}' and version number '{Version}'.  Deciding rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Website URL" Description="The URL from the Address Bar." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Computer Name" Description="The computer the web item was installed on." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Installer URL" Description="The codebase of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="CLSID" Description="The class ID of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Version" Description="The version number of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Web Item" Description="The name of the web item being managed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9021" ActualName="Web Installation restricted" Description="Windows Restricted Web Installation request." FormatString="The Web Installation from '{Website URL}' on  '{Computer Name}' in '{Session ID}' was restricted by Windows. The installer URL was '{Installer URL}', with Class Id '{CLSID}' and version number '{Version}'.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Website URL" Description="The URL from the Address Bar." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Computer Name" Description="The computer the web item was installed on." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Installer URL" Description="The codebase of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="CLSID" Description="The class ID of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Version" Description="The version number of the control being installed." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9022" ActualName="Web Installation fail" Description="Web Installation failed to complete." FormatString="The Web Installation of '{Web Item}' from '{Website URL}' on '{Computer Name}' in '{Session ID}' was allowed but failed because of reason '{Fail Reason}'. The installer URL was '{Installer URL}', with Class Id '{CLSID}' and version number '{Version}'.  Deciding rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Website URL" Description="The URL from the Address Bar." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Computer Name" Description="The computer the web item was installed on." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Installer URL" Description="The codebase of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="CLSID" Description="The class ID of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Version" Description="The version number of the control being installed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Web Item" Description="The name of the web item being managed." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Fail Reason" Description="The reason for web installation failure." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9023" ActualName="Self-Elevation allowed" Description="Self-Elevation request." FormatString="AppSense Application Manager granted self-elevation of '{Full File Path}' for '{Username}' on '{Client Name}' in '{Session ID}' with reason '{Reason}'. Deciding Rule: '{Rule Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Username" Description="The User requesting self-elevation." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Reason" Description="The optional reason why self-elevation was required." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Rule Name" Description="The name of the deciding rule." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9024" ActualName="URL Redirection" Description="URL Redirection has occurred" FormatString="AppSense Application Manager redirected the user from '{Prohibited URL}' to '{Redirected URL}' on '{Client Name}' in '{Session ID}', due to policy '{Policy Name}'. {Audit Only}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Prohibited URL" Description="The URL the user tried to access." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Redirected URL" Description="The URL the user was redirected to." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Policy Name" Description="The name of the policy that caused this redirection to occur." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Audit Only" Description="Specifies whether Audit Only mode is enabled" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9051" ActualName="Policy Change granted" Description="A Policy Change Request has been granted." FormatString="AppSense Application Manager granted an immediate Policy Change Request on '{Client Name}' in '{Session ID}'. [User:{Username}] [{Resource Type}:{Resource Name}] [Vendor:{Vendor}] [Request Type:{Request Type}] [Expiry:{Expiry}] [Request Code:{Request Code}] [Response Code:{Response Code}]">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Username" Description="The name of the user requesting the change." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Resource Type" Description="File or Component." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Resource Name" Description="The file or component name being requested." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Vendor" Description="The name of the signer of the file (if file is digitally signed)." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Request Type" Description="Allow or Elevate." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Expiry" Description="One Hour, Four Hours, One Day, ..." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Request Code" Description="Request Code." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Response Code" Description="Response Code." />
+    </ParameterDescriptions>
+  </EventDescription>
+    <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9052" ActualName="Policy Change invalid response code" Description="The maximum allowed response code attempts has been exceeded." FormatString="AppSense Application Manager refused an immediate Policy Change Request. The user entered an invalid response code (maximum allowed attempts exceeded). [User:{Username}] [{Resource Type}:{Resource Name}] [Vendor:{Vendor}] [Request Type:{Request Type}] [Expiry:{Expiry}] [Request Code:{Request Code}]">
+      <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+        <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Username" Description="The name of the user requesting the change." />
+        <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Resource Type" Description="File or Component." />
+        <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Resource Name" Description="The file or component name being requested." />
+        <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Vendor" Description="The name of the signer of the file (if file is digitally signed)." />
+        <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Request Type" Description="Allow or Elevate." />
+        <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Expiry" Description="One Hour, Four Hours, One Day, ..." />
+        <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Request Code" Description="Request Code." />
+      </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9053" ActualName="User-requested allow" Description="An allowed Policy Change application has started." FormatString="AppSense Application Manager granted execution of '{Full File Path}' on '{Client Name}' in '{Session ID}' as a result of a user-requested policy change.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9054" ActualName="User-requested elevate" Description="An elevated Policy Change application has started." FormatString="AppSense Application Manager elevated the user rights for '{Full File Path}' on '{Client Name}' in '{Session ID}' as a result of a user-requested policy change.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9055" ActualName="Service start/stop" Description="A service has been started or stopped." FormatString="A user on '{Client Name}' in '{Session ID}' has {StartedOrStopped} service '{Service Name}' on '{Computer Name}'">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="StartedOrStopped" Description="Whether [started] or [stopped]." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Service Name" Description="The name of the system service." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Computer Name" Description="The local or remote computer name." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9056" ActualName="Untrusted file with metadata match" Description="Failed to verify the certificate of a signed file when matching metadata." FormatString="Failed to verify the certificate of '{Full File Path}' on '{Client Name}' in '{Session ID}' when matching metadata. Error {Error Code} ({Error Text})">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Error Code" Description="The hex error code." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Error Text" Description="The text version of the error." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9062" ActualName="Application started elevated" Description="An application started with elevated (full administrator) rights." FormatString="The application '{Full File Path}' was launched with elevated (full adminstrator) rights on '{Client Name}' in '{Session ID}'. File owner: '{File Owner}'.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Full File Path" Description="The full file path." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Client Name" Description="The name of the client." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Session ID" Description="The session ID." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="File Owner" Description="The file owner." />
+    </ParameterDescriptions>
+  </EventDescription>  
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9096" ActualName="Configuration merge success" Description="The configuration merge has completed successfully." FormatString="Configuration merge success. Duration: {Duration (ms)}ms.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Duration (ms)" Description="Time taken to complete the merge." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9097" ActualName="Configuration merge fail" Description="The configuration merge has failed." FormatString="Configuration merge failed. Duration: {Duration (ms)}ms. Status: {Error}. Failed files: {FileList}.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Duration (ms)" Description="Time taken to complete the merge." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Error" Description="Failure error message." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="FileList" Description="Files that failed to merge." />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9098" ActualName="Configuration merge timeout" Description="The configuration merge is still waiting for expected files." FormatString="Configuration merge still waiting after: {Timeout}ms. Expected files not found: {FileList}.">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Timeout" Description="Time waited." />
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="FileList" Description="Expected files." />
+    </ParameterDescriptions>
+  </EventDescription>
+
+  <!--
+    This block of events are raised by the AM Analysis Service to it's local windows event log. The events shouldn't be defined in this file
+    because the Management Center doesn't need to know about them as the events will never be sent to it. However, the definitions have been
+    left here, but commented out just to remind us that these EventIDs are reserved so that we can ensure the EventIDs used by AppSenese
+    products are kept unique.
+
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9024" ActualName="Analysis Service - Error" Description="Analysis Service - Error" FormatString="AppSense Application Manager Analysis Service. An error occurred. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9025" ActualName="Analysis Service - Warning" Description="Analysis Service - Warning" FormatString="AppSense Application Manager Analysis Service. Warning. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9026" ActualName="Analysis Service - Information" Description="Analysis Service - Information" FormatString="AppSense Application Manager Analysis Service. Information. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9027" ActualName="Analysis Service - Failed to create database" Description="Analysis Service - Failed to create database" FormatString="AppSense Application Manager Analysis Service. Failed to create database. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9028" ActualName="Analysis Service - Failed to receive data" Description="Analysis Service - Failed to receive data" FormatString="AppSense Application Manager Analysis Service. Failed to receive data. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9029" ActualName="Analysis Service - Failed to merge data" Description="Analysis Service - Failed to merge data" FormatString="AppSense Application Manager Analysis Service. Failed to merge data. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9030" ActualName="Analysis Service - Failed to receive status" Description="Analysis Service - Failed to receive status" FormatString="AppSense Application Manager Analysis Service. Failed to receive endpoint status. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName+="Common.Auditing.EventDescription" EventID="9031" ActualName="Analysis Service - Failed to purge data" Description="Analysis Service - Failed to purge data" FormatString="AppSense Application Manager Analysis Service. Failed to purge data. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9032" ActualName="Analysis Service - Client operation failed" Description="Analysis Service - Client operation failed" FormatString="AppSense Application Manager Analysis Service. Client operation failed. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9033" ActualName="Analysis Service - Insufficient disk space" Description="Analysis Service - Insufficient disk space" FormatString="AppSense Application Manager Analysis Service. Insufficient disk space. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9034" ActualName="Analysis Service - Started" Description="Analysis Service - Started" FormatString="AppSense Application Manager Analysis Service. Started. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9035" ActualName="Analysis Service - Stopping" Description="Analysis Service - Stopping" FormatString="AppSense Application Manager Analysis Service. Stopping. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9036" ActualName="Analysis Service - Starting" Description="Analysis Service - Starting" FormatString="AppSense Application Manager Analysis Service. Starting. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9037" ActualName="Analysis Service - Failed to start" Description="Analysis Service - Failed to start" FormatString="AppSense Application Manager Analysis Service. Failed to start. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+  <EventDescription ClassName="Common.Auditing.EventDescription" EventID="9038" ActualName="Analysis Service - Data purged successfully" Description="Analysis Service - Data purged successfully" FormatString="AppSense Application Manager Analysis Service. Data purged successfully. {Details}">
+    <ParameterDescriptions ClassName="Common.Auditing.EventParameterDescriptionDictionary">
+      <EventParameterDescription ClassName="Common.Auditing.EventParameterDescription" Identifier="Details" Description="Details" />
+    </ParameterDescriptions>
+  </EventDescription>
+-->
+</EventDescriptionDictionary>

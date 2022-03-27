@@ -1,0 +1,66 @@
+body {
+    font-family: 'Microsoft Sans Serif', 'Regular';
+    background-color: #F2F2F2;
+    color: #000000;
+    padding: 10px 10px;
+    font-size: 12px;
+    overflow: auto;
+    height: 50px;
+}
+
+.padTop10 {
+    padding-top: 20px;
+}
+
+.padBottom20 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.logoArea {
+	vertical-align:middle;
+	display:table-cell;
+	margin-right:1em;
+	height:50px;
+	width:50px;
+    	text-align:center;
+}
+
+span {
+    vertical-align:middle;
+    display:table-cell;
+    padding-left:5px;
+}
+
+img.logoSize {
+    vertical-align:middle;
+    height:50px;
+    width:50px;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.radioAlways,.radioSession,.radioDeny,.checkSession,.checkAlways {
+	text-align:center;
+}
+.radioAlways {
+	padding-right:10px;
+}
+.radioSession {
+	padding-left:33px;
+}
+.radioDeny {
+	padding-right:12px;
+}
+.checkSession {
+	padding-left:10px;
+}
+.checkAlways {
+	padding-right:28px;
+}

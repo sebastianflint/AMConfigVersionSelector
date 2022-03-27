@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomSettings>
+  <CustomSetting>
+    <Name>ExtendedAuditInfo</Name>
+    <Description>Extends the file information audited. Reports the SHA-1 hash, file size, file and product version, file description, vendor, company name and product name for each file in its audited events. The information is added immediately after the file name. This setting is on by default. To turn off, enter a value of 0.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>MultipleHostsSameIP</Name>
+    <Description>Allows Application Network Access Control (ANAC) to work with multiple hosts with the same IP Address. Takes out the caching of domain names to IP Addresses and allows different domains to work when running from the same server. Set to a value of 1 to enable.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>NetEnableRevDNS</Name>
+    <Description>Used by Application Network Access Control (ANAC). Globally enables a reverse DNS lookup check on each request to access a network resource. Enabling this setting overrides the NetEnabledRevDNSList and RevDNSList settings. Set to a value of 1 to enable. Note: This feature requires the administrator to enable and configure Reverse Lookup Zones on the company's DNS servers.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>NetEnableRevDNSList</Name>
+    <Description>Used by Application Network Access Control (ANAC). Enables a reverse DNS lookup check for only the IP addresses listed in the RevDNSList. Must be used with the RevDNSList setting. Set to a value of 1 to enable. Note: This feature requires the administrator to enable and configure Reverse Lookup Zones on the company's DNS servers.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>RevDNSList</Name>
+    <Description>Used by Application Network Access Control (ANAC). The list of IP addresses to have a reverse DNS lookup check. Contains a semi-colon delimited list of IP addresses in IPv4 dotted decimal format (n.n.n.n). Only applicable when the NetEnableRevDNSList setting is enabled. Note: This feature requires the administrator to enable and configure Reverse Lookup Zones on the company's DNS servers.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>AppInitDllPosition</Name>
+    <Description>Used to specify whether the AsModLdr driver or the AppInit registry key should be used to inject the Application Control hook. It is also used to change the position of AmLdrAppInit.dll in the AppInit_DLLs registry value. A value of 0 positions AmLdrAppInit.dll at the beginning of the AppInit_DLLs list. A value of 1 positions AmLdrAppInit.dll at the end of the AppInit_DLLs list. A value of -1 means AmLdrAppInit.dll will not be added to either AppInit_DLLs or AsModLdr. A value of 2 means AmLdrAppInit.dll will be added to the AsModLdr list of Dlls to load (Default). This setting should only be used under the guidance of Ivanti technical support.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>DisableAppV5AppCheck</Name>
+    <Description>Any application launched using AppV5 will, by default, be exempt from Trusted Ownership checking. Use this setting to disable this default behavior. A value of 1 is required to enable this setting.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>DisableSESecondDesktop</Name>
+    <Description>By default, the auditing dialog for Self-Elevation displays on a second desktop. Set to 1 to display the dialog on the primary desktop.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>TVChecking</Name>
+    <Description>Enabling this setting causes Application Control to ignore Trusted Vendor checking for all files, even if the configuration contains entries for Trusted Vendors. Set to a value of 0 to enable this setting. This setting is intended for troubleshooting issues.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>ImageHijackDetectionInclude</Name>
+    <Description>A list of process names against which all child processes are verified to ensure the child image is running without corruption or modification and is a match for the one that was initially requested. If the child process is not verified, it is terminated. This is a semi-colon delimited list of full paths or filenames.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>AppHookEx</Name>
+    <Description>Used by Application Network Access Control (ANAC). A list of applications in which ANAC specific functions are not hooked by Application Control. The applications in this list are not subject to ANAC rules. The values should be a semi-colon delimited list of filenames.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>RdmHookEx</Name>
+    <Description>Used by Privilege Discovery Mode (PDM). A list of applications in which PDM specific functions are not hooked by Application Control. The values should be a semi-colon delimited list of filenames.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>UrmHookEx</Name>
+    <Description>Used by User Privilege Management (UPM). A list of applications in which UPM specific functions are not hooked by Application Control. The applications in this list are not subject to UPM rules. The values should be a semi-colon delimited list of filenames.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>DriverHookEx</Name>
+    <Description>A semi-colon delimited list of applications that will not have the Application Control hook (AMAppHook.Dll) injected. Application Control requires the hook to be loaded for certain functionality to work. This custom setting should only be used under the guidance of Ivanti technical support.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>BrowserHookEx</Name>
+    <Description>The value can be set to Chrome.exe to stop the Application Control browser hook (BrowserHook.dll) from being injected into it. The browser hook prevents all network communications until the Chrome Extension has established a connection with the Application Control Agent. Note – no core functionality is affected by this custom setting.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>BrowserNavigateEx</Name>
+    <Description>A pipe (|) delimited list of navigation URLs that will bypass the navigate event processing. The URLs in this list will not be subject to URL Redirection.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>BrowserCommsPort</Name>
+    <Description>The port used for communications from browser extensions to the Application Control agent.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>BrowserAppStorePort</Name>
+    <Description>The port used to allow the Chrome browser extension to be installed.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>BrowserExtensionInstallHive</Name>
+    <Description>This setting allows the administrator to choose which registry hive the Application Control Chrome browser extension will be installed in. Options are 0 - extension not installed; 1 install to HKLM ; and 2 install to HKCU. 0 is where the administrator must manually configure their own enterprise appstore to deploy the browser extension. The default behaviour is for the browser extension to be installed in HKCU. </Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>EnableCustomRulesDllChecking</Name>
+    <Description>By default this setting if Off and set to 0, only executables and urls are processed. This setting improves the performance of Custom Rules checking by controlling whether dlls are allowed through the rule collections. Set the value to 1 to allow all dlls to be processed in addition to the default.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>DisableCustomRulesPreCheck</Name>
+    <Description>By default this setting is Off and set to 0. This setting improves the performance of Custom Rules checking by only processing items that are configured within the policies of each custom rule collections. Set the value to 1 to allow all potential requests through the custom rules.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>UrmSecPolicy</Name>
+    <Description>By default, the security policy is ignored by the User Privilege Management (UPM) feature. This engineering setting allows the administrator to force UPM to follow the configured security policy. A value of 1 is required to enable this setting.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>baseconfigmergebehavior</Name>
+    <Description>Used to control whether a new configuration.aamp replaces or re-merges the existing merged_configuration.aamp. The accepted values for this setting are "replace" and "remerge".</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>DirectHookNames</Name>
+    <Description>By default, Application Control hooks all processes that load user32.dll. Processes that do not load user32.dll are not hooked by default and should be listed here. The values should be a semi-colon delimited list of filenames.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>DoNotWalkTree</Name>
+    <Description>By default, Process Rules check the entire parent key for a match. The engineering setting instructs Process Rules to only look at the direct parent of the process and not check the entire tree. A value of 1 is required to enable this setting.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>OwnershipChange</Name>
+    <Description>Application Control detects if a trusted file is changed by a non trusted owner. If that is the case the file owner is changed to the untrusted user and any execute requests will be blocked. Certain applications overwrite files in such a way that Application Control does not detect it by default therefore the owner of the file is not changed. Enabling the ‘OwnershipChange’ setting means Application Control performs additional checks and all file changes/overwrites should be caught. A value of 1 is required to enable this setting.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>UrmPauseConsoleExit</Name>
+    <Description>Used by the User Privilege Management (UPM) feature. When elevating a console application a new application can appear in a new console window. The application would run to completion then close. This is a problem if the user wants to see the output of the program. This setting causes the application to remain until a key is pressed. This is a semi-colon delimited list of full paths or filenames.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>RemoveDFSCheckOne</Name>
+    <Description>When files are stored on a DFS drive, Application Control uses a number of strategies to evaluate the correct UNC path. One of these strategies could cause delays during login if large numbers of scripts and executables are stored in and replicated by Active Directory. By enabling this setting, Application Control ignores this strategy to increase performance in this situation. A value of 1 is required to enable this setting.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>AlternateTOCheck</Name>
+    <Description>Trusted Ownership checks have occasionally caused excessive CPU usage in the SYSTEM process when third party filter drivers are installed on the system. Enabling this setting causes Application Control to use an alternative method of looking up Trusted Ownership, which mitigates this issue in some cases. A value of 1 is required to enable this setting.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>ExplicitShellProgram</Name>
+    <Description>Used by Application Access Control. Application Control treats the launch of the shell program (by default Explorer.exe) to indicate that a session has logged on. Different environments and technologies can change the shell program and sometimes Application Control cannot identify it. Application Control will use the programs in this list (in addition to the default shell program) to determine when a session has logged on. This is a semi-colon delimited list of full paths or filenames.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>DisableDNSLookup</Name>
+    <Description>The Application Network Access Control component is not compatible with all forms of proxy DNS servers. If set to 1, Application Control will not perform DNS lookups, reducing unexpected slowdowns and errors where a proxy DNS server is used.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>SEOkButtonText</Name>
+    <Description>This custom setting allows the Ok button text on the Self Elevation Reason dialog to be customized</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>SECancelButtonText</Name>
+    <Description>This custom setting allows the Cancel button text on the Self Elevation Reason dialog to be customized</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>EnableScriptPreCheck</Name>
+    <Description>Scripts within scripted rules take time to run. How long scripts take depends on the content of the script. AM treats any script that has not yet finished as if it has already returned a ‘false’ result. This gives the best performance during computer start-up and user logon as anything depending on the result of a script won’t be held up. To instead cause processes depending on the result of a script to wait until the relevant script has finished, set this value to “1”. Setting this can significantly slow down computer start-up and user logon.&#13;&#10;Note: AM will not wait indefinitely for scripts results. A 30 second timeout will be applied.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>EnableSignatureOptimization</Name>
+	  <Description>This setting improves the performance of rules checking, when using signatures. Files that do not match the full path will not be hashed, as we assume they are not the same file. A value of 1 enables this setting. Enabling ExtendedAuditInfo along with this setting will not show any hashed filename in auditing metadata.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>ComputerOUThrottle</Name>
+    <Description>This setting limits an Active Directory look-up per connecting client, for checking Organizational Unit membership, by a limiting the number of concurrent queries. This throttling is to help reduce the amount of query-traffic on a domain if handling a large volume of connecting clients. Set this value to 0 upto 65535.</Description>
+  </CustomSetting>  
+  <CustomSetting>
+    <Name>DFSLinkMatching</Name>
+    <Description>Set this value to 1 to enable DFS Link matching. DFS Link paths can be added to the rules. DFS Links are treated as separate independent items to be matched. DFS Targets are also treated as separate independent items. There is no conversion from Link to Target before applying the rules.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>ExProcessNames</Name>
+    <Description>A list of space separated filenames that should be excluded from the filter driver. Note: Changing this setting requires an Application Control agent restart for the change to take effect.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>AMFileSystemFilterFailSafe</Name>
+    <Description>This setting configures whether the file system filter driver operates in a Fail Safe or Fail Secure mode. If there is a problem with the Application Control agent and it stops responding, the driver disconnects in Fail Safe mode and does not intercept anymore requests. A value of 1 indicates Fail Safe, 0 indicates Fail Secure. Fail Safe is the default. Note: Changing this setting requires an Application Control agent restart for the change to take effect.</Description>
+  </CustomSetting>
+  <CustomSetting>
+      <Name>ADComputerGroupMembershipTimeoutSecs</Name>
+      <Description>Timeout (in seconds) when doing nested computer group lookups. Default setting is 120 seconds. Setting this value to 0 disables the timeout.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>AppHookDelayLoad</Name>
+    <Description>This setting causes the AmAppHook Dll to be loaded after a configurable number of milliseconds (ms) delay. This setting is configured on a per filename basis. The format is &lt;filename+extension&gt;,&lt;delay&gt;. The filename and extension can contain wildcards. Each pair is semi colon delimited. For example 'calc.exe,2000;note*.exe,6000'</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>UrlRedirectionSecPolicy</Name>
+    <Description>By default, the security policy is ignored by the URL Redirection feature. This engineering setting allows the administrator to force URL Redirection to follow the configured security policy. Note: Self Authorization is not supported. A value of 1 is required to enable this setting.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>UrmForceMediumIntegrityLevel</Name>
+    <Description>A User Privilege Management (UPM) custom setting. Use this setting to override the integrity level when user privileges are elevated for an application, which by default sets the integrity level to high. When this setting is used, the level is reduced to medium. This value should be a semi-colon delimited list of file names.</Description>
+  </CustomSetting>
+   <CustomSetting>
+    <Name>ADQueriesEnabled</Name>
+    <Description>This setting controls the types of AD queries used to determine the system's Distinguished Name and computer group membership. A value of 0 disables queries made to AD and also disables the use of computer groups and OU in the configuration. The default value of 1 causes the Application Control agent to perform both the Distinguished Name and direct (non-nested) computer group AD queries. Nested computer groups in the configuration are ignored. A value of 2 causes the agent to perform the Distinguished Name, direct and nested computer group AD queries. This setting could cause performance issues on the DC due to high CPU usage.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>SelfElevatePropertiesEnabled</Name>
+    <Description>Set this value to 1 to enable self-elevation of properties. This feature is disabled by default.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>SelfElevatePropertiesMenuText</Name>
+    <Description>This setting allows you to customize the text of the context menu option for self-elevation of properties.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>ConfigFileProtection</Name>
+    <Description>Set this value to 1 to enable config file protection. This feature is disabled by default.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>PCRRetainOnNewConfig</Name>
+    <Description>Set the value to 1 to retain authorized Policy Change Requests when a new configuration is issued. This feature is disabled by default - i.e. authorized PCRs are removed upon receipt of a new configuration.</Description>
+  </CustomSetting>
+  <CustomSetting>
+	  <Name>ForestRootDNQuery</Name>
+	  <Description>Set the value to 1 to enable the Application Control Agent to perform a forest root query. The query includes chasing referrals to determine the Distinguished Name of connecting devices for the purposes of OU and Computer Group membership in Device Rules.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>ShowMessageForBlockedDLLs</Name>
+    <Description>Set the value to 1 to display the Application Control access denied message box for blocked DLLs.</Description>
+  </CustomSetting>
+  <CustomSetting>
+    <Name>AssumeActiveSetupDespiteCitrix</Name>
+    <Description>With Citrix clients using published applications, Window's Active Setup is not run as part of the Citrix client logon. By default, Application Control detects that the client is using a Citrix protocol and then assumes Active Setup is excluded so that blocked applications will never be allowed under circumstances that may look like Active Setup. In addition, and optionally, Application Control can impose a more stringent check for Citrix being involved: set the value of this setting to 1 so that Application Control imposes the more stringent check if it appears that denied applications are being allowed in these circumstances. Set the value to 2 to stop Application Control from making these 'Citrix' checks at all if applications appear to be blocked during a real Active Setup.</Description>
+  </CustomSetting>
+</CustomSettings>
