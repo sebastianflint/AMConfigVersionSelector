@@ -14,4 +14,4 @@
      * 10.7.17.0        2021.1
      * 10.8.61.0        2021.3
       
-![grafik](https://user-images.githubusercontent.com/60140573/160261191-ccc376c7-2b59-4667-9371-833184341d56.png)
+![grafik](https://user-images.githubusercontent.com/60140573/160280831-1c9b7619-2b64-4419-ae6b-a80fa24300eb.png)
