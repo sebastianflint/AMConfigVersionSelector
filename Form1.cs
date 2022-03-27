@@ -137,7 +137,7 @@ namespace WindowsFormsApp1
                 string ProgramPath = AMVersions[cmbAMVersion.SelectedIndex];
 
                 Process ExternalProcess = new Process();
-                ExternalProcess.StartInfo.FileName = @"C:\tmp\" + ProgramPath + @"\AMConsole.exe";
+                ExternalProcess.StartInfo.FileName = ProgramPath + @"\AMConsole.exe";
                if(AampPath == "")
                 {
                     

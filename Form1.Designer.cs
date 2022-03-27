@@ -40,7 +40,6 @@ namespace WindowsFormsApp1
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblHeader = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -137,16 +136,6 @@ namespace WindowsFormsApp1
             this.lblHeader.TabIndex = 10;
             this.lblHeader.Text = "AMConfigVersionSelector";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Montserrat Hairline", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(164, 103);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 35);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "by SVA";
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources._8111415_switchcurved_switch_next_forward_arrow_icon;
@@ -184,9 +173,9 @@ namespace WindowsFormsApp1
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(593, 326);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHeader);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -200,7 +189,7 @@ namespace WindowsFormsApp1
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "AMConfigVersionSelector";
+            this.Text = "AMConfigVersionSelector Version 1.0";
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.Form1_DragOver);
             this.statusStrip1.ResumeLayout(false);
@@ -226,7 +215,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblHeader;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
