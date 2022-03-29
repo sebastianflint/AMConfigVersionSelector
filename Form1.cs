@@ -137,18 +137,20 @@ namespace WindowsFormsApp1
             {
                 string ProgramPath = AMVersions[cmbAMVersion.SelectedIndex];
 
-                Process ExternalProcess = new Process();
-                ExternalProcess.StartInfo.FileName = ProgramPath + @"\AMConsole.exe";
-               if(AampPath == "")
+                ProcessStartInfo startInfo = new ProcessStartInfo(ProgramPath+ @"\AMConsole.exe");
+                startInfo.WindowStyle = ProcessWindowStyle.Normal;
+
+                if (AampPath == "")
                 {
                     
                 }
                 else
                 {
-                    ExternalProcess.StartInfo.Arguments = AampPath;
+                    startInfo.Arguments = "\"" + AampPath + "\"";
+
                 }
-                ExternalProcess.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
-                ExternalProcess.Start();
+
+                Process.Start(startInfo);
 
                 toolStripStatusLabel1.Text = "Starting Console Version " + ProgramPath;
             }

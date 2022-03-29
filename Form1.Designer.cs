@@ -52,17 +52,19 @@ namespace WindowsFormsApp1
             // richTextBox1
             // 
             this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(12, 197);
+            this.richTextBox1.Location = new System.Drawing.Point(24, 379);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(331, 96);
+            this.richTextBox1.Size = new System.Drawing.Size(658, 181);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(359, 246);
+            this.button2.Location = new System.Drawing.Point(718, 473);
+            this.button2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 23);
+            this.button2.Size = new System.Drawing.Size(184, 44);
             this.button2.TabIndex = 2;
             this.button2.Text = "Load AAMP";
             this.button2.UseVisualStyleBackColor = true;
@@ -76,7 +78,8 @@ namespace WindowsFormsApp1
             // 
             this.lblProperties.AutoSize = true;
             this.lblProperties.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProperties.Location = new System.Drawing.Point(19, 181);
+            this.lblProperties.Location = new System.Drawing.Point(38, 348);
+            this.lblProperties.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblProperties.Name = "lblProperties";
             this.lblProperties.Size = new System.Drawing.Size(68, 13);
             this.lblProperties.TabIndex = 3;
@@ -86,16 +89,18 @@ namespace WindowsFormsApp1
             // 
             this.cmbAMVersion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbAMVersion.FormattingEnabled = true;
-            this.cmbAMVersion.Location = new System.Drawing.Point(359, 208);
+            this.cmbAMVersion.Location = new System.Drawing.Point(718, 400);
+            this.cmbAMVersion.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.cmbAMVersion.Name = "cmbAMVersion";
-            this.cmbAMVersion.Size = new System.Drawing.Size(222, 21);
+            this.cmbAMVersion.Size = new System.Drawing.Size(440, 33);
             this.cmbAMVersion.TabIndex = 4;
             // 
             // lblMatchingBuild
             // 
             this.lblMatchingBuild.AutoSize = true;
             this.lblMatchingBuild.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMatchingBuild.Location = new System.Drawing.Point(356, 181);
+            this.lblMatchingBuild.Location = new System.Drawing.Point(712, 348);
+            this.lblMatchingBuild.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblMatchingBuild.Name = "lblMatchingBuild";
             this.lblMatchingBuild.Size = new System.Drawing.Size(95, 13);
             this.lblMatchingBuild.TabIndex = 5;
@@ -103,9 +108,10 @@ namespace WindowsFormsApp1
             // 
             // btnOpenAamp
             // 
-            this.btnOpenAamp.Location = new System.Drawing.Point(489, 246);
+            this.btnOpenAamp.Location = new System.Drawing.Point(978, 473);
+            this.btnOpenAamp.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnOpenAamp.Name = "btnOpenAamp";
-            this.btnOpenAamp.Size = new System.Drawing.Size(92, 23);
+            this.btnOpenAamp.Size = new System.Drawing.Size(184, 44);
             this.btnOpenAamp.TabIndex = 6;
             this.btnOpenAamp.Text = "Open Console";
             this.btnOpenAamp.UseVisualStyleBackColor = true;
@@ -115,9 +121,10 @@ namespace WindowsFormsApp1
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 304);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 605);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(593, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 28, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1186, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -129,19 +136,21 @@ namespace WindowsFormsApp1
             // lblHeader
             // 
             this.lblHeader.AutoSize = true;
-            this.lblHeader.Font = new System.Drawing.Font("Montserrat Hairline", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.Location = new System.Drawing.Point(32, 68);
+            this.lblHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeader.Location = new System.Drawing.Point(64, 131);
+            this.lblHeader.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(364, 35);
+            this.lblHeader.Size = new System.Drawing.Size(348, 33);
             this.lblHeader.TabIndex = 10;
             this.lblHeader.Text = "AMConfigVersionSelector";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources._8111415_switchcurved_switch_next_forward_arrow_icon;
-            this.pictureBox3.Location = new System.Drawing.Point(160, 9);
+            this.pictureBox3.Location = new System.Drawing.Point(320, 17);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(109, 56);
+            this.pictureBox3.Size = new System.Drawing.Size(218, 108);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 12;
             this.pictureBox3.TabStop = false;
@@ -149,9 +158,10 @@ namespace WindowsFormsApp1
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.ivanti_logo;
-            this.pictureBox2.Location = new System.Drawing.Point(436, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(872, 23);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(145, 69);
+            this.pictureBox2.Size = new System.Drawing.Size(290, 133);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
@@ -160,9 +170,10 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::WindowsFormsApp1.Properties.Resources.SVA_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(436, 87);
+            this.pictureBox1.Location = new System.Drawing.Point(872, 167);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 80);
+            this.pictureBox1.Size = new System.Drawing.Size(290, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -171,10 +182,10 @@ namespace WindowsFormsApp1
             // Form1
             // 
             this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(593, 326);
+            this.ClientSize = new System.Drawing.Size(1186, 627);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.lblHeader);
             this.Controls.Add(this.pictureBox2);
@@ -188,8 +199,9 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.richTextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
-            this.Text = "AMConfigVersionSelector Version 1.0";
+            this.Text = "AMConfigVersionSelector Version 1.1";
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.Form1_DragOver);
             this.statusStrip1.ResumeLayout(false);
