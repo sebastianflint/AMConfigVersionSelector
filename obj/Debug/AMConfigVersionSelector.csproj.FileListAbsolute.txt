@@ -893,8 +893,6 @@ C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\bin\Debug\CommonDia
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\bin\Debug\PackageManager.XmlSerializers.dll
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.csproj.AssemblyReference.cache
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.csproj.SuggestedBindingRedirects.cache
-C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\WindowsFormsApp1.Form1.resources
-C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.csproj.GenerateResource.cache
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.csproj.CoreCompileInputs.cache
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.TrustInfo.xml
@@ -903,3 +901,5 @@ C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigV
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.csproj.CopyComplete
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.exe
 C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.pdb
+C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.Properties.Resources.resources
+C:\Users\sflint.SVA\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.Form1.resources

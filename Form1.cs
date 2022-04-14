@@ -11,8 +11,9 @@ using System.Windows.Forms;
 using AppSense.Aom;
 using EMConsole;
 using AppSense.Aom.BranchManagement;
+using System.IO;
 
-namespace WindowsFormsApp1
+namespace AMConfigVersionSelector
 {
 
     /* Script Name  : AMConfigVersionSelector.exe
@@ -26,25 +27,34 @@ namespace WindowsFormsApp1
      * 10.6.111.0       2020.3
      * 10.7.17.0        2021.1
      * 10.8.61.0        2021.3
+     * 10.9.37.0        2022.1
      * 
      */
     public partial class Form1 : Form
     {
-        string[] AMVersions = { "2019.1", "2020.2", "2020.3", "2021.1", "2021.3" };
-        string[] AMBuilds = { "10.3.61.0", "10.5.268.0", "10.6.111.0", "10.7.17.0", "10.8.61.0" };
-        string[] AMCombined = { "2019.1 (10.3.61.0)", "2020.2 (10.5.268.0)", "2020.3 (10.6.111.0)", "2021.1 (10.7.17.0)", "2021.3 (10.8.61.0)" };
+        string[] AMVersions = { "2019.1", "2020.2", "2020.3", "2021.1", "2021.3","2022.1" };
+        string[] AMBuilds = { "10.3.61.0", "10.5.268.0", "10.6.111.0", "10.7.17.0", "10.8.61.0","10.9.37.0" };
+        string[] AMCombined = { "2019.1 (10.3.61.0)", "2020.2 (10.5.268.0)", "2020.3 (10.6.111.0)", "2021.1 (10.7.17.0)", "2021.3 (10.8.61.0)","2022.1 (10.9.37.0)" };
         string AampPath;
 
         public Form1()
         {
+  
             InitializeComponent();
-            
+
+            string[] args = Environment.GetCommandLineArgs();    
 
             foreach (string version in AMCombined)
              {
                  cmbAMVersion.Items.Add(version);
              }
-             
+
+            if (args.Length >= 2)
+            {
+                AampPath = args[1];
+                GetAAMPProperties(AampPath);
+            }
+
         }
 
         
@@ -135,9 +145,12 @@ namespace WindowsFormsApp1
             
             try
             {
-                string ProgramPath = AMVersions[cmbAMVersion.SelectedIndex];
+                string appPath = Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
+                string VersionPath = AMVersions[cmbAMVersion.SelectedIndex];
+                string fullPath = appPath +@"\"+ VersionPath;
 
-                ProcessStartInfo startInfo = new ProcessStartInfo(ProgramPath+ @"\AMConsole.exe");
+
+                ProcessStartInfo startInfo = new ProcessStartInfo(fullPath + @"\AMConsole.exe");
                 startInfo.WindowStyle = ProcessWindowStyle.Normal;
 
                 if (AampPath == "")
@@ -152,7 +165,7 @@ namespace WindowsFormsApp1
 
                 Process.Start(startInfo);
 
-                toolStripStatusLabel1.Text = "Starting Console Version " + ProgramPath;
+                toolStripStatusLabel1.Text = "Starting Console Version " + VersionPath;
             }
             catch
             {
