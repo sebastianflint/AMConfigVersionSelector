@@ -35,7 +35,7 @@ namespace AMConfigVersionSelector
         string[] AMVersions = { "2019.1", "2020.2", "2020.3", "2021.1", "2021.3","2022.1" };
         string[] AMBuilds = { "10.3.61.0", "10.5.268.0", "10.6.111.0", "10.7.17.0", "10.8.61.0","10.9.37.0" };
         string[] AMCombined = { "2019.1 (10.3.61.0)", "2020.2 (10.5.268.0)", "2020.3 (10.6.111.0)", "2021.1 (10.7.17.0)", "2021.3 (10.8.61.0)","2022.1 (10.9.37.0)" };
-        string AampPath;
+        string ConfigPath;
 
         public Form1()
         {
@@ -51,8 +51,8 @@ namespace AMConfigVersionSelector
 
             if (args.Length >= 2)
             {
-                AampPath = args[1];
-                GetAAMPProperties(AampPath);
+                ConfigPath = args[1];
+                GetAAMPProperties(ConfigPath);
             }
 
         }
@@ -60,14 +60,14 @@ namespace AMConfigVersionSelector
         
         private void button2_Click(object sender, EventArgs e)
         {
-            openFileDialog1.Filter = "aamp file (*.aamp)|*.aamp|All files (*.*)|*.*";
+            openFileDialog1.Filter = "(*.aamp, *.aemp)|*.aamp;*.aemp| All files (*.*)|*.*";
             openFileDialog1.ShowDialog();
 
-             AampPath = openFileDialog1.FileName;
+             ConfigPath = openFileDialog1.FileName;
 
             try
             {
-                GetAAMPProperties(AampPath);
+                GetAAMPProperties(ConfigPath);
             }
             catch
             {
@@ -128,10 +128,10 @@ namespace AMConfigVersionSelector
         {
             string[] files = e.Data.GetData(DataFormats.FileDrop) as string[];
             if (files != null && files.Any())
-                AampPath = files.First();
+                ConfigPath = files.First();
                 try
                 {
-                    GetAAMPProperties(AampPath);
+                    GetAAMPProperties(ConfigPath);
                 }
                 catch
                 {
@@ -147,19 +147,19 @@ namespace AMConfigVersionSelector
             {
                 string appPath = Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
                 string VersionPath = AMVersions[cmbAMVersion.SelectedIndex];
-                string fullPath = appPath +@"\"+ VersionPath;
+                string fullPath = appPath +@"\AMConsoles\"+ VersionPath;
 
 
                 ProcessStartInfo startInfo = new ProcessStartInfo(fullPath + @"\AMConsole.exe");
                 startInfo.WindowStyle = ProcessWindowStyle.Normal;
 
-                if (AampPath == "")
+                if (ConfigPath == "")
                 {
                     
                 }
                 else
                 {
-                    startInfo.Arguments = "\"" + AampPath + "\"";
+                    startInfo.Arguments = "\"" + ConfigPath + "\"";
 
                 }
 
