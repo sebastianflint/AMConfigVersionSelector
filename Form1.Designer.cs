@@ -43,6 +43,7 @@ namespace AMConfigVersionSelector
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cmbEMVersions = new System.Windows.Forms.ComboBox();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -88,7 +89,7 @@ namespace AMConfigVersionSelector
             this.cmbAMVersion.FormattingEnabled = true;
             this.cmbAMVersion.Location = new System.Drawing.Point(359, 208);
             this.cmbAMVersion.Name = "cmbAMVersion";
-            this.cmbAMVersion.Size = new System.Drawing.Size(222, 21);
+            this.cmbAMVersion.Size = new System.Drawing.Size(147, 21);
             this.cmbAMVersion.TabIndex = 4;
             // 
             // lblMatchingBuild
@@ -117,7 +118,7 @@ namespace AMConfigVersionSelector
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 304);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(593, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(680, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -168,13 +169,23 @@ namespace AMConfigVersionSelector
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // cmbEMVersions
+            // 
+            this.cmbEMVersions.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbEMVersions.FormattingEnabled = true;
+            this.cmbEMVersions.Location = new System.Drawing.Point(521, 208);
+            this.cmbEMVersions.Name = "cmbEMVersions";
+            this.cmbEMVersions.Size = new System.Drawing.Size(147, 21);
+            this.cmbEMVersions.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(593, 326);
+            this.ClientSize = new System.Drawing.Size(680, 326);
+            this.Controls.Add(this.cmbEMVersions);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.lblHeader);
             this.Controls.Add(this.pictureBox2);
@@ -216,6 +227,7 @@ namespace AMConfigVersionSelector
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblHeader;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.ComboBox cmbEMVersions;
     }
 }
 

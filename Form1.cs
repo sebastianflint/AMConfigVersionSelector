@@ -35,19 +35,31 @@ namespace AMConfigVersionSelector
         string[] AMVersions = { "2019.1", "2020.2", "2020.3", "2021.1", "2021.3","2022.1" };
         string[] AMBuilds = { "10.3.61.0", "10.5.268.0", "10.6.111.0", "10.7.17.0", "10.8.61.0","10.9.37.0" };
         string[] AMCombined = { "2019.1 (10.3.61.0)", "2020.2 (10.5.268.0)", "2020.3 (10.6.111.0)", "2021.1 (10.7.17.0)", "2021.3 (10.8.61.0)","2022.1 (10.9.37.0)" };
+        string[] EMVersion = { "2022.1 HF1" };
+        string[] EMBuilds = { "10.9.185.1" };
         string ConfigPath;
+        string extension;
+        string appPath = Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
 
         public Form1()
         {
   
             InitializeComponent();
 
-            string[] args = Environment.GetCommandLineArgs();    
+            string[] args = Environment.GetCommandLineArgs();
+            string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
 
             foreach (string version in AMCombined)
              {
                  cmbAMVersion.Items.Add(version);
              }
+
+            foreach (string version in EMVersionsInDir)
+            {
+                var dirName = new DirectoryInfo(version).Name;
+                cmbEMVersions.Items.Add(dirName);
+            }
+
 
             if (args.Length >= 2)
             {
@@ -79,6 +91,8 @@ namespace AMConfigVersionSelector
 
         {
             cmbAMVersion.SelectedItem = null;
+            cmbEMVersions.SelectedItem = null;
+            extension = Path.GetExtension(ConfigPath);
 
             Common.Deployment.PackageManager manager = new Common.Deployment.PackageManager();
 
@@ -106,14 +120,26 @@ namespace AMConfigVersionSelector
 
             int i = 0;
 
-            foreach (string version in AMBuilds)
+            if (extension == ".aamp")
             {
-                if (creatorversion == version)
+                foreach (string version in AMBuilds)
                 {
-                    cmbAMVersion.SelectedIndex = i;
+                    if (creatorversion == version)
+                    {
+                        cmbAMVersion.SelectedIndex = i;
+                    }
+                    i++;
                 }
-                i++;
+
             }
+
+           else if (extension == ".aemp")
+            {
+                cmbEMVersions.SelectedIndex = cmbEMVersions.FindStringExact(creatorversion);
+
+            }
+
+
         }
 
         private void Form1_DragOver(object sender, DragEventArgs e)
@@ -142,38 +168,49 @@ namespace AMConfigVersionSelector
 
         private void btnOpenAamp_Click(object sender, EventArgs e)
         {
-            
-            try
+
+            if (extension == ".aamp")
             {
-                string appPath = Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
-                string VersionPath = AMVersions[cmbAMVersion.SelectedIndex];
-                string fullPath = appPath +@"\AMConsoles\"+ VersionPath;
-
-
-                ProcessStartInfo startInfo = new ProcessStartInfo(fullPath + @"\AMConsole.exe");
-                startInfo.WindowStyle = ProcessWindowStyle.Normal;
-
-                if (ConfigPath == "")
+                try
                 {
                     
+                    string VersionPath = AMVersions[cmbAMVersion.SelectedIndex];
+                    string fullPath = appPath + @"\AMConsoles\" + VersionPath;
+
+
+                    ProcessStartInfo startInfo = new ProcessStartInfo(fullPath + @"\AMConsole.exe");
+                    startInfo.WindowStyle = ProcessWindowStyle.Normal;
+
+                    if (ConfigPath == "")
+                    {
+
+                    }
+                    else
+                    {
+                        startInfo.Arguments = "\"" + ConfigPath + "\"";
+
+                    }
+
+                    Process.Start(startInfo);
+
+                    toolStripStatusLabel1.Text = "Starting Console Version " + VersionPath;
                 }
-                else
+                catch
                 {
-                    startInfo.Arguments = "\"" + ConfigPath + "\"";
-
+                    MessageBox.Show("Could not start AMConsole.exe");
                 }
 
-                Process.Start(startInfo);
 
-                toolStripStatusLabel1.Text = "Starting Console Version " + VersionPath;
             }
-            catch
+
+            else if (extension == ".aemp")
             {
-                MessageBox.Show("Could not start AMConsole.exe");
+
             }
 
 
         }
+            
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
