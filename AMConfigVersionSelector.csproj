@@ -147,9 +147,6 @@
     <None Include="Resources\SVA-Logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ivanti-logo.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 und x64%29</ProductName>
@@ -163,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\8111415_switchcurved_switch_next_forward_arrow_icon.png" />
+    <None Include="Resources\9055432_bxs_exit_icon.png" />
+    <None Include="Resources\330401_about_details_help_info_information_icon.png" />
+    <None Include="Resources\ivanti-logo.png" />
     <Content Include="Zeichnung1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

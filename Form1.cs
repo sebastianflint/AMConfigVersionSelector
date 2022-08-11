@@ -72,6 +72,7 @@ namespace AMConfigVersionSelector
         
         private void button2_Click(object sender, EventArgs e)
         {
+
             openFileDialog1.Filter = "(*.aamp, *.aemp)|*.aamp;*.aemp| All files (*.*)|*.*";
             openFileDialog1.ShowDialog();
 
@@ -90,6 +91,8 @@ namespace AMConfigVersionSelector
         public void GetAAMPProperties(string path)
 
         {
+            cmbAMVersion.Enabled = true;
+            cmbEMVersions.Enabled = true;
             cmbAMVersion.SelectedItem = null;
             cmbEMVersions.SelectedItem = null;
             extension = Path.GetExtension(ConfigPath);
@@ -118,10 +121,17 @@ namespace AMConfigVersionSelector
             richTextBox1.AppendText("Productname: ");
             richTextBox1.AppendText(productname);
 
+            notifyIcon1.BalloonTipTitle = "Config Loaded.";
+            notifyIcon1.BalloonTipText = "The Config was successfull loaded.";
+            notifyIcon1.ShowBalloonTip(60000);
+
             int i = 0;
 
             if (extension == ".aamp")
             {
+                cmbEMVersions.Enabled = false;
+                btnOpenAemp.Enabled = false;
+
                 foreach (string version in AMBuilds)
                 {
                     if (creatorversion == version)
@@ -135,10 +145,12 @@ namespace AMConfigVersionSelector
 
            else if (extension == ".aemp")
             {
+                cmbAMVersion.Enabled = false;
+                btnOpenAamp.Enabled = false;
+
                 cmbEMVersions.SelectedIndex = cmbEMVersions.FindStringExact(creatorversion);
 
             }
-
 
         }
 
@@ -169,45 +181,34 @@ namespace AMConfigVersionSelector
         private void btnOpenAamp_Click(object sender, EventArgs e)
         {
 
-            if (extension == ".aamp")
-            {
-                try
-                {
-                    
-                    string VersionPath = AMVersions[cmbAMVersion.SelectedIndex];
-                    string fullPath = appPath + @"\AMConsoles\" + VersionPath;
-
-
-                    ProcessStartInfo startInfo = new ProcessStartInfo(fullPath + @"\AMConsole.exe");
-                    startInfo.WindowStyle = ProcessWindowStyle.Normal;
-
-                    if (ConfigPath == "")
-                    {
-
-                    }
-                    else
-                    {
-                        startInfo.Arguments = "\"" + ConfigPath + "\"";
-
-                    }
-
-                    Process.Start(startInfo);
-
-                    toolStripStatusLabel1.Text = "Starting Console Version " + VersionPath;
-                }
-                catch
-                {
-                    MessageBox.Show("Could not start AMConsole.exe");
-                }
-
-
-            }
-
-            else if (extension == ".aemp")
+            try
             {
 
-            }
+                string VersionPath = AMVersions[cmbAMVersion.SelectedIndex];
+                string fullPath = appPath + @"\AMConsoles\" + VersionPath;
 
+
+                ProcessStartInfo startInfo = new ProcessStartInfo(fullPath + @"\AMConsole.exe");
+                startInfo.WindowStyle = ProcessWindowStyle.Normal;
+
+                if (ConfigPath == "")
+                {
+
+                }
+                else
+                {
+                    startInfo.Arguments = "\"" + ConfigPath + "\"";
+
+                }
+
+                Process.Start(startInfo);
+
+                toolStripStatusLabel1.Text = "Starting Console Version " + VersionPath;
+            }
+            catch
+            {
+                MessageBox.Show("Could not start AMConsole.exe");
+            }
 
         }
             
@@ -217,5 +218,58 @@ namespace AMConfigVersionSelector
             Process.Start("https://www.sva.de");
         }
 
+        private void btnOpenAemp_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string fullPath = appPath + @"\EMConsoles\" + cmbEMVersions.Text;
+
+
+                ProcessStartInfo startInfo = new ProcessStartInfo(fullPath + @"\EMConsole.exe");
+                startInfo.WindowStyle = ProcessWindowStyle.Normal;
+
+                if (ConfigPath == "")
+                {
+
+                }
+                else
+                {
+                    startInfo.Arguments = "\"" + ConfigPath + "\"";
+
+                }
+
+                Process.Start(startInfo);
+
+                toolStripStatusLabel1.Text = "Starting Console Version " + cmbEMVersions.Text;
+            }
+            catch
+            {
+                MessageBox.Show("Could not start EMConsole.exe");
+            }
+        }
+
+        private void testToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close(); 
+        }
+
+        private void ToolStripAbout_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/sebastianflint/AMConfigVersionSelector");
+        }
+
+        private void lblOpenWithVersion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUnloadConfig_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+            cmbAMVersion.Enabled = true;
+            cmbEMVersions.Enabled = true;
+            btnOpenAamp.Enabled = true;
+            btnOpenAemp.Enabled = true;
+        }
     }
 }

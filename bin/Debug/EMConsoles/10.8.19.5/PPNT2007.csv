@@ -1,0 +1,1404 @@
+1,0,Main,0
+2,1,Tab Home,11954
+3,2,Group Clipboard,12597
+4,3,Paste Menu,15502
+5,3,Paste,22
+6,3,Paste,22
+7,3,Paste Special Dialog,755
+8,3,Paste As Hyperlink,2787
+9,3,Paste Duplicate,571
+10,3,Cut,21
+11,3,Copy,19
+12,3,Format Painter,108
+13,3,Show Clipboard,809
+14,2,Group Slides,11579
+15,14,Slide New Gallery,11525
+16,14,Duplicate Selected Slides,2890
+17,14,Slides From Outline,2704
+18,14,Slides Reuse Slides,2703
+19,14,Slide Layout Gallery,11526
+20,14,Slide Reset,6264
+21,14,Slide Delete,2696
+22,2,Group Font,11543
+23,22,Font,1728
+24,22,Font Size,1731
+25,22,Font Size Increase,403
+26,22,Font Size Decrease,404
+27,22,Clear Formatting,11739
+28,22,Bold,113
+29,22,Italic,114
+30,22,Underline,115
+31,22,Shadow,686
+32,22,Strikethrough,290
+33,22,Change Case Gallery,13093
+34,22,Character Spacing Gallery,14015
+35,22,Font Color Picker,11949
+36,22,Font Color More Colors Dialog Power Point,4262
+37,22,Font Dialog Power Point,16033
+38,2,Group Paragraph,11544
+39,38,Bullets Gallery,11522
+40,38,Bullets And Numbering Bullets Dialog,783
+41,38,Numbering Gallery,11523
+42,38,Bullets And Numbering Numbering Dialog,6123
+43,38,Indent Decrease,3508
+44,38,Indent Increase,3507
+45,38,Text Direction Left To Right,1846
+46,38,Text Direction Right To Left,1847
+47,38,Align Left,120
+48,38,Align Center,122
+49,38,Align Right,121
+50,38,Align Justify,123
+51,38,Paragraph Distributed,2792
+52,38,Align Justify Thai,13904
+53,38,Align Justify Menu,13097
+54,38,Align Justify With Mixed Languages,13900
+55,38,Align Justify Low,13901
+56,38,Line Spacing Gallery Power Point,11524
+57,38,Table Columns Gallery,11950
+58,38,Paragraph More Columns Dialog,15168
+59,38,Text Direction Gallery,13235
+60,38,Text Direction More Options Dialog,15166
+61,38,Text Align Gallery,13994
+62,38,Text Align More Options Dialog,15167
+63,38,Convert To Smart Art,14226
+64,38,Convert To Smart Art More Smart Art Graphics Dialog,14227
+65,38,Power Point Paragraph Dialog,16034
+66,2,Group Drawing,204
+67,66,Gallery All Shapes And Textboxes,16038
+68,66,Objects Arrange Menu,16073
+69,66,Object Bring To Front,166
+70,66,Object Send To Back,167
+71,66,Object Bring Forward,170
+72,66,Object Send Backward,171
+73,66,Objects Group,164
+74,66,Objects Ungroup,165
+75,66,Objects Regroup,338
+76,66,Object Align Menu,11920
+77,66,Objects Align Left Smart,12784
+78,66,Objects Align Center Horizontal Smart,12788
+79,66,Objects Align Right Smart,12785
+80,66,Objects Align Top Smart,12786
+81,66,Objects Align Middle Vertical Smart,12789
+82,66,Objects Align Bottom Smart,12787
+83,66,Align Distribute Horizontally,12790
+84,66,Align Distribute Vertically,12791
+85,66,Objects Align Relative To Container Smart,12783
+86,66,Objects Align Selected Smart,12782
+87,66,View Gridlines Power Point,7055
+88,66,Grid Settings,217
+89,66,Object Rotate Gallery,11924
+90,66,Object Rotation Options Dialog,15678
+91,66,Selection Pane,13244
+92,66,Shape Quick Styles Home,16037
+93,66,Shape Styles Other Theme Fills Gallery,13779
+94,66,Shape Fill Color Picker,11689
+95,66,Object Fill More Colors Dialog,1051
+96,66,Object Picture Fill,12612
+97,66,Gradient Gallery,12116
+98,66,Shape Fill More Gradients Dialog,12683
+99,66,Shape Fill Texture Gallery,11531
+100,66,More Texture Options,15679
+101,66,Shape Outline Color Picker,15293
+102,66,Object Border Outline Color More Colors Dialog,1052
+103,66,Outline Weight Gallery,11866
+104,66,Line Styles Dialog,1054
+105,66,Outline Dashes Gallery,11865
+106,66,Line Styles Dialog,1054
+107,66,Arrow Style Gallery,11864
+108,66,Arrows More,1055
+109,66,Shape Effects Menu,14861
+110,66,Object Effect Preset Gallery,11642
+111,66,_3DBevel Options Dialog,13233
+112,66,Object Effect Shadow Gallery,12118
+113,66,Shadow Options Dialog,12684
+114,66,Reflection Gallery,14229
+115,66,Object Effect Glow Gallery,12115
+116,66,Glow Color Picker,14766
+117,66,Glow Color More Colors Dialog,14768
+118,66,Object Effect Soft Edges Gallery,12102
+119,66,Bevel Shape Gallery,14696
+120,66,_3DBevel Options Dialog,13233
+121,66,_3DRotation Gallery,11644
+122,66,_3DRotation Options Dialog,13232
+123,66,Object Format Dialog,962
+124,2,Group Editing,12580
+125,124,Find Dialog,141
+126,124,Replace Menu,15310
+127,124,Replace Dialog,313
+128,124,Replace Dialog,313
+129,124,Fonts Replace Fonts,2711
+130,124,Select Menu,11926
+131,124,Select All,756
+132,124,Objects Select,182
+133,124,Selection Pane,13244
+134,1,Tab Insert,11536
+135,134,Group Insert Tables,12598
+136,135,Table Insert Gallery,13821
+137,135,Table Insert,8
+138,135,Table Draw Table,2059
+139,135,Excel Spreadsheet Insert,13905
+140,134,Group Insert Illustrations,11548
+141,140,Picture Insert From File Power Point,931
+142,140,Clip Art Insert,682
+143,140,Photo Album Insert Menu,15786
+144,140,Photo Album Insert,7063
+145,140,Photo Album Insert,7063
+146,140,Photo Album Edit,7064
+147,140,Shapes Insert Gallery,11529
+148,140,Smart Art Insert,1032
+149,140,Chart Insert,17
+150,134,Group Insert Links,12599
+151,150,Hyperlink Insert,1576
+152,150,Action Insert,2892
+153,134,Group Insert Text,15291
+154,153,Text Box Insert,139
+155,153,Text Box Insert Menu,13098
+156,153,Text Box Insert Horizontal,13099
+157,153,Text Box Insert Vertical,318
+158,153,Header Footer Insert,762
+159,153,Word Art Insert Gallery,12119
+160,153,Date And Time Insert,768
+161,153,Number Insert,769
+162,153,Symbol Insert,308
+163,153,Ole Objectct Insert,546
+164,134,Group Insert Media Clips,11582
+165,164,Movie Insert,11922
+166,164,Movie From File Insert,2706
+167,164,Movie From File Insert,2706
+168,164,Movie From Clip Organizer Insert,2705
+169,164,Sound Insert Menu,11923
+170,164,Sound Insert From File,2708
+171,164,Sound Insert From File,2708
+172,164,Sound Insert From Clip Organizer,2707
+173,164,CDAudio Play Track,2709
+174,164,Sound Record,2881
+175,134,Group Insert Barcode,12601
+176,175,Barcode Insert,11335
+177,175,Label Insert,11331
+178,1,Tab Design,11576
+179,178,Group Page Setup,11551
+180,179,Power Point Page Setup,16035
+181,179,Slide Orientation Gallery,13925
+182,178,Group Slide Themes,11583
+183,182,Slide Themes Gallery,11310
+184,182,Theme Search Office Online Power Point,12304
+185,182,Theme Browse For Themes Power Point,10022
+186,182,Theme Save Current Power Point,13990
+187,182,Theme Colors Gallery,12245
+188,182,Theme Colors Create New,12680
+189,182,Theme Colors Reset,13209
+190,182,Theme Fonts Gallery,12863
+191,182,Theme Fonts Create New,12681
+192,182,Theme Effects Gallery,12864
+193,178,Group Background,11585
+194,193,Slide Background Styles Gallery,13234
+195,193,Slide Background Format Dialog,1706
+196,193,Slide Background Reset,15257
+197,193,Slide Background Hide Graphics,13092
+198,193,Slide Background Format Dialog,1706
+199,1,Tab Animations,11577
+200,199,Group Preview,11586
+201,200,Animation Preview,12565
+202,199,Group Animations,11587
+203,202,Animation Gallery,11942
+204,202,Animation Custom,730
+205,199,Group Transition To This Slide,11588
+206,205,Animation Transition Gallery,11943
+207,205,Animation Transition Sound Gallery,12611
+208,205,Transition Sound Loop Until Next Sound,14862
+209,205,Animation Transition Speed Gallery,11944
+210,205,Slide Transition Apply To All,12563
+211,205,Advance Slide Label,15156
+212,205,Slide Transition On Mouse Click,12564
+213,205,Slide Transition Automatically After,13924
+214,205,Transition Time Automatically After,13917
+215,1,Tab Slide Show,11578
+216,215,Group Slide Show Start,11590
+217,216,Slide Show From Beginning,12629
+218,216,Slide Show From Current,11521
+219,216,Slide Show Custom Menu,12801
+220,215,Group Slide Show Setup,11591
+221,220,Slide Show Set Up Dialog,2744
+222,220,Slide Hide,729
+223,220,Record Narration,2743
+224,220,Slide Show Rehearse Timings,734
+225,220,Slide Show Use Rehearsed Timings,12803
+226,215,Group Monitors,12805
+227,226,Slide Show Resolution Gallery,12802
+228,226,Slide Show Show Presentation On Gallery,12804
+229,226,Slide Show Use Presenter View,11863
+230,1,Tab Review,11601
+231,230,Group Proofing,11546
+232,231,Spelling,2
+233,231,Research Pane,7343
+234,231,Thesaurus,9056
+235,231,Translate,7021
+236,231,Hangul Hanja Conversion Power Point,2978
+237,231,Set Language,790
+238,230,Group Comments,11563
+239,238,Review Show Or Hide Markup,6547
+240,238,Review New Comment,1589
+241,238,Review Edit Comment,2056
+242,238,Review Delete Comments Menu Power Point,13094
+243,238,Review Delete Comment Power Point,6544
+244,238,Review Delete Comment Power Point,6544
+245,238,Review Delete All Markup On Slide,6919
+246,238,Review Delete All Markup In Presentation,15501
+247,238,Review Previous Comment Power Point,6546
+248,238,Review Next Comment Power Point,6545
+249,230,Group Permission,16134
+250,249,Review Protect Presentation Menu,16137
+251,249,File Permission Unrestricted,7990
+252,249,File Permission Do Not Distribute,7991
+253,249,File Permission Restrict As,10014
+254,230,Group Ink,13964
+255,254,Inking Start,9071
+256,1,Tab View,11541
+257,256,Group Presentation Views,15645
+258,257,View Normal View Power Point,3816
+259,257,View Slide Sorter View,738
+260,257,View Notes Page View,739
+261,257,View Slide Show View,740
+262,257,View Slide Master View,741
+263,257,View Handout Master View,2698
+264,257,View Notes Master View,2699
+265,256,Group View Show Hide,15640
+266,265,View Ruler Power Point,179
+267,265,View Gridlines,15643
+268,265,View Message Bar,13362
+269,265,View Direction Menu,15728
+270,265,View Direction Left To Right,3855
+271,265,View Direction Right To Left,3856
+272,256,Group Zoom,11813
+273,272,Zoom Dialog,925
+274,272,Zoom Fit To Window,15681
+275,256,Group Color Grayscale,15646
+276,275,View Display In High Contrast,5875
+277,275,View Display In Color,14413
+278,275,View Display In Grayscale,5874
+279,275,View Display In Pure Black And White,5876
+280,256,Group Window,15641
+281,280,Window New,303
+282,280,Windows Arrange All,298
+283,280,Windows Cascade,1826
+284,280,Window Move Split,3899
+285,280,Window Switch Windows Menu Power Point,12671
+286,280,Window Name Goes Here,830
+287,280,Window Name Goes Here,830
+288,280,Window Name Goes Here,830
+289,280,Window Name Goes Here,830
+290,280,Window Name Goes Here,830
+291,280,Window Name Goes Here,830
+292,280,Window Name Goes Here,830
+293,280,Window Name Goes Here,830
+294,280,Window Name Goes Here,830
+295,280,Window More Windows Dialog,959
+296,256,Group Macros,16104
+297,296,Macro Play,186
+298,1,Tab Developer,12557
+299,298,Group Code,12556
+300,299,Visual Basic,1695
+301,299,Macro Play,186
+302,299,Macro Security,3627
+303,298,Group Controls,11811
+304,303,Active XLabel,1858
+305,303,Active XText Box,1850
+306,303,Active XSpin Button,1856
+307,303,Active XButton,1851
+308,303,Active XImage,2089
+309,303,Active XScroll Bar,1857
+310,303,Active XCheck Box,1848
+311,303,Active XRadio Button,1852
+312,303,Active XCombo Box,1854
+313,303,Active XList Box,1853
+314,303,Active XToggle Button,1855
+315,303,More Controls Dialog,12555
+316,303,Control Properties,13100
+317,303,View Visual Basic Code,1561
+318,298,Group Modify,14597
+319,318,Document Panel Template,14596
+320,1,Tab Add Ins,12308
+321,320,Group Add Ins Menu Commands,13950
+322,320,Group Add Ins Toolbar Commands,13951
+323,320,Group Add Ins Custom Toolbars,14337
+324,1,Tab Slide Master Home,13814
+325,324,Group Clipboard,12597
+326,325,Paste Menu,15502
+327,325,Paste,22
+328,325,Paste,22
+329,325,Paste Special Dialog,755
+330,325,Paste As Hyperlink,2787
+331,325,Paste Duplicate,571
+332,325,Cut,21
+333,325,Copy,19
+334,325,Format Painter,108
+335,325,Show Clipboard,809
+336,324,Group Slides,11579
+337,336,Slide New Gallery,11525
+338,336,Duplicate Selected Slides,2890
+339,336,Slides From Outline,2704
+340,336,Slides Reuse Slides,2703
+341,336,Slide Layout Gallery,11526
+342,336,Slide Reset,6264
+343,336,Slide Delete,2696
+344,324,Group Font,11543
+345,344,Font,1728
+346,344,Font Size,1731
+347,344,Font Size Increase,403
+348,344,Font Size Decrease,404
+349,344,Clear Formatting,11739
+350,344,Bold,113
+351,344,Italic,114
+352,344,Underline,115
+353,344,Shadow,686
+354,344,Strikethrough,290
+355,344,Change Case Gallery,13093
+356,344,Character Spacing Gallery,14015
+357,344,Font Color Picker,11949
+358,344,Font Color More Colors Dialog Power Point,4262
+359,344,Font Dialog Power Point,16033
+360,324,Group Paragraph,11544
+361,360,Bullets Gallery,11522
+362,360,Bullets And Numbering Bullets Dialog,783
+363,360,Numbering Gallery,11523
+364,360,Bullets And Numbering Numbering Dialog,6123
+365,360,Indent Decrease,3508
+366,360,Indent Increase,3507
+367,360,Text Direction Left To Right,1846
+368,360,Text Direction Right To Left,1847
+369,360,Align Left,120
+370,360,Align Center,122
+371,360,Align Right,121
+372,360,Align Justify,123
+373,360,Paragraph Distributed,2792
+374,360,Align Justify Thai,13904
+375,360,Align Justify Menu,13097
+376,360,Align Justify With Mixed Languages,13900
+377,360,Align Justify Low,13901
+378,360,Line Spacing Gallery Power Point,11524
+379,360,Table Columns Gallery,11950
+380,360,Paragraph More Columns Dialog,15168
+381,360,Text Direction Gallery,13235
+382,360,Text Direction More Options Dialog,15166
+383,360,Text Align Gallery,13994
+384,360,Text Align More Options Dialog,15167
+385,360,Convert To Smart Art,14226
+386,360,Convert To Smart Art More Smart Art Graphics Dialog,14227
+387,360,Power Point Paragraph Dialog,16034
+388,324,Group Drawing,204
+389,388,Gallery All Shapes And Textboxes,16038
+390,388,Objects Arrange Menu,16073
+391,388,Object Bring To Front,166
+392,388,Object Send To Back,167
+393,388,Object Bring Forward,170
+394,388,Object Send Backward,171
+395,388,Objects Group,164
+396,388,Objects Ungroup,165
+397,388,Objects Regroup,338
+398,388,Object Align Menu,11920
+399,388,Objects Align Left Smart,12784
+400,388,Objects Align Center Horizontal Smart,12788
+401,388,Objects Align Right Smart,12785
+402,388,Objects Align Top Smart,12786
+403,388,Objects Align Middle Vertical Smart,12789
+404,388,Objects Align Bottom Smart,12787
+405,388,Align Distribute Horizontally,12790
+406,388,Align Distribute Vertically,12791
+407,388,Objects Align Relative To Container Smart,12783
+408,388,Objects Align Selected Smart,12782
+409,388,View Gridlines Power Point,7055
+410,388,Grid Settings,217
+411,388,Object Rotate Gallery,11924
+412,388,Object Rotation Options Dialog,15678
+413,388,Selection Pane,13244
+414,388,Shape Quick Styles Home,16037
+415,388,Shape Styles Other Theme Fills Gallery,13779
+416,388,Shape Fill Color Picker,11689
+417,388,Object Fill More Colors Dialog,1051
+418,388,Object Picture Fill,12612
+419,388,Gradient Gallery,12116
+420,388,Shape Fill More Gradients Dialog,12683
+421,388,Shape Fill Texture Gallery,11531
+422,388,More Texture Options,15679
+423,388,Shape Outline Color Picker,15293
+424,388,Object Border Outline Color More Colors Dialog,1052
+425,388,Outline Weight Gallery,11866
+426,388,Line Styles Dialog,1054
+427,388,Outline Dashes Gallery,11865
+428,388,Line Styles Dialog,1054
+429,388,Arrow Style Gallery,11864
+430,388,Arrows More,1055
+431,388,Shape Effects Menu,14861
+432,388,Object Effect Preset Gallery,11642
+433,388,_3DBevel Options Dialog,13233
+434,388,Object Effect Shadow Gallery,12118
+435,388,Shadow Options Dialog,12684
+436,388,Reflection Gallery,14229
+437,388,Object Effect Glow Gallery,12115
+438,388,Glow Color Picker,14766
+439,388,Glow Color More Colors Dialog,14768
+440,388,Object Effect Soft Edges Gallery,12102
+441,388,Bevel Shape Gallery,14696
+442,388,_3DBevel Options Dialog,13233
+443,388,_3DRotation Gallery,11644
+444,388,_3DRotation Options Dialog,13232
+445,388,Object Format Dialog,962
+446,324,Group Editing,12580
+447,446,Find Dialog,141
+448,446,Replace Menu,15310
+449,446,Replace Dialog,313
+450,446,Replace Dialog,313
+451,446,Fonts Replace Fonts,2711
+452,446,Select Menu,11926
+453,446,Select All,756
+454,446,Objects Select,182
+455,446,Selection Pane,13244
+456,1,Tab Notes Master,13120
+457,456,Group Page Setup Notes Master,15307
+458,457,Power Point Page Setup,16035
+459,457,Master Notes Page Orientation,15116
+460,457,Slide Orientation Gallery,13925
+461,456,Group Placeholders Notes Master,15309
+462,461,Master Show Header,13117
+463,461,Master Show Slide Image,13113
+464,461,Master Show Footer,13118
+465,461,Master Show Date,13115
+466,461,Master Show Body,13114
+467,461,Master Show Page Number,13116
+468,456,Group Master Edit Theme,13122
+469,468,Slide Themes Gallery,11310
+470,468,Theme Search Office Online Power Point,12304
+471,468,Theme Browse For Themes Power Point,10022
+472,468,Theme Save Current Power Point,13990
+473,468,Theme Colors Gallery,12245
+474,468,Theme Colors Create New,12680
+475,468,Theme Colors Reset,13209
+476,468,Theme Fonts Gallery,12863
+477,468,Theme Fonts Create New,12681
+478,468,Theme Effects Gallery,12864
+479,456,Group Background,11585
+480,479,Slide Background Styles Gallery,13234
+481,479,Slide Background Format Dialog,1706
+482,479,Slide Background Reset,15257
+483,479,Slide Background Hide Graphics,13092
+484,479,Slide Background Format Dialog,1706
+485,456,Group Master Close,13123
+486,485,Master View Close,1567
+487,1,Tab Handout Master,13119
+488,487,Group Page Setup Handout Master,15308
+489,488,Power Point Page Setup,16035
+490,488,Handout Orientation,13111
+491,488,Slide Orientation Gallery,13925
+492,488,Slides Per Page Gallery,13112
+493,488,Slides Per Page1Slide,5948
+494,488,Slides Per Page2Slides,3051
+495,488,Slides Per Page3Slides,3052
+496,488,Slides Per Page4Slides,3619
+497,488,Slides Per Page6Slides,3053
+498,488,Slides Per Page9Slides,3620
+499,488,Slides Per Page Slide Outline,3054
+500,487,Group Placeholders Handout Master,13121
+501,500,Master Show Header,13117
+502,500,Master Show Footer,13118
+503,500,Master Show Date,13115
+504,500,Master Show Page Number,13116
+505,487,Group Master Edit Theme,13122
+506,505,Slide Themes Gallery,11310
+507,505,Theme Search Office Online Power Point,12304
+508,505,Theme Browse For Themes Power Point,10022
+509,505,Theme Save Current Power Point,13990
+510,505,Theme Colors Gallery,12245
+511,505,Theme Colors Create New,12680
+512,505,Theme Colors Reset,13209
+513,505,Theme Fonts Gallery,12863
+514,505,Theme Fonts Create New,12681
+515,505,Theme Effects Gallery,12864
+516,487,Group Background,11585
+517,516,Slide Background Styles Gallery,13234
+518,516,Slide Background Format Dialog,1706
+519,516,Slide Background Reset,15257
+520,516,Slide Background Hide Graphics,13092
+521,516,Slide Background Format Dialog,1706
+522,487,Group Master Close,13123
+523,522,Master View Close,1567
+524,1,Tab Slide Master,11879
+525,524,Group Master Edit,13124
+526,525,Slide New,680
+527,525,Slide Master Insert Layout,11236
+528,525,Slide Delete,2696
+529,525,Slide Master Rename Master,6014
+530,525,Slide Master Preserve Master,6013
+531,524,Group Master Layout,13125
+532,531,Slide Master Master Layout,700
+533,531,Slide Master Insert Placeholder Menu,14815
+534,531,Slide Master Content Placeholder Insert,12372
+535,531,Slide Master Vertical Content Placeholder Insert,13220
+536,531,Slide Master Text Placeholder Insert,12373
+537,531,Slide Master Vertical Text Placeholder Insert,12379
+538,531,Slide Master Picture Placeholder Insert,14814
+539,531,Slide Master Chart Placeholder Insert,12374
+540,531,Slide Master Table Placeholder Insert,12375
+541,531,Slide Master Diagram Placeholder Insert,12376
+542,531,Slide Master Media Placeholder Insert,12377
+543,531,Slide Master Clip Art Placeholder Insert,12378
+544,531,Slide Master Show Title,12380
+545,531,Slide Master Show Footers,12381
+546,524,Group Master Edit Theme,13122
+547,546,Slide Themes Gallery,11310
+548,546,Theme Search Office Online Power Point,12304
+549,546,Theme Browse For Themes Power Point,10022
+550,546,Theme Save Current Power Point,13990
+551,546,Theme Colors Gallery,12245
+552,546,Theme Colors Create New,12680
+553,546,Theme Colors Reset,13209
+554,546,Theme Fonts Gallery,12863
+555,546,Theme Fonts Create New,12681
+556,546,Theme Effects Gallery,12864
+557,524,Group Background,11585
+558,557,Slide Background Styles Gallery,13234
+559,557,Slide Background Format Dialog,1706
+560,557,Slide Background Reset,15257
+561,557,Slide Background Hide Graphics,13092
+562,557,Slide Background Format Dialog,1706
+563,524,Group Page Setup,11551
+564,563,Power Point Page Setup,16035
+565,563,Slide Orientation Gallery,13925
+566,524,Group Master Close,13123
+567,566,Master View Close,1567
+568,1,Tab Black And White,13127
+569,568,Group Color Mode Setting,13128
+570,569,Black And White Automatic,2733
+571,569,Black And White Grayscale,2739
+572,569,Black And White Light Grayscale,2742
+573,569,Black And White Inverse Grayscale,2740
+574,569,Black And White Gray With White Fill,2738
+575,569,Black And White Black With Grayscale Fill,2735
+576,569,Black And White Black With White Fill,2736
+577,569,Black And White Black,2734
+578,569,Black And White White,2741
+579,569,Black And White Dont Show,2737
+580,568,Group Color Mode Close,15306
+581,580,View Back To Color View,5873
+582,1,Tab Grayscale,13126
+583,582,Group Color Mode Setting,13128
+584,583,Black And White Automatic,2733
+585,583,Black And White Grayscale,2739
+586,583,Black And White Light Grayscale,2742
+587,583,Black And White Inverse Grayscale,2740
+588,583,Black And White Gray With White Fill,2738
+589,583,Black And White Black With Grayscale Fill,2735
+590,583,Black And White Black With White Fill,2736
+591,583,Black And White Black,2734
+592,583,Black And White White,2741
+593,583,Black And White Dont Show,2737
+594,582,Group Color Mode Close,15306
+595,594,View Back To Color View,5873
+596,1,Tab Print Preview,12902
+597,596,Group Print Preview Print,12903
+598,597,File Print,4
+599,597,Print Options Menu,15320
+600,596,Group Print Preview Page Setup,15724
+601,600,Print What Label,7054
+602,600,Print What,5877
+603,600,Page Orientation Gallery,11533
+604,600,Page Orientation Portrait,6259
+605,600,Page Orientation Landscape,6258
+606,596,Group Zoom,11813
+607,606,Zoom Dialog,925
+608,606,Zoom Fit To Window,15681
+609,596,Group Print Preview Preview,12904
+610,609,Page Next,317
+611,609,Page Previous,316
+612,609,Print Preview Close,923
+613,0,Tab Set Smart Art Tools,13937
+614,613,Tab Smart Art Tools Design,11683
+615,614,Group Smart Art Create Graphic,12271
+616,615,Smart Art Add Shape Split Menu,15099
+617,615,Smart Art Add Shape,12084
+618,615,Smart Art Add Shape After,13204
+619,615,Smart Art Add Shape Before,13205
+620,615,Smart Art Add Shape Above,13206
+621,615,Smart Art Add Shape Below,13207
+622,615,Smart Art Add Assistant,13208
+623,615,Smart Art Add Bullet,14810
+624,615,Smart Art Right To Left,13249
+625,615,Smart Art Organization Chart Menu,13780
+626,615,Smart Art Organization Chart Standard,13248
+627,615,Smart Art Organization Chart Both,13247
+628,615,Smart Art Organization Chart Left Hanging,13245
+629,615,Smart Art Organization Chart Right Hanging,13246
+630,615,Smart Art Promote,14232
+631,615,Smart Art Demote,14233
+632,615,Smart Art Text Pane,12095
+633,614,Group Smart Art Layouts,12268
+634,633,Smart Art Layout Gallery,12097
+635,633,Smart Art More Layouts Dialog,12098
+636,614,Group Smart Art Quick Styles,12269
+637,636,Smart Art Change Colors Gallery,12100
+638,636,Smart Art Styles Gallery,12099
+639,614,Group Smart Art Reset,12273
+640,639,Smart Art Reset Graphic,12093
+641,613,Tab Smart Art Tools Format,11684
+642,641,Group Smart Art Shapes,15289
+643,642,Smart Art Edit In2D,12096
+644,642,Shape Change Shape Gallery,11530
+645,642,Smart Art Larger Shape,12090
+646,642,Smart Art Smaller Shape,12091
+647,641,Group Shape Styles,11594
+648,647,Shape Styles Gallery,11532
+649,647,Shape Styles Other Theme Fills Gallery,13779
+650,647,Shape Fill Color Picker,11689
+651,647,Object Fill More Colors Dialog,1051
+652,647,Object Picture Fill,12612
+653,647,Gradient Gallery,12116
+654,647,Shape Fill More Gradients Dialog,12683
+655,647,Shape Fill Texture Gallery,11531
+656,647,More Texture Options,15679
+657,647,Shape Outline Color Picker,15293
+658,647,Object Border Outline Color More Colors Dialog,1052
+659,647,Outline Weight Gallery,11866
+660,647,Line Styles Dialog,1054
+661,647,Outline Dashes Gallery,11865
+662,647,Line Styles Dialog,1054
+663,647,Arrow Style Gallery,11864
+664,647,Arrows More,1055
+665,647,Shape Effects Menu,14861
+666,647,Object Effect Preset Gallery,11642
+667,647,_3DBevel Options Dialog,13233
+668,647,Object Effect Shadow Gallery,12118
+669,647,Shadow Options Dialog,12684
+670,647,Reflection Gallery,14229
+671,647,Object Effect Glow Gallery,12115
+672,647,Glow Color Picker,14766
+673,647,Glow Color More Colors Dialog,14768
+674,647,Object Effect Soft Edges Gallery,12102
+675,647,Bevel Shape Gallery,14696
+676,647,_3DBevel Options Dialog,13233
+677,647,_3DRotation Gallery,11644
+678,647,_3DRotation Options Dialog,13232
+679,647,Object Format Dialog,962
+680,641,Group Word Art Styles,14834
+681,680,Text Styles Gallery,14839
+682,680,Word Art Clear,14840
+683,680,Text Fill Color Picker,14835
+684,680,Text Fill Color More Colors Dialog,15680
+685,680,Text Picture Fill,14841
+686,680,Text Fill Gradient Gallery,14842
+687,680,Text Fill More Gradients Dialog,14843
+688,680,Text Fill Texture Gallery,14844
+689,680,Text Fill More Textures,16081
+690,680,Text Outline Color Picker,14836
+691,680,Text Outline Color More Colors Dialog,14837
+692,680,Text Outline Weight Gallery,14847
+693,680,Text Outline More Lines Dialog,14846
+694,680,Text Outline Dashes Gallery,14845
+695,680,Text Outline More Lines Dialog,14846
+696,680,Text Effects Menu,14838
+697,680,Text Effect Shadow Gallery,14848
+698,680,Text Effects More Shadows Dialog,14849
+699,680,Text Reflection Gallery,14857
+700,680,Text Effect Glow Gallery,14854
+701,680,Text Glow Color Picker,14855
+702,680,Text Glow Color More Colors Dialog,14856
+703,680,Bevel Text Gallery,15075
+704,680,Text Effects Bevel More3DOptions Dialog,14851
+705,680,Text Effects3DRotation Gallery,14852
+706,680,Text Effects3DRotation Options Dialog,14853
+707,680,Text Effect Transform Gallery,12120
+708,680,Word Art Format Dialog,15677
+709,641,Group Arrange,11581
+710,709,Object Bring To Front Menu,14407
+711,709,Object Bring To Front,166
+712,709,Object Bring To Front,166
+713,709,Object Bring Forward,170
+714,709,Object Send To Back Menu,14408
+715,709,Object Send To Back,167
+716,709,Object Send To Back,167
+717,709,Object Send Backward,171
+718,709,Selection Pane,13244
+719,709,Object Align Menu,11920
+720,709,Objects Align Left Smart,12784
+721,709,Objects Align Center Horizontal Smart,12788
+722,709,Objects Align Right Smart,12785
+723,709,Objects Align Top Smart,12786
+724,709,Objects Align Middle Vertical Smart,12789
+725,709,Objects Align Bottom Smart,12787
+726,709,Align Distribute Horizontally,12790
+727,709,Align Distribute Vertically,12791
+728,709,Objects Align Relative To Container Smart,12783
+729,709,Objects Align Selected Smart,12782
+730,709,View Gridlines Power Point,7055
+731,709,Grid Settings,217
+732,709,Objects Group Menu,14409
+733,709,Objects Group,164
+734,709,Objects Regroup,338
+735,709,Objects Ungroup,165
+736,709,Object Rotate Gallery,11924
+737,709,Object Rotation Options Dialog,15678
+738,641,Group Smart Art Size,12274
+739,738,Shape Height,13915
+740,738,Shape Width,13916
+741,0,Tab Set Chart Tools,13936
+742,741,Tab Chart Tools Design,11686
+743,742,Group Chart Type,13217
+744,743,Chart Change Type,13214
+745,743,Chart Save Templates,11459
+746,742,Group Chart Data,13215
+747,746,Chart Switch Row Column,13210
+748,746,Chart Edit Data Source,954
+749,746,Chart Show Data,13211
+750,746,Chart Refresh,13212
+751,742,Group Chart Layouts,11602
+752,751,Chart Layout Gallery,11457
+753,742,Group Chart Styles,11603
+754,753,Chart Styles Gallery,11456
+755,741,Tab Chart Tools Layout,11687
+756,755,Group Chart Current Selection,15046
+757,756,Chart Element Selector,11468
+758,756,Chart Format Selection,11467
+759,756,Chart Reset To Match Style,14057
+760,755,Group Chart Shapes,11605
+761,760,Picture Insert From File,2619
+762,760,Shapes Insert Gallery,11529
+763,760,Text Box Insert,139
+764,760,Text Box Insert Menu,13098
+765,760,Text Box Insert Horizontal,13099
+766,760,Text Box Insert Vertical,318
+767,755,Group Chart Labels,15047
+768,767,Chart Title,11955
+769,767,Chart Title Options Dialog,14290
+770,767,Chart Axis Titles,11461
+771,767,Chart Primary Horizontal Axis Title,11956
+772,767,Chart Primary Horizontal Axis Title Options Dialog,14293
+773,767,Chart Primary Vertical Axis Title,11957
+774,767,Chart Primary Vertical Axis Title Options Dialog,14294
+775,767,Chart Secondary Horizontal Axis Title,14315
+776,767,Chart Secondary Horizontal Axis Title Options Dialog,14295
+777,767,Chart Secondary Vertical Axis Title,14316
+778,767,Chart Secondary Vertical Axis Title Options Dialog,14296
+779,767,Chart Depth Axis Title,11958
+780,767,Chart Depth Axis Title Options Dialog,14297
+781,767,Chart Legend,11959
+782,767,Chart Legend Options Dialog Dialog,14291
+783,767,Chart Data Label,11960
+784,767,Chart Data Label Dialog,14292
+785,767,Chart Data Table,11967
+786,767,Chart Data Table Options Dialog,14308
+787,755,Group Chart Axes,11604
+788,787,Chart Axes,11463
+789,787,Chart Primary Horizontal Axis,11964
+790,787,Chart Primary Horizontal Axis Options Dialog,14303
+791,787,Chart Primary Vertical Axis,11965
+792,787,Chart Primary Vertical Axis Options Dialog,14304
+793,787,Chart Secondary Horizontal Axis,14319
+794,787,Chart Secondary Horizontal Axis Option,14305
+795,787,Chart Secondary Vertical Axis,14320
+796,787,Chart Secondary Vertical Axis Options Dialog,14306
+797,787,Chart Depth Axis,11966
+798,787,Chart Depth Axis Options Dialog,14307
+799,787,Chart Gridlines,11464
+800,787,Chart Primary Horizontal Gridlines,11961
+801,787,Chart Primary Horizontal Gridlines Options Dialog,14298
+802,787,Chart Primary Vertical Gridlines,11962
+803,787,Chart Primary Vertical Gridlines Options Dialog,14299
+804,787,Chart Secondary Horizontal Gridlines,14317
+805,787,Chart Secondary Horizontal Gridlines Options Dialog,14300
+806,787,Chart Secondary Vertical Gridlines,14318
+807,787,Chart Secondary Vertical Gridlines Options Dialog,14301
+808,787,Chart Depth Gridlines,11963
+809,787,Chart Depth Gridlines Options Dialog,14302
+810,755,Group Chart Background,15787
+811,810,Chart Plot Area,11972
+812,810,Chart Plot Area Options Dialog,14312
+813,810,Chart Wall,11973
+814,810,Chart Wall Options Dialog,14313
+815,810,Chart Floor,11974
+816,810,Chart Floor Options Dialog,14314
+817,810,Chart3DView,14059
+818,755,Group Chart Analysis,15788
+819,818,Chart Trendline,11968
+820,818,Chart Trendline Options Dialog,14309
+821,818,Chart Lines,11970
+822,818,Chart Up Down Bars,11971
+823,818,Chart Up Down Bars Options Dialog,14311
+824,818,Chart Error Bars,11969
+825,818,Chart Error Bars Options Dialog,14310
+826,741,Tab Chart Tools Format,11688
+827,826,Group Chart Current Selection,15046
+828,827,Chart Element Selector,11468
+829,827,Chart Format Selection,11467
+830,827,Chart Reset To Match Style,14057
+831,826,Group Shape Styles,11594
+832,831,Shape Styles Gallery,11532
+833,831,Shape Styles Other Theme Fills Gallery,13779
+834,831,Shape Fill Color Picker,11689
+835,831,Object Fill More Colors Dialog,1051
+836,831,Object Picture Fill,12612
+837,831,Gradient Gallery,12116
+838,831,Shape Fill More Gradients Dialog,12683
+839,831,Shape Fill Texture Gallery,11531
+840,831,More Texture Options,15679
+841,831,Shape Outline Color Picker,15293
+842,831,Object Border Outline Color More Colors Dialog,1052
+843,831,Outline Weight Gallery,11866
+844,831,Line Styles Dialog,1054
+845,831,Outline Dashes Gallery,11865
+846,831,Line Styles Dialog,1054
+847,831,Arrow Style Gallery,11864
+848,831,Arrows More,1055
+849,831,Shape Effects Menu,14861
+850,831,Object Effect Preset Gallery,11642
+851,831,_3DBevel Options Dialog,13233
+852,831,Object Effect Shadow Gallery,12118
+853,831,Shadow Options Dialog,12684
+854,831,Reflection Gallery,14229
+855,831,Object Effect Glow Gallery,12115
+856,831,Glow Color Picker,14766
+857,831,Glow Color More Colors Dialog,14768
+858,831,Object Effect Soft Edges Gallery,12102
+859,831,Bevel Shape Gallery,14696
+860,831,_3DBevel Options Dialog,13233
+861,831,_3DRotation Gallery,11644
+862,831,_3DRotation Options Dialog,13232
+863,831,Object Format Dialog,962
+864,826,Group Word Art Styles,14834
+865,864,Text Styles Gallery,14839
+866,864,Word Art Clear,14840
+867,864,Text Fill Color Picker,14835
+868,864,Text Fill Color More Colors Dialog,15680
+869,864,Text Picture Fill,14841
+870,864,Text Fill Gradient Gallery,14842
+871,864,Text Fill More Gradients Dialog,14843
+872,864,Text Fill Texture Gallery,14844
+873,864,Text Fill More Textures,16081
+874,864,Text Outline Color Picker,14836
+875,864,Text Outline Color More Colors Dialog,14837
+876,864,Text Outline Weight Gallery,14847
+877,864,Text Outline More Lines Dialog,14846
+878,864,Text Outline Dashes Gallery,14845
+879,864,Text Outline More Lines Dialog,14846
+880,864,Text Effects Menu,14838
+881,864,Text Effect Shadow Gallery,14848
+882,864,Text Effects More Shadows Dialog,14849
+883,864,Text Reflection Gallery,14857
+884,864,Text Effect Glow Gallery,14854
+885,864,Text Glow Color Picker,14855
+886,864,Text Glow Color More Colors Dialog,14856
+887,864,Bevel Text Gallery,15075
+888,864,Text Effects Bevel More3DOptions Dialog,14851
+889,864,Text Effects3DRotation Gallery,14852
+890,864,Text Effects3DRotation Options Dialog,14853
+891,864,Text Effect Transform Gallery,12120
+892,864,Word Art Format Dialog,15677
+893,826,Group Arrange,11581
+894,893,Object Bring To Front Menu,14407
+895,893,Object Bring To Front,166
+896,893,Object Bring To Front,166
+897,893,Object Bring Forward,170
+898,893,Object Send To Back Menu,14408
+899,893,Object Send To Back,167
+900,893,Object Send To Back,167
+901,893,Object Send Backward,171
+902,893,Selection Pane,13244
+903,893,Object Align Menu,11920
+904,893,Objects Align Left Smart,12784
+905,893,Objects Align Center Horizontal Smart,12788
+906,893,Objects Align Right Smart,12785
+907,893,Objects Align Top Smart,12786
+908,893,Objects Align Middle Vertical Smart,12789
+909,893,Objects Align Bottom Smart,12787
+910,893,Align Distribute Horizontally,12790
+911,893,Align Distribute Vertically,12791
+912,893,Objects Align Relative To Container Smart,12783
+913,893,Objects Align Selected Smart,12782
+914,893,View Gridlines Power Point,7055
+915,893,Grid Settings,217
+916,893,Objects Group Menu,14409
+917,893,Objects Group,164
+918,893,Objects Regroup,338
+919,893,Objects Ungroup,165
+920,893,Object Rotate Gallery,11924
+921,893,Object Rotation Options Dialog,15678
+922,826,Group Size,11877
+923,922,Shape Height,13915
+924,922,Shape Width,13916
+925,922,Object Size And Position Dialog,14098
+926,0,Tab Set Drawing Tools,13261
+927,926,Tab Drawing Tools Format,11528
+928,927,Group Shapes,11549
+929,928,Shapes Insert Gallery,11529
+930,928,Object Edit Shape Menu,12317
+931,928,Shape Change Shape Gallery,11530
+932,928,Shape Convert To Freeform,14103
+933,928,Object Edit Points,206
+934,928,Shape Reroute Connectors,1033
+935,928,Text Box Insert,139
+936,928,Text Box Insert Menu,13098
+937,928,Text Box Insert Horizontal,13099
+938,928,Text Box Insert Vertical,318
+939,927,Group Shape Styles,11594
+940,939,Shape Styles Gallery,11532
+941,939,Shape Styles Other Theme Fills Gallery,13779
+942,939,Shape Fill Color Picker,11689
+943,939,Object Fill More Colors Dialog,1051
+944,939,Object Picture Fill,12612
+945,939,Gradient Gallery,12116
+946,939,Shape Fill More Gradients Dialog,12683
+947,939,Shape Fill Texture Gallery,11531
+948,939,More Texture Options,15679
+949,939,Shape Outline Color Picker,15293
+950,939,Object Border Outline Color More Colors Dialog,1052
+951,939,Outline Weight Gallery,11866
+952,939,Line Styles Dialog,1054
+953,939,Outline Dashes Gallery,11865
+954,939,Line Styles Dialog,1054
+955,939,Arrow Style Gallery,11864
+956,939,Arrows More,1055
+957,939,Shape Effects Menu,14861
+958,939,Object Effect Preset Gallery,11642
+959,939,_3DBevel Options Dialog,13233
+960,939,Object Effect Shadow Gallery,12118
+961,939,Shadow Options Dialog,12684
+962,939,Reflection Gallery,14229
+963,939,Object Effect Glow Gallery,12115
+964,939,Glow Color Picker,14766
+965,939,Glow Color More Colors Dialog,14768
+966,939,Object Effect Soft Edges Gallery,12102
+967,939,Bevel Shape Gallery,14696
+968,939,_3DBevel Options Dialog,13233
+969,939,_3DRotation Gallery,11644
+970,939,_3DRotation Options Dialog,13232
+971,939,Object Format Dialog,962
+972,927,Group Word Art Styles,14834
+973,972,Text Styles Gallery,14839
+974,972,Word Art Clear,14840
+975,972,Text Fill Color Picker,14835
+976,972,Text Fill Color More Colors Dialog,15680
+977,972,Text Picture Fill,14841
+978,972,Text Fill Gradient Gallery,14842
+979,972,Text Fill More Gradients Dialog,14843
+980,972,Text Fill Texture Gallery,14844
+981,972,Text Fill More Textures,16081
+982,972,Text Outline Color Picker,14836
+983,972,Text Outline Color More Colors Dialog,14837
+984,972,Text Outline Weight Gallery,14847
+985,972,Text Outline More Lines Dialog,14846
+986,972,Text Outline Dashes Gallery,14845
+987,972,Text Outline More Lines Dialog,14846
+988,972,Text Effects Menu,14838
+989,972,Text Effect Shadow Gallery,14848
+990,972,Text Effects More Shadows Dialog,14849
+991,972,Text Reflection Gallery,14857
+992,972,Text Effect Glow Gallery,14854
+993,972,Text Glow Color Picker,14855
+994,972,Text Glow Color More Colors Dialog,14856
+995,972,Bevel Text Gallery,15075
+996,972,Text Effects Bevel More3DOptions Dialog,14851
+997,972,Text Effects3DRotation Gallery,14852
+998,972,Text Effects3DRotation Options Dialog,14853
+999,972,Text Effect Transform Gallery,12120
+1000,972,Word Art Format Dialog,15677
+1001,927,Group Arrange,11581
+1002,1001,Object Bring To Front Menu,14407
+1003,1001,Object Bring To Front,166
+1004,1001,Object Bring To Front,166
+1005,1001,Object Bring Forward,170
+1006,1001,Object Send To Back Menu,14408
+1007,1001,Object Send To Back,167
+1008,1001,Object Send To Back,167
+1009,1001,Object Send Backward,171
+1010,1001,Selection Pane,13244
+1011,1001,Object Align Menu,11920
+1012,1001,Objects Align Left Smart,12784
+1013,1001,Objects Align Center Horizontal Smart,12788
+1014,1001,Objects Align Right Smart,12785
+1015,1001,Objects Align Top Smart,12786
+1016,1001,Objects Align Middle Vertical Smart,12789
+1017,1001,Objects Align Bottom Smart,12787
+1018,1001,Align Distribute Horizontally,12790
+1019,1001,Align Distribute Vertically,12791
+1020,1001,Objects Align Relative To Container Smart,12783
+1021,1001,Objects Align Selected Smart,12782
+1022,1001,View Gridlines Power Point,7055
+1023,1001,Grid Settings,217
+1024,1001,Objects Group Menu,14409
+1025,1001,Objects Group,164
+1026,1001,Objects Regroup,338
+1027,1001,Objects Ungroup,165
+1028,1001,Object Rotate Gallery,11924
+1029,1001,Object Rotation Options Dialog,15678
+1030,927,Group Size,11877
+1031,1030,Shape Height,13915
+1032,1030,Shape Width,13916
+1033,1030,Object Size And Position Dialog,14098
+1034,0,Tab Set Picture Tools,13263
+1035,1034,Tab Picture Tools Format,11527
+1036,1035,Group Picture Tools,11875
+1037,1036,Picture Brightness Gallery,13140
+1038,1036,Picture Corrections Dialog,15078
+1039,1036,Picture Contrast Gallery,13141
+1040,1036,Picture Corrections Dialog,15078
+1041,1036,Picture Recolor Gallery,14231
+1042,1036,Recolor Color Picker,14767
+1043,1036,Picture Recolor More Colors Dialog,14769
+1044,1036,Picture Set Transparent Color,2827
+1045,1036,Pictures Compress,6382
+1046,1036,Picture Change,14826
+1047,1036,Picture Reset,1362
+1048,1035,Group Picture Styles,15503
+1049,1048,Picture Styles Gallery,15504
+1050,1048,Picture Shape Gallery,15783
+1051,1048,Outline Color Picker,11690
+1052,1048,Object Border Outline Color More Colors Dialog,1052
+1053,1048,Outline Weight Gallery,11866
+1054,1048,Line Styles Dialog,1054
+1055,1048,Outline Dashes Gallery,11865
+1056,1048,Line Styles Dialog,1054
+1057,1048,Picture Effects Menu,15782
+1058,1048,Picture Effects Preset Gallery,11643
+1059,1048,_3DBevel Options Dialog,13233
+1060,1048,Picture Effects Shadow Gallery,15554
+1061,1048,Shadow Options Dialog,12684
+1062,1048,Picture Reflection Gallery,15562
+1063,1048,Picture Effects Glow Gallery,15557
+1064,1048,Glow Color Picker,14766
+1065,1048,Glow Color More Colors Dialog,14768
+1066,1048,Picture Effects Soft Edges Gallery,15560
+1067,1048,_3DBevel Picture Top Gallery,14711
+1068,1048,_3DBevel Options Dialog,13233
+1069,1048,Picture Rotation Gallery,15565
+1070,1048,_3DRotation Options Dialog,13232
+1071,1048,Object Format Dialog,962
+1072,1035,Group Arrange,11581
+1073,1072,Object Bring To Front Menu,14407
+1074,1072,Object Bring To Front,166
+1075,1072,Object Bring To Front,166
+1076,1072,Object Bring Forward,170
+1077,1072,Object Send To Back Menu,14408
+1078,1072,Object Send To Back,167
+1079,1072,Object Send To Back,167
+1080,1072,Object Send Backward,171
+1081,1072,Selection Pane,13244
+1082,1072,Object Align Menu,11920
+1083,1072,Objects Align Left Smart,12784
+1084,1072,Objects Align Center Horizontal Smart,12788
+1085,1072,Objects Align Right Smart,12785
+1086,1072,Objects Align Top Smart,12786
+1087,1072,Objects Align Middle Vertical Smart,12789
+1088,1072,Objects Align Bottom Smart,12787
+1089,1072,Align Distribute Horizontally,12790
+1090,1072,Align Distribute Vertically,12791
+1091,1072,Objects Align Relative To Container Smart,12783
+1092,1072,Objects Align Selected Smart,12782
+1093,1072,View Gridlines Power Point,7055
+1094,1072,Grid Settings,217
+1095,1072,Objects Group Menu,14409
+1096,1072,Objects Group,164
+1097,1072,Objects Regroup,338
+1098,1072,Objects Ungroup,165
+1099,1072,Object Rotate Gallery,11924
+1100,1072,Object Rotation Options Dialog,15678
+1101,1035,Group Picture Size,11568
+1102,1101,Picture Crop,732
+1103,1101,Shape Height,13915
+1104,1101,Shape Width,13916
+1105,1101,Object Size And Position Dialog,14098
+1106,0,Tab Set Table Tools,13262
+1107,1106,Tab Table Tools Design,14133
+1108,1107,Group Table Style Options Power Point,13236
+1109,1108,Table Style First Row Power Point,13238
+1110,1108,Table Style Total Row Power Point,13240
+1111,1108,Table Style Banded Rows Power Point,13242
+1112,1108,Table Style First Column Power Point,13239
+1113,1108,Table Style Last Column Power Point,13241
+1114,1108,Table Style Banded Columns Power Point,13243
+1115,1107,Group Table Styles Power Point,11915
+1116,1115,Table Styles Gallery,12385
+1117,1115,Table Style Clear Table,14727
+1118,1115,Shading Color Picker,13162
+1119,1115,Object Fill More Colors Dialog,1051
+1120,1115,Object Picture Fill,12612
+1121,1115,Gradient Gallery,12116
+1122,1115,Shape Fill More Gradients Dialog,12683
+1123,1115,Shape Fill Texture Gallery,11531
+1124,1115,More Texture Options,15679
+1125,1115,Table Background Gallery,14249
+1126,1115,Table Fill Color More Colors Dialog,14825
+1127,1115,Table Background Picture Fill,15978
+1128,1115,Table Borders Menu,12941
+1129,1115,Border None,151
+1130,1115,Borders All,1704
+1131,1115,Border Outside,150
+1132,1115,Border Inside,149
+1133,1115,Border Top,145
+1134,1115,Border Bottom,146
+1135,1115,Border Left,147
+1136,1115,Border Right,148
+1137,1115,Border Inside Horizontal,1840
+1138,1115,Border Inside Vertical,1841
+1139,1115,Border Diagonal Down,1842
+1140,1115,Border Diagonal Up,1843
+1141,1115,Table Effects Menu,14735
+1142,1115,Table Effects Cell Bevel Gallery,14236
+1143,1115,Object Effect Shadow Gallery,12118
+1144,1115,Shadow Options Dialog,12684
+1145,1115,Reflection Gallery,14229
+1146,1107,Group Text Styles Table,16040
+1147,1146,Table Text Styles Gallery,16039
+1148,1146,Word Art Clear,14840
+1149,1146,Text Fill Color Picker,14835
+1150,1146,Text Fill Color More Colors Dialog,15680
+1151,1146,Text Picture Fill,14841
+1152,1146,Text Fill Gradient Gallery,14842
+1153,1146,Text Fill More Gradients Dialog,14843
+1154,1146,Text Fill Texture Gallery,14844
+1155,1146,Text Fill More Textures,16081
+1156,1146,Text Outline Color Picker,14836
+1157,1146,Text Outline Color More Colors Dialog,14837
+1158,1146,Text Outline Weight Gallery,14847
+1159,1146,Text Outline More Lines Dialog,14846
+1160,1146,Text Outline Dashes Gallery,14845
+1161,1146,Text Outline More Lines Dialog,14846
+1162,1146,Text Effects Menu,14838
+1163,1146,Text Effect Shadow Gallery,14848
+1164,1146,Text Effects More Shadows Dialog,14849
+1165,1146,Text Reflection Gallery,14857
+1166,1146,Text Effect Glow Gallery,14854
+1167,1146,Text Glow Color Picker,14855
+1168,1146,Text Glow Color More Colors Dialog,14856
+1169,1146,Bevel Text Gallery,15075
+1170,1146,Text Effects Bevel More3DOptions Dialog,14851
+1171,1146,Text Effects3DRotation Gallery,14852
+1172,1146,Text Effects3DRotation Options Dialog,14853
+1173,1146,Text Effect Transform Gallery,12120
+1174,1146,Word Art Format Dialog,15677
+1175,1107,Group Draw Borders,11570
+1176,1175,Table Draw Border Pen Style,1724
+1177,1175,Table Draw Border Pen Weight,2622
+1178,1175,Table Border Pen Color Picker,2628
+1179,1175,Table Border Color More Colors Dialog,14824
+1180,1175,Table Draw Table,2059
+1181,1175,Table Eraser,2060
+1182,1106,Tab Table Tools Layout,11869
+1183,1182,Group Table,14733
+1184,1183,Table Select Menu Power Point,15313
+1185,1183,Table Select,803
+1186,1183,Table Column Select,802
+1187,1183,Table Row Select,801
+1188,1183,Table Show Gridlines,2626
+1189,1182,Group Table Rows And Columns,11916
+1190,1189,Table Delete Rows And Columns Menu,15314
+1191,1189,Table Delete Columns,2166
+1192,1189,Table Delete Rows,2165
+1193,1189,Table Insert Rows Above,3682
+1194,1189,Table Insert Rows Below,3684
+1195,1189,Table Insert Columns Left,3686
+1196,1189,Table Insert Columns Right,3688
+1197,1182,Group Merge,13095
+1198,1197,Merge Cells,798
+1199,1197,Split Cells,800
+1200,1182,Group Table Cell Size,14734
+1201,1200,Table Column Width,14474
+1202,1200,Table Row Height,14475
+1203,1200,Table Columns Distribute,2067
+1204,1200,Table Rows Distribute,2068
+1205,1182,Group Alignment,11871
+1206,1205,Align Left,120
+1207,1205,Align Center,122
+1208,1205,Align Right,121
+1209,1205,Table Cell Align Top,2061
+1210,1205,Table Cell Align Center Vertically,2062
+1211,1205,Table Cell Align Bottom,2063
+1212,1205,Table Set Left To Right,3954
+1213,1205,Table Set Right To Left,3955
+1214,1205,Text Direction Gallery,13235
+1215,1205,Text Direction More Options Dialog,15166
+1216,1205,Table Cell Margins Gallery,13219
+1217,1205,Table Cell Custom Margins Dialog,13250
+1218,1182,Group Table Size,13218
+1219,1218,Table Height,14812
+1220,1218,Table Width,14811
+1221,1218,Table Lock Aspect Ratio,14813
+1222,1182,Group Arrange,11581
+1223,1222,Object Bring To Front Menu,14407
+1224,1222,Object Bring To Front,166
+1225,1222,Object Bring To Front,166
+1226,1222,Object Bring Forward,170
+1227,1222,Object Send To Back Menu,14408
+1228,1222,Object Send To Back,167
+1229,1222,Object Send To Back,167
+1230,1222,Object Send Backward,171
+1231,1222,Selection Pane,13244
+1232,1222,Object Align Menu,11920
+1233,1222,Objects Align Left Smart,12784
+1234,1222,Objects Align Center Horizontal Smart,12788
+1235,1222,Objects Align Right Smart,12785
+1236,1222,Objects Align Top Smart,12786
+1237,1222,Objects Align Middle Vertical Smart,12789
+1238,1222,Objects Align Bottom Smart,12787
+1239,1222,Align Distribute Horizontally,12790
+1240,1222,Align Distribute Vertically,12791
+1241,1222,Objects Align Relative To Container Smart,12783
+1242,1222,Objects Align Selected Smart,12782
+1243,1222,View Gridlines Power Point,7055
+1244,1222,Grid Settings,217
+1245,1222,Objects Group Menu,14409
+1246,1222,Objects Group,164
+1247,1222,Objects Regroup,338
+1248,1222,Objects Ungroup,165
+1249,1222,Object Rotate Gallery,11924
+1250,1222,Object Rotation Options Dialog,15678
+1251,0,Tab Set Sound Tools,13938
+1252,1251,Tab Sound Tools Options,12905
+1253,1252,Group Play,12907
+1254,1253,Movie Play,3524
+1255,1252,Group Sound Options,12909
+1256,1255,Slide Show Volume,12913
+1257,1255,Media Clip Tools Hide During Show,12910
+1258,1255,Media Clip Loop Until Stopped,12911
+1259,1255,Sound Play Sound Gallery,12912
+1260,1255,Sound Maximum File Size,13918
+1261,1255,Object Edit Dialog,961
+1262,1252,Group Arrange,11581
+1263,1262,Object Bring To Front Menu,14407
+1264,1262,Object Bring To Front,166
+1265,1262,Object Bring To Front,166
+1266,1262,Object Bring Forward,170
+1267,1262,Object Send To Back Menu,14408
+1268,1262,Object Send To Back,167
+1269,1262,Object Send To Back,167
+1270,1262,Object Send Backward,171
+1271,1262,Selection Pane,13244
+1272,1262,Object Align Menu,11920
+1273,1262,Objects Align Left Smart,12784
+1274,1262,Objects Align Center Horizontal Smart,12788
+1275,1262,Objects Align Right Smart,12785
+1276,1262,Objects Align Top Smart,12786
+1277,1262,Objects Align Middle Vertical Smart,12789
+1278,1262,Objects Align Bottom Smart,12787
+1279,1262,Align Distribute Horizontally,12790
+1280,1262,Align Distribute Vertically,12791
+1281,1262,Objects Align Relative To Container Smart,12783
+1282,1262,Objects Align Selected Smart,12782
+1283,1262,View Gridlines Power Point,7055
+1284,1262,Grid Settings,217
+1285,1262,Objects Group Menu,14409
+1286,1262,Objects Group,164
+1287,1262,Objects Regroup,338
+1288,1262,Objects Ungroup,165
+1289,1262,Object Rotate Gallery,11924
+1290,1262,Object Rotation Options Dialog,15678
+1291,1252,Group Size,11877
+1292,1291,Shape Height,13915
+1293,1291,Shape Width,13916
+1294,1291,Object Size And Position Dialog,14098
+1295,0,Tab Set Movie Tools,13939
+1296,1295,Tab Movie Tools Options,12906
+1297,1296,Group Play,12907
+1298,1297,Movie Play,3524
+1299,1296,Group Movie Options,12908
+1300,1299,Slide Show Volume,12913
+1301,1299,Movie Play Automatically,14338
+1302,1299,Media Clip Tools Hide During Show,12910
+1303,1299,Movie Play Full Screen,12915
+1304,1299,Media Clip Loop Until Stopped,12911
+1305,1299,Movie Rewind After Playing,12916
+1306,1299,Object Edit Dialog,961
+1307,1296,Group Arrange,11581
+1308,1307,Object Bring To Front Menu,14407
+1309,1307,Object Bring To Front,166
+1310,1307,Object Bring To Front,166
+1311,1307,Object Bring Forward,170
+1312,1307,Object Send To Back Menu,14408
+1313,1307,Object Send To Back,167
+1314,1307,Object Send To Back,167
+1315,1307,Object Send Backward,171
+1316,1307,Selection Pane,13244
+1317,1307,Object Align Menu,11920
+1318,1307,Objects Align Left Smart,12784
+1319,1307,Objects Align Center Horizontal Smart,12788
+1320,1307,Objects Align Right Smart,12785
+1321,1307,Objects Align Top Smart,12786
+1322,1307,Objects Align Middle Vertical Smart,12789
+1323,1307,Objects Align Bottom Smart,12787
+1324,1307,Align Distribute Horizontally,12790
+1325,1307,Align Distribute Vertically,12791
+1326,1307,Objects Align Relative To Container Smart,12783
+1327,1307,Objects Align Selected Smart,12782
+1328,1307,View Gridlines Power Point,7055
+1329,1307,Grid Settings,217
+1330,1307,Objects Group Menu,14409
+1331,1307,Objects Group,164
+1332,1307,Objects Regroup,338
+1333,1307,Objects Ungroup,165
+1334,1307,Object Rotate Gallery,11924
+1335,1307,Object Rotation Options Dialog,15678
+1336,1295,Group Size,11877
+1337,1336,Shape Height,13915
+1338,1336,Shape Width,13916
+1339,1336,Object Size And Position Dialog,14098
+1340,0,Tab Set CDAudio Tools,13940
+1341,1340,Tab CDAudio Tools Options,13923
+1342,1341,Group Play,12907
+1343,1342,Movie Play,3524
+1344,1341,Group CDAudio Setup,15315
+1345,1344,Slide Show Volume,12913
+1346,1344,CDAudio Start Playing Label,14609
+1347,1344,CDAudio Start Track,13919
+1348,1344,CDAudio Start Time,13921
+1349,1344,CDAudio Stop Playing Label,14610
+1350,1344,CDAudio Stop Track,13920
+1351,1344,CDAudio Stop Time,13922
+1352,1344,CDAudio Play Track Automatically,15278
+1353,1344,Media Clip Loop Until Stopped,12911
+1354,1344,Media Clip Tools Hide During Show,12910
+1355,1344,Object Edit Dialog,961
+1356,1341,Group Arrange,11581
+1357,1356,Object Bring To Front Menu,14407
+1358,1356,Object Bring To Front,166
+1359,1356,Object Bring To Front,166
+1360,1356,Object Bring Forward,170
+1361,1356,Object Send To Back Menu,14408
+1362,1356,Object Send To Back,167
+1363,1356,Object Send To Back,167
+1364,1356,Object Send Backward,171
+1365,1356,Selection Pane,13244
+1366,1356,Object Align Menu,11920
+1367,1356,Objects Align Left Smart,12784
+1368,1356,Objects Align Center Horizontal Smart,12788
+1369,1356,Objects Align Right Smart,12785
+1370,1356,Objects Align Top Smart,12786
+1371,1356,Objects Align Middle Vertical Smart,12789
+1372,1356,Objects Align Bottom Smart,12787
+1373,1356,Align Distribute Horizontally,12790
+1374,1356,Align Distribute Vertically,12791
+1375,1356,Objects Align Relative To Container Smart,12783
+1376,1356,Objects Align Selected Smart,12782
+1377,1356,View Gridlines Power Point,7055
+1378,1356,Grid Settings,217
+1379,1356,Objects Group Menu,14409
+1380,1356,Objects Group,164
+1381,1356,Objects Regroup,338
+1382,1356,Objects Ungroup,165
+1383,1356,Object Rotate Gallery,11924
+1384,1356,Object Rotation Options Dialog,15678
+1385,1341,Group Size,11877
+1386,1385,Shape Height,13915
+1387,1385,Shape Width,13916
+1388,1385,Object Size And Position Dialog,14098
+1389,0,Tab Set Ink Tools,14344
+1390,1389,Tab Ink Tools Pens,13965
+1391,1390,Group Ink Select,13133
+1392,1391,Objects Select,182
+1393,1390,Group Ink Pens,13966
+1394,1393,Ink Ballpoint Pen,13969
+1395,1393,Ink Felt Tip Pen,13970
+1396,1393,Ink Highlighter,13971
+1397,1393,Ink Eraser,9523
+1398,1390,Group Ink Format,15154
+1399,1398,Ink Color Picker,15155
+1400,1398,Ink Color More Colors Dialog,7879
+1401,1398,Outline Weight Gallery,11866
+1402,1398,Line Styles Dialog,1054
+1403,1390,Group Ink Close,13968
+1404,1403,Ink Tools Close,15599

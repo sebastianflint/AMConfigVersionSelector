@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AMConfigVersionSelector.exe" size="59376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AMConfigVersionSelector.exe" size="78832">
       <assemblyIdentity name="AMConfigVersionSelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZbkPPAR80A3Z01pNexg46eGYQ/ah5cQ/ug6fjK6bsGg=</dsig:DigestValue>
+        <dsig:DigestValue>2uhTacxw0F5ZNb+2WWD6Ay6oh3jQ1wwIofbYH28LtMM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

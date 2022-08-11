@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Access>
+  <Tab ControlName="MainMenu" DisplayName="Main Menu" Id="" >
+    <Button ControlName="FileSave" DisplayName="Save" Id="3" />
+    <Button ControlName="FileSaveAs" DisplayName="Save As" Id="748" />
+    <Button ControlName="FileOpen" DisplayName="Open" Id="23" />
+    <Button ControlName="FileCloseDatabase" DisplayName="Close Database" Id="11268" />
+    <Button ControlName="ApplicationOptionsDialog" DisplayName="Options" Id="11323" />
+    <Button ControlName="FileExit" DisplayName="Exit" Id="752" />
+  </Tab>
+  <Tab ControlName="TabInfo" DisplayName="Info" Id="18148">
+    <Group ControlName="GroupARMPreview" DisplayName="Preview Edition" Id="25295" />
+    <Group ControlName="GroupSecurityWarning" DisplayName="Security Warning" Id="19092" />
+    <Group ControlName="GroupReadOnly" DisplayName="Read Only" Id="19100" />
+    <Group ControlName="GroupReadOnlyServer" DisplayName="Read Only Server" Id="19101" />
+    <Group ControlName="GroupReadOnlyOffline" DisplayName="Read Only Offline" Id="19102" />
+    <Group ControlName="GroupReconnectTables" DisplayName="Reconnect Tables" Id="19494" />
+    <Group ControlName="GroupApplicationLog" DisplayName="Application Log" Id="21969" />
+    <Group ControlName="GroupCachedTables" DisplayName="Cached Tables" Id="19877" />
+    <Group ControlName="GroupDataConnectivity" DisplayName="Data Connectivity" Id="24866" />
+    <Group ControlName="ReportOnMyData" DisplayName="Report On My Data" Id="24845" />
+    <Group ControlName="GroupManageConnectivity" DisplayName="Manage Connectivity" Id="24915" />
+    <Group ControlName="GroupPublishToSharePoint" DisplayName="Publish To SharePoint" Id="19743" />
+    <Group ControlName="GroupDatabaseCompact" DisplayName="Database Compact" Id="20588" />
+    <Group ControlName="GroupDatabasePermissions" DisplayName="Database Permissions" Id="20590" />
+    <Group ControlName="GroupDatabaseEncryption" DisplayName="Database Encryption" Id="20591" />
+    <Group ControlName="FileServerMenu" DisplayName="File Server Menu" Id="14765" />
+    <Group ControlName="GroupThumbnail" DisplayName="Thumbnail" Id="18792" />
+    <Group ControlName="GroupFileProperties" DisplayName="File Properties" Id="20294" />
+  </Tab>
+  <Tab ControlName="TabOfficeStart" DisplayName="New" Id="24132" />
+  <Tab ControlName="TabRecent" DisplayName="Open" Id="19950">
+    <TaskFormGroup ControlName="GroupOpenPlaces" DisplayName="Open" Id="25166">
+      <Category ControlName="ButtonCategoryRecentDocuments" DisplayName="Places" Id="25168">
+        <Task ControlName="ButtonTaskRecentDocuments" DisplayName="Recent Documents" Id="25169">
+          <Group ControlName="GroupRecentDocuments" DisplayName="Recent Documents" Id="25167">
+            <Button ControlName="ButtonOpenBrowse" DisplayName="Browse More Files" Id="24088" />
+          </Group>
+        </Task>
+      </Category>
+    </TaskFormGroup>
+  </Tab>
+  <Tab ControlName="TabSave" DisplayName="Save As" Id="24190">
+    <TaskFormGroup ControlName="SaveGroup" DisplayName="Save" Id="24191">
+      <Category ControlName="Save" DisplayName="Save" Id="24193">
+        <Task ControlName="PublishToAccessServices" DisplayName="Publish To Access Services" Id="22205">
+          <Group ControlName="PublishToAccessServices" DisplayName="Publish To Access Services" Id="22205" />
+          <Group ControlName="GroupPrepareDatabaseForWeb" DisplayName="Prepare Database For Web" Id="20586" />
+          <Group ControlName="GroupPublishToAccessServices" DisplayName="Publish To Access Services" Id="22192" />
+        </Task>
+      </Category>
+      <Category ControlName="FileTypes" DisplayName="File Types" Id="18196">
+        <Task ControlName="SaveDatabaseAs" DisplayName="Save Database As" Id="20584">
+          <Group ControlName="GroupSaveDatabase" DisplayName="Save Database" Id="22189" />
+        </Task>
+        <Task ControlName="SaveObjectAs" DisplayName="Save Object As" Id="16122">
+          <Group ControlName="GroupSaveObject" DisplayName="Save Object" Id="22190" />
+        </Task>
+      </Category>
+    </TaskFormGroup>
+  </Tab>
+  <Tab ControlName="TabPrint" DisplayName="Print" Id="18244">
+    <TaskGroup ControlName="GroupPrint" DisplayName="Group Print" Id="20446">
+      <Category ControlName="PrintCategory" DisplayName="Print Category" Id="22121">
+        <Task ControlName="FilePrintQuick" DisplayName="File Print Quick" Id="2521" />
+        <Task ControlName="PrintDialogAccess" DisplayName="Print Dialog Access" Id="15948" />
+        <Task ControlName="FilePrintPreview" DisplayName="File Print Preview" Id="109" />
+      </Category>
+    </TaskGroup>
+  </Tab>
+  <Tab ControlName="TabHelp" DisplayName="Account" Id="20802">
+    <Group ControlName="GroupBackstageIdentity" DisplayName="User Information" Id="24423" />
+    <Group ControlName="Personalization" DisplayName="Office Background" Id="24850" />
+    <Group ControlName="Theming" DisplayName="Office Theme" Id="25368" />
+    <Group ControlName="ManageServices" DisplayName="Connected Services" Id="24207" />
+    <Group ControlName="GroupBackstageSignInDisabled" DisplayName="Sign-in has been disabled" Id="24952" />
+    <Group ControlName="GroupBackstageSignIn" DisplayName="Sign in to Office" Id="24424" />
+    <Group ControlName="GroupClickToRunUpdateStatus" DisplayName="Click To Run Update Status" Id="20511" />
+    <Group ControlName="GroupAboutOfficeProducts" DisplayName="About" Id="18158" />
+  </Tab>
+</Access>

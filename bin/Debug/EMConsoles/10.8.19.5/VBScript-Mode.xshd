@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for VBScript 2.0  -->
+
+<SyntaxDefinition name ="VBScript" extensions = ".vbs">
+	
+	<Properties>
+		<Property name="LineComment" value="'"/>
+	</Properties>
+
+	<Digits name ="Digits" bold ="true" italic ="false" color ="Brown"/>
+
+	<RuleSets>
+		<RuleSet ignorecase = "true">
+			<Delimiters>=!&gt;&lt;+-/*%&amp;|^~.}{,;][?:=()</Delimiters>
+			
+			<Span name ="LineComment" bold ="false" italic ="false" color ="Green" stopateol ="true">
+				<Begin>'</Begin>
+			</Span>
+			
+			<Span name ="String" bold ="false" italic ="false" color ="Magenta" stopateol ="false" escapecharacter='"'>
+				<Begin>&quot;</Begin>
+				<End>&quot;</End>
+			</Span>
+	
+			<Span name = "Character" bold = "false" italic = "false" color = "Magenta" stopateol = "true" >
+				<Begin>&apos;</Begin>
+				<End>&apos;</End>
+			</Span>
+	
+			<KeyWords name ="VBScriptKeyWords" bold="false" italic = "false" color = "Blue">
+				<Key word =  "And"/>
+				<Key word =  "As" />
+				<Key word =  "Boolean"/>
+				<Key word =  "ByRef"/>
+				<Key word =  "Byte" />
+				<Key word =  "ByVal"/>
+				<Key word =  "Call" />
+				<Key word =  "Case" />
+				<Key word =  "Class"/>
+				<Key word =  "Const"/>
+				<Key word =  "Currency"/>
+				<Key word =  "Debug"/>
+				<Key word =  "Dim" />
+				<Key word =  "Do"/>
+				<Key word =  "Double"/>
+				<Key word =  "Each"/>				
+				<Key word =  "Else"/>
+				<Key word =  "ElseIf" />
+				<Key word =  "Empty"/>
+				<Key word =  "End" />
+				<Key word =  "EndIf" />
+				<Key word =  "Enum" />
+				<Key word =  "Eqv" />
+				<Key word =  "Event"/>
+				<Key word =  "Exit"/>
+				<Key word =  "False" />
+				<Key word =  "For" />
+				<Key word =  "Function"/>
+				<Key word =  "Get" />
+				<Key word =  "GoTo"/>
+				<Key word =  "If"/>
+				<Key word =  "Imp"/>
+				<Key word =  "Implements" />
+				<Key word =  "In"/>
+				<Key word =  "Integer" />
+				<Key word =  "Is"/>
+				<Key word =  "Let" />
+				<Key word =  "Like"/>
+				<Key word =  "Long"	/>
+				<Key word =  "Loop"/>
+				<Key word =  "LSet"	/>
+				<Key word =  "Me" />
+				<Key word =  "Mod" />
+				<Key word =  "New" />
+				<Key word =  "Next" />
+				<Key word =  "Not" />
+				<Key word =  "Nothing"/>
+				<Key word =  "Null"	/>
+				<Key word =  "On"/>
+				<Key word =  "Option" />
+				<Key word =  "Optional" />
+				<Key word =  "Or" />
+				<Key word =  "ParamArray" />
+				<Key word =  "Preserve" />
+				<Key word =  "Private" />
+				<Key word =  "Public" />
+				<Key word =  "RaiseEvent" />
+				<Key word =  "ReDim" />
+				<Key word =  "Rem" />
+				<Key word =  "Resume" />
+				<Key word =  "RSet" />
+				<Key word =  "Select"/>
+				<Key word =  "Set"/>
+				<Key word =  "Shared"/>
+				<Key word =  "Single" />
+				<Key word =  "Static" />
+				<Key word =  "Stop" />
+				<Key word =  "Sub" />
+				<Key word =  "Then"/>
+				<Key word =  "To" />
+				<Key word =  "True"/>
+				<Key word =  "Type"/>
+				<Key word =  "TypeOf"/>
+				<Key word =  "Until"/>
+				<Key word =  "Variant"/>
+				<Key word =  "Wend"/>
+				<Key word =  "While"/>
+				<Key word =  "With"/>
+				<Key word =  "Xor"/>
+				<Key word =  "Year"/>
+				
+			</KeyWords>			
+	
+			<KeyWords name ="VBScriptGlobalFunctions" bold="false" italic = "false" color = "Blue">
+			<Key word =  "CDate"/>
+				<Key word =  "Date"/>
+				<Key word =  "DateAdd"/>
+				<Key word =  "DateDiff"/>
+				<Key word =  "DatePart"/>
+				<Key word =  "DateSerial"/>
+				<Key word =  "DateValue" />
+				<Key word =  "Day"/>
+				<Key word =  "FormatDateTime" />
+				<Key word =  "Hour"/>
+				<Key word =  "IsDate"/>
+				<Key word =  "Minute"/>
+				<Key word =  "Month" />
+				<Key word =  "MonthName"/>
+				<Key word =  "Now"/>
+				<Key word =  "Second"/>				
+				<Key word =  "Time"/>
+				<Key word =  "Timer"/>
+				<Key word =  "TimeSerial"/>
+				<Key word =  "TimeValue"/>
+				<Key word =  "Weekday"/>
+				<Key word =  "WeekdayName"/>
+				<Key word =  "Year"/>
+				<Key word =  "Asc"/>
+				<Key word =  "CBool"/>
+				<Key word =  "CByte"/>
+				<Key word =  "CCur"/>
+				<Key word =  "CDate"/>
+				<Key word =  "CDbl"/>
+				<Key word =  "Chr"/>
+				<Key word =  "CInt"/>
+				<Key word =  "CLng"/>
+				<Key word =  "CSng"/>
+				<Key word =  "CStr"/>
+				<Key word =  "Hex" />
+				<Key word =  "Oct"/>
+				<Key word =  "FormatCurrency"/>
+				<Key word =  "FormatDateTime"/>
+				<Key word =  "FormatNumber"/>
+				<Key word =  "FormatPercent"/>
+				<Key word =  "Abs"/>
+				<Key word =  "Atn"/>
+				<Key word =  "Exp"/>
+				<Key word =  "Hex"/>
+				<Key word =  "Cos"/>
+				<Key word =  "Int"/>
+				<Key word =  "Fix"/>
+				<Key word =  "Log"/>
+				<Key word =  "Oct"/>
+				<Key word =  "Rnd"/>
+				<Key word =  "Sgn"/>
+				<Key word =  "Sin"/>
+				<Key word =  "Sqr"/>
+				<Key word =  "Tan"/>
+				<Key word =  "Array"/>
+				<Key word =  "Filter"/>
+				<Key word =  "IsArray"/>
+				<Key word =  "Join"/>
+				<Key word =  "LBound"/>
+				<Key word =  "Split"/>
+				<Key word =  "UBound"/>
+				<Key word =  "InStr"/>
+				<Key word =  "InStrRev"/>
+				<Key word =  "LCase"/>
+				<Key word =  "Left"/>
+				<Key word =  "Len"/>
+				<Key word =  "LTrim"/>
+				<Key word =  "RTrim"/>
+				<Key word =  "Trim"/>
+				<Key word =  "Mid"/>
+				<Key word =  "Replacevolatile"/>
+				<Key word =  "Right"/>
+				<Key word =  "Space"/>
+				<Key word =  "StrComp"/>
+				<Key word =  "String"/>
+                <Key word =  "StrReverse"/>
+                <Key word =  "UCase"/>
+                <Key word =  "CreateObject"/>
+                <Key word =  "Eval"/>
+                <Key word =  "GetLocale"/>
+                <Key word =  "GetObject"/>
+                <Key word =  "GetRef"/>
+                <Key word =  "InputBox"/>
+                <Key word =  "IsEmpty"/>
+                <Key word =  "IsNull"/>
+                <Key word =  "IsNumeric"/>
+                <Key word =  "IsObject"/>
+                <Key word =  "LoadPicture"/>
+                <Key word =  "MsgBox"/>
+                <Key word =  "RGB"/>
+                <Key word =  "Round"/>
+                <Key word =  "ScriptEngine"/>
+                <Key word =  "ScriptEngineBuildVersion"/>
+                <Key word =  "ScriptEngineMajorVersion"/>
+                <Key word =  "ScriptEngineMinorVersion"/>
+                <Key word =  "SetLocale"/>
+                <Key word =  "TypeName"/>
+                <Key word =  "VarType"/>
+			</KeyWords>		
+		</RuleSet>
+	</RuleSets>
+	
+</SyntaxDefinition>
+

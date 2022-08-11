@@ -63,9 +63,29 @@ namespace AMConfigVersionSelector.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _330401_about_details_help_info_information_icon {
+            get {
+                object obj = ResourceManager.GetObject("330401_about_details_help_info_information_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8111415_switchcurved_switch_next_forward_arrow_icon {
             get {
                 object obj = ResourceManager.GetObject("8111415_switchcurved_switch_next_forward_arrow_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9055432_bxs_exit_icon {
+            get {
+                object obj = ResourceManager.GetObject("9055432_bxs_exit_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

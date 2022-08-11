@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="1.0" schemaVersion="1.0"
+                   xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+  <policyNamespaces>
+    <target prefix="EM" namespace="AppSense.Policies.EnvironmentManager" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <resources minRequiredRevision="2.0" />
+  <categories>
+    <category name="AppSense" displayName="$(string.AppSense)" />
+    <category name="EM" displayName="$(string.EM)">
+      <parentCategory ref="EM:AppSense" />
+    </category>
+  </categories>
+  <policies>
+    <policy name="ServerList" 
+            class="Both"
+            displayName="$(string.ServerList)"
+            explainText="$(string.ServerList_Help)"
+            presentation="$(presentation.ServerList)"
+            key="Software\Policies\AppSense\Environment Manager\Personalization">
+      <parentCategory ref="EM" />
+      <supportedOn ref="windows:SUPPORTED_WindowsXPSP2_Or_WindowsNET" />
+      <elements>
+        <text id="ServerListBox" valueName="ServerList" required="true" maxLength="255" />
+      </elements>
+    </policy>
+    <policy name="VirtualHostList" 
+            class="Both"
+            displayName="$(string.VirtualHostList)"
+            explainText="$(string.VirtualHostList_Help)"
+            presentation="$(presentation.VirtualHostList)"
+            key="Software\Policies\AppSense\Environment Manager\Personalization">
+      <parentCategory ref="EM" />
+      <supportedOn ref="windows:SUPPORTED_WindowsXPSP2_Or_WindowsNET" />
+      <elements>
+        <text id="ServerListBox" valueName="VirtualHostList" required="true" />
+      </elements>
+    </policy>
+    <policy name="SkipSiteProcessing"
+            class="Both"
+            displayName="$(string.SkipSiteProcessing)"
+            explainText="$(string.SkipSiteProcessing_Help)"
+            key="Software\Policies\AppSense\Environment Manager\Personalization"
+            valueName="SkipSiteProcessing">
+      <parentCategory ref="EM" />
+      <supportedOn ref="windows:SUPPORTED_WindowsXPSP2_Or_WindowsNET" />
+    </policy>
+  </policies>
+</policyDefinitions>
