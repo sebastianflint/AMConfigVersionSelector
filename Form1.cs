@@ -270,6 +270,8 @@ namespace AMConfigVersionSelector
             cmbEMVersions.Enabled = true;
             btnOpenAamp.Enabled = true;
             btnOpenAemp.Enabled = true;
+            cmbAMVersion.SelectedItem = null;
+            cmbEMVersions.SelectedItem = null;
         }
     }
 }

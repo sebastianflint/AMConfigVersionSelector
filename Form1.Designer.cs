@@ -49,8 +49,8 @@ namespace AMConfigVersionSelector
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.grpOpenWithConsole = new System.Windows.Forms.GroupBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnUnloadConfig = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -71,7 +71,7 @@ namespace AMConfigVersionSelector
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(10, 92);
+            this.button2.Location = new System.Drawing.Point(359, 270);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 23);
             this.button2.TabIndex = 2;
@@ -135,9 +135,9 @@ namespace AMConfigVersionSelector
             this.lblHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader.Location = new System.Drawing.Point(32, 68);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(348, 33);
+            this.lblHeader.Size = new System.Drawing.Size(385, 33);
             this.lblHeader.TabIndex = 10;
-            this.lblHeader.Text = "AMConfigVersionSelector";
+            this.lblHeader.Text = "UWM ConfigVersionSelector";
             // 
             // cmbEMVersions
             // 
@@ -215,41 +215,39 @@ namespace AMConfigVersionSelector
             // 
             // grpOpenWithConsole
             // 
-            this.grpOpenWithConsole.Controls.Add(this.btnUnloadConfig);
             this.grpOpenWithConsole.Controls.Add(this.cmbAMVersion);
             this.grpOpenWithConsole.Controls.Add(this.cmbEMVersions);
             this.grpOpenWithConsole.Controls.Add(this.btnOpenAemp);
             this.grpOpenWithConsole.Controls.Add(this.btnOpenAamp);
-            this.grpOpenWithConsole.Controls.Add(this.button2);
             this.grpOpenWithConsole.Location = new System.Drawing.Point(349, 165);
             this.grpOpenWithConsole.Name = "grpOpenWithConsole";
-            this.grpOpenWithConsole.Size = new System.Drawing.Size(335, 128);
+            this.grpOpenWithConsole.Size = new System.Drawing.Size(335, 83);
             this.grpOpenWithConsole.TabIndex = 16;
             this.grpOpenWithConsole.TabStop = false;
             this.grpOpenWithConsole.Text = "Open with console";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.richTextBox1);
-            this.groupBox1.Location = new System.Drawing.Point(6, 165);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(338, 128);
-            this.groupBox1.TabIndex = 17;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Properties";
-            // 
             // btnUnloadConfig
             // 
             this.btnUnloadConfig.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUnloadConfig.Location = new System.Drawing.Point(170, 92);
+            this.btnUnloadConfig.Location = new System.Drawing.Point(519, 270);
             this.btnUnloadConfig.Name = "btnUnloadConfig";
             this.btnUnloadConfig.Size = new System.Drawing.Size(147, 23);
             this.btnUnloadConfig.TabIndex = 15;
             this.btnUnloadConfig.Text = "Unload Configuration";
             this.btnUnloadConfig.UseVisualStyleBackColor = true;
             this.btnUnloadConfig.Click += new System.EventHandler(this.btnUnloadConfig_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.richTextBox1);
+            this.groupBox1.Location = new System.Drawing.Point(6, 165);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(338, 128);
+            this.groupBox1.TabIndex = 17;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Properties";
             // 
             // Form1
             // 
@@ -258,9 +256,11 @@ namespace AMConfigVersionSelector
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(696, 326);
+            this.Controls.Add(this.btnUnloadConfig);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.grpOpenWithConsole);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.lblHeader);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.statusStrip1);
@@ -268,7 +268,7 @@ namespace AMConfigVersionSelector
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "AMConfigVersionSelector Version 1.2";
+            this.Text = "UWM ConfigVersionSelector Version 1.2";
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.Form1_DragOver);
             this.statusStrip1.ResumeLayout(false);
