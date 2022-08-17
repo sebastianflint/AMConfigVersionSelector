@@ -1,5 +1,5 @@
 ﻿
-namespace AMConfigVersionSelector
+namespace UWMConfigVersionSelector
 {
     partial class Form1
     {
@@ -44,19 +44,19 @@ namespace AMConfigVersionSelector
             this.btnOpenAemp = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.ToolStripAbout = new System.Windows.Forms.ToolStripMenuItem();
-            this.testToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.grpOpenWithConsole = new System.Windows.Forms.GroupBox();
             this.btnUnloadConfig = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.ToolStripAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.testToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.grpOpenWithConsole.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -175,44 +175,6 @@ namespace AMConfigVersionSelector
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(124, 80);
             // 
-            // ToolStripAbout
-            // 
-            this.ToolStripAbout.Image = global::AMConfigVersionSelector.Properties.Resources._330401_about_details_help_info_information_icon;
-            this.ToolStripAbout.Name = "ToolStripAbout";
-            this.ToolStripAbout.Size = new System.Drawing.Size(123, 38);
-            this.ToolStripAbout.Text = "About";
-            this.ToolStripAbout.Click += new System.EventHandler(this.ToolStripAbout_Click);
-            // 
-            // testToolStripMenuItem1
-            // 
-            this.testToolStripMenuItem1.Image = global::AMConfigVersionSelector.Properties.Resources._9055432_bxs_exit_icon;
-            this.testToolStripMenuItem1.Name = "testToolStripMenuItem1";
-            this.testToolStripMenuItem1.Size = new System.Drawing.Size(123, 38);
-            this.testToolStripMenuItem1.Text = "Exit";
-            this.testToolStripMenuItem1.Click += new System.EventHandler(this.testToolStripMenuItem1_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::AMConfigVersionSelector.Properties.Resources._8111415_switchcurved_switch_next_forward_arrow_icon;
-            this.pictureBox3.Location = new System.Drawing.Point(160, 9);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(109, 56);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 12;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::AMConfigVersionSelector.Properties.Resources.SVA_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(521, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 80);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // grpOpenWithConsole
             // 
             this.grpOpenWithConsole.Controls.Add(this.cmbAMVersion);
@@ -249,6 +211,44 @@ namespace AMConfigVersionSelector
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Properties";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::UWMConfigVersionSelector.Properties.Resources._8111415_switchcurved_switch_next_forward_arrow_icon;
+            this.pictureBox3.Location = new System.Drawing.Point(160, 9);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(109, 56);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 12;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::UWMConfigVersionSelector.Properties.Resources.SVA_Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(521, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(145, 80);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // ToolStripAbout
+            // 
+            this.ToolStripAbout.Image = global::UWMConfigVersionSelector.Properties.Resources._330401_about_details_help_info_information_icon;
+            this.ToolStripAbout.Name = "ToolStripAbout";
+            this.ToolStripAbout.Size = new System.Drawing.Size(123, 38);
+            this.ToolStripAbout.Text = "About";
+            this.ToolStripAbout.Click += new System.EventHandler(this.ToolStripAbout_Click);
+            // 
+            // testToolStripMenuItem1
+            // 
+            this.testToolStripMenuItem1.Image = global::UWMConfigVersionSelector.Properties.Resources._9055432_bxs_exit_icon;
+            this.testToolStripMenuItem1.Name = "testToolStripMenuItem1";
+            this.testToolStripMenuItem1.Size = new System.Drawing.Size(123, 38);
+            this.testToolStripMenuItem1.Text = "Exit";
+            this.testToolStripMenuItem1.Click += new System.EventHandler(this.testToolStripMenuItem1_Click);
+            // 
             // Form1
             // 
             this.AllowDrop = true;
@@ -268,16 +268,18 @@ namespace AMConfigVersionSelector
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UWM ConfigVersionSelector Version 1.2";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.Form1_DragOver);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.grpOpenWithConsole.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
