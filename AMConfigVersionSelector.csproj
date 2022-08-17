@@ -81,6 +81,7 @@
     <Reference Include="EMConsole.Common">
       <HintPath>..\..\..\..\..\tmp\2021.3\EMConsole.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="ObjectModel">
       <HintPath>..\..\..\..\..\tmp\2021.3\ObjectModel.dll</HintPath>
     </Reference>

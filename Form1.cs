@@ -32,11 +32,7 @@ namespace AMConfigVersionSelector
      */
     public partial class Form1 : Form
     {
-        string[] AMVersions = { "2019.1", "2020.2", "2020.3", "2021.1", "2021.3","2022.1" };
         string[] AMBuilds = { "10.3.61.0", "10.5.268.0", "10.6.111.0", "10.7.17.0", "10.8.61.0","10.9.37.0" };
-        string[] AMCombined = { "2019.1 (10.3.61.0)", "2020.2 (10.5.268.0)", "2020.3 (10.6.111.0)", "2021.1 (10.7.17.0)", "2021.3 (10.8.61.0)","2022.1 (10.9.37.0)" };
-        string[] EMVersion = { "2022.1 HF1" };
-        string[] EMBuilds = { "10.9.185.1" };
         string ConfigPath;
         string extension;
         string appPath = Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
@@ -99,7 +95,7 @@ namespace AMConfigVersionSelector
             cmbEMVersions.Enabled = true;
             cmbAMVersion.SelectedItem = null;
             cmbEMVersions.SelectedItem = null;
-            extension = Path.GetExtension(ConfigPath);
+            extension = Path.GetExtension(path);
 
             Common.Deployment.PackageManager manager = new Common.Deployment.PackageManager();
 
@@ -136,14 +132,7 @@ namespace AMConfigVersionSelector
                 cmbEMVersions.Enabled = false;
                 btnOpenAemp.Enabled = false;
 
-                foreach (string version in AMBuilds)
-                {
-                    if (creatorversion == version)
-                    {
-                        cmbAMVersion.SelectedIndex = i;
-                    }
-                    i++;
-                }
+                cmbAMVersion.SelectedIndex = cmbAMVersion.FindStringExact(creatorversion);
 
             }
 
@@ -275,6 +264,7 @@ namespace AMConfigVersionSelector
             btnOpenAemp.Enabled = true;
             cmbAMVersion.SelectedItem = null;
             cmbEMVersions.SelectedItem = null;
+            ConfigPath = "";
         }
     }
 }
