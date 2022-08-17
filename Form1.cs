@@ -48,11 +48,15 @@ namespace AMConfigVersionSelector
 
             string[] args = Environment.GetCommandLineArgs();
             string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
+            string[] AMVersionsInDir = Directory.GetDirectories(appPath + @"\AMConsoles\");
 
-            foreach (string version in AMCombined)
-             {
-                 cmbAMVersion.Items.Add(version);
-             }
+
+
+            foreach (string version in AMVersionsInDir)
+            {
+                var dirName = new DirectoryInfo(version).Name;
+                cmbAMVersion.Items.Add(dirName);
+            }
 
             foreach (string version in EMVersionsInDir)
             {
@@ -184,8 +188,7 @@ namespace AMConfigVersionSelector
             try
             {
 
-                string VersionPath = AMVersions[cmbAMVersion.SelectedIndex];
-                string fullPath = appPath + @"\AMConsoles\" + VersionPath;
+                string fullPath = appPath + @"\AMConsoles\" + cmbAMVersion.Text;
 
 
                 ProcessStartInfo startInfo = new ProcessStartInfo(fullPath + @"\AMConsole.exe");
@@ -203,7 +206,7 @@ namespace AMConfigVersionSelector
 
                 Process.Start(startInfo);
 
-                toolStripStatusLabel1.Text = "Starting Console Version " + VersionPath;
+                toolStripStatusLabel1.Text = "Starting Console Version " + cmbAMVersion.Text;
             }
             catch
             {
