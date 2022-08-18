@@ -32,7 +32,7 @@ namespace UWMConfigVersionSelector
      */
     public partial class Form1 : Form
     {
-        string ConfigPath;
+        public string ConfigPath;
         string extension;
         string appPath = Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
 

@@ -40,7 +40,8 @@ namespace UWMConfigVersionSelector
         void this_StartupNextInstance(object sender, StartupNextInstanceEventArgs e)
         {
             Form1 form = MainForm as Form1; //My derived form type
-            form.GetAAMPProperties(e.CommandLine[1]);
+            form.ConfigPath = e.CommandLine[1];
+            form.GetAAMPProperties(form.ConfigPath);
         }
 
         protected override void OnCreateMainForm()
