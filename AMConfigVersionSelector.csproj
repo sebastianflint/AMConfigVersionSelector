@@ -51,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Zeichnung1.ico</ApplicationIcon>
+    <ApplicationIcon>8059787_maintenance_update device_data processing_setting_configuration_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>4D841EA4EF168C0009B19E29DCF025A4B695BDB9</ManifestCertificateThumbprint>
@@ -164,6 +164,7 @@
     <None Include="Resources\9055432_bxs_exit_icon.png" />
     <None Include="Resources\330401_about_details_help_info_information_icon.png" />
     <None Include="Resources\ivanti-logo.png" />
+    <Content Include="8059787_maintenance_update device_data processing_setting_configuration_icon.ico" />
     <Content Include="Zeichnung1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

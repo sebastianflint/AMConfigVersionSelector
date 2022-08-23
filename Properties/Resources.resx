@@ -121,8 +121,8 @@
   <data name="SVA-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SVA-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ivanti-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ivanti-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="9055432_bxs_exit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9055432_bxs_exit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="8111415_switchcurved_switch_next_forward_arrow_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8111415_switchcurved_switch_next_forward_arrow_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,7 +130,10 @@
   <data name="330401_about_details_help_info_information_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\330401_about_details_help_info_information_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="9055432_bxs_exit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9055432_bxs_exit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ivanti-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ivanti-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5167cb98f96a4d46a9f1f73ebd52abe8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5167cb98f96a4d46a9f1f73ebd52abe8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

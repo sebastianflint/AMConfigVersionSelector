@@ -44,13 +44,13 @@ namespace UWMConfigVersionSelector
             this.btnOpenAemp = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.ToolStripAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.testToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.grpOpenWithConsole = new System.Windows.Forms.GroupBox();
             this.btnUnloadConfig = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.ToolStripAbout = new System.Windows.Forms.ToolStripMenuItem();
-            this.testToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.grpOpenWithConsole.SuspendLayout();
@@ -133,7 +133,7 @@ namespace UWMConfigVersionSelector
             // 
             this.lblHeader.AutoSize = true;
             this.lblHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.Location = new System.Drawing.Point(32, 68);
+            this.lblHeader.Location = new System.Drawing.Point(31, 78);
             this.lblHeader.Name = "lblHeader";
             this.lblHeader.Size = new System.Drawing.Size(385, 33);
             this.lblHeader.TabIndex = 10;
@@ -175,6 +175,22 @@ namespace UWMConfigVersionSelector
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(124, 80);
             // 
+            // ToolStripAbout
+            // 
+            this.ToolStripAbout.Image = global::UWMConfigVersionSelector.Properties.Resources._330401_about_details_help_info_information_icon;
+            this.ToolStripAbout.Name = "ToolStripAbout";
+            this.ToolStripAbout.Size = new System.Drawing.Size(123, 38);
+            this.ToolStripAbout.Text = "About";
+            this.ToolStripAbout.Click += new System.EventHandler(this.ToolStripAbout_Click);
+            // 
+            // testToolStripMenuItem1
+            // 
+            this.testToolStripMenuItem1.Image = global::UWMConfigVersionSelector.Properties.Resources._9055432_bxs_exit_icon;
+            this.testToolStripMenuItem1.Name = "testToolStripMenuItem1";
+            this.testToolStripMenuItem1.Size = new System.Drawing.Size(123, 38);
+            this.testToolStripMenuItem1.Text = "Exit";
+            this.testToolStripMenuItem1.Click += new System.EventHandler(this.testToolStripMenuItem1_Click);
+            // 
             // grpOpenWithConsole
             // 
             this.grpOpenWithConsole.Controls.Add(this.cmbAMVersion);
@@ -213,10 +229,10 @@ namespace UWMConfigVersionSelector
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::UWMConfigVersionSelector.Properties.Resources._8111415_switchcurved_switch_next_forward_arrow_icon;
-            this.pictureBox3.Location = new System.Drawing.Point(160, 9);
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(163, 9);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(109, 56);
+            this.pictureBox3.Size = new System.Drawing.Size(121, 63);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 12;
             this.pictureBox3.TabStop = false;
@@ -232,22 +248,6 @@ namespace UWMConfigVersionSelector
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // ToolStripAbout
-            // 
-            this.ToolStripAbout.Image = global::UWMConfigVersionSelector.Properties.Resources._330401_about_details_help_info_information_icon;
-            this.ToolStripAbout.Name = "ToolStripAbout";
-            this.ToolStripAbout.Size = new System.Drawing.Size(123, 38);
-            this.ToolStripAbout.Text = "About";
-            this.ToolStripAbout.Click += new System.EventHandler(this.ToolStripAbout_Click);
-            // 
-            // testToolStripMenuItem1
-            // 
-            this.testToolStripMenuItem1.Image = global::UWMConfigVersionSelector.Properties.Resources._9055432_bxs_exit_icon;
-            this.testToolStripMenuItem1.Name = "testToolStripMenuItem1";
-            this.testToolStripMenuItem1.Size = new System.Drawing.Size(123, 38);
-            this.testToolStripMenuItem1.Text = "Exit";
-            this.testToolStripMenuItem1.Click += new System.EventHandler(this.testToolStripMenuItem1_Click);
             // 
             // Form1
             // 

@@ -73,6 +73,16 @@ namespace UWMConfigVersionSelector.Properties {
         /// <summary>
         ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5167cb98f96a4d46a9f1f73ebd52abe8 {
+            get {
+                object obj = ResourceManager.GetObject("5167cb98f96a4d46a9f1f73ebd52abe8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8111415_switchcurved_switch_next_forward_arrow_icon {
             get {
                 object obj = ResourceManager.GetObject("8111415_switchcurved_switch_next_forward_arrow_icon", resourceCulture);

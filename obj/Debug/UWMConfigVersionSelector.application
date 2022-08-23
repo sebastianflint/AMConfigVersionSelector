@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="UWMConfigVersionSelector.exe.manifest" size="205822">
+    <dependentAssembly dependencyType="install" codebase="UWMConfigVersionSelector.exe.manifest" size="206347">
       <assemblyIdentity name="UWMConfigVersionSelector.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>A4UXhXddB7UVyvb6Hqzrb1w7aDU8gTSKbVadPliV5GE=</dsig:DigestValue>
+        <dsig:DigestValue>66Xu/x4vk9pE0DSkEXICNbm8lC+GE8UFQFnen+dqU2I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
