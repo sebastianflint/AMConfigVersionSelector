@@ -1,0 +1,12 @@
+﻿<caches>
+   <!-- Available settings for cacheroaming action.  Type is either Standard (default), OneDrive, OutlookSearch or WindowsSearch
+        String values (Application, ApplicationName) are resource identifiers in console.  If not found attribute value is used explicitly  -->
+
+  <cache Application="OneDriveApplication" ApplicationName="OneDriveApplicationName" CacheLocation="" Type="OneDrive"></cache>
+  <cache Application="OneNoteApplication" ApplicationName="OneNoteApplicationName" CacheLocation="%LOCALAPPDATA%\Microsoft\Onenote"></cache>
+  <cache Application="OutlookOSTApplication" ApplicationName="OutlookOSTApplicationName" CacheLocation="%LOCALAPPDATA%\Microsoft\Outlook"></cache>
+  <cache Application="SkypeForBusinessApplication" ApplicationName="SkypeForBusinessApplicationName" CacheLocation="%LOCALAPPDATA%\Microsoft\Office\16.0\Lync"></cache>
+  <cache Application="OutlookSearchApplication" ApplicationName="OutlookSearchApplicationName" CacheLocation="" Type="OutlookSearch"></cache>
+  <cache Application="WindowsSearchApplication" ApplicationName="WindowsSearchApplicationName" CacheLocation="%PROGRAMDATA%\Microsoft\Search" Type="WindowsSearch"></cache>
+
+</caches>	
