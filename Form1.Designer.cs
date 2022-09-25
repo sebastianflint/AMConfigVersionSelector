@@ -98,7 +98,7 @@ namespace UWMConfigVersionSelector
             this.lblOpenWithVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOpenWithVersion.Location = new System.Drawing.Point(356, 165);
             this.lblOpenWithVersion.Name = "lblOpenWithVersion";
-            this.lblOpenWithVersion.Size = new System.Drawing.Size(133, 16);
+            this.lblOpenWithVersion.Size = new System.Drawing.Size(134, 16);
             this.lblOpenWithVersion.TabIndex = 5;
             this.lblOpenWithVersion.Text = "Open with version:";
             this.lblOpenWithVersion.Click += new System.EventHandler(this.lblOpenWithVersion_Click);
@@ -265,12 +265,14 @@ namespace UWMConfigVersionSelector
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.lblOpenWithVersion);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UWM ConfigVersionSelector Version 1.2";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.Form1_DragOver);
             this.statusStrip1.ResumeLayout(false);
