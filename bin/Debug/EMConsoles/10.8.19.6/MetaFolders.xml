@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- 
+DisplayName from this file is localized, 
+any additions to this file need to be reflected in MetaFoldersDisplayName.resx
+-->
+<FolderRedirection>
+<MetaFolder NeutralName = "Administrative Tools" DisplayName ="Administrative Tools" KnownFolderId = "{724EF170-A42D-4FEF-9F26-B60E846FBA4F}" CSIDL = "48" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "AppData" DisplayName = "AppData (Roaming)" KnownFolderId = "{3EB685DB-65F9-4CF6-A03A-E3EF65729F3D}" CSIDL = "26" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Cache" DisplayName = "Temporary Internet Files" KnownFolderId = "{352481E8-33BE-4251-BA85-6007CAEDCF9D}" CSIDL = "32" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "CD Burning" DisplayName = "Temporary Burn Folder (CD Burning)" KnownFolderId = "{9E52AB10-F80D-49DF-ACB8-4330F5687855}" CSIDL = "59" SupportedOS = "10" OS_hasLimitations ="true" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Contacts" DisplayName = "Contacts" KnownFolderId = "{56784854-C6CB-462B-8169-88E350ACB882}" CSIDL = "-1" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Cookies" DisplayName = "Cookies" KnownFolderId = "{2B0F765D-C0E9-4171-908E-08A611B84FF6}" CSIDL = "33" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Desktop" DisplayName = "Desktop" KnownFolderId = "{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" CSIDL = "16" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Downloads" DisplayName = "Downloads" KnownFolderId = "{374DE290-123F-4565-9164-39C4925E467B}" CSIDL = "-1" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Favorites" DisplayName = "Favorites" KnownFolderId = "{1777F761-68AD-4D8A-87BD-30B759FA33DD}" CSIDL = "6" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "History" DisplayName = "History" KnownFolderId = "{D9DC8A3B-B784-432E-A781-5A1130A75963}" CSIDL = "34" SupportedOS = "10" OS_hasLimitations ="true" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Links" DisplayName = "Links" KnownFolderId = "{BFB9D5E0-C6A9-404C-B2B2-AE6DB6AF4968}" CSIDL = "-1" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "My Music" DisplayName = "Music (My Music)" KnownFolderId = "{4BD8D571-6D19-48D3-BE97-422220080E43}" CSIDL = "13" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "My Pictures" DisplayName = "Pictures (My Pictures)" KnownFolderId = "{33E28130-4E1E-4676-835A-98395C3BC3BB}" CSIDL = "39" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "My Video" DisplayName = "Videos (My Videos)" KnownFolderId = "{18989B1D-99B5-455B-841C-AB7C74E4DDFC}" CSIDL = "14" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "NetHood" DisplayName = "Network Shortcuts (NetHood)" KnownFolderId = "{C5ABBF53-E17F-4121-8900-86626FC2C973}" CSIDL = "19" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Personal" DisplayName = "Documents (My Documents)" KnownFolderId = "{FDD39AD0-238F-46AF-ADB4-6C85480369C7}" CSIDL = "5" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "PhotoAlbums" DisplayName = "Slide Shows" KnownFolderId = "{69D2CF90-FC33-4FB7-9A0C-EBB0F0FCB43C}" CSIDL = "-1" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "PrintHood" DisplayName = "Printer Shortcuts (PrintHood)" KnownFolderId = "{9274BD8D-CFD1-41C3-B35E-B13F55A758F4}" CSIDL = "27" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Programs" DisplayName = "Programs" KnownFolderId = "{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}" CSIDL = "2" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Quick Launch" DisplayName = "Quick Launch" KnownFolderId = "{52A4F021-7B75-48A9-9F6B-4B87A210BC8F}" CSIDL = "-1" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Recent" DisplayName = "Recent Items (My Recent Documents)" KnownFolderId = "{AE50C081-EBD2-438A-8655-8A092E34987A}" CSIDL = "8" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "SavedGames" DisplayName = "Saved Games" KnownFolderId = "{4C5C32FF-BB9D-43B0-B5B4-2D72E54EAAA4}" CSIDL = "-1" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Searches" DisplayName = "Searches" KnownFolderId = "{7D1D3A04-DEBB-4115-95CF-2F29DA2920DA}" CSIDL = "-1" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "SendTo" DisplayName = "SendTo" KnownFolderId = "{8983036C-27C0-404B-8F08-102D10DCFD74}" CSIDL = "9" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Start Menu" DisplayName = "Start Menu" KnownFolderId = "{625B53C3-AB48-4EC1-BA1F-A1EF4146FC19}" CSIDL = "11" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Startup" DisplayName = "Startup" KnownFolderId = "{B97D20BB-F46A-4C97-BA10-5E3608430854}" CSIDL = "7" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+<MetaFolder NeutralName = "Templates" DisplayName = "Templates" KnownFolderId = "{A63293E8-664E-48DB-A079-DF759E0509F7}" CSIDL = "21" SupportedOS = "10" OS_hasLimitations ="false" Comments = "Applies to the OSes listed"/>
+</FolderRedirection>
