@@ -8,4 +8,4 @@
         * E-Mail       : sebastian.flint@sva.de
 
       
-![grafik](https://user-images.githubusercontent.com/60140573/160280831-1c9b7619-2b64-4419-ae6b-a80fa24300eb.png)
+![Animation](https://user-images.githubusercontent.com/60140573/203807240-91fae69c-f1d6-4219-9d57-6890fca5839b.gif)
