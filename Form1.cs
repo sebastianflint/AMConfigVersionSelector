@@ -12,6 +12,8 @@ using AppSense.Aom;
 using EMConsole;
 using AppSense.Aom.BranchManagement;
 using System.IO;
+using System.Text.Json;
+using System.Net;
 
 namespace UWMConfigVersionSelector
 {
@@ -45,6 +47,8 @@ namespace UWMConfigVersionSelector
             string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
             string[] AMVersionsInDir = Directory.GetDirectories(appPath + @"\AMConsoles\");
 
+
+            CheckForUpdates();
 
 
             foreach (string version in AMVersionsInDir)
@@ -281,5 +285,49 @@ namespace UWMConfigVersionSelector
         {
 
         }
+
+        static void CheckForUpdates()
+        {
+            try
+            {
+                string currentVersion = "V1.1";
+                string latestVersion = GetLatestVersion("sebastianflint", "AMConfigVersionSelector");
+
+                if (currentVersion != latestVersion)
+                {
+                    MessageBox.Show("Latestversion:" + latestVersion);
+                }
+                else
+                {
+                    MessageBox.Show("Bereits aktuell");
+                }
+            }
+            catch (Exception ex)
+            {
+                //Console.WriteLine("An error occurred while checking for updates: " + ex.Message);
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+        static string GetLatestVersion(string username, string repository)
+        {
+            string url = "https://api.github.com/repos/" + username + "/" + repository + "/releases/latest";
+            string json;
+
+            using (WebClient client = new WebClient())
+            {
+                client.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko");
+                json = client.DownloadString(url);
+            }
+
+            JsonDocument document = JsonDocument.Parse(json);
+            return document.RootElement.GetProperty("tag_name").GetString().Replace("v", string.Empty);
+        }
     }
 }
+
+
+
+
+ 
