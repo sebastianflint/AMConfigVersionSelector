@@ -3595,14 +3595,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UWMConfigVersionSelector.exe" size="101872">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UWMConfigVersionSelector.exe" size="102384">
       <assemblyIdentity name="UWMConfigVersionSelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iHN+PzhKE0Pp+V06sPCcIj4jDZ2XbYPtDhhnr8oWH70=</dsig:DigestValue>
+        <dsig:DigestValue>euRS/1TJe8Bfk7/3lAFmcaTGG9h2NJqQP4i3by4/78A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

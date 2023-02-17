@@ -35,6 +35,8 @@ namespace UWMConfigVersionSelector
     public partial class Form1 : Form
     {
         public string ConfigPath;
+        List<string> emversion = new List<string>();
+        List<string> amversion = new List<string>();
         string extension;
         string appPath = Path.GetDirectoryName(System.Windows.Forms.Application.ExecutablePath);
 
@@ -43,26 +45,91 @@ namespace UWMConfigVersionSelector
   
             InitializeComponent();
 
+
+
             string[] args = Environment.GetCommandLineArgs();
-            string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
-            string[] AMVersionsInDir = Directory.GetDirectories(appPath + @"\AMConsoles\");
 
 
             CheckForUpdates();
 
 
+            string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
+            string[] AMVersionsInDir = Directory.GetDirectories(appPath + @"\AMConsoles\");
+
+
             foreach (string version in AMVersionsInDir)
             {
                 var dirName = new DirectoryInfo(version).Name;
-                cmbAMVersion.Items.Add(dirName);
+                amversion.Add(dirName);
             }
 
             foreach (string version in EMVersionsInDir)
             {
                 var dirName = new DirectoryInfo(version).Name;
-                cmbEMVersions.Items.Add(dirName);
+                emversion.Add(dirName);
             }
 
+
+            // Benutzerdefinierte Sortierfunktion
+            int CompareItems(string x, string y)
+            {
+                // Zerlegen der Strings in ihre numerischen Bestandteile
+                string[] xParts = x.Split('.');
+                string[] yParts = y.Split('.');
+
+                int x1 = int.Parse(xParts[0]);
+                int x2 = int.Parse(xParts[1]);
+                int x3 = int.Parse(xParts[2]);
+                int x4 = int.Parse(xParts[3]);
+
+                int y1 = int.Parse(yParts[0]);
+                int y2 = int.Parse(yParts[1]);
+                int y3 = int.Parse(yParts[2]);
+                int y4 = int.Parse(yParts[3]);
+
+                // Vergleich nach den numerischen Bestandteilen
+                if (x1 != y1)
+                {
+                    return x1.CompareTo(y1);
+                }
+                else if (x2 != y2)
+                {
+                    return x2.CompareTo(y2);
+                }
+                else if (x3 != y3)
+                {
+                    return x3.CompareTo(y3);
+                }
+                else
+                {
+                    return x4.CompareTo(y4);
+                }
+            }
+
+            // Sortieren der Datenquelle
+
+            try
+            {
+                emversion.Sort(CompareItems);
+                amversion.Sort(CompareItems);
+
+            }
+            catch
+            {
+                //MessageBox.Show("Error while reading console versions in directory. Please check format 1.x.x.x.","Error");
+            }
+
+
+            // Hinzufügen der sortierten Elemente zum Dropdown
+            foreach (string item in emversion)
+            {
+                cmbEMVersions.Items.Add(item);
+            }
+
+            foreach (string item in amversion)
+            {
+                cmbAMVersion.Items.Add(item);
+            }
 
             if (args.Length >= 2)
             {
