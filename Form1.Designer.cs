@@ -51,6 +51,7 @@ namespace UWMConfigVersionSelector
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.toolStripUpdate = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.grpOpenWithConsole.SuspendLayout();
@@ -98,7 +99,7 @@ namespace UWMConfigVersionSelector
             this.lblOpenWithVersion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOpenWithVersion.Location = new System.Drawing.Point(356, 165);
             this.lblOpenWithVersion.Name = "lblOpenWithVersion";
-            this.lblOpenWithVersion.Size = new System.Drawing.Size(134, 16);
+            this.lblOpenWithVersion.Size = new System.Drawing.Size(133, 16);
             this.lblOpenWithVersion.TabIndex = 5;
             this.lblOpenWithVersion.Text = "Open with version:";
             this.lblOpenWithVersion.Click += new System.EventHandler(this.lblOpenWithVersion_Click);
@@ -163,7 +164,7 @@ namespace UWMConfigVersionSelector
             this.notifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "IvantiVersionSelector";
+            this.notifyIcon1.Text = "UWM ConfigVersionSelector";
             this.notifyIcon1.Visible = true;
             // 
             // contextMenuStrip1
@@ -171,15 +172,17 @@ namespace UWMConfigVersionSelector
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripAbout,
+            this.toolStripUpdate,
             this.testToolStripMenuItem1});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(124, 80);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(188, 118);
+            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // ToolStripAbout
             // 
             this.ToolStripAbout.Image = global::UWMConfigVersionSelector.Properties.Resources._330401_about_details_help_info_information_icon;
             this.ToolStripAbout.Name = "ToolStripAbout";
-            this.ToolStripAbout.Size = new System.Drawing.Size(123, 38);
+            this.ToolStripAbout.Size = new System.Drawing.Size(187, 38);
             this.ToolStripAbout.Text = "About";
             this.ToolStripAbout.Click += new System.EventHandler(this.ToolStripAbout_Click);
             // 
@@ -187,7 +190,7 @@ namespace UWMConfigVersionSelector
             // 
             this.testToolStripMenuItem1.Image = global::UWMConfigVersionSelector.Properties.Resources._9055432_bxs_exit_icon;
             this.testToolStripMenuItem1.Name = "testToolStripMenuItem1";
-            this.testToolStripMenuItem1.Size = new System.Drawing.Size(123, 38);
+            this.testToolStripMenuItem1.Size = new System.Drawing.Size(187, 38);
             this.testToolStripMenuItem1.Text = "Exit";
             this.testToolStripMenuItem1.Click += new System.EventHandler(this.testToolStripMenuItem1_Click);
             // 
@@ -249,12 +252,20 @@ namespace UWMConfigVersionSelector
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // toolStripUpdate
+            // 
+            this.toolStripUpdate.Image = ((System.Drawing.Image)(resources.GetObject("toolStripUpdate.Image")));
+            this.toolStripUpdate.Name = "toolStripUpdate";
+            this.toolStripUpdate.Size = new System.Drawing.Size(187, 38);
+            this.toolStripUpdate.Text = "Check for Updates";
+            this.toolStripUpdate.Click += new System.EventHandler(this.toolStripUpdate_Click);
+            // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.BackColor = System.Drawing.Color.GhostWhite;
             this.ClientSize = new System.Drawing.Size(696, 326);
             this.Controls.Add(this.btnUnloadConfig);
             this.Controls.Add(this.groupBox1);
@@ -270,7 +281,7 @@ namespace UWMConfigVersionSelector
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UWM ConfigVersionSelector Version 1.2";
+            this.Text = "UWM ConfigVersionSelector Version 2.0";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
@@ -308,6 +319,7 @@ namespace UWMConfigVersionSelector
         private System.Windows.Forms.GroupBox grpOpenWithConsole;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnUnloadConfig;
+        private System.Windows.Forms.ToolStripMenuItem toolStripUpdate;
     }
 }
 

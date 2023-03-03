@@ -22,15 +22,6 @@ namespace UWMConfigVersionSelector
      * Description  : The UWM Config Version Selector is a program designed to read the Ivanti EM/AC Configuration.
      * Author       : Sebastian Flint
      * E-Mail       : sebastian.flint@sva.de
-     * 
-     * Included Build   Version
-     * 10.3.61.0        2019.1
-     * 10.5.268.0       2020.2
-     * 10.6.111.0       2020.3
-     * 10.7.17.0        2021.1
-     * 10.8.61.0        2021.3
-     * 10.9.37.0        2022.1
-     * 
      */
     public partial class Form1 : Form
     {
@@ -48,9 +39,6 @@ namespace UWMConfigVersionSelector
 
 
             string[] args = Environment.GetCommandLineArgs();
-
-
-            CheckForUpdates();
 
 
             string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
@@ -357,16 +345,26 @@ namespace UWMConfigVersionSelector
         {
             try
             {
-                string currentVersion = "V1.1";
+                string currentVersion = "V2.0";
                 string latestVersion = GetLatestVersion("sebastianflint", "AMConfigVersionSelector");
 
                 if (currentVersion != latestVersion)
                 {
-                    MessageBox.Show("Latestversion:" + latestVersion);
+                    //MessageBox.Show("There is a newer version available: " + latestVersion + "\nDownload at: https://github.com/sebastianflint/AMConfigVersionSelector", "New Version available");
+                    DialogResult dialogResult = MessageBox.Show("There is a new version available.\nDownload newer version?", "New version available", MessageBoxButtons.YesNo);
+
+                    if (dialogResult == DialogResult.Yes)
+                    {
+                        Process.Start("https://github.com/sebastianflint/AMConfigVersionSelector/releases/");
+                    }
+                    else if (dialogResult == DialogResult.No)
+                    {
+            
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Bereits aktuell");
+                    MessageBox.Show("You are already using the newest version.","No new version available");
                 }
             }
             catch (Exception ex)
@@ -390,6 +388,16 @@ namespace UWMConfigVersionSelector
 
             JsonDocument document = JsonDocument.Parse(json);
             return document.RootElement.GetProperty("tag_name").GetString().Replace("v", string.Empty);
+        }
+
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void toolStripUpdate_Click(object sender, EventArgs e)
+        {
+            CheckForUpdates();
         }
     }
 }
