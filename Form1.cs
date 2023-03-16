@@ -14,6 +14,7 @@ using AppSense.Aom.BranchManagement;
 using System.IO;
 using System.Text.Json;
 using System.Net;
+using System.Net.NetworkInformation;
 
 namespace UWMConfigVersionSelector
 {
@@ -375,6 +376,22 @@ namespace UWMConfigVersionSelector
 
         }
 
+        public static bool CheckInternetConnection()
+        {
+            try
+            {
+                using (var client = new WebClient())
+                using (var stream = client.OpenRead("https://github.com/"))
+                {
+                    return true;
+                }
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
         static string GetLatestVersion(string username, string repository)
         {
             string url = "https://api.github.com/repos/" + username + "/" + repository + "/releases/latest";
@@ -397,7 +414,16 @@ namespace UWMConfigVersionSelector
 
         private void toolStripUpdate_Click(object sender, EventArgs e)
         {
-            CheckForUpdates();
+            if (CheckInternetConnection())
+            {
+                CheckForUpdates();
+            }
+            else
+            {
+                MessageBox.Show("You dont have an active Internet Connection. Please check again.","Error");
+            }
+
+           
         }
     }
 }

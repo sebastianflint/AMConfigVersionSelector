@@ -3602,7 +3602,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KkgRO/VSP/MlU85utQrWaqQHRoU8IyZp9RcF8JG9jOg=</dsig:DigestValue>
+        <dsig:DigestValue>eF8PKm3pVPs1sd1iSvjaJ9ZKMuBNhZKCfk4yqTZK0xc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
