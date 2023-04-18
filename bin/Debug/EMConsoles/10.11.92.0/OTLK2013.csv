@@ -1,0 +1,4399 @@
+1,0,Main,0
+2,1,Tab Appointment,14923
+3,2,Group Send,14997
+4,3,Send Default,2617
+5,3,Send Update,1983
+6,3,Account Menu,15108
+7,3,Send Account Gallery,22967
+8,3,Save And Close,1975
+9,3,Post,2575
+10,2,Group Recover,16066
+11,10,Recover Invite To Meeting,1911
+12,2,Group Actions,15055
+13,12,Save And Close,1975
+14,12,Cancel Meeting,1657
+15,12,Delete,478
+16,12,Remove From Calendar,1564
+17,12,Open In Browser Outlook,13428
+18,12,Copy To Personal Calendar,2572
+19,12,Custom Actions Menu,15054
+20,12,Custom Actions Gallery,22975
+21,12,View Appointment In Calendar,1987
+22,12,Forward Menu,14359
+23,12,Forward In Forward Menu,15952
+24,12,Forward As I Calendar,5459
+25,12,Delete Distribution Group,21049
+26,12,Contact Send Group Menu,21048
+27,12,Forward As V Card,5573
+28,12,Forward Contact,13260
+29,12,Copy To Personal Contacts,695
+30,12,New Contact Menu,16071
+31,12,Save And New,1665
+32,12,New Contact From Same Company,1908
+33,12,Contact Send Menu,14967
+34,12,Forward As Business Card,13040
+35,12,Move To One Note,22382
+36,12,Open In Web Browser,9061
+37,12,Customize Search Folder,7794
+38,12,Rename This Folder,2512
+39,12,Copy This Folder,2499
+40,12,Move This Folder,2506
+41,12,Delete This Folder,2500
+42,12,Forward,356
+43,12,Toggle Mark As Unread,21047
+44,12,Forward Task,21052
+45,12,Menu Tasks More Actions,19715
+46,12,Copy To Personal Task List,2573
+47,2,Group Show,14920
+48,47,Show Appointment Page,14934
+49,47,Show Form Region Page,14919
+50,47,Show Custom Page,14915
+51,47,Show Scheduling Page,14935
+52,47,Show Tracking Page,14916
+53,47,Show Tracking Page Split Menu,18020
+54,47,View Tracking Status,18019
+55,47,O L Copy Tracking Status,18018
+56,47,Show All Fields Page,14922
+57,47,Show Custom Properties Page,14917
+58,47,Show Custom Actions Page,14918
+59,47,Show Members Page,14941
+60,47,Show Notes Page,14942
+61,47,Show Contact Page,14937
+62,47,Show Details Page,14940
+63,47,Show Certificates Page,14938
+64,47,Show Journal Page,14990
+65,47,Show Message Page,14914
+66,47,Show Share Page,14960
+67,47,Show Task Page,14986
+68,47,Show Task Details Page,14987
+69,2,Group Linked Meeting Notes,24502
+70,69,Take Meeting Notes,24503
+71,2,Group Attendees Meeting Not Sent,14930
+72,71,Invite Attendees,1086
+73,2,Group Attendees Meeting Sent,15979
+74,73,Cancel Invitation,2487
+75,73,Message To Attendees Menu,14924
+76,73,New Message To Attendees,1981
+77,73,Reply To All Attendees With Message,1984
+78,73,Reply All With Instant Message,14384
+79,73,Dial Menu,2616
+80,73,Call,15185
+81,73,Dial Gallery,22966
+82,73,New Call,2501
+83,73,Address Book,353
+84,73,Check Names,361
+85,73,Responses Menu,15778
+86,73,Request Responses,1881
+87,73,Allow New Time Proposals,6848
+88,2,Group Respond,14350
+89,88,Menu Accept Invitation,19984
+90,88,Accept Invitation Edit Response,19985
+91,88,Accept Invitation Send Response,19986
+92,88,Accept Invitation No Response,19987
+93,88,Menu Tentative Invitation,19992
+94,88,Tentative Invitation Edit Response,19993
+95,88,Tentative Invitation Send Response,19994
+96,88,Tentative Invitation No Response,19995
+97,88,Menu Decline Invitation,19988
+98,88,Decline Invitation Edit Response,19989
+99,88,Decline Invitation Send Response,19990
+100,88,Decline Invitation No Response,19991
+101,88,Accept Invitation,1087
+102,88,Tentative Accept Invitation,1089
+103,88,Decline Invitation,1088
+104,88,Propose New Time Menu,14928
+105,88,Propose New Time,6892
+106,88,Tentative Propose New Time,6905
+107,88,Decline And Propose New Time,6866
+108,88,Respond Menu,22378
+109,88,Reply,354
+110,88,Reply All,355
+111,88,Forward,356
+112,88,Reply With Instant Message,13619
+113,88,Reply All With Instant Message,14384
+114,88,Dial Menu,2616
+115,88,Call,15185
+116,88,Dial Gallery,22966
+117,88,New Call,2501
+118,88,Vote Menu,9091
+119,88,Voting Gallery,22971
+120,88,Approve Approval Request,19887
+121,88,Reject Approval Request,19888
+122,88,Reply With Meeting,19512
+123,88,Persona Send I M Menu,7239
+124,88,Respond Actions Menu,22381
+125,88,Forward As Attachment,13158
+126,88,Remove From Calendar,1564
+127,88,No Response Required For Invitation,16467
+128,88,Out Of Date Invitation,16468
+129,88,Change Response Button Menu,16469
+130,88,Change To Accept Invitation,16470
+131,88,Change To Tentative Accept Invitation,16472
+132,88,Change To Decline Invitation,16471
+133,88,Change To Propose New Time,16580
+134,88,Accept Proposal,6843
+135,88,View All Proposals,6907
+136,88,Post Reply,2989
+137,88,Send Again,2507
+138,88,Accept Task,1664
+139,88,Decline Task,3265
+140,88,Cancel Accept Task,2003
+141,88,Cancel Decline Task,2005
+142,2,Group Appointment More Options,21042
+143,142,Show Time As Gallery,14926
+144,142,Reminder Gallery,14925
+145,142,Reminder Sound,608
+146,142,Recurrence,1977
+147,142,Recurrence Edit Series,2010
+148,142,Show Time Zones,15662
+149,142,Room Finder,22383
+150,2,Group Appointment Options,14932
+151,150,Categorize Menu,14381
+152,150,Clear All Categories,11856
+153,150,Categorize Gallery,22152
+154,150,All Categories,11855
+155,150,Private,1663
+156,150,High Importance,1074
+157,150,Low Importance,1075
+158,2,Group Zoom,11813
+159,158,Zoom Dialog,925
+160,2,Group Ink,13964
+161,160,Inking Start,9071
+162,2,Group Appointment Actions,19961
+163,162,Open Appointment,19960
+164,162,Delete,478
+165,162,Cancel Meeting,1657
+166,162,Forward Menu,14359
+167,162,Forward,356
+168,162,Forward As I Calendar,5459
+169,2,Group Attendees,19968
+170,169,Invite Attendees,1086
+171,169,Add Or Remove Attendees,5430
+172,169,Message To Attendees Menu,14924
+173,169,New Message To Attendees,1981
+174,169,Reply To All Attendees With Message,1984
+175,169,Reply All With Instant Message,14384
+176,169,Dial Menu,2616
+177,169,Call,15185
+178,169,Dial Gallery,22966
+179,169,New Call,2501
+180,169,Tracking,19973
+181,2,Group Calendar Respond,18755
+182,181,Accept Invitation,1087
+183,181,Tentative Accept Invitation,1089
+184,181,Decline Invitation,1088
+185,181,Menu Accept Invitation,19984
+186,181,Menu Tentative Invitation,19992
+187,181,Menu Decline Invitation,19988
+188,181,Propose New Time Gallery,22340
+189,181,Respond Menu,22378
+190,181,Reply,354
+191,181,Reply All,355
+192,181,Forward,356
+193,181,Reply With Instant Message,13619
+194,181,Reply All With Instant Message,14384
+195,181,Dial Menu,2616
+196,181,Call,15185
+197,181,Dial Gallery,22966
+198,181,New Call,2501
+199,2,Group Calendar Options,18760
+200,199,Show Time As Gallery,14926
+201,199,Reminder Gallery,14925
+202,199,Reminder Sound,608
+203,199,Recurrence Explorer,20913
+204,199,Recurrence Edit Series,2010
+205,2,Group Calendar Tags,19964
+206,205,Categorize Menu,14381
+207,205,Clear All Categories,11856
+208,205,Categorize Gallery,22152
+209,205,All Categories,11855
+210,205,Set Category Quick Click,14184
+211,205,Private,1663
+212,205,High Importance,1074
+213,205,Low Importance,1075
+214,1,Tab Insert,11536
+215,214,Group Include,15481
+216,215,Attach File,6003
+217,215,Attach Item,2505
+218,215,Business Card Insert Menu,12546
+219,215,Recently Used Business Card,14357
+220,215,Business Card Insert Dialog,11835
+221,215,Signature Insert Menu,5608
+222,215,Signature Gallery,22965
+223,215,Signatures Stationery Dialog,3766
+224,215,Calendar Insert,11496
+225,214,Group Insert Tables,12598
+226,225,Table Insert Gallery,13821
+227,225,Table Insert Dialog Word,3392
+228,225,Table Draw Table,2059
+229,225,Convert Text To Table,806
+230,225,Table Excel Spreadsheet Insert,142
+231,225,Quick Tables Insert Gallery,12259
+232,225,Save Selection To Quick Tables Gallery,12293
+233,214,Group Insert Illustrations,11548
+234,233,Picture Insert From File,2619
+235,233,Clip Art Insert Dialog,20868
+236,233,Gallery All Shapes And Canvas,15287
+237,233,Drawing Canvas Insert,5811
+238,233,Smart Art Insert,1032
+239,233,Chart Insert,17
+240,233,Screenshot Insert Gallery,18673
+241,233,Screen Clipping,18674
+242,214,Group Insert Links,12599
+243,242,Hyperlink Insert,1576
+244,242,Bookmark Insert,758
+245,214,Group Insert Text,15291
+246,245,Japanese Greetings Insert Menu,13899
+247,245,Mail Merge Japanese Greeting Insert,6090
+248,245,Mail Merge Japanese Greeting Japanese Opening Sentence Insert,6091
+249,245,Mail Merge Japanese Greeting Closing Sentence Insert,6092
+250,245,Text Box Insert Gallery,14106
+251,245,Text Box Insert,139
+252,245,Text Box Insert Vertical Word,14611
+253,245,Save Selection To Text Box Gallery,14111
+254,245,Quick Parts Insert Gallery,12260
+255,245,Auto Text Gallery,14105
+256,245,Save Selection To Auto Text Gallery,14110
+257,245,Save Selection To Quick Part Gallery,12287
+258,245,Word Art Insert Gallery,12119
+259,245,Word Art Insert Gallery Classic,13820
+260,245,Drop Cap Insert Gallery,11478
+261,245,Drop Cap Options Dialog,289
+262,245,Date And Time Insert,768
+263,245,Ole Objectct Insert,546
+264,214,Group Insert Symbols,12600
+265,264,Insert Building Blocks Equations Gallery,15301
+266,264,Equation Insert New,15365
+267,264,Save Selection To Equation Gallery,12289
+268,264,Symbol Insert Gallery,12322
+269,264,Symbols Dialog,13806
+270,264,Horizontal Line Insert,3653
+271,1,Tab Format Text,15683
+272,271,Group Clipboard,12597
+273,272,Paste Menu,15502
+274,272,Paste,22
+275,272,Paste Gallery,18046
+276,272,Paste Special Dialog,755
+277,272,Paste Set Default,14585
+278,272,Cut,21
+279,272,Copy,19
+280,272,Format Painter,108
+281,272,Show Clipboard,809
+282,271,Group Font,11543
+283,282,Font,1728
+284,282,Font Size,1731
+285,282,Font Size Increase Word,62
+286,282,Font Size Decrease Word,63
+287,282,Change Case Gallery,13093
+288,282,Clear Formatting,11739
+289,282,Asian Layout Phonetic Guide,3511
+290,282,Bold,113
+291,282,Italic,114
+292,282,Underline,115
+293,282,Strikethrough,290
+294,282,Subscript,58
+295,282,Superscript,57
+296,282,Text Highlight Color Picker,13926
+297,282,Highlighting Stop,13931
+298,282,Font Color Picker,11949
+299,282,Font Color More Colors Dialog,1005
+300,282,Character Shading,3518
+301,282,Character Border,3517
+302,282,Font Dialog,253
+303,271,Group Paragraph,11544
+304,303,Bullets Gallery Word,11749
+305,303,List Level Gallery,13346
+306,303,Bullet Define New,12243
+307,303,Numbering Gallery Word,11750
+308,303,Define New Number Format,12244
+309,303,List Set Numbering Value,11229
+310,303,Multilevel List Gallery,13347
+311,303,List Define New,13348
+312,303,List Define New Style,13349
+313,303,Indent Decrease Word,3473
+314,303,Indent Increase Word,3472
+315,303,Text Direction Left To Right,1846
+316,303,Text Direction Right To Left,1847
+317,303,Sort Dialog Classic,928
+318,303,Paragraph Marks,119
+319,303,East Asian Editing Marks,3900
+320,303,Align Left,120
+321,303,Align Center,122
+322,303,Align Right,121
+323,303,Align Justify,123
+324,303,Align Justify Menu,13097
+325,303,Align Justify With Mixed Languages,13900
+326,303,Align Justify Low,13901
+327,303,Align Justify Medium,13902
+328,303,Align Justify High,13903
+329,303,Paragraph Distributed,2792
+330,303,Align Justify Thai,13904
+331,303,Line Spacing Gallery,22142
+332,303,Shading Color Picker,13162
+333,303,Shading Colors More Colors Dialog,13163
+334,303,Borders Selection Gallery,24118
+335,303,Horizontal Line Insert,3653
+336,303,Table Draw Table,2059
+337,303,Table Show Gridlines,2626
+338,303,Borders Shading Dialog Word,3466
+339,303,Paragraph Dialog,779
+340,271,Group Styles,11545
+341,340,Quick Styles Gallery,11737
+342,340,Quick Styles Save Selection As New,13086
+343,340,Clear Formatting,11739
+344,340,Apply Styles Pane,13367
+345,340,Change Styles Menu,15927
+346,340,Quick Styles Sets,11738
+347,340,Quick Styles Reset From Template,14785
+348,340,Quick Styles Save Quick Style Set,13090
+349,340,Theme Colors Gallery,12245
+350,340,Theme Colors Create New,12680
+351,340,Theme Fonts Gallery,12863
+352,340,Theme Fonts Create New,12681
+353,340,Paragraph Spacing,16703
+354,340,Paragraph Spacing Custom,16712
+355,340,Quick Styles Set As Default,15361
+356,340,Styles Pane,5757
+357,271,Group Editing,12580
+358,357,Select Menu Excel,12581
+359,357,Find Dialog,141
+360,357,Go To,757
+361,357,Replace Dialog,313
+362,357,Select Menu,11926
+363,357,Select All,756
+364,357,Objects Select,182
+365,357,Select Text With Similar Formatting,5946
+366,271,Group Message Format New,21040
+367,366,Message Format Html,5564
+368,366,Message Format Plain Text,5563
+369,366,Message Format Rich Text,5565
+370,271,Group Zoom,11813
+371,370,Zoom Dialog,925
+372,271,Group Message Format,15484
+373,372,Message Format Plain Text,5563
+374,372,Message Format Html,5564
+375,372,Message Format Rich Text,5565
+376,1,Tab Review Word,11540
+377,376,Group Proofing,11546
+378,377,Spelling And Grammar,2566
+379,377,Research Pane,7343
+380,377,Thesaurus,9056
+381,377,Word Count,792
+382,376,Group Language,19382
+383,382,Translate Menu,20574
+384,382,Translate Document,21186
+385,382,Translate Selected,22095
+386,382,Mini Translator,12843
+387,382,Translation Language Options,19243
+388,382,Language Commands,22144
+389,382,Set Language,790
+390,382,Language Preferences,22145
+391,382,Review Japanese Consistency Checker,2815
+392,382,Ime Dictionary Update,827
+393,382,Hangul Hanja Conversion,3492
+394,376,Group Chinese Translation,15600
+395,394,Translate To Simplified Chinese,4025
+396,394,Translate To Traditional Chinese,3997
+397,394,Chinese Translation Dialog,3958
+398,376,Group Ink,13964
+399,398,Inking Start,9071
+400,1,Tab Developer,12557
+401,400,Group Code,12556
+402,401,Visual Basic,1695
+403,401,Macros Gallery,20925
+404,401,Macro Play,186
+405,401,Macro Security,3627
+406,400,Group Addins,18732
+407,406,Com Add Ins Dialog,3754
+408,406,Disabled Addins,16173
+409,400,Group Form,14378
+410,409,Design This Form,2519
+411,409,Design A Form Outlook,5617
+412,409,Form Publish Menu,14978
+413,409,Form Publish,1913
+414,409,Form Publish As,5616
+415,409,View Visual Basic Code,1561
+416,409,Run This Form,5558
+417,409,Page Menu,14980
+418,409,Display This Page,1971
+419,409,Rename Page,1879
+420,409,Separate Read Layout,1920
+421,409,Edit Compose Page,2514
+422,409,Edit Read Page,2516
+423,400,Group Design,14979
+424,423,Form Region New,11740
+425,423,Form Region Open,11741
+426,423,Form Region Save Menu,21050
+427,423,Form Region Save,11742
+428,423,Form Region Save As,11743
+429,423,Form Region Close,11744
+430,400,Group Tools,15982
+431,430,Control Toolbox Outlook,548
+432,430,Field Chooser,1748
+433,430,Property Sheet,222
+434,430,Control Advanced Properties,3166
+435,400,Group Arrange Outlook,15745
+436,435,Region Layout Menu,15764
+437,435,Recalculate Layout,15765
+438,435,Select Controls With Layout Errors,15767
+439,435,Resize Layout With Designer,15766
+440,435,Object Order Menu,21051
+441,435,Object Bring To Front Outlook,14974
+442,435,Object Bring Forward Outlook,14976
+443,435,Object Send To Back Outlook,14975
+444,435,Object Send Backward Outlook,14977
+445,435,Tab Order,469
+446,435,Objects Align Menu Outlook,14996
+447,435,Objects Align Left Outlook,3070
+448,435,Objects Align Middle Vertical Outlook,3075
+449,435,Objects Align Right Outlook,3071
+450,435,Objects Align Top Outlook,3072
+451,435,Objects Align Center Horizontal Outlook,3074
+452,435,Objects Align Bottom Outlook,3073
+453,435,Align Distribute Horizontally Classic,408
+454,435,Horizontal Spacing Make Equal,3137
+455,435,Horizontal Spacing Increase,1650
+456,435,Horizontal Spacing Decrease,1649
+457,435,Objects Align Distribute Horizontally Remove,1651
+458,435,Align Distribute Vertically Classic,465
+459,435,Vertical Spacing Make Equal,3138
+460,435,Vertical Spacing Increase,1653
+461,435,Vertical Spacing Decrease,1652
+462,435,Objects Align Distribute Vertically Remove,1654
+463,435,Center In Form Menu,30092
+464,435,Objects Align Center In Form Horixontally,1644
+465,435,Objects Align Center In Form Vertically,1645
+466,435,Arrange Menu,30143
+467,435,Objects Arrange Right,1656
+468,435,Objects Arrange Bottom,1655
+469,435,Control Snap To Grid,2993
+470,435,Objects Align To Grid Outlook,3142
+471,435,Show Grid Outlook,2991
+472,435,Set Grid Size,2686
+473,435,Objects Align Auto Layout,2984
+474,435,Objects Group Menu Outlook,15763
+475,435,Objects Group Outlook,14972
+476,435,Objects Ungroup Outlook,14973
+477,435,Size Menu,5509
+478,435,Make Same Size Menu,14379
+479,435,Size To Control Width,1646
+480,435,Size To Control Height,1647
+481,435,Size To Control Height And Width,1648
+482,435,Size To Fit,551
+483,435,Size To Grid Outlook,2992
+484,400,Group Custom Forms,18731
+485,484,Choose Form,1910
+486,484,Design A Form Outlook,5617
+487,1,Tab Add Ins,12308
+488,487,Group Add Ins Menu Commands,13950
+489,487,Group Add Ins Toolbar Commands,13951
+490,487,Group Add Ins Custom Toolbars,14337
+491,1,Tab Background Removal,22110
+492,491,Group Background Removal Mode,22111
+493,492,Picture Background Removal Mark Foreground,19623
+494,492,Picture Background Removal Mark Background,19624
+495,492,Picture Background Removal Mark Delete,19625
+496,491,Group Background Removal Close,22112
+497,496,Background Removal Close,22113
+498,496,Keep Background Removal,22338
+499,1,Tab Distribution List,14965
+500,499,Group Actions,15055
+501,500,Save And Close,1975
+502,500,Cancel Meeting,1657
+503,500,Delete,478
+504,500,Remove From Calendar,1564
+505,500,Open In Browser Outlook,13428
+506,500,Copy To Personal Calendar,2572
+507,500,Custom Actions Menu,15054
+508,500,Custom Actions Gallery,22975
+509,500,View Appointment In Calendar,1987
+510,500,Forward Menu,14359
+511,500,Forward In Forward Menu,15952
+512,500,Forward As I Calendar,5459
+513,500,Delete Distribution Group,21049
+514,500,Contact Send Group Menu,21048
+515,500,Forward As V Card,5573
+516,500,Forward Contact,13260
+517,500,Copy To Personal Contacts,695
+518,500,New Contact Menu,16071
+519,500,Save And New,1665
+520,500,New Contact From Same Company,1908
+521,500,Contact Send Menu,14967
+522,500,Forward As Business Card,13040
+523,500,Move To One Note,22382
+524,500,Open In Web Browser,9061
+525,500,Customize Search Folder,7794
+526,500,Rename This Folder,2512
+527,500,Copy This Folder,2499
+528,500,Move This Folder,2506
+529,500,Delete This Folder,2500
+530,500,Forward,356
+531,500,Toggle Mark As Unread,21047
+532,500,Forward Task,21052
+533,500,Menu Tasks More Actions,19715
+534,500,Copy To Personal Task List,2573
+535,499,Group Show,14920
+536,535,Show Appointment Page,14934
+537,535,Show Form Region Page,14919
+538,535,Show Custom Page,14915
+539,535,Show Scheduling Page,14935
+540,535,Show Tracking Page,14916
+541,535,Show Tracking Page Split Menu,18020
+542,535,View Tracking Status,18019
+543,535,O L Copy Tracking Status,18018
+544,535,Show All Fields Page,14922
+545,535,Show Custom Properties Page,14917
+546,535,Show Custom Actions Page,14918
+547,535,Show Members Page,14941
+548,535,Show Notes Page,14942
+549,535,Show Contact Page,14937
+550,535,Show Details Page,14940
+551,535,Show Certificates Page,14938
+552,535,Show Journal Page,14990
+553,535,Show Message Page,14914
+554,535,Show Share Page,14960
+555,535,Show Task Page,14986
+556,535,Show Task Details Page,14987
+557,499,Group Members,14352
+558,557,Distribution List New Member Menu,21043
+559,557,Distribution List Select Members From Contacts,21044
+560,557,Distribution List Select Members,14968
+561,557,Distribution List Add New Member,14969
+562,557,Distribution List Remove Member,14970
+563,557,Distribution List Update Members,14971
+564,499,Group Communicate,15487
+565,564,New Message To Contact,1978
+566,564,New Meeting With Contact,1980
+567,564,Menu Contacts More Actions,19714
+568,499,Group Contact Options,14353
+569,568,Categorize Menu,14381
+570,568,Clear All Categories,11856
+571,568,Categorize Gallery,22152
+572,568,All Categories,11855
+573,568,Follow Up Read Menu,11633
+574,568,Flag Today,11313
+575,568,Flag Tomorrow,11314
+576,568,Flag This Week,11315
+577,568,Flag Next Week,11316
+578,568,Flag No Date,11634
+579,568,Flag Custom,11319
+580,568,Flag Message,1885
+581,568,Add Reminder,11453
+582,568,Tag Mark Complete,1907
+583,568,Clear Flag,2776
+584,568,Private,1663
+585,499,Group Zoom,11813
+586,585,Zoom Dialog,925
+587,499,Group Ink,13964
+588,587,Inking Start,9071
+589,1,Tab Contact,14964
+590,589,Group Actions,15055
+591,590,Save And Close,1975
+592,590,Cancel Meeting,1657
+593,590,Delete,478
+594,590,Remove From Calendar,1564
+595,590,Open In Browser Outlook,13428
+596,590,Copy To Personal Calendar,2572
+597,590,Custom Actions Menu,15054
+598,590,Custom Actions Gallery,22975
+599,590,View Appointment In Calendar,1987
+600,590,Forward Menu,14359
+601,590,Forward In Forward Menu,15952
+602,590,Forward As I Calendar,5459
+603,590,Delete Distribution Group,21049
+604,590,Contact Send Group Menu,21048
+605,590,Forward As V Card,5573
+606,590,Forward Contact,13260
+607,590,Copy To Personal Contacts,695
+608,590,New Contact Menu,16071
+609,590,Save And New,1665
+610,590,New Contact From Same Company,1908
+611,590,Contact Send Menu,14967
+612,590,Forward As Business Card,13040
+613,590,Move To One Note,22382
+614,590,Open In Web Browser,9061
+615,590,Customize Search Folder,7794
+616,590,Rename This Folder,2512
+617,590,Copy This Folder,2499
+618,590,Move This Folder,2506
+619,590,Delete This Folder,2500
+620,590,Forward,356
+621,590,Toggle Mark As Unread,21047
+622,590,Forward Task,21052
+623,590,Menu Tasks More Actions,19715
+624,590,Copy To Personal Task List,2573
+625,589,Group Show,14920
+626,625,Show Appointment Page,14934
+627,625,Show Form Region Page,14919
+628,625,Show Custom Page,14915
+629,625,Show Scheduling Page,14935
+630,625,Show Tracking Page,14916
+631,625,Show Tracking Page Split Menu,18020
+632,625,View Tracking Status,18019
+633,625,O L Copy Tracking Status,18018
+634,625,Show All Fields Page,14922
+635,625,Show Custom Properties Page,14917
+636,625,Show Custom Actions Page,14918
+637,625,Show Members Page,14941
+638,625,Show Notes Page,14942
+639,625,Show Contact Page,14937
+640,625,Show Details Page,14940
+641,625,Show Certificates Page,14938
+642,625,Show Journal Page,14990
+643,625,Show Message Page,14914
+644,625,Show Share Page,14960
+645,625,Show Task Page,14986
+646,625,Show Task Details Page,14987
+647,589,Group Communicate,15487
+648,647,New Message To Contact,1978
+649,647,New Meeting With Contact,1980
+650,647,Menu Contacts More Actions,19714
+651,589,Group Names,14349
+652,651,Address Book,353
+653,651,Check Names,361
+654,589,Group Contacts More Options,21045
+655,654,Edit Business Card,14961
+656,654,Contact Picture Menu,14966
+657,654,Contact Add Picture,7899
+658,654,Contact Change Picture,7900
+659,654,Contact Remove Picture,7901
+660,589,Group Contact Options,14353
+661,660,Categorize Menu,14381
+662,660,Clear All Categories,11856
+663,660,Categorize Gallery,22152
+664,660,All Categories,11855
+665,660,Follow Up Read Menu,11633
+666,660,Flag Today,11313
+667,660,Flag Tomorrow,11314
+668,660,Flag This Week,11315
+669,660,Flag Next Week,11316
+670,660,Flag No Date,11634
+671,660,Flag Custom,11319
+672,660,Flag Message,1885
+673,660,Add Reminder,11453
+674,660,Tag Mark Complete,1907
+675,660,Clear Flag,2776
+676,660,Private,1663
+677,589,Group Zoom,11813
+678,677,Zoom Dialog,925
+679,589,Group Ink,13964
+680,679,Inking Start,9071
+681,1,Tab Mail,17460
+682,681,Group Mail New,18736
+683,682,New Item,17459
+684,682,Mail New Item Menu,18742
+685,681,Group Mail Delete,19684
+686,685,Ignore Conversation,17648
+687,685,Thread Compress Split Button,21471
+688,685,Thread Compress Thread,19507
+689,685,Thread Compress Folder,19509
+690,685,Thread Compress Folder Recursive,19510
+691,685,Junk Menu,22241
+692,685,Junk Email Add To Blocked Senders List,9786
+693,685,Junk Email Add To Safe Senders List,9787
+694,685,Junk Email Add To Safe Domain List,10028
+695,685,Junk Email Add To Safe Recipients List,9788
+696,685,Junk Email Mark As Not Junk,9789
+697,685,Junk Email Options,9790
+698,685,Delete,478
+699,681,Group Mail Respond,18754
+700,699,Post Reply,2989
+701,699,Reply,354
+702,699,Reply All,355
+703,699,Forward,356
+704,699,Reply With Meeting,19512
+705,699,Persona Send I M Menu,7239
+706,699,Reply With Instant Message,13619
+707,699,Reply All With Instant Message,14384
+708,699,Respond Actions Menu,22381
+709,699,Forward As Attachment,13158
+710,699,Dial Menu,2616
+711,699,Call,15185
+712,699,Dial Gallery,22966
+713,699,New Call,2501
+714,681,Group Quick Steps,17470
+715,714,Quick Steps Gallery,17469
+716,714,Quick Step New Menu,19502
+717,714,Quick Step Template Move To Folder,19496
+718,714,Quick Step Template Categorize And Move,19497
+719,714,Quick Step Template Flag And Move,19498
+720,714,Quick Step Template New Email,19499
+721,714,Quick Step Template Forward,19500
+722,714,Quick Step Template New Meeting,19501
+723,714,Create Quick Step,17703
+724,714,Manage Quick Steps,18356
+725,681,Group Move Actions,22379
+726,725,Infopath Form Actions Menu,20158
+727,725,Infopath Export Forms,13080
+728,725,Merge Forms,13079
+729,725,Infopath Export To Excel,13078
+730,725,Copy Shotcut,15040
+731,725,Move To Folder Gallery,20150
+732,725,Move To Folder,1679
+733,725,Copy To Folder,1676
+734,725,Always Move Conversation,17649
+735,725,Stop Moving Conversation,17650
+736,725,Always Move To Folder,17471
+737,725,Create Mail Rule,721
+738,725,Rules And Alerts,10012
+739,725,Move To One Note,22382
+740,725,Custom Actions Menu,15054
+741,725,Custom Actions Gallery,22975
+742,725,Move To Folder Menu,2778
+743,725,Recently Used Folder,14375
+744,725,Move Actions Menu,22380
+745,725,Edit Message,5604
+746,725,Recall This Message,2511
+747,725,Resend This Message,3165
+748,725,View In Browser,11846
+749,725,Other Actions Menu,15497
+750,725,Enable Functionality,13161
+751,725,Unwrap Text,6906
+752,725,Save Attachments,3167
+753,725,Post Reply To Folder,1985
+754,725,View Language Menu,31140
+755,725,Message Encoding M R U Gallery,22972
+756,725,Message Encoding Gallery,22973
+757,725,Message Header Toggle,1751
+758,725,View Source,5603
+759,681,Group Rss,21266
+760,759,Rss Download Content Gallery,20169
+761,759,Rss Share This Feed,13408
+762,759,Rss View Article,21997
+763,681,Group Mail Options,18759
+764,763,Policy Tags Menu,22525
+765,763,Archive Policy Tags Gallery,21575
+766,763,Retention Policy Tags Gallery,18680
+767,763,All Retention Policy Tags,18681
+768,763,Folder Policy Retention Gallery,22053
+769,763,Retention Expiring Quick Search,20172
+770,763,Toggle Mark As Read,19683
+771,763,Categorize Menu,14381
+772,763,Clear All Categories,11856
+773,763,Categorize Gallery,22152
+774,763,All Categories,11855
+775,763,Set Category Quick Click,14184
+776,763,Follow Up Menu,14382
+777,763,Flag Today,11313
+778,763,Flag Tomorrow,11314
+779,763,Flag This Week,11315
+780,763,Flag Next Week,11316
+781,763,Flag No Date,11634
+782,763,Flag Custom,11319
+783,763,Flag Message,1885
+784,763,Add Reminder,11453
+785,763,Tag Mark Complete,1907
+786,763,Clear Flag,2776
+787,763,Set Flag Quick Click,11320
+788,681,Group Chinese Translation Readonly,22360
+789,788,Translate To Simplified Chinese Readonly,22361
+790,788,Translate To Traditional Chinese Readonly,22362
+791,788,Chinese Translation Dialog Readonly,22363
+792,681,Group Contact Find,21100
+793,792,Find Contact Combo,5454
+794,792,Address Book,353
+795,792,Menu Filter Mail,22242
+796,792,Quick Search Unread,18262
+797,792,Quick Search Has Attachments,18269
+798,792,Quick Search Received Date Gallery,19927
+799,792,Quick Search Categories,18264
+800,792,Quick Search Any Category,18266
+801,792,Quick Search No Categories,18265
+802,792,Quick Search Flagged By Me,18263
+803,792,Quick Search High Importance,18268
+804,792,Quick Search To Cc Me,18260
+805,792,Retention Expiring Quick Search,20172
+806,792,More Filters,22243
+807,681,Group Send Receive Imap Pop,22595
+808,807,Send Receive All,7095
+809,1,Tab Calendar Table View,19692
+810,809,Group Calendar New,18737
+811,810,New Item,17459
+812,810,New Meeting Hidden When With All Visible,21099
+813,810,New Meeting With All Menu,21098
+814,810,New Secondary Item,20116
+815,810,New Meeting Request With All,19632
+816,810,Calendar New Item Menu,18743
+817,809,Group Calendar Actions,18749
+818,817,Delete,478
+819,817,Cancel Meeting,1657
+820,817,Menu Cancel Meeting,19975
+821,817,Cancel Meeting Occurrence,19977
+822,817,Cancel Meeting Series,19976
+823,817,Delete Appointment Gallery,19974
+824,817,Menu Calendar More Actions,19713
+825,817,Move To Folder Gallery,20150
+826,817,Move To Folder,1679
+827,817,Copy To Folder,1676
+828,817,Always Move Conversation,17649
+829,817,Stop Moving Conversation,17650
+830,809,Group Calendar Share,17466
+831,830,Send Calendar,11497
+832,830,Share Calendar Folder,20828
+833,830,Menu Publish Online,19697
+834,830,Publish Exchange Calendar,22002
+835,830,Config Exchange Published Calendar,22003
+836,830,Publish Calendar To Web Dav,15676
+837,830,Remove Calendar From Server,13402
+838,830,Sharing Permissions,18758
+839,809,Group Calendar Options,18760
+840,839,Show Time As Gallery,14926
+841,839,Reminder Gallery,14925
+842,839,Reminder Sound,608
+843,839,Recurrence Explorer,20913
+844,839,Recurrence Edit Series,2010
+845,809,Group Calendar Tags,19964
+846,845,Categorize Menu,14381
+847,845,Clear All Categories,11856
+848,845,Categorize Gallery,22152
+849,845,All Categories,11855
+850,845,Set Category Quick Click,14184
+851,845,Private,1663
+852,845,High Importance,1074
+853,845,Low Importance,1075
+854,809,Group Find,15829
+855,854,Find Contact Combo,5454
+856,854,Address Book,353
+857,854,Find Dialog,141
+858,854,Find Related Menu,15496
+859,854,Find Related Messages,2684
+860,854,Find Messages From Sender,2607
+861,854,Quick Search Related Categories,21102
+862,854,Select Menu,11926
+863,854,Select All,756
+864,854,Objects Select,182
+865,854,Select Text With Similar Formatting,5946
+866,1,Tab Calendar,17463
+867,866,Group Calendar New,18737
+868,867,New Item,17459
+869,867,New Meeting Hidden When With All Visible,21099
+870,867,New Meeting With All Menu,21098
+871,867,New Secondary Item,20116
+872,867,New Meeting Request With All,19632
+873,867,Calendar New Item Menu,18743
+874,866,Group Goto,18735
+875,874,Today,5497
+876,874,Next Seven Days,21197
+877,874,Open My Department Calendar,17582
+878,874,My Calendar,19633
+879,874,Go To Date,1749
+880,866,Group Calendar Arrange,19686
+881,880,Daily View,1094
+882,880,Work Week,5556
+883,880,Weekly View,1095
+884,880,Monthly View,1096
+885,880,Calendar Horizontal,17581
+886,880,Calendar Options,21101
+887,866,Group Manage Calendar,19693
+888,887,Menu Add A Calendar,19694
+889,887,Add Peoples Calendar,19636
+890,887,Add Department,19638
+891,887,Add Room,19637
+892,887,Add Calendar From Internet,21144
+893,887,Add Blank Calendar,19696
+894,887,Open Shared Calendar,17455
+895,887,Menu Group Calendars,19695
+896,887,Create New Group Calendar,19640
+897,887,Save As New Group,19641
+898,887,Department Calendar,20535
+899,887,Managers Team Calendar,20536
+900,887,Team Calendar,20537
+901,866,Group Calendar Share,17466
+902,901,Send Calendar,11497
+903,901,Share Calendar Folder,20828
+904,901,Menu Publish Online,19697
+905,901,Publish Exchange Calendar,22002
+906,901,Config Exchange Published Calendar,22003
+907,901,Publish Calendar To Web Dav,15676
+908,901,Remove Calendar From Server,13402
+909,901,Sharing Permissions,18758
+910,866,Group Find,15829
+911,910,Find Contact Combo,5454
+912,910,Address Book,353
+913,910,Find Dialog,141
+914,910,Find Related Menu,15496
+915,910,Find Related Messages,2684
+916,910,Find Messages From Sender,2607
+917,910,Quick Search Related Categories,21102
+918,910,Select Menu,11926
+919,910,Select All,756
+920,910,Objects Select,182
+921,910,Select Text With Similar Formatting,5946
+922,1,Tab Contacts,17462
+923,922,Group Contacts New,18738
+924,923,New Item,17459
+925,923,New Secondary Item,20116
+926,923,Contacts New Item Menu,18744
+927,922,Group Delete,19685
+928,927,Delete,478
+929,922,Group Communicate,15487
+930,929,New Message To Contact,1978
+931,929,New Meeting With Contact,1980
+932,929,Menu Contacts More Actions,19714
+933,922,Group View Gallery,20152
+934,933,Current View Gallery,1893
+935,933,Define Views,1862
+936,933,Save Current View As New,18645
+937,933,Apply View To All Folders,18646
+938,922,Group Contacts Actions,18750
+939,938,Move To Folder Gallery,20150
+940,938,Move To Folder,1679
+941,938,Copy To Folder,1676
+942,938,Always Move Conversation,17649
+943,938,Stop Moving Conversation,17650
+944,938,Mail Merge,5443
+945,938,Move To One Note,22382
+946,922,Group Contacts Share,17467
+947,946,Send Contact Menu,17895
+948,946,Forward As Business Card,13040
+949,946,Forward Contact,13260
+950,946,Share Contacts Folder,20830
+951,946,Open Shared Contacts,19825
+952,922,Group Contacts Options,18761
+953,952,Categorize Menu,14381
+954,952,Clear All Categories,11856
+955,952,Categorize Gallery,22152
+956,952,All Categories,11855
+957,952,Set Category Quick Click,14184
+958,952,Follow Up Menu,14382
+959,952,Flag Today,11313
+960,952,Flag Tomorrow,11314
+961,952,Flag This Week,11315
+962,952,Flag Next Week,11316
+963,952,Flag No Date,11634
+964,952,Flag Custom,11319
+965,952,Flag Message,1885
+966,952,Add Reminder,11453
+967,952,Tag Mark Complete,1907
+968,952,Clear Flag,2776
+969,952,Set Flag Quick Click,11320
+970,952,Private,1663
+971,922,Group Find,15829
+972,971,Find Contact Combo,5454
+973,971,Address Book,353
+974,971,Find Dialog,141
+975,971,Find Related Menu,15496
+976,971,Find Related Messages,2684
+977,971,Find Messages From Sender,2607
+978,971,Quick Search Related Categories,21102
+979,971,Select Menu,11926
+980,971,Select All,756
+981,971,Objects Select,182
+982,971,Select Text With Similar Formatting,5946
+983,1,Tab Tasks,17461
+984,983,Group Tasks New,18739
+985,984,New Item,17459
+986,984,New Mail Message,1995
+987,984,Tasks New Item Menu,18745
+988,983,Group Delete,19685
+989,988,Delete,478
+990,983,Group Task Respond,18756
+991,990,Reply,354
+992,990,Reply All,355
+993,990,Forward,356
+994,990,Reply With Meeting,19512
+995,990,Persona Send I M Menu,7239
+996,990,Reply With Instant Message,13619
+997,990,Reply All With Instant Message,14384
+998,990,Respond Actions Menu,22381
+999,990,Forward As Attachment,13158
+1000,990,Dial Menu,2616
+1001,990,Call,15185
+1002,990,Dial Gallery,22966
+1003,990,New Call,2501
+1004,983,Group Manage Task,14988
+1005,1004,Mark Task Complete,2985
+1006,1004,Remove From List,20013
+1007,1004,Return To Task List,2983
+1008,1004,Cancel Task Assignment,2004
+1009,1004,Edit Workflow Task,13803
+1010,1004,Assign Task,1976
+1011,1004,Send Status Report,1760
+1012,983,Group Follow Up,20012
+1013,1012,Flag Today,11313
+1014,1012,Flag Tomorrow,11314
+1015,1012,Flag This Week,11315
+1016,1012,Flag Next Week,11316
+1017,1012,Flag No Date,11634
+1018,1012,Flag Custom,11319
+1019,983,Group View Gallery,20152
+1020,1019,Current View Gallery,1893
+1021,1019,Define Views,1862
+1022,1019,Save Current View As New,18645
+1023,1019,Apply View To All Folders,18646
+1024,983,Group Tasks Actions,18751
+1025,1024,Move To Folder Gallery,20150
+1026,1024,Move To Folder,1679
+1027,1024,Copy To Folder,1676
+1028,1024,Always Move Conversation,17649
+1029,1024,Stop Moving Conversation,17650
+1030,1024,Move To One Note,22382
+1031,983,Group Tasks Options,18762
+1032,1031,Categorize Menu,14381
+1033,1031,Clear All Categories,11856
+1034,1031,Categorize Gallery,22152
+1035,1031,All Categories,11855
+1036,1031,Set Category Quick Click,14184
+1037,1031,Private,1663
+1038,1031,High Importance,1074
+1039,1031,Low Importance,1075
+1040,983,Group Find,15829
+1041,1040,Find Contact Combo,5454
+1042,1040,Address Book,353
+1043,1040,Find Dialog,141
+1044,1040,Find Related Menu,15496
+1045,1040,Find Related Messages,2684
+1046,1040,Find Messages From Sender,2607
+1047,1040,Quick Search Related Categories,21102
+1048,1040,Select Menu,11926
+1049,1040,Select All,756
+1050,1040,Objects Select,182
+1051,1040,Select Text With Similar Formatting,5946
+1052,1,Tab Notes,17464
+1053,1052,Group Notes New,18740
+1054,1053,New Item,17459
+1055,1053,Notes New Item Menu,18746
+1056,1052,Group Delete,19685
+1057,1056,Delete,478
+1058,1052,Group View Gallery,20152
+1059,1058,Current View Gallery,1893
+1060,1058,Define Views,1862
+1061,1058,Save Current View As New,18645
+1062,1058,Apply View To All Folders,18646
+1063,1052,Group Notes Actions,18752
+1064,1063,Forward,356
+1065,1063,Move To Folder Gallery,20150
+1066,1063,Move To Folder,1679
+1067,1063,Copy To Folder,1676
+1068,1063,Always Move Conversation,17649
+1069,1063,Stop Moving Conversation,17650
+1070,1063,Menu Notes More Actions,19716
+1071,1052,Group Notes Options,18764
+1072,1071,Categorize Menu,14381
+1073,1071,Clear All Categories,11856
+1074,1071,Categorize Gallery,22152
+1075,1071,All Categories,11855
+1076,1071,Set Category Quick Click,14184
+1077,1052,Group Find,15829
+1078,1077,Find Contact Combo,5454
+1079,1077,Address Book,353
+1080,1077,Find Dialog,141
+1081,1077,Find Related Menu,15496
+1082,1077,Find Related Messages,2684
+1083,1077,Find Messages From Sender,2607
+1084,1077,Quick Search Related Categories,21102
+1085,1077,Select Menu,11926
+1086,1077,Select All,756
+1087,1077,Objects Select,182
+1088,1077,Select Text With Similar Formatting,5946
+1089,1,Tab Journals,17465
+1090,1089,Group Journal New,18741
+1091,1090,New Item,17459
+1092,1090,Journal New Item Menu,18747
+1093,1089,Group Delete,19685
+1094,1093,Delete,478
+1095,1089,Group Journal Arrangement,20600
+1096,1095,Today,5497
+1097,1095,Daily View,1094
+1098,1095,Weekly View,1095
+1099,1095,Monthly View,1096
+1100,1095,Go To Date,1749
+1101,1089,Group View Gallery,20152
+1102,1101,Current View Gallery,1893
+1103,1101,Define Views,1862
+1104,1101,Save Current View As New,18645
+1105,1101,Apply View To All Folders,18646
+1106,1089,Group Journals Actions,18753
+1107,1106,Forward,356
+1108,1106,Move To Folder Gallery,20150
+1109,1106,Move To Folder,1679
+1110,1106,Copy To Folder,1676
+1111,1106,Always Move Conversation,17649
+1112,1106,Stop Moving Conversation,17650
+1113,1106,Menu Journal More Actions,19717
+1114,1089,Group Journal Options,18763
+1115,1114,Categorize Menu,14381
+1116,1114,Clear All Categories,11856
+1117,1114,Categorize Gallery,22152
+1118,1114,All Categories,11855
+1119,1114,Set Category Quick Click,14184
+1120,1089,Group Find,15829
+1121,1120,Find Contact Combo,5454
+1122,1120,Address Book,353
+1123,1120,Find Dialog,141
+1124,1120,Find Related Menu,15496
+1125,1120,Find Related Messages,2684
+1126,1120,Find Messages From Sender,2607
+1127,1120,Quick Search Related Categories,21102
+1128,1120,Select Menu,11926
+1129,1120,Select All,756
+1130,1120,Objects Select,182
+1131,1120,Select Text With Similar Formatting,5946
+1132,1,Tab Send Receive,17446
+1133,1132,Group Send Receive,17447
+1134,1133,Send Receive All,7095
+1135,1133,Need Password,20393
+1136,1133,Connect To Server,9441
+1137,1133,Update Folder,5657
+1138,1133,Send All,5577
+1139,1133,Receive Menu,17897
+1140,1133,Send Receive Gallery,22968
+1141,1133,Download Address Book,5658
+1142,1133,Define Send Receive Groups,6901
+1143,1133,Disable Auto Send Receive,6867
+1144,1132,Group Download,17453
+1145,1144,Show Progress,6902
+1146,1144,Cancel All,18733
+1147,1132,Group Server,18730
+1148,1147,Download Headers In This Folder,6904
+1149,1147,Mark For Download Split Button,22293
+1150,1147,Mark For Download,1104
+1151,1147,Mark To Download Message Copy,1753
+1152,1147,Unmark Split,18765
+1153,1147,Unmark,1921
+1154,1147,Unmark All For Download,1105
+1155,1147,Sync Thisfolder Marked Split,18766
+1156,1147,Sync Thisfolder Marked,6903
+1157,1147,Sync All Marked,10031
+1158,1132,Group Preferences,20147
+1159,1158,Download Preferences Menu,20148
+1160,1158,Download Full Items,9410
+1161,1158,Download Headers And Then Full Items,10002
+1162,1158,Download Headers Only,9411
+1163,1158,Auto Detect Connection Type,9413
+1164,1158,Toggle Online,5613
+1165,1,Tab Folder,17457
+1166,1165,Group New,17444
+1167,1166,New Folder,1755
+1168,1166,New Calendar,16046
+1169,1166,New Search Folder,7790
+1170,1166,New Shortcut,10020
+1171,1165,Group Actions,15055
+1172,1171,Save And Close,1975
+1173,1171,Cancel Meeting,1657
+1174,1171,Delete,478
+1175,1171,Remove From Calendar,1564
+1176,1171,Open In Browser Outlook,13428
+1177,1171,Copy To Personal Calendar,2572
+1178,1171,Custom Actions Menu,15054
+1179,1171,Custom Actions Gallery,22975
+1180,1171,View Appointment In Calendar,1987
+1181,1171,Forward Menu,14359
+1182,1171,Forward In Forward Menu,15952
+1183,1171,Forward As I Calendar,5459
+1184,1171,Delete Distribution Group,21049
+1185,1171,Contact Send Group Menu,21048
+1186,1171,Forward As V Card,5573
+1187,1171,Forward Contact,13260
+1188,1171,Copy To Personal Contacts,695
+1189,1171,New Contact Menu,16071
+1190,1171,Save And New,1665
+1191,1171,New Contact From Same Company,1908
+1192,1171,Contact Send Menu,14967
+1193,1171,Forward As Business Card,13040
+1194,1171,Move To One Note,22382
+1195,1171,Open In Web Browser,9061
+1196,1171,Customize Search Folder,7794
+1197,1171,Rename This Folder,2512
+1198,1171,Copy This Folder,2499
+1199,1171,Move This Folder,2506
+1200,1171,Delete This Folder,2500
+1201,1171,Forward,356
+1202,1171,Toggle Mark As Unread,21047
+1203,1171,Forward Task,21052
+1204,1171,Menu Tasks More Actions,19715
+1205,1171,Copy To Personal Task List,2573
+1206,1165,Group Clean Up,19698
+1207,1206,Mark All As Read,1906
+1208,1206,Run Rules Now,5450
+1209,1206,Always Sort Folders Ato Z,24062
+1210,1206,Thread Compress Folder Menu,19508
+1211,1206,Thread Compress Folder,19509
+1212,1206,Thread Compress Folder Recursive,19510
+1213,1206,Empty Folder,18734
+1214,1206,Delete All,20163
+1215,1206,Menu Purge,18773
+1216,1206,Purge Folder,12771
+1217,1206,Purge Account,12772
+1218,1206,Purge All,12773
+1219,1206,Purge Options,12774
+1220,1206,Recover Deleted Items,5654
+1221,1165,Group Favorites,19699
+1222,1221,Toggle Show In Favorites,19700
+1223,1165,Group Online View,24976
+1224,1223,Folder View Online Table,24588
+1225,1165,Group Documents Share,18586
+1226,1225,Share Mail Folder,20827
+1227,1225,Share Calendar Folder,20828
+1228,1225,Share Task Folder,20829
+1229,1225,Share Contacts Folder,20830
+1230,1225,Share Notes Folder,20831
+1231,1225,Share Journal Folder,20832
+1232,1225,Open Shared Journal,19828
+1233,1225,Open Shared Notes,19827
+1234,1225,Open Shared Tasks,19826
+1235,1225,Open Shared Contacts,19825
+1236,1225,Menu Add A Calendar,19694
+1237,1225,Add Peoples Calendar,19636
+1238,1225,Add Department,19638
+1239,1225,Add Room,19637
+1240,1225,Add Calendar From Internet,21144
+1241,1225,Add Blank Calendar,19696
+1242,1225,Open Shared Calendar,17455
+1243,1165,Group Imap Folder Options,22637
+1244,1243,Imap Folders,5595
+1245,1243,Update Folder List,5661
+1246,1165,Group Properties,17896
+1247,1246,View Policy,10035
+1248,1246,Folder Retention Policy Tag,20171
+1249,1246,Infopath Promote Form Properties,13081
+1250,1246,Auto Archive Settings,19701
+1251,1246,Sharing Permissions,18758
+1252,1246,Folder Properties,2502
+1253,1,Tab View,11541
+1254,1253,Group Current View,17448
+1255,1254,Current View Gallery,1893
+1256,1254,Define Views,1862
+1257,1254,Save Current View As New,18645
+1258,1254,Apply View To All Folders,18646
+1259,1254,Current View Settings,1861
+1260,1254,Reset Current View,18644
+1261,1253,Group Conversations,22692
+1262,1261,Show In Conversations,22528
+1263,1261,Conversations Menu,22527
+1264,1261,Show Messages From All Folders,16628
+1265,1261,Show Senders On Top,22529
+1266,1261,Always Expand Conversations,22093
+1267,1261,Classic Indented View,22530
+1268,1253,Group Table Arrangement,19704
+1269,1268,Message Preview,24605
+1270,1268,Message Preview Off,24606
+1271,1268,Message Preview1 Line,24607
+1272,1268,Message Preview2 Line,24608
+1273,1268,Message Preview3 Line,24609
+1274,1268,Arrangement Gallery,19730
+1275,1268,Arrange By Group,7627
+1276,1268,Current View Settings,1861
+1277,1268,Reverse Sort,19709
+1278,1268,Show Fields,2009
+1279,1268,Menu Expand Collapse,18767
+1280,1268,Collapse This Group,1870
+1281,1268,Expand This Group,1884
+1282,1268,Collapse All Groups,1917
+1283,1268,Expand All Groups,1916
+1284,1253,Group Icon Arrangement,19707
+1285,1284,Large Icons,631
+1286,1284,Small Icons,632
+1287,1284,List View,633
+1288,1284,Line Up Icons,1825
+1289,1253,Group Day Week Month Arrangement,19706
+1290,1289,Daily View,1094
+1291,1289,Work Week,5556
+1292,1289,Weekly View,1095
+1293,1289,Monthly View,1096
+1294,1289,Calendar Horizontal,17581
+1295,1289,Time Scale Menu,20151
+1296,1289,Time Scale60 Minutes,2484
+1297,1289,Time Scale30 Minutes,2483
+1298,1289,Time Scale15 Minutes,2482
+1299,1289,Time Scale10 Minutes,2481
+1300,1289,Time Scale6 Minutes,2485
+1301,1289,Time Scale5 Minutes,2480
+1302,1289,Change Time Zone,1889
+1303,1289,Overlay Calendar,11848
+1304,1289,Show Work Hour Only,21602
+1305,1289,Calendar Options,21101
+1306,1253,Group Color,20149
+1307,1306,Color Picker Calendar,19145
+1308,1253,Group Layout,17449
+1309,1308,Menu Daily Task List,18774
+1310,1308,Task Well Normal,12836
+1311,1308,Task Well Collapsed,13620
+1312,1308,Task Well Off,13621
+1313,1308,Daily Task List Arrangement Menu,31465
+1314,1308,Task Well Sort Start,12837
+1315,1308,Task Well Sort Due Date,12838
+1316,1308,Task Well Show Completed,12839
+1317,1308,Menu Navigation Pane,18771
+1318,1308,Navigation Pane Normal,11489
+1319,1308,Navigation Pane Collapsed,11490
+1320,1308,Navigation Pane Off,11491
+1321,1308,Navigation Pane Favorites,15790
+1322,1308,Navigation Pane Options,7887
+1323,1308,Menu Preview Pane,18768
+1324,1308,Reading Pane Right,7221
+1325,1308,Reading Pane Bottom,7222
+1326,1308,Reading Pane Off,7223
+1327,1308,Reading Pane Options,5516
+1328,1308,Menu To Do Bar,18772
+1329,1308,To Do Bar Show Appointments,12693
+1330,1308,To Do Bar Show Contact List,21146
+1331,1308,To Do Bar Show Task List,12694
+1332,1308,To Do Bar Off,14860
+1333,1308,Oms Preview Pane,13308
+1334,1253,Group Window,15641
+1335,1334,Show Reminders Window,6894
+1336,1334,Web Open In New Window,1574
+1337,1334,Close All Items,722
+1338,1,Tab Journal,14991
+1339,1338,Group Actions,15055
+1340,1339,Save And Close,1975
+1341,1339,Cancel Meeting,1657
+1342,1339,Delete,478
+1343,1339,Remove From Calendar,1564
+1344,1339,Open In Browser Outlook,13428
+1345,1339,Copy To Personal Calendar,2572
+1346,1339,Custom Actions Menu,15054
+1347,1339,Custom Actions Gallery,22975
+1348,1339,View Appointment In Calendar,1987
+1349,1339,Forward Menu,14359
+1350,1339,Forward In Forward Menu,15952
+1351,1339,Forward As I Calendar,5459
+1352,1339,Delete Distribution Group,21049
+1353,1339,Contact Send Group Menu,21048
+1354,1339,Forward As V Card,5573
+1355,1339,Forward Contact,13260
+1356,1339,Copy To Personal Contacts,695
+1357,1339,New Contact Menu,16071
+1358,1339,Save And New,1665
+1359,1339,New Contact From Same Company,1908
+1360,1339,Contact Send Menu,14967
+1361,1339,Forward As Business Card,13040
+1362,1339,Move To One Note,22382
+1363,1339,Open In Web Browser,9061
+1364,1339,Customize Search Folder,7794
+1365,1339,Rename This Folder,2512
+1366,1339,Copy This Folder,2499
+1367,1339,Move This Folder,2506
+1368,1339,Delete This Folder,2500
+1369,1339,Forward,356
+1370,1339,Toggle Mark As Unread,21047
+1371,1339,Forward Task,21052
+1372,1339,Menu Tasks More Actions,19715
+1373,1339,Copy To Personal Task List,2573
+1374,1338,Group Show,14920
+1375,1374,Show Appointment Page,14934
+1376,1374,Show Form Region Page,14919
+1377,1374,Show Custom Page,14915
+1378,1374,Show Scheduling Page,14935
+1379,1374,Show Tracking Page,14916
+1380,1374,Show Tracking Page Split Menu,18020
+1381,1374,View Tracking Status,18019
+1382,1374,O L Copy Tracking Status,18018
+1383,1374,Show All Fields Page,14922
+1384,1374,Show Custom Properties Page,14917
+1385,1374,Show Custom Actions Page,14918
+1386,1374,Show Members Page,14941
+1387,1374,Show Notes Page,14942
+1388,1374,Show Contact Page,14937
+1389,1374,Show Details Page,14940
+1390,1374,Show Certificates Page,14938
+1391,1374,Show Journal Page,14990
+1392,1374,Show Message Page,14914
+1393,1374,Show Share Page,14960
+1394,1374,Show Task Page,14986
+1395,1374,Show Task Details Page,14987
+1396,1338,Group Timer,15488
+1397,1396,Start Timer,14992
+1398,1396,Pause Timer,14993
+1399,1338,Group Message Options,14347
+1400,1399,Policy Tags Menu,22525
+1401,1399,Archive Policy Tags Gallery,21575
+1402,1399,Retention Policy Tags Gallery,18680
+1403,1399,All Retention Policy Tags,18681
+1404,1399,Folder Policy Retention Gallery,22053
+1405,1399,Retention Expiring Quick Search,20172
+1406,1399,High Importance,1074
+1407,1399,Low Importance,1075
+1408,1399,Message Options,5598
+1409,1399,Categorize Menu,14381
+1410,1399,Clear All Categories,11856
+1411,1399,Categorize Gallery,22152
+1412,1399,All Categories,11855
+1413,1399,Private,1663
+1414,1399,Follow Up Compose Menu,12847
+1415,1399,Flag Today,11313
+1416,1399,Flag Tomorrow,11314
+1417,1399,Flag This Week,11315
+1418,1399,Flag Next Week,11316
+1419,1399,Flag No Date,11634
+1420,1399,Flag Custom,11319
+1421,1399,Flag Message,1885
+1422,1399,Add Reminder,11453
+1423,1399,Tag Mark Complete,1907
+1424,1399,Clear Flag,2776
+1425,1399,Toggle Mark As Unread,21047
+1426,1399,Follow Up Read Menu,11633
+1427,1338,Group Names,14349
+1428,1427,Address Book,353
+1429,1427,Check Names,361
+1430,1338,Group Ink,13964
+1431,1430,Inking Start,9071
+1432,1338,Group Zoom,11813
+1433,1432,Zoom Dialog,925
+1434,1,Tab New Mail Message,15479
+1435,1434,Group Send,14997
+1436,1435,Send Default,2617
+1437,1435,Send Update,1983
+1438,1435,Account Menu,15108
+1439,1435,Send Account Gallery,22967
+1440,1435,Save And Close,1975
+1441,1435,Post,2575
+1442,1434,Group Clipboard,12597
+1443,1442,Paste Menu,15502
+1444,1442,Paste,22
+1445,1442,Paste Gallery,18046
+1446,1442,Paste Special Dialog,755
+1447,1442,Paste Set Default,14585
+1448,1442,Cut,21
+1449,1442,Copy,19
+1450,1442,Format Painter,108
+1451,1442,Show Clipboard,809
+1452,1434,Group Show,14920
+1453,1452,Show Appointment Page,14934
+1454,1452,Show Form Region Page,14919
+1455,1452,Show Custom Page,14915
+1456,1452,Show Scheduling Page,14935
+1457,1452,Show Tracking Page,14916
+1458,1452,Show Tracking Page Split Menu,18020
+1459,1452,View Tracking Status,18019
+1460,1452,O L Copy Tracking Status,18018
+1461,1452,Show All Fields Page,14922
+1462,1452,Show Custom Properties Page,14917
+1463,1452,Show Custom Actions Page,14918
+1464,1452,Show Members Page,14941
+1465,1452,Show Notes Page,14942
+1466,1452,Show Contact Page,14937
+1467,1452,Show Details Page,14940
+1468,1452,Show Certificates Page,14938
+1469,1452,Show Journal Page,14990
+1470,1452,Show Message Page,14914
+1471,1452,Show Share Page,14960
+1472,1452,Show Task Page,14986
+1473,1452,Show Task Details Page,14987
+1474,1434,Group Basic Text,15480
+1475,1474,Font,1728
+1476,1474,Font Size,1731
+1477,1474,Font Size Increase Word,62
+1478,1474,Font Size Decrease Word,63
+1479,1474,Bullets Gallery Word,11749
+1480,1474,List Level Gallery,13346
+1481,1474,Bullet Define New,12243
+1482,1474,Numbering Gallery Word,11750
+1483,1474,Define New Number Format,12244
+1484,1474,List Set Numbering Value,11229
+1485,1474,Clear Formatting,11739
+1486,1474,Bold,113
+1487,1474,Italic,114
+1488,1474,Underline,115
+1489,1474,Text Highlight Color Picker,13926
+1490,1474,Highlighting Stop,13931
+1491,1474,Font Color Picker,11949
+1492,1474,Font Color More Colors Dialog,1005
+1493,1474,Align Left,120
+1494,1474,Align Center,122
+1495,1474,Align Right,121
+1496,1474,Paragraph Distributed,2792
+1497,1474,Indent Decrease Word,3473
+1498,1474,Indent Increase Word,3472
+1499,1474,Text Direction Left To Right,1846
+1500,1474,Text Direction Right To Left,1847
+1501,1474,Font Dialog,253
+1502,1434,Group Names,14349
+1503,1502,Address Book,353
+1504,1502,Check Names,361
+1505,1434,Group Include Main Tab,21053
+1506,1505,Attach File,6003
+1507,1505,Attach Item Combo,21039
+1508,1505,Business Card Insert Menu,12546
+1509,1505,Recently Used Business Card,14357
+1510,1505,Business Card Insert Dialog,11835
+1511,1505,Calendar Insert,11496
+1512,1505,Attach Item,2505
+1513,1505,Signature Insert Menu,5608
+1514,1505,Signature Gallery,22965
+1515,1505,Signatures Stationery Dialog,3766
+1516,1434,Group Message Options,14347
+1517,1516,Policy Tags Menu,22525
+1518,1516,Archive Policy Tags Gallery,21575
+1519,1516,Retention Policy Tags Gallery,18680
+1520,1516,All Retention Policy Tags,18681
+1521,1516,Folder Policy Retention Gallery,22053
+1522,1516,Retention Expiring Quick Search,20172
+1523,1516,High Importance,1074
+1524,1516,Low Importance,1075
+1525,1516,Message Options,5598
+1526,1516,Categorize Menu,14381
+1527,1516,Clear All Categories,11856
+1528,1516,Categorize Gallery,22152
+1529,1516,All Categories,11855
+1530,1516,Private,1663
+1531,1516,Follow Up Compose Menu,12847
+1532,1516,Flag Today,11313
+1533,1516,Flag Tomorrow,11314
+1534,1516,Flag This Week,11315
+1535,1516,Flag Next Week,11316
+1536,1516,Flag No Date,11634
+1537,1516,Flag Custom,11319
+1538,1516,Flag Message,1885
+1539,1516,Add Reminder,11453
+1540,1516,Tag Mark Complete,1907
+1541,1516,Clear Flag,2776
+1542,1516,Toggle Mark As Unread,21047
+1543,1516,Follow Up Read Menu,11633
+1544,1434,Group Zoom,11813
+1545,1544,Zoom Dialog,925
+1546,1434,Group Ink,13964
+1547,1546,Inking Start,9071
+1548,1,Tab Options,15482
+1549,1548,Group Themes,11584
+1550,1549,Themes Gallery,14014
+1551,1549,Theme Reset From Template,14823
+1552,1549,Theme Search Office Online,12305
+1553,1549,Theme Browse For Themes,16182
+1554,1549,Theme Save Current,13991
+1555,1549,Theme Colors Gallery,12245
+1556,1549,Theme Colors Create New,12680
+1557,1549,Theme Fonts Gallery,12863
+1558,1549,Theme Fonts Create New,12681
+1559,1549,Theme Effects Gallery,12864
+1560,1549,Page Color Picker,13927
+1561,1549,Page Color More Colors Dialog,2857
+1562,1549,Page Color Fill Effects,2858
+1563,1548,Group Fields,15483
+1564,1563,Show Bcc,1860
+1565,1563,Show From,1867
+1566,1548,Group Rights Management,21055
+1567,1566,Permission Restrict Menu,14955
+1568,1566,Permission Restrict,9925
+1569,1566,Permission Policies Outlook,14954
+1570,1566,Permission Policies Gallery1,25225
+1571,1566,Permission Policies Gallery2,25226
+1572,1566,Permission Policies Gallery3,25227
+1573,1566,Permission Policies Gallery4,25228
+1574,1566,Permission Policies Gallery5,25229
+1575,1566,Permission Policies Gallery6,25230
+1576,1566,Permission Policies Gallery7,25231
+1577,1566,Permission Policies Gallery8,25232
+1578,1566,Permission Policies Gallery9,25233
+1579,1566,Permission Policies Classification Gallery,25234
+1580,1566,Encrypt Message,718
+1581,1566,Digitally Sign Message,719
+1582,1566,Permission Manage Credentials,15831
+1583,1548,Group Tracking,15485
+1584,1583,Use Voting Buttons Menu,14366
+1585,1583,Voting Buttons Approve Or Reject,14367
+1586,1583,Voting Buttons Custom,14370
+1587,1583,Request Delivery Receipt,14364
+1588,1583,Request Read Receipt,14365
+1589,1583,Message Options,5598
+1590,1548,Group More Options,15486
+1591,1590,Save Sent Items Menu,15489
+1592,1590,Save Sent Item Recently Used Folder,15492
+1593,1590,Save Sent Item Other Folder,15493
+1594,1590,Save Sent Item Use Default Folder,15495
+1595,1590,Save Sent Item Do Not Save,15494
+1596,1590,Encoding Menu,15498
+1597,1590,Message Encoding M R U Gallery,22972
+1598,1590,Message Encoding Gallery,22973
+1599,1590,Delay Delivery Outlook,15490
+1600,1590,Direct Replies To,15491
+1601,1590,Message Options,5598
+1602,1548,Group Message Format,15484
+1603,1602,Message Format Plain Text,5563
+1604,1602,Message Format Html,5564
+1605,1602,Message Format Rich Text,5565
+1606,1,Tab Read Message,14356
+1607,1606,Group Mail Delete,19684
+1608,1607,Ignore Conversation,17648
+1609,1607,Thread Compress Split Button,21471
+1610,1607,Thread Compress Thread,19507
+1611,1607,Thread Compress Folder,19509
+1612,1607,Thread Compress Folder Recursive,19510
+1613,1607,Junk Menu,22241
+1614,1607,Junk Email Add To Blocked Senders List,9786
+1615,1607,Junk Email Add To Safe Senders List,9787
+1616,1607,Junk Email Add To Safe Domain List,10028
+1617,1607,Junk Email Add To Safe Recipients List,9788
+1618,1607,Junk Email Mark As Not Junk,9789
+1619,1607,Junk Email Options,9790
+1620,1607,Delete,478
+1621,1606,Group Respond,14350
+1622,1621,Menu Accept Invitation,19984
+1623,1621,Accept Invitation Edit Response,19985
+1624,1621,Accept Invitation Send Response,19986
+1625,1621,Accept Invitation No Response,19987
+1626,1621,Menu Tentative Invitation,19992
+1627,1621,Tentative Invitation Edit Response,19993
+1628,1621,Tentative Invitation Send Response,19994
+1629,1621,Tentative Invitation No Response,19995
+1630,1621,Menu Decline Invitation,19988
+1631,1621,Decline Invitation Edit Response,19989
+1632,1621,Decline Invitation Send Response,19990
+1633,1621,Decline Invitation No Response,19991
+1634,1621,Accept Invitation,1087
+1635,1621,Tentative Accept Invitation,1089
+1636,1621,Decline Invitation,1088
+1637,1621,Propose New Time Menu,14928
+1638,1621,Propose New Time,6892
+1639,1621,Tentative Propose New Time,6905
+1640,1621,Decline And Propose New Time,6866
+1641,1621,Respond Menu,22378
+1642,1621,Reply,354
+1643,1621,Reply All,355
+1644,1621,Forward,356
+1645,1621,Reply With Instant Message,13619
+1646,1621,Reply All With Instant Message,14384
+1647,1621,Dial Menu,2616
+1648,1621,Call,15185
+1649,1621,Dial Gallery,22966
+1650,1621,New Call,2501
+1651,1621,Vote Menu,9091
+1652,1621,Voting Gallery,22971
+1653,1621,Approve Approval Request,19887
+1654,1621,Reject Approval Request,19888
+1655,1621,Reply With Meeting,19512
+1656,1621,Persona Send I M Menu,7239
+1657,1621,Respond Actions Menu,22381
+1658,1621,Forward As Attachment,13158
+1659,1621,Remove From Calendar,1564
+1660,1621,No Response Required For Invitation,16467
+1661,1621,Out Of Date Invitation,16468
+1662,1621,Change Response Button Menu,16469
+1663,1621,Change To Accept Invitation,16470
+1664,1621,Change To Tentative Accept Invitation,16472
+1665,1621,Change To Decline Invitation,16471
+1666,1621,Change To Propose New Time,16580
+1667,1621,Accept Proposal,6843
+1668,1621,View All Proposals,6907
+1669,1621,Post Reply,2989
+1670,1621,Send Again,2507
+1671,1621,Accept Task,1664
+1672,1621,Decline Task,3265
+1673,1621,Cancel Accept Task,2003
+1674,1621,Cancel Decline Task,2005
+1675,1606,Group Show,14920
+1676,1675,Show Appointment Page,14934
+1677,1675,Show Form Region Page,14919
+1678,1675,Show Custom Page,14915
+1679,1675,Show Scheduling Page,14935
+1680,1675,Show Tracking Page,14916
+1681,1675,Show Tracking Page Split Menu,18020
+1682,1675,View Tracking Status,18019
+1683,1675,O L Copy Tracking Status,18018
+1684,1675,Show All Fields Page,14922
+1685,1675,Show Custom Properties Page,14917
+1686,1675,Show Custom Actions Page,14918
+1687,1675,Show Members Page,14941
+1688,1675,Show Notes Page,14942
+1689,1675,Show Contact Page,14937
+1690,1675,Show Details Page,14940
+1691,1675,Show Certificates Page,14938
+1692,1675,Show Journal Page,14990
+1693,1675,Show Message Page,14914
+1694,1675,Show Share Page,14960
+1695,1675,Show Task Page,14986
+1696,1675,Show Task Details Page,14987
+1697,1606,Group Quick Steps,17470
+1698,1697,Quick Steps Gallery,17469
+1699,1697,Quick Step New Menu,19502
+1700,1697,Quick Step Template Move To Folder,19496
+1701,1697,Quick Step Template Categorize And Move,19497
+1702,1697,Quick Step Template Flag And Move,19498
+1703,1697,Quick Step Template New Email,19499
+1704,1697,Quick Step Template Forward,19500
+1705,1697,Quick Step Template New Meeting,19501
+1706,1697,Create Quick Step,17703
+1707,1697,Manage Quick Steps,18356
+1708,1606,Group Move Actions,22379
+1709,1708,Infopath Form Actions Menu,20158
+1710,1708,Infopath Export Forms,13080
+1711,1708,Merge Forms,13079
+1712,1708,Infopath Export To Excel,13078
+1713,1708,Copy Shotcut,15040
+1714,1708,Move To Folder Gallery,20150
+1715,1708,Move To Folder,1679
+1716,1708,Copy To Folder,1676
+1717,1708,Always Move Conversation,17649
+1718,1708,Stop Moving Conversation,17650
+1719,1708,Always Move To Folder,17471
+1720,1708,Create Mail Rule,721
+1721,1708,Rules And Alerts,10012
+1722,1708,Move To One Note,22382
+1723,1708,Custom Actions Menu,15054
+1724,1708,Custom Actions Gallery,22975
+1725,1708,Move To Folder Menu,2778
+1726,1708,Recently Used Folder,14375
+1727,1708,Move Actions Menu,22380
+1728,1708,Edit Message,5604
+1729,1708,Recall This Message,2511
+1730,1708,Resend This Message,3165
+1731,1708,View In Browser,11846
+1732,1708,Other Actions Menu,15497
+1733,1708,Enable Functionality,13161
+1734,1708,Unwrap Text,6906
+1735,1708,Save Attachments,3167
+1736,1708,Post Reply To Folder,1985
+1737,1708,View Language Menu,31140
+1738,1708,Message Encoding M R U Gallery,22972
+1739,1708,Message Encoding Gallery,22973
+1740,1708,Message Header Toggle,1751
+1741,1708,View Source,5603
+1742,1606,Group Open,15779
+1743,1742,Open Attached Calendar,13397
+1744,1742,Edit Workflow Task,13803
+1745,1742,Open Infopath Form,11269
+1746,1742,Open In Browser Outlook,13428
+1747,1606,Group Message Options,14347
+1748,1747,Policy Tags Menu,22525
+1749,1747,Archive Policy Tags Gallery,21575
+1750,1747,Retention Policy Tags Gallery,18680
+1751,1747,All Retention Policy Tags,18681
+1752,1747,Folder Policy Retention Gallery,22053
+1753,1747,Retention Expiring Quick Search,20172
+1754,1747,High Importance,1074
+1755,1747,Low Importance,1075
+1756,1747,Message Options,5598
+1757,1747,Categorize Menu,14381
+1758,1747,Clear All Categories,11856
+1759,1747,Categorize Gallery,22152
+1760,1747,All Categories,11855
+1761,1747,Private,1663
+1762,1747,Follow Up Compose Menu,12847
+1763,1747,Flag Today,11313
+1764,1747,Flag Tomorrow,11314
+1765,1747,Flag This Week,11315
+1766,1747,Flag Next Week,11316
+1767,1747,Flag No Date,11634
+1768,1747,Flag Custom,11319
+1769,1747,Flag Message,1885
+1770,1747,Add Reminder,11453
+1771,1747,Tag Mark Complete,1907
+1772,1747,Clear Flag,2776
+1773,1747,Toggle Mark As Unread,21047
+1774,1747,Follow Up Read Menu,11633
+1775,1606,Group Chinese Translation Readonly,22360
+1776,1775,Translate To Simplified Chinese Readonly,22361
+1777,1775,Translate To Traditional Chinese Readonly,22362
+1778,1775,Chinese Translation Dialog Readonly,22363
+1779,1606,Group Outlook Editing,22286
+1780,1779,Translate Menu,20574
+1781,1779,Translate Document,21186
+1782,1779,Translate Selected,22095
+1783,1779,Mini Translator,12843
+1784,1779,Translation Language Options,19243
+1785,1779,Find Dialog,141
+1786,1779,Find Related Menu,15496
+1787,1779,Find Related Messages,2684
+1788,1779,Find Messages From Sender,2607
+1789,1779,Quick Search Related Categories,21102
+1790,1779,Select Menu,11926
+1791,1779,Select All,756
+1792,1779,Objects Select,182
+1793,1779,Select Text With Similar Formatting,5946
+1794,1606,Group Zoom,11813
+1795,1794,Zoom Dialog,925
+1796,1606,Group Ink,13964
+1797,1796,Inking Start,9071
+1798,1606,Group Actions,15055
+1799,1798,Save And Close,1975
+1800,1798,Cancel Meeting,1657
+1801,1798,Delete,478
+1802,1798,Remove From Calendar,1564
+1803,1798,Open In Browser Outlook,13428
+1804,1798,Copy To Personal Calendar,2572
+1805,1798,Custom Actions Menu,15054
+1806,1798,Custom Actions Gallery,22975
+1807,1798,View Appointment In Calendar,1987
+1808,1798,Forward Menu,14359
+1809,1798,Forward In Forward Menu,15952
+1810,1798,Forward As I Calendar,5459
+1811,1798,Delete Distribution Group,21049
+1812,1798,Contact Send Group Menu,21048
+1813,1798,Forward As V Card,5573
+1814,1798,Forward Contact,13260
+1815,1798,Copy To Personal Contacts,695
+1816,1798,New Contact Menu,16071
+1817,1798,Save And New,1665
+1818,1798,New Contact From Same Company,1908
+1819,1798,Contact Send Menu,14967
+1820,1798,Forward As Business Card,13040
+1821,1798,Move To One Note,22382
+1822,1798,Open In Web Browser,9061
+1823,1798,Customize Search Folder,7794
+1824,1798,Rename This Folder,2512
+1825,1798,Copy This Folder,2499
+1826,1798,Move This Folder,2506
+1827,1798,Delete This Folder,2500
+1828,1798,Forward,356
+1829,1798,Toggle Mark As Unread,21047
+1830,1798,Forward Task,21052
+1831,1798,Menu Tasks More Actions,19715
+1832,1798,Copy To Personal Task List,2573
+1833,1606,Group Junk Email,14354
+1834,1833,Junk Email Add To Blocked Senders List,9786
+1835,1833,Junk Email Safe Lists Menu,14361
+1836,1833,Junk Email Add To Safe Senders List,9787
+1837,1833,Junk Email Add To Safe Domain List,10028
+1838,1833,Junk Email Add To Safe Recipients List,9788
+1839,1833,Junk Email Mark As Not Junk,9789
+1840,1833,Junk Email Options,9790
+1841,1606,Group Linked Meeting Notes,24502
+1842,1841,Take Meeting Notes,24503
+1843,1606,Group Calendar,14929
+1844,1843,Open In Browser Outlook,13428
+1845,1843,View Appointment In Calendar,1987
+1846,1606,Group Send Update,21975
+1847,1846,Send Meeting Update,21241
+1848,1606,Group Find,15829
+1849,1848,Find Contact Combo,5454
+1850,1848,Address Book,353
+1851,1848,Find Dialog,141
+1852,1848,Find Related Menu,15496
+1853,1848,Find Related Messages,2684
+1854,1848,Find Messages From Sender,2607
+1855,1848,Quick Search Related Categories,21102
+1856,1848,Select Menu,11926
+1857,1848,Select All,756
+1858,1848,Objects Select,182
+1859,1848,Select Text With Similar Formatting,5946
+1860,1606,Group Rss,21266
+1861,1860,Rss Download Content Gallery,20169
+1862,1860,Rss Share This Feed,13408
+1863,1860,Rss View Article,21997
+1864,1,Tab Oms Meultimedia Message,13289
+1865,1864,Group Clipboard,12597
+1866,1865,Paste Menu,15502
+1867,1865,Paste,22
+1868,1865,Paste Gallery,18046
+1869,1865,Paste Special Dialog,755
+1870,1865,Paste Set Default,14585
+1871,1865,Cut,21
+1872,1865,Copy,19
+1873,1865,Format Painter,108
+1874,1865,Show Clipboard,809
+1875,1864,Oms Group Create Slides,13343
+1876,1875,Oms Slide Insert,13312
+1877,1875,Oms Delete,13315
+1878,1875,Oms Change Slide Layout Gallery,13313
+1879,1875,Oms Customize Layout,13318
+1880,1864,Group Names,14349
+1881,1880,Address Book,353
+1882,1880,Check Names,361
+1883,1864,Group Oms Insert,13293
+1884,1883,Oms Insert Picture,13316
+1885,1883,Picture Insert From File,2619
+1886,1883,Clip Art Insert Dialog,20868
+1887,1883,Oms Emoticon Insert Gallery,13303
+1888,1883,Oms Insert Audio,13317
+1889,1883,Oms Audio From File,13319
+1890,1883,Sound Insert From Clip Organizer,2707
+1891,1883,Oms Emoticon String Insert Gallery,13302
+1892,1883,Oms Insert Symbol Gallery,13301
+1893,1864,Group Oms View,13294
+1894,1893,Oms Preview Pane,13308
+1895,1893,Oms Change Zoom,13309
+1896,1864,Group Mail Delete,19684
+1897,1896,Ignore Conversation,17648
+1898,1896,Thread Compress Split Button,21471
+1899,1896,Thread Compress Thread,19507
+1900,1896,Thread Compress Folder,19509
+1901,1896,Thread Compress Folder Recursive,19510
+1902,1896,Junk Menu,22241
+1903,1896,Junk Email Add To Blocked Senders List,9786
+1904,1896,Junk Email Add To Safe Senders List,9787
+1905,1896,Junk Email Add To Safe Domain List,10028
+1906,1896,Junk Email Add To Safe Recipients List,9788
+1907,1896,Junk Email Mark As Not Junk,9789
+1908,1896,Junk Email Options,9790
+1909,1896,Delete,478
+1910,1864,Group Respond,14350
+1911,1910,Menu Accept Invitation,19984
+1912,1910,Accept Invitation Edit Response,19985
+1913,1910,Accept Invitation Send Response,19986
+1914,1910,Accept Invitation No Response,19987
+1915,1910,Menu Tentative Invitation,19992
+1916,1910,Tentative Invitation Edit Response,19993
+1917,1910,Tentative Invitation Send Response,19994
+1918,1910,Tentative Invitation No Response,19995
+1919,1910,Menu Decline Invitation,19988
+1920,1910,Decline Invitation Edit Response,19989
+1921,1910,Decline Invitation Send Response,19990
+1922,1910,Decline Invitation No Response,19991
+1923,1910,Accept Invitation,1087
+1924,1910,Tentative Accept Invitation,1089
+1925,1910,Decline Invitation,1088
+1926,1910,Propose New Time Menu,14928
+1927,1910,Propose New Time,6892
+1928,1910,Tentative Propose New Time,6905
+1929,1910,Decline And Propose New Time,6866
+1930,1910,Respond Menu,22378
+1931,1910,Reply,354
+1932,1910,Reply All,355
+1933,1910,Forward,356
+1934,1910,Reply With Instant Message,13619
+1935,1910,Reply All With Instant Message,14384
+1936,1910,Dial Menu,2616
+1937,1910,Call,15185
+1938,1910,Dial Gallery,22966
+1939,1910,New Call,2501
+1940,1910,Vote Menu,9091
+1941,1910,Voting Gallery,22971
+1942,1910,Approve Approval Request,19887
+1943,1910,Reject Approval Request,19888
+1944,1910,Reply With Meeting,19512
+1945,1910,Persona Send I M Menu,7239
+1946,1910,Respond Actions Menu,22381
+1947,1910,Forward As Attachment,13158
+1948,1910,Remove From Calendar,1564
+1949,1910,No Response Required For Invitation,16467
+1950,1910,Out Of Date Invitation,16468
+1951,1910,Change Response Button Menu,16469
+1952,1910,Change To Accept Invitation,16470
+1953,1910,Change To Tentative Accept Invitation,16472
+1954,1910,Change To Decline Invitation,16471
+1955,1910,Change To Propose New Time,16580
+1956,1910,Accept Proposal,6843
+1957,1910,View All Proposals,6907
+1958,1910,Post Reply,2989
+1959,1910,Send Again,2507
+1960,1910,Accept Task,1664
+1961,1910,Decline Task,3265
+1962,1910,Cancel Accept Task,2003
+1963,1910,Cancel Decline Task,2005
+1964,1864,Group Quick Steps,17470
+1965,1964,Quick Steps Gallery,17469
+1966,1964,Quick Step New Menu,19502
+1967,1964,Quick Step Template Move To Folder,19496
+1968,1964,Quick Step Template Categorize And Move,19497
+1969,1964,Quick Step Template Flag And Move,19498
+1970,1964,Quick Step Template New Email,19499
+1971,1964,Quick Step Template Forward,19500
+1972,1964,Quick Step Template New Meeting,19501
+1973,1964,Create Quick Step,17703
+1974,1964,Manage Quick Steps,18356
+1975,1864,Group Move Actions,22379
+1976,1975,Infopath Form Actions Menu,20158
+1977,1975,Infopath Export Forms,13080
+1978,1975,Merge Forms,13079
+1979,1975,Infopath Export To Excel,13078
+1980,1975,Copy Shotcut,15040
+1981,1975,Move To Folder Gallery,20150
+1982,1975,Move To Folder,1679
+1983,1975,Copy To Folder,1676
+1984,1975,Always Move Conversation,17649
+1985,1975,Stop Moving Conversation,17650
+1986,1975,Always Move To Folder,17471
+1987,1975,Create Mail Rule,721
+1988,1975,Rules And Alerts,10012
+1989,1975,Move To One Note,22382
+1990,1975,Custom Actions Menu,15054
+1991,1975,Custom Actions Gallery,22975
+1992,1975,Move To Folder Menu,2778
+1993,1975,Recently Used Folder,14375
+1994,1975,Move Actions Menu,22380
+1995,1975,Edit Message,5604
+1996,1975,Recall This Message,2511
+1997,1975,Resend This Message,3165
+1998,1975,View In Browser,11846
+1999,1975,Other Actions Menu,15497
+2000,1975,Enable Functionality,13161
+2001,1975,Unwrap Text,6906
+2002,1975,Save Attachments,3167
+2003,1975,Post Reply To Folder,1985
+2004,1975,View Language Menu,31140
+2005,1975,Message Encoding M R U Gallery,22972
+2006,1975,Message Encoding Gallery,22973
+2007,1975,Message Header Toggle,1751
+2008,1975,View Source,5603
+2009,1864,Group Message Options,14347
+2010,2009,Policy Tags Menu,22525
+2011,2009,Archive Policy Tags Gallery,21575
+2012,2009,Retention Policy Tags Gallery,18680
+2013,2009,All Retention Policy Tags,18681
+2014,2009,Folder Policy Retention Gallery,22053
+2015,2009,Retention Expiring Quick Search,20172
+2016,2009,High Importance,1074
+2017,2009,Low Importance,1075
+2018,2009,Message Options,5598
+2019,2009,Categorize Menu,14381
+2020,2009,Clear All Categories,11856
+2021,2009,Categorize Gallery,22152
+2022,2009,All Categories,11855
+2023,2009,Private,1663
+2024,2009,Follow Up Compose Menu,12847
+2025,2009,Flag Today,11313
+2026,2009,Flag Tomorrow,11314
+2027,2009,Flag This Week,11315
+2028,2009,Flag Next Week,11316
+2029,2009,Flag No Date,11634
+2030,2009,Flag Custom,11319
+2031,2009,Flag Message,1885
+2032,2009,Add Reminder,11453
+2033,2009,Tag Mark Complete,1907
+2034,2009,Clear Flag,2776
+2035,2009,Toggle Mark As Unread,21047
+2036,2009,Follow Up Read Menu,11633
+2037,1864,Group Oms Send,13291
+2038,2037,Send Default,2617
+2039,2037,Account Menu,15108
+2040,1864,Group Actions,15055
+2041,2040,Save And Close,1975
+2042,2040,Cancel Meeting,1657
+2043,2040,Delete,478
+2044,2040,Remove From Calendar,1564
+2045,2040,Open In Browser Outlook,13428
+2046,2040,Copy To Personal Calendar,2572
+2047,2040,Custom Actions Menu,15054
+2048,2040,Custom Actions Gallery,22975
+2049,2040,View Appointment In Calendar,1987
+2050,2040,Forward Menu,14359
+2051,2040,Forward In Forward Menu,15952
+2052,2040,Forward As I Calendar,5459
+2053,2040,Delete Distribution Group,21049
+2054,2040,Contact Send Group Menu,21048
+2055,2040,Forward As V Card,5573
+2056,2040,Forward Contact,13260
+2057,2040,Copy To Personal Contacts,695
+2058,2040,New Contact Menu,16071
+2059,2040,Save And New,1665
+2060,2040,New Contact From Same Company,1908
+2061,2040,Contact Send Menu,14967
+2062,2040,Forward As Business Card,13040
+2063,2040,Move To One Note,22382
+2064,2040,Open In Web Browser,9061
+2065,2040,Customize Search Folder,7794
+2066,2040,Rename This Folder,2512
+2067,2040,Copy This Folder,2499
+2068,2040,Move This Folder,2506
+2069,2040,Delete This Folder,2500
+2070,2040,Forward,356
+2071,2040,Toggle Mark As Unread,21047
+2072,2040,Forward Task,21052
+2073,2040,Menu Tasks More Actions,19715
+2074,2040,Copy To Personal Task List,2573
+2075,1864,Group Oms Message Options,13295
+2076,2075,Oms Schedule Send,13341
+2077,2075,Oms Maximum Messages,13342
+2078,2075,Oms Preview Pane,13308
+2079,1,Tab Task,14985
+2080,2079,Group Send,14997
+2081,2080,Send Default,2617
+2082,2080,Send Update,1983
+2083,2080,Account Menu,15108
+2084,2080,Send Account Gallery,22967
+2085,2080,Save And Close,1975
+2086,2080,Post,2575
+2087,2079,Group Actions,15055
+2088,2087,Save And Close,1975
+2089,2087,Cancel Meeting,1657
+2090,2087,Delete,478
+2091,2087,Remove From Calendar,1564
+2092,2087,Open In Browser Outlook,13428
+2093,2087,Copy To Personal Calendar,2572
+2094,2087,Custom Actions Menu,15054
+2095,2087,Custom Actions Gallery,22975
+2096,2087,View Appointment In Calendar,1987
+2097,2087,Forward Menu,14359
+2098,2087,Forward In Forward Menu,15952
+2099,2087,Forward As I Calendar,5459
+2100,2087,Delete Distribution Group,21049
+2101,2087,Contact Send Group Menu,21048
+2102,2087,Forward As V Card,5573
+2103,2087,Forward Contact,13260
+2104,2087,Copy To Personal Contacts,695
+2105,2087,New Contact Menu,16071
+2106,2087,Save And New,1665
+2107,2087,New Contact From Same Company,1908
+2108,2087,Contact Send Menu,14967
+2109,2087,Forward As Business Card,13040
+2110,2087,Move To One Note,22382
+2111,2087,Open In Web Browser,9061
+2112,2087,Customize Search Folder,7794
+2113,2087,Rename This Folder,2512
+2114,2087,Copy This Folder,2499
+2115,2087,Move This Folder,2506
+2116,2087,Delete This Folder,2500
+2117,2087,Forward,356
+2118,2087,Toggle Mark As Unread,21047
+2119,2087,Forward Task,21052
+2120,2087,Menu Tasks More Actions,19715
+2121,2087,Copy To Personal Task List,2573
+2122,2079,Group Show,14920
+2123,2122,Show Appointment Page,14934
+2124,2122,Show Form Region Page,14919
+2125,2122,Show Custom Page,14915
+2126,2122,Show Scheduling Page,14935
+2127,2122,Show Tracking Page,14916
+2128,2122,Show Tracking Page Split Menu,18020
+2129,2122,View Tracking Status,18019
+2130,2122,O L Copy Tracking Status,18018
+2131,2122,Show All Fields Page,14922
+2132,2122,Show Custom Properties Page,14917
+2133,2122,Show Custom Actions Page,14918
+2134,2122,Show Members Page,14941
+2135,2122,Show Notes Page,14942
+2136,2122,Show Contact Page,14937
+2137,2122,Show Details Page,14940
+2138,2122,Show Certificates Page,14938
+2139,2122,Show Journal Page,14990
+2140,2122,Show Message Page,14914
+2141,2122,Show Share Page,14960
+2142,2122,Show Task Page,14986
+2143,2122,Show Task Details Page,14987
+2144,2079,Group Respond,14350
+2145,2144,Menu Accept Invitation,19984
+2146,2144,Accept Invitation Edit Response,19985
+2147,2144,Accept Invitation Send Response,19986
+2148,2144,Accept Invitation No Response,19987
+2149,2144,Menu Tentative Invitation,19992
+2150,2144,Tentative Invitation Edit Response,19993
+2151,2144,Tentative Invitation Send Response,19994
+2152,2144,Tentative Invitation No Response,19995
+2153,2144,Menu Decline Invitation,19988
+2154,2144,Decline Invitation Edit Response,19989
+2155,2144,Decline Invitation Send Response,19990
+2156,2144,Decline Invitation No Response,19991
+2157,2144,Accept Invitation,1087
+2158,2144,Tentative Accept Invitation,1089
+2159,2144,Decline Invitation,1088
+2160,2144,Propose New Time Menu,14928
+2161,2144,Propose New Time,6892
+2162,2144,Tentative Propose New Time,6905
+2163,2144,Decline And Propose New Time,6866
+2164,2144,Respond Menu,22378
+2165,2144,Reply,354
+2166,2144,Reply All,355
+2167,2144,Forward,356
+2168,2144,Reply With Instant Message,13619
+2169,2144,Reply All With Instant Message,14384
+2170,2144,Dial Menu,2616
+2171,2144,Call,15185
+2172,2144,Dial Gallery,22966
+2173,2144,New Call,2501
+2174,2144,Vote Menu,9091
+2175,2144,Voting Gallery,22971
+2176,2144,Approve Approval Request,19887
+2177,2144,Reject Approval Request,19888
+2178,2144,Reply With Meeting,19512
+2179,2144,Persona Send I M Menu,7239
+2180,2144,Respond Actions Menu,22381
+2181,2144,Forward As Attachment,13158
+2182,2144,Remove From Calendar,1564
+2183,2144,No Response Required For Invitation,16467
+2184,2144,Out Of Date Invitation,16468
+2185,2144,Change Response Button Menu,16469
+2186,2144,Change To Accept Invitation,16470
+2187,2144,Change To Tentative Accept Invitation,16472
+2188,2144,Change To Decline Invitation,16471
+2189,2144,Change To Propose New Time,16580
+2190,2144,Accept Proposal,6843
+2191,2144,View All Proposals,6907
+2192,2144,Post Reply,2989
+2193,2144,Send Again,2507
+2194,2144,Accept Task,1664
+2195,2144,Decline Task,3265
+2196,2144,Cancel Accept Task,2003
+2197,2144,Cancel Decline Task,2005
+2198,2079,Group Manage Task,14988
+2199,2198,Mark Task Complete,2985
+2200,2198,Remove From List,20013
+2201,2198,Return To Task List,2983
+2202,2198,Cancel Task Assignment,2004
+2203,2198,Edit Workflow Task,13803
+2204,2198,Assign Task,1976
+2205,2198,Send Status Report,1760
+2206,2079,Group Names,14349
+2207,2206,Address Book,353
+2208,2206,Check Names,361
+2209,2079,Group Recurrence,21046
+2210,2209,Toggle Recurrence,21287
+2211,2209,Skip Occurrence,1919
+2212,2079,Group Task Options,14989
+2213,2212,Categorize Menu,14381
+2214,2212,Clear All Categories,11856
+2215,2212,Categorize Gallery,22152
+2216,2212,All Categories,11855
+2217,2212,Follow Up Read Menu,11633
+2218,2212,Flag Today,11313
+2219,2212,Flag Tomorrow,11314
+2220,2212,Flag This Week,11315
+2221,2212,Flag Next Week,11316
+2222,2212,Flag No Date,11634
+2223,2212,Flag Custom,11319
+2224,2212,Flag Message,1885
+2225,2212,Add Reminder,11453
+2226,2212,Tag Mark Complete,1907
+2227,2212,Set Flag Quick Click,11320
+2228,2212,Private,1663
+2229,2212,High Importance,1074
+2230,2212,Low Importance,1075
+2231,2079,Group Zoom,11813
+2232,2231,Zoom Dialog,925
+2233,2079,Group Ink,13964
+2234,2233,Inking Start,9071
+2235,1,Tab Oms Text Message,13288
+2236,2235,Group Clipboard,12597
+2237,2236,Paste Menu,15502
+2238,2236,Paste,22
+2239,2236,Paste Gallery,18046
+2240,2236,Paste Special Dialog,755
+2241,2236,Paste Set Default,14585
+2242,2236,Cut,21
+2243,2236,Copy,19
+2244,2236,Format Painter,108
+2245,2236,Show Clipboard,809
+2246,2235,Group Oms Insert,13293
+2247,2246,Oms Insert Picture,13316
+2248,2246,Picture Insert From File,2619
+2249,2246,Clip Art Insert Dialog,20868
+2250,2246,Oms Emoticon Insert Gallery,13303
+2251,2246,Oms Insert Audio,13317
+2252,2246,Oms Audio From File,13319
+2253,2246,Sound Insert From Clip Organizer,2707
+2254,2246,Oms Emoticon String Insert Gallery,13302
+2255,2246,Oms Insert Symbol Gallery,13301
+2256,2235,Group Names,14349
+2257,2256,Address Book,353
+2258,2256,Check Names,361
+2259,2235,Group Oms Message Options,13295
+2260,2259,Oms Schedule Send,13341
+2261,2259,Oms Maximum Messages,13342
+2262,2259,Oms Preview Pane,13308
+2263,2235,Group Layout,17449
+2264,2263,Menu Daily Task List,18774
+2265,2263,Task Well Normal,12836
+2266,2263,Task Well Collapsed,13620
+2267,2263,Task Well Off,13621
+2268,2263,Daily Task List Arrangement Menu,31465
+2269,2263,Task Well Sort Start,12837
+2270,2263,Task Well Sort Due Date,12838
+2271,2263,Task Well Show Completed,12839
+2272,2263,Menu Navigation Pane,18771
+2273,2263,Navigation Pane Normal,11489
+2274,2263,Navigation Pane Collapsed,11490
+2275,2263,Navigation Pane Off,11491
+2276,2263,Navigation Pane Favorites,15790
+2277,2263,Navigation Pane Options,7887
+2278,2263,Menu Preview Pane,18768
+2279,2263,Reading Pane Right,7221
+2280,2263,Reading Pane Bottom,7222
+2281,2263,Reading Pane Off,7223
+2282,2263,Reading Pane Options,5516
+2283,2263,Menu To Do Bar,18772
+2284,2263,To Do Bar Show Appointments,12693
+2285,2263,To Do Bar Show Contact List,21146
+2286,2263,To Do Bar Show Task List,12694
+2287,2263,To Do Bar Off,14860
+2288,2263,Oms Preview Pane,13308
+2289,2235,Group Oms View,13294
+2290,2289,Oms Preview Pane,13308
+2291,2289,Oms Change Zoom,13309
+2292,2235,Group Mail Delete,19684
+2293,2292,Ignore Conversation,17648
+2294,2292,Thread Compress Split Button,21471
+2295,2292,Thread Compress Thread,19507
+2296,2292,Thread Compress Folder,19509
+2297,2292,Thread Compress Folder Recursive,19510
+2298,2292,Junk Menu,22241
+2299,2292,Junk Email Add To Blocked Senders List,9786
+2300,2292,Junk Email Add To Safe Senders List,9787
+2301,2292,Junk Email Add To Safe Domain List,10028
+2302,2292,Junk Email Add To Safe Recipients List,9788
+2303,2292,Junk Email Mark As Not Junk,9789
+2304,2292,Junk Email Options,9790
+2305,2292,Delete,478
+2306,2235,Group Respond,14350
+2307,2306,Menu Accept Invitation,19984
+2308,2306,Accept Invitation Edit Response,19985
+2309,2306,Accept Invitation Send Response,19986
+2310,2306,Accept Invitation No Response,19987
+2311,2306,Menu Tentative Invitation,19992
+2312,2306,Tentative Invitation Edit Response,19993
+2313,2306,Tentative Invitation Send Response,19994
+2314,2306,Tentative Invitation No Response,19995
+2315,2306,Menu Decline Invitation,19988
+2316,2306,Decline Invitation Edit Response,19989
+2317,2306,Decline Invitation Send Response,19990
+2318,2306,Decline Invitation No Response,19991
+2319,2306,Accept Invitation,1087
+2320,2306,Tentative Accept Invitation,1089
+2321,2306,Decline Invitation,1088
+2322,2306,Propose New Time Menu,14928
+2323,2306,Propose New Time,6892
+2324,2306,Tentative Propose New Time,6905
+2325,2306,Decline And Propose New Time,6866
+2326,2306,Respond Menu,22378
+2327,2306,Reply,354
+2328,2306,Reply All,355
+2329,2306,Forward,356
+2330,2306,Reply With Instant Message,13619
+2331,2306,Reply All With Instant Message,14384
+2332,2306,Dial Menu,2616
+2333,2306,Call,15185
+2334,2306,Dial Gallery,22966
+2335,2306,New Call,2501
+2336,2306,Vote Menu,9091
+2337,2306,Voting Gallery,22971
+2338,2306,Approve Approval Request,19887
+2339,2306,Reject Approval Request,19888
+2340,2306,Reply With Meeting,19512
+2341,2306,Persona Send I M Menu,7239
+2342,2306,Respond Actions Menu,22381
+2343,2306,Forward As Attachment,13158
+2344,2306,Remove From Calendar,1564
+2345,2306,No Response Required For Invitation,16467
+2346,2306,Out Of Date Invitation,16468
+2347,2306,Change Response Button Menu,16469
+2348,2306,Change To Accept Invitation,16470
+2349,2306,Change To Tentative Accept Invitation,16472
+2350,2306,Change To Decline Invitation,16471
+2351,2306,Change To Propose New Time,16580
+2352,2306,Accept Proposal,6843
+2353,2306,View All Proposals,6907
+2354,2306,Post Reply,2989
+2355,2306,Send Again,2507
+2356,2306,Accept Task,1664
+2357,2306,Decline Task,3265
+2358,2306,Cancel Accept Task,2003
+2359,2306,Cancel Decline Task,2005
+2360,2235,Group Quick Steps,17470
+2361,2360,Quick Steps Gallery,17469
+2362,2360,Quick Step New Menu,19502
+2363,2360,Quick Step Template Move To Folder,19496
+2364,2360,Quick Step Template Categorize And Move,19497
+2365,2360,Quick Step Template Flag And Move,19498
+2366,2360,Quick Step Template New Email,19499
+2367,2360,Quick Step Template Forward,19500
+2368,2360,Quick Step Template New Meeting,19501
+2369,2360,Create Quick Step,17703
+2370,2360,Manage Quick Steps,18356
+2371,2235,Group Move Actions,22379
+2372,2371,Infopath Form Actions Menu,20158
+2373,2371,Infopath Export Forms,13080
+2374,2371,Merge Forms,13079
+2375,2371,Infopath Export To Excel,13078
+2376,2371,Copy Shotcut,15040
+2377,2371,Move To Folder Gallery,20150
+2378,2371,Move To Folder,1679
+2379,2371,Copy To Folder,1676
+2380,2371,Always Move Conversation,17649
+2381,2371,Stop Moving Conversation,17650
+2382,2371,Always Move To Folder,17471
+2383,2371,Create Mail Rule,721
+2384,2371,Rules And Alerts,10012
+2385,2371,Move To One Note,22382
+2386,2371,Custom Actions Menu,15054
+2387,2371,Custom Actions Gallery,22975
+2388,2371,Move To Folder Menu,2778
+2389,2371,Recently Used Folder,14375
+2390,2371,Move Actions Menu,22380
+2391,2371,Edit Message,5604
+2392,2371,Recall This Message,2511
+2393,2371,Resend This Message,3165
+2394,2371,View In Browser,11846
+2395,2371,Other Actions Menu,15497
+2396,2371,Enable Functionality,13161
+2397,2371,Unwrap Text,6906
+2398,2371,Save Attachments,3167
+2399,2371,Post Reply To Folder,1985
+2400,2371,View Language Menu,31140
+2401,2371,Message Encoding M R U Gallery,22972
+2402,2371,Message Encoding Gallery,22973
+2403,2371,Message Header Toggle,1751
+2404,2371,View Source,5603
+2405,2235,Group Message Options,14347
+2406,2405,Policy Tags Menu,22525
+2407,2405,Archive Policy Tags Gallery,21575
+2408,2405,Retention Policy Tags Gallery,18680
+2409,2405,All Retention Policy Tags,18681
+2410,2405,Folder Policy Retention Gallery,22053
+2411,2405,Retention Expiring Quick Search,20172
+2412,2405,High Importance,1074
+2413,2405,Low Importance,1075
+2414,2405,Message Options,5598
+2415,2405,Categorize Menu,14381
+2416,2405,Clear All Categories,11856
+2417,2405,Categorize Gallery,22152
+2418,2405,All Categories,11855
+2419,2405,Private,1663
+2420,2405,Follow Up Compose Menu,12847
+2421,2405,Flag Today,11313
+2422,2405,Flag Tomorrow,11314
+2423,2405,Flag This Week,11315
+2424,2405,Flag Next Week,11316
+2425,2405,Flag No Date,11634
+2426,2405,Flag Custom,11319
+2427,2405,Flag Message,1885
+2428,2405,Add Reminder,11453
+2429,2405,Tag Mark Complete,1907
+2430,2405,Clear Flag,2776
+2431,2405,Toggle Mark As Unread,21047
+2432,2405,Follow Up Read Menu,11633
+2433,2235,Group Oms Send,13291
+2434,2433,Send Default,2617
+2435,2433,Account Menu,15108
+2436,2235,Group Actions,15055
+2437,2436,Save And Close,1975
+2438,2436,Cancel Meeting,1657
+2439,2436,Delete,478
+2440,2436,Remove From Calendar,1564
+2441,2436,Open In Browser Outlook,13428
+2442,2436,Copy To Personal Calendar,2572
+2443,2436,Custom Actions Menu,15054
+2444,2436,Custom Actions Gallery,22975
+2445,2436,View Appointment In Calendar,1987
+2446,2436,Forward Menu,14359
+2447,2436,Forward In Forward Menu,15952
+2448,2436,Forward As I Calendar,5459
+2449,2436,Delete Distribution Group,21049
+2450,2436,Contact Send Group Menu,21048
+2451,2436,Forward As V Card,5573
+2452,2436,Forward Contact,13260
+2453,2436,Copy To Personal Contacts,695
+2454,2436,New Contact Menu,16071
+2455,2436,Save And New,1665
+2456,2436,New Contact From Same Company,1908
+2457,2436,Contact Send Menu,14967
+2458,2436,Forward As Business Card,13040
+2459,2436,Move To One Note,22382
+2460,2436,Open In Web Browser,9061
+2461,2436,Customize Search Folder,7794
+2462,2436,Rename This Folder,2512
+2463,2436,Copy This Folder,2499
+2464,2436,Move This Folder,2506
+2465,2436,Delete This Folder,2500
+2466,2436,Forward,356
+2467,2436,Toggle Mark As Unread,21047
+2468,2436,Forward Task,21052
+2469,2436,Menu Tasks More Actions,19715
+2470,2436,Copy To Personal Task List,2573
+2471,0,Tab Set Smart Art Tools,13937
+2472,2471,Tab Smart Art Tools Design,11683
+2473,2472,Group Smart Art Create Graphic,12271
+2474,2473,Smart Art Add Shape Split Menu,15099
+2475,2473,Smart Art Add Shape,12084
+2476,2473,Smart Art Add Shape After,13204
+2477,2473,Smart Art Add Shape Before,13205
+2478,2473,Smart Art Add Shape Above,13206
+2479,2473,Smart Art Add Shape Below,13207
+2480,2473,Smart Art Add Assistant,13208
+2481,2473,Smart Art Add Bullet,14810
+2482,2473,Smart Art Text Pane,12095
+2483,2473,Smart Art Promote,14232
+2484,2473,Smart Art Demote,14233
+2485,2473,Smart Art Right To Left,13249
+2486,2473,Smart Art Reorder Up,16803
+2487,2473,Smart Art Reorder Down,16804
+2488,2473,Smart Art Organization Chart Menu,13780
+2489,2473,Smart Art Organization Chart Standard,13248
+2490,2473,Smart Art Organization Chart Both,13247
+2491,2473,Smart Art Organization Chart Left Hanging,13245
+2492,2473,Smart Art Organization Chart Right Hanging,13246
+2493,2472,Group Smart Art Layouts,12268
+2494,2493,Smart Art Layout Gallery,12097
+2495,2493,Smart Art More Layouts Dialog,12098
+2496,2472,Group Smart Art Quick Styles,12269
+2497,2496,Smart Art Change Colors Gallery,12100
+2498,2496,Smart Art Recolor Images,18714
+2499,2496,Smart Art Styles Gallery,12099
+2500,2472,Group Smart Art Reset,12273
+2501,2500,Smart Art Reset Graphic,12093
+2502,2471,Tab Smart Art Tools Format,11684
+2503,2502,Group Smart Art Shapes,15289
+2504,2503,Smart Art Edit In2 D,12096
+2505,2503,Shape Change Shape Gallery,11530
+2506,2503,Smart Art Larger Shape,12090
+2507,2503,Smart Art Smaller Shape,12091
+2508,2502,Group Shape Styles,11594
+2509,2508,Shape Styles Gallery,11532
+2510,2508,Shape Styles Other Theme Fills Gallery,13779
+2511,2508,Shape Fill Color Picker,11689
+2512,2508,Object Fill More Colors Dialog,1051
+2513,2508,Object Picture Fill,12612
+2514,2508,Gradient Gallery,12116
+2515,2508,Shape Fill More Gradients Dialog,12683
+2516,2508,Shape Fill Texture Gallery,11531
+2517,2508,More Texture Options,15679
+2518,2508,Shape Outline Color Picker,15293
+2519,2508,Object Border Outline Color More Colors Dialog,1052
+2520,2508,Outline Weight Gallery,11866
+2521,2508,Line Styles Dialog,1054
+2522,2508,Outline Dashes Gallery,11865
+2523,2508,Arrow Style Gallery,11864
+2524,2508,Arrows More,1055
+2525,2508,Shape Effects Menu,14861
+2526,2508,Object Effect Preset Gallery,11642
+2527,2508,_3 D Bevel Options Dialog,13233
+2528,2508,Object Effect Shadow Gallery,12118
+2529,2508,Shadow Options Dialog,12684
+2530,2508,Reflection Gallery,14229
+2531,2508,Reflections More Options,17742
+2532,2508,Object Effect Glow Gallery,12115
+2533,2508,Glow Color Picker,14766
+2534,2508,Glow Color More Colors Dialog,14768
+2535,2508,Glows More Options,17744
+2536,2508,Object Effect Soft Edges Gallery,12102
+2537,2508,Soft Edges More Options,17746
+2538,2508,Bevel Shape Gallery,14696
+2539,2508,_3 D Rotation Gallery,11644
+2540,2508,_3 D Rotation Options Dialog,13232
+2541,2508,Object Format Dialog,962
+2542,2502,Group Word Art Styles,14834
+2543,2542,Text Styles Gallery,14839
+2544,2542,Word Art Clear,14840
+2545,2542,Text Fill Color Picker,14835
+2546,2542,Text Fill Color More Colors Dialog,15680
+2547,2542,Text Picture Fill,14841
+2548,2542,Text Fill Gradient Gallery,14842
+2549,2542,Text Fill More Gradients Dialog,14843
+2550,2542,Text Fill Texture Gallery,14844
+2551,2542,Text Fill More Textures,16081
+2552,2542,Text Outline Color Picker,14836
+2553,2542,Text Outline Color More Colors Dialog,14837
+2554,2542,Text Outline Weight Gallery,14847
+2555,2542,Text Outline More Lines Dialog,14846
+2556,2542,Text Outline Dashes Gallery,14845
+2557,2542,Text Effects Menu,14838
+2558,2542,Text Effect Shadow Gallery,14848
+2559,2542,Text Effects More Shadows Dialog,14849
+2560,2542,Text Reflection Gallery,14857
+2561,2542,Text Effects Reflections More Options,17743
+2562,2542,Text Effect Glow Gallery,14854
+2563,2542,Text Glow Color Picker,14855
+2564,2542,Text Glow Color More Colors Dialog,14856
+2565,2542,Text Effects Glows More Options,17745
+2566,2542,Bevel Text Gallery,15075
+2567,2542,Text Effects Bevel More3 D Options Dialog,14851
+2568,2542,Text Effects3 D Rotation Gallery,14852
+2569,2542,Text Effects3 D Rotation Options Dialog,14853
+2570,2542,Text Effect Transform Gallery,12120
+2571,2542,Word Art Format Dialog,15677
+2572,2502,Group Arrange,11581
+2573,2572,Text Wrap Gallery,18323
+2574,2572,Layout Options Dialog Wrapping,21604
+2575,2572,Object Bring Forward Menu,17239
+2576,2572,Object Bring Forward,170
+2577,2572,Object Bring To Front,166
+2578,2572,Object Bring In Front Of Text,3451
+2579,2572,Object Send Backward Menu,17240
+2580,2572,Object Send Backward,171
+2581,2572,Object Send To Back,167
+2582,2572,Object Send Behind Text,3452
+2583,2572,Selection Pane,13244
+2584,2572,Object Align Menu,11920
+2585,2572,Objects Align Left Smart,12784
+2586,2572,Objects Align Center Horizontal Smart,12788
+2587,2572,Objects Align Right Smart,12785
+2588,2572,Objects Align Top Smart,12786
+2589,2572,Objects Align Middle Vertical Smart,12789
+2590,2572,Objects Align Bottom Smart,12787
+2591,2572,Align Distribute Horizontally,12790
+2592,2572,Align Distribute Vertically,12791
+2593,2572,Objects Align Relative To Container Smart,12783
+2594,2572,Objects Align Relative To Margin,14469
+2595,2572,Objects Align Selected Smart,12782
+2596,2572,Objects Group Menu,14409
+2597,2572,Objects Group,164
+2598,2572,Objects Regroup,338
+2599,2572,Objects Ungroup,165
+2600,2572,Object Rotate Gallery,11924
+2601,2572,Chart Rotation Options Dialog,22220
+2602,2502,Group Smart Art Size,12274
+2603,2602,Shape Height,13915
+2604,2602,Shape Width,13916
+2605,2602,Layout Options Dialog Size,21605
+2606,0,Tab Set Chart Tools,13936
+2607,2606,Tab Chart Tools Design New,24379
+2608,2607,Group Chart Layouts,11602
+2609,2608,Add Chart Element Menu,24377
+2610,2608,Chart Axes Gallery,24393
+2611,2608,Chart Axes Options Dialog,24384
+2612,2608,Chart Axis Titles Gallery,24392
+2613,2608,Chart Axes Titles Options Dialog,24383
+2614,2608,Chart Title,11955
+2615,2608,Chart Title Options Dialog,14290
+2616,2608,Chart Data Label,11960
+2617,2608,Chart Data Label Dialog,14292
+2618,2608,Chart Data Table,11967
+2619,2608,Chart Data Table Options Dialog,14308
+2620,2608,Chart Error Bars,11969
+2621,2608,Chart Error Bars Options Dialog,14310
+2622,2608,Chart Gridlines Gallery,24394
+2623,2608,Chart Gridline Options Dialog,24385
+2624,2608,Chart Legend,11959
+2625,2608,Chart Legend Options Dialog Dialog,14291
+2626,2608,Chart Lines,11970
+2627,2608,Chart Trendline,11968
+2628,2608,Chart Trendline Options Dialog,14309
+2629,2608,Chart Up Down Bars,11971
+2630,2608,Chart Up Down Bars Options Dialog,14311
+2631,2608,Chart Layout Gallery,11457
+2632,2607,Group Chart Styles,11603
+2633,2632,Chart Colors Gallery,24604
+2634,2632,Chart Styles Gallery,11456
+2635,2607,Group Chart Data,13215
+2636,2635,Chart Switch Row Column,13210
+2637,2635,Chart Edit Data Source,954
+2638,2635,Chart Edit Data Menu,24145
+2639,2635,Chart Show Data Grid,24146
+2640,2635,Chart Show Data Contextual Menu,16007
+2641,2635,Chart Refresh,13212
+2642,2607,Group Chart Type,13217
+2643,2642,Chart Change Type,13214
+2644,2606,Tab Chart Tools Format New,24380
+2645,2644,Group Chart Current Selection,15046
+2646,2645,Chart Element Selector,11468
+2647,2645,Chart Format Selection,11467
+2648,2645,Chart Reset To Match Style,14057
+2649,2644,Group Shapes Chart,24378
+2650,2649,Shapes Insert Gallery,11529
+2651,2649,Shape Change Shape Gallery,11530
+2652,2644,Group Shape Styles,11594
+2653,2652,Shape Styles Gallery,11532
+2654,2652,Shape Styles Other Theme Fills Gallery,13779
+2655,2652,Shape Fill Color Picker,11689
+2656,2652,Object Fill More Colors Dialog,1051
+2657,2652,Object Picture Fill,12612
+2658,2652,Gradient Gallery,12116
+2659,2652,Shape Fill More Gradients Dialog,12683
+2660,2652,Shape Fill Texture Gallery,11531
+2661,2652,More Texture Options,15679
+2662,2652,Shape Outline Color Picker,15293
+2663,2652,Object Border Outline Color More Colors Dialog,1052
+2664,2652,Outline Weight Gallery,11866
+2665,2652,Line Styles Dialog,1054
+2666,2652,Outline Dashes Gallery,11865
+2667,2652,Arrow Style Gallery,11864
+2668,2652,Arrows More,1055
+2669,2652,Shape Effects Menu,14861
+2670,2652,Object Effect Preset Gallery,11642
+2671,2652,_3 D Bevel Options Dialog,13233
+2672,2652,Object Effect Shadow Gallery,12118
+2673,2652,Shadow Options Dialog,12684
+2674,2652,Reflection Gallery,14229
+2675,2652,Reflections More Options,17742
+2676,2652,Object Effect Glow Gallery,12115
+2677,2652,Glow Color Picker,14766
+2678,2652,Glow Color More Colors Dialog,14768
+2679,2652,Glows More Options,17744
+2680,2652,Object Effect Soft Edges Gallery,12102
+2681,2652,Soft Edges More Options,17746
+2682,2652,Bevel Shape Gallery,14696
+2683,2652,_3 D Rotation Gallery,11644
+2684,2652,_3 D Rotation Options Dialog,13232
+2685,2652,Object Format Dialog,962
+2686,2644,Group Word Art Styles,14834
+2687,2686,Text Styles Gallery,14839
+2688,2686,Word Art Clear,14840
+2689,2686,Text Fill Color Picker,14835
+2690,2686,Text Fill Color More Colors Dialog,15680
+2691,2686,Text Picture Fill,14841
+2692,2686,Text Fill Gradient Gallery,14842
+2693,2686,Text Fill More Gradients Dialog,14843
+2694,2686,Text Fill Texture Gallery,14844
+2695,2686,Text Fill More Textures,16081
+2696,2686,Text Outline Color Picker,14836
+2697,2686,Text Outline Color More Colors Dialog,14837
+2698,2686,Text Outline Weight Gallery,14847
+2699,2686,Text Outline More Lines Dialog,14846
+2700,2686,Text Outline Dashes Gallery,14845
+2701,2686,Text Effects Menu,14838
+2702,2686,Text Effect Shadow Gallery,14848
+2703,2686,Text Effects More Shadows Dialog,14849
+2704,2686,Text Reflection Gallery,14857
+2705,2686,Text Effects Reflections More Options,17743
+2706,2686,Text Effect Glow Gallery,14854
+2707,2686,Text Glow Color Picker,14855
+2708,2686,Text Glow Color More Colors Dialog,14856
+2709,2686,Text Effects Glows More Options,17745
+2710,2686,Bevel Text Gallery,15075
+2711,2686,Text Effects Bevel More3 D Options Dialog,14851
+2712,2686,Text Effects3 D Rotation Gallery,14852
+2713,2686,Text Effects3 D Rotation Options Dialog,14853
+2714,2686,Text Effect Transform Gallery,12120
+2715,2686,Word Art Format Dialog,15677
+2716,2644,Group Arrange,11581
+2717,2716,Text Wrap Gallery,18323
+2718,2716,Layout Options Dialog Wrapping,21604
+2719,2716,Object Bring Forward Menu,17239
+2720,2716,Object Bring Forward,170
+2721,2716,Object Bring To Front,166
+2722,2716,Object Bring In Front Of Text,3451
+2723,2716,Object Send Backward Menu,17240
+2724,2716,Object Send Backward,171
+2725,2716,Object Send To Back,167
+2726,2716,Object Send Behind Text,3452
+2727,2716,Selection Pane,13244
+2728,2716,Object Align Menu,11920
+2729,2716,Objects Align Left Smart,12784
+2730,2716,Objects Align Center Horizontal Smart,12788
+2731,2716,Objects Align Right Smart,12785
+2732,2716,Objects Align Top Smart,12786
+2733,2716,Objects Align Middle Vertical Smart,12789
+2734,2716,Objects Align Bottom Smart,12787
+2735,2716,Align Distribute Horizontally,12790
+2736,2716,Align Distribute Vertically,12791
+2737,2716,Objects Align Relative To Container Smart,12783
+2738,2716,Objects Align Relative To Margin,14469
+2739,2716,Objects Align Selected Smart,12782
+2740,2716,Objects Group Menu,14409
+2741,2716,Objects Group,164
+2742,2716,Objects Regroup,338
+2743,2716,Objects Ungroup,165
+2744,2716,Object Rotate Gallery,11924
+2745,2716,Chart Rotation Options Dialog,22220
+2746,2644,Group Size,11877
+2747,2746,Shape Height,13915
+2748,2746,Shape Width,13916
+2749,2746,Layout Options Dialog Size,21605
+2750,2606,Tab Chart Tools Design,11686
+2751,2750,Group Chart Data,13215
+2752,2751,Chart Switch Row Column,13210
+2753,2751,Chart Edit Data Source,954
+2754,2751,Chart Edit Data Menu,24145
+2755,2751,Chart Show Data Grid,24146
+2756,2751,Chart Show Data Contextual Menu,16007
+2757,2751,Chart Refresh,13212
+2758,2750,Group Chart Styles,11603
+2759,2758,Chart Colors Gallery,24604
+2760,2758,Chart Styles Gallery,11456
+2761,2606,Tab Chart Tools Layout,11687
+2762,2761,Group Chart Current Selection,15046
+2763,2762,Chart Element Selector,11468
+2764,2762,Chart Format Selection,11467
+2765,2762,Chart Reset To Match Style,14057
+2766,2761,Group Chart Shapes,11605
+2767,2766,Picture Insert From File,2619
+2768,2766,Shapes Insert Gallery,11529
+2769,2766,Text Box Insert Word,15162
+2770,2766,Text Box Draw Menu,15161
+2771,2766,Text Box Insert,139
+2772,2766,Text Box Insert Vertical Word,14611
+2773,2761,Group Chart Labels,15047
+2774,2773,Chart Title,11955
+2775,2773,Chart Title Options Dialog,14290
+2776,2773,Chart Axis Titles,11461
+2777,2773,Chart Primary Horizontal Axis Title,11956
+2778,2773,Chart Primary Horizontal Axis Title Options Dialog,14293
+2779,2773,Chart Primary Vertical Axis Title,11957
+2780,2773,Chart Primary Vertical Axis Title Options Dialog,14294
+2781,2773,Chart Secondary Horizontal Axis Title,14315
+2782,2773,Chart Secondary Horizontal Axis Title Options Dialog,14295
+2783,2773,Chart Secondary Vertical Axis Title,14316
+2784,2773,Chart Secondary Vertical Axis Title Options Dialog,14296
+2785,2773,Chart Depth Axis Title,11958
+2786,2773,Chart Depth Axis Title Options Dialog,14297
+2787,2773,Chart Legend,11959
+2788,2773,Chart Legend Options Dialog Dialog,14291
+2789,2773,Chart Data Label,11960
+2790,2773,Chart Data Label Dialog,14292
+2791,2773,Chart Data Table,11967
+2792,2773,Chart Data Table Options Dialog,14308
+2793,2761,Group Chart Axes,11604
+2794,2793,Chart Axes,11463
+2795,2793,Chart Primary Horizontal Axis,11964
+2796,2793,Chart Primary Horizontal Axis Options Dialog,14303
+2797,2793,Chart Primary Vertical Axis,11965
+2798,2793,Chart Primary Vertical Axis Options Dialog,14304
+2799,2793,Chart Secondary Horizontal Axis,14319
+2800,2793,Chart Secondary Horizontal Axis Option,14305
+2801,2793,Chart Secondary Vertical Axis,14320
+2802,2793,Chart Secondary Vertical Axis Options Dialog,14306
+2803,2793,Chart Depth Axis,11966
+2804,2793,Chart Depth Axis Options Dialog,14307
+2805,2793,Chart Gridlines,11464
+2806,2793,Chart Primary Horizontal Gridlines,11961
+2807,2793,Chart Primary Horizontal Gridlines Options Dialog,14298
+2808,2793,Chart Primary Vertical Gridlines,11962
+2809,2793,Chart Primary Vertical Gridlines Options Dialog,14299
+2810,2793,Chart Secondary Horizontal Gridlines,14317
+2811,2793,Chart Secondary Horizontal Gridlines Options Dialog,14300
+2812,2793,Chart Secondary Vertical Gridlines,14318
+2813,2793,Chart Secondary Vertical Gridlines Options Dialog,14301
+2814,2793,Chart Depth Gridlines,11963
+2815,2793,Chart Depth Gridlines Options Dialog,14302
+2816,2761,Group Chart Background,15787
+2817,2816,Chart Plot Area,11972
+2818,2816,Chart Plot Area Options Dialog,14312
+2819,2816,Chart Wall,11973
+2820,2816,Chart Wall Options Dialog,14313
+2821,2816,Chart Floor,11974
+2822,2816,Chart Floor Options Dialog,14314
+2823,2816,Chart3 D View,14059
+2824,2761,Group Chart Analysis,15788
+2825,2824,Chart Trendline,11968
+2826,2824,Chart Trendline Options Dialog,14309
+2827,2824,Chart Lines,11970
+2828,2824,Chart Up Down Bars,11971
+2829,2824,Chart Up Down Bars Options Dialog,14311
+2830,2824,Chart Error Bars,11969
+2831,2824,Chart Error Bars Options Dialog,14310
+2832,2606,Tab Chart Tools Format,11688
+2833,2832,Group Chart Current Selection,15046
+2834,2833,Chart Element Selector,11468
+2835,2833,Chart Format Selection,11467
+2836,2833,Chart Reset To Match Style,14057
+2837,2832,Group Shape Styles,11594
+2838,2837,Shape Styles Gallery,11532
+2839,2837,Shape Styles Other Theme Fills Gallery,13779
+2840,2837,Shape Fill Color Picker,11689
+2841,2837,Object Fill More Colors Dialog,1051
+2842,2837,Object Picture Fill,12612
+2843,2837,Gradient Gallery,12116
+2844,2837,Shape Fill More Gradients Dialog,12683
+2845,2837,Shape Fill Texture Gallery,11531
+2846,2837,More Texture Options,15679
+2847,2837,Shape Outline Color Picker,15293
+2848,2837,Object Border Outline Color More Colors Dialog,1052
+2849,2837,Outline Weight Gallery,11866
+2850,2837,Line Styles Dialog,1054
+2851,2837,Outline Dashes Gallery,11865
+2852,2837,Arrow Style Gallery,11864
+2853,2837,Arrows More,1055
+2854,2837,Shape Effects Menu,14861
+2855,2837,Object Effect Preset Gallery,11642
+2856,2837,_3 D Bevel Options Dialog,13233
+2857,2837,Object Effect Shadow Gallery,12118
+2858,2837,Shadow Options Dialog,12684
+2859,2837,Reflection Gallery,14229
+2860,2837,Reflections More Options,17742
+2861,2837,Object Effect Glow Gallery,12115
+2862,2837,Glow Color Picker,14766
+2863,2837,Glow Color More Colors Dialog,14768
+2864,2837,Glows More Options,17744
+2865,2837,Object Effect Soft Edges Gallery,12102
+2866,2837,Soft Edges More Options,17746
+2867,2837,Bevel Shape Gallery,14696
+2868,2837,_3 D Rotation Gallery,11644
+2869,2837,_3 D Rotation Options Dialog,13232
+2870,2837,Object Format Dialog,962
+2871,2832,Group Word Art Styles,14834
+2872,2871,Text Styles Gallery,14839
+2873,2871,Word Art Clear,14840
+2874,2871,Text Fill Color Picker,14835
+2875,2871,Text Fill Color More Colors Dialog,15680
+2876,2871,Text Picture Fill,14841
+2877,2871,Text Fill Gradient Gallery,14842
+2878,2871,Text Fill More Gradients Dialog,14843
+2879,2871,Text Fill Texture Gallery,14844
+2880,2871,Text Fill More Textures,16081
+2881,2871,Text Outline Color Picker,14836
+2882,2871,Text Outline Color More Colors Dialog,14837
+2883,2871,Text Outline Weight Gallery,14847
+2884,2871,Text Outline More Lines Dialog,14846
+2885,2871,Text Outline Dashes Gallery,14845
+2886,2871,Text Effects Menu,14838
+2887,2871,Text Effect Shadow Gallery,14848
+2888,2871,Text Effects More Shadows Dialog,14849
+2889,2871,Text Reflection Gallery,14857
+2890,2871,Text Effects Reflections More Options,17743
+2891,2871,Text Effect Glow Gallery,14854
+2892,2871,Text Glow Color Picker,14855
+2893,2871,Text Glow Color More Colors Dialog,14856
+2894,2871,Text Effects Glows More Options,17745
+2895,2871,Bevel Text Gallery,15075
+2896,2871,Text Effects Bevel More3 D Options Dialog,14851
+2897,2871,Text Effects3 D Rotation Gallery,14852
+2898,2871,Text Effects3 D Rotation Options Dialog,14853
+2899,2871,Text Effect Transform Gallery,12120
+2900,2871,Word Art Format Dialog,15677
+2901,2832,Group Arrange,11581
+2902,2901,Text Wrap Gallery,18323
+2903,2901,Layout Options Dialog Wrapping,21604
+2904,2901,Object Bring Forward Menu,17239
+2905,2901,Object Bring Forward,170
+2906,2901,Object Bring To Front,166
+2907,2901,Object Bring In Front Of Text,3451
+2908,2901,Object Send Backward Menu,17240
+2909,2901,Object Send Backward,171
+2910,2901,Object Send To Back,167
+2911,2901,Object Send Behind Text,3452
+2912,2901,Selection Pane,13244
+2913,2901,Object Align Menu,11920
+2914,2901,Objects Align Left Smart,12784
+2915,2901,Objects Align Center Horizontal Smart,12788
+2916,2901,Objects Align Right Smart,12785
+2917,2901,Objects Align Top Smart,12786
+2918,2901,Objects Align Middle Vertical Smart,12789
+2919,2901,Objects Align Bottom Smart,12787
+2920,2901,Align Distribute Horizontally,12790
+2921,2901,Align Distribute Vertically,12791
+2922,2901,Objects Align Relative To Container Smart,12783
+2923,2901,Objects Align Relative To Margin,14469
+2924,2901,Objects Align Selected Smart,12782
+2925,2901,Objects Group Menu,14409
+2926,2901,Objects Group,164
+2927,2901,Objects Regroup,338
+2928,2901,Objects Ungroup,165
+2929,2901,Object Rotate Gallery,11924
+2930,2901,Chart Rotation Options Dialog,22220
+2931,2832,Group Size,11877
+2932,2931,Shape Height,13915
+2933,2931,Shape Width,13916
+2934,2931,Layout Options Dialog Size,21605
+2935,0,Tab Set Text Box Tools,13944
+2936,2935,Tab Text Box Tools Format,14472
+2937,2936,Group Text Box Text,11580
+2938,2937,Text Box Insert Word,15162
+2939,2937,Text Box Draw Menu,15161
+2940,2937,Text Box Insert,139
+2941,2937,Text Box Insert Vertical Word,14611
+2942,2937,Text Direction,2872
+2943,2937,Text Box Link Create,2308
+2944,2937,Text Box Link Break,2309
+2945,2936,Group Text Box Styles,15083
+2946,2945,Text Box Style Gallery,14473
+2947,2945,Drawing1 Color Picker Fill,15292
+2948,2945,Object Fill More Colors Dialog,1051
+2949,2945,Object Picture Fill,12612
+2950,2945,Shape Fill Gradient Gallery Classic,13870
+2951,2945,Shape Fill Effect More Gradients Dialog Classic,15174
+2952,2945,Drawing1 Gallery Textures,15297
+2953,2945,Shape Fill Effect More Textures Dialog Classic,15175
+2954,2945,Shape Fill Effect Pattern Classic,15176
+2955,2945,Drawing1 Color Picker Line Styles,15295
+2956,2945,Object Border Outline Color More Colors Dialog,1052
+2957,2945,Outline Weight Gallery,11866
+2958,2945,Line Styles Dialog,1054
+2959,2945,Outline Dashes Gallery,11865
+2960,2945,Arrow Style Gallery,11864
+2961,2945,Arrows More,1055
+2962,2945,Outline Line Pattern Fill,1053
+2963,2945,Shape Change Shape Gallery,11530
+2964,2945,Drawing Object Format Dialog,14182
+2965,2936,Group Shadow Effects,13817
+2966,2965,Shadow Style Gallery Classic,13129
+2967,2965,Shadow Color Picker Classic,13868
+2968,2965,Shadow Semitransparent Classic,1859
+2969,2965,Object Shadow Color More Colors Dialog,1072
+2970,2965,Shadow Nudge Up Classic,1068
+2971,2965,Shadow Nudge Left Classic,1070
+2972,2965,Shadow On Or Off Classic,2175
+2973,2965,Shadow Nudge Right Classic,1071
+2974,2965,Shadow Nudge Down Classic,1069
+2975,2936,Group3 D Effects,13818
+2976,2975,_3 D Effects Gallery Classic,13811
+2977,2975,_3 D Effect Color Picker Classic,13869
+2978,2975,_3 D Effect Color Picker More Classic,1073
+2979,2975,_3 D Extrusion Depth Gallery Classic,13979
+2980,2975,_3 D Direction Gallery Classic,13812
+2981,2975,_3 D Extrusion Perspective Classic,1390
+2982,2975,_3 D Extrusion Parallel Classic,1391
+2983,2975,_3 D Lighting Gallery Classic,13813
+2984,2975,_3 D Lighting Flat Classic,1392
+2985,2975,_3 D Lighting Normal Classic,1393
+2986,2975,_3 D Lighting Dim Classic,1394
+2987,2975,_3 D Surface Material Gallery Classic,13978
+2988,2975,_3 D Tilt Up Classic,1376
+2989,2975,_3 D Tilt Left Classic,1377
+2990,2975,_3 D Effects On Off Classic,1374
+2991,2975,_3 D Tilt Right Classic,1378
+2992,2975,_3 D Tilt Down Classic,1375
+2993,2936,Group Text Box Arrange,15305
+2994,2993,Text Box Position Gallery,14476
+2995,2993,Layout Options Dialog Position,21603
+2996,2993,Object Bring Forward Menu,17239
+2997,2993,Object Bring Forward,170
+2998,2993,Object Bring To Front,166
+2999,2993,Object Bring In Front Of Text,3451
+3000,2993,Object Send Backward Menu,17240
+3001,2993,Object Send Backward,171
+3002,2993,Object Send To Back,167
+3003,2993,Object Send Behind Text,3452
+3004,2993,Text Wrap Gallery,18323
+3005,2993,Layout Options Dialog Wrapping,21604
+3006,2993,Object Align Menu,11920
+3007,2993,Objects Align Left Smart,12784
+3008,2993,Objects Align Center Horizontal Smart,12788
+3009,2993,Objects Align Right Smart,12785
+3010,2993,Objects Align Top Smart,12786
+3011,2993,Objects Align Middle Vertical Smart,12789
+3012,2993,Objects Align Bottom Smart,12787
+3013,2993,Align Distribute Horizontally,12790
+3014,2993,Align Distribute Vertically,12791
+3015,2993,Objects Align Relative To Container Smart,12783
+3016,2993,Objects Align Relative To Margin,14469
+3017,2993,Objects Align Selected Smart,12782
+3018,2993,Objects Group Menu,14409
+3019,2993,Objects Group,164
+3020,2993,Objects Regroup,338
+3021,2993,Objects Ungroup,165
+3022,2993,Object Rotate Gallery,11924
+3023,2993,Chart Rotation Options Dialog,22220
+3024,2936,Group Size Classic,15284
+3025,3024,Shape Height,13915
+3026,3024,Shape Width,13916
+3027,3024,Object Size Dialog Classic,14606
+3028,0,Tab Set Drawing Tools,13261
+3029,3028,Tab Drawing Tools Format,11528
+3030,3029,Group Shapes,11549
+3031,3030,Shapes Insert Gallery,11529
+3032,3030,Object Edit Shape Menu,12317
+3033,3030,Shape Change Shape Gallery,11530
+3034,3030,Object Edit Points,206
+3035,3030,Shape Reroute Connectors,1033
+3036,3030,Text Box Insert Word,15162
+3037,3030,Text Box Insert Menu,13098
+3038,3030,Text Box Insert Horizontal,13099
+3039,3030,Text Box Insert Vertical,318
+3040,3029,Group Shape Styles,11594
+3041,3040,Shape Styles Gallery,11532
+3042,3040,Shape Styles Other Theme Fills Gallery,13779
+3043,3040,Shape Fill Color Picker,11689
+3044,3040,Object Fill More Colors Dialog,1051
+3045,3040,Object Picture Fill,12612
+3046,3040,Gradient Gallery,12116
+3047,3040,Shape Fill More Gradients Dialog,12683
+3048,3040,Shape Fill Texture Gallery,11531
+3049,3040,More Texture Options,15679
+3050,3040,Shape Outline Color Picker,15293
+3051,3040,Object Border Outline Color More Colors Dialog,1052
+3052,3040,Outline Weight Gallery,11866
+3053,3040,Line Styles Dialog,1054
+3054,3040,Outline Dashes Gallery,11865
+3055,3040,Arrow Style Gallery,11864
+3056,3040,Arrows More,1055
+3057,3040,Shape Effects Menu,14861
+3058,3040,Object Effect Preset Gallery,11642
+3059,3040,_3 D Bevel Options Dialog,13233
+3060,3040,Object Effect Shadow Gallery,12118
+3061,3040,Shadow Options Dialog,12684
+3062,3040,Reflection Gallery,14229
+3063,3040,Reflections More Options,17742
+3064,3040,Object Effect Glow Gallery,12115
+3065,3040,Glow Color Picker,14766
+3066,3040,Glow Color More Colors Dialog,14768
+3067,3040,Glows More Options,17744
+3068,3040,Object Effect Soft Edges Gallery,12102
+3069,3040,Soft Edges More Options,17746
+3070,3040,Bevel Shape Gallery,14696
+3071,3040,_3 D Rotation Gallery,11644
+3072,3040,_3 D Rotation Options Dialog,13232
+3073,3040,Object Format Dialog,962
+3074,3029,Group Word Art Styles,14834
+3075,3074,Text Styles Gallery,14839
+3076,3074,Word Art Clear,14840
+3077,3074,Text Fill Color Picker,14835
+3078,3074,Text Fill Color More Colors Dialog,15680
+3079,3074,Text Picture Fill,14841
+3080,3074,Text Fill Gradient Gallery,14842
+3081,3074,Text Fill More Gradients Dialog,14843
+3082,3074,Text Fill Texture Gallery,14844
+3083,3074,Text Fill More Textures,16081
+3084,3074,Text Outline Color Picker,14836
+3085,3074,Text Outline Color More Colors Dialog,14837
+3086,3074,Text Outline Weight Gallery,14847
+3087,3074,Text Outline More Lines Dialog,14846
+3088,3074,Text Outline Dashes Gallery,14845
+3089,3074,Text Effects Menu,14838
+3090,3074,Text Effect Shadow Gallery,14848
+3091,3074,Text Effects More Shadows Dialog,14849
+3092,3074,Text Reflection Gallery,14857
+3093,3074,Text Effects Reflections More Options,17743
+3094,3074,Text Effect Glow Gallery,14854
+3095,3074,Text Glow Color Picker,14855
+3096,3074,Text Glow Color More Colors Dialog,14856
+3097,3074,Text Effects Glows More Options,17745
+3098,3074,Bevel Text Gallery,15075
+3099,3074,Text Effects Bevel More3 D Options Dialog,14851
+3100,3074,Text Effects3 D Rotation Gallery,14852
+3101,3074,Text Effects3 D Rotation Options Dialog,14853
+3102,3074,Text Effect Transform Gallery,12120
+3103,3074,Word Art Format Dialog,15677
+3104,3029,Group Textbox,19384
+3105,3104,Text Direction Gallery Word,13935
+3106,3104,Text Direction Options Dialog,782
+3107,3104,Text Align Gallery,13994
+3108,3104,Text Box Link Create,2308
+3109,3104,Text Box Link Break,2309
+3110,3029,Group Arrange,11581
+3111,3110,Text Wrap Gallery,18323
+3112,3110,Layout Options Dialog Wrapping,21604
+3113,3110,Object Bring Forward Menu,17239
+3114,3110,Object Bring Forward,170
+3115,3110,Object Bring To Front,166
+3116,3110,Object Bring In Front Of Text,3451
+3117,3110,Object Send Backward Menu,17240
+3118,3110,Object Send Backward,171
+3119,3110,Object Send To Back,167
+3120,3110,Object Send Behind Text,3452
+3121,3110,Selection Pane,13244
+3122,3110,Object Align Menu,11920
+3123,3110,Objects Align Left Smart,12784
+3124,3110,Objects Align Center Horizontal Smart,12788
+3125,3110,Objects Align Right Smart,12785
+3126,3110,Objects Align Top Smart,12786
+3127,3110,Objects Align Middle Vertical Smart,12789
+3128,3110,Objects Align Bottom Smart,12787
+3129,3110,Align Distribute Horizontally,12790
+3130,3110,Align Distribute Vertically,12791
+3131,3110,Objects Align Relative To Container Smart,12783
+3132,3110,Objects Align Relative To Margin,14469
+3133,3110,Objects Align Selected Smart,12782
+3134,3110,Objects Group Menu,14409
+3135,3110,Objects Group,164
+3136,3110,Objects Regroup,338
+3137,3110,Objects Ungroup,165
+3138,3110,Object Rotate Gallery,11924
+3139,3110,Chart Rotation Options Dialog,22220
+3140,3029,Group Size,11877
+3141,3140,Shape Height,13915
+3142,3140,Shape Width,13916
+3143,3140,Layout Options Dialog Size,21605
+3144,0,Tab Set Drawing Tools Classic,14605
+3145,3144,Tab Drawing Tools Format Classic,13815
+3146,3145,Group Shapes Classic,15288
+3147,3146,Shapes Insert Gallery,11529
+3148,3146,Object Edit Shape Menu Classic,17728
+3149,3146,Object Edit Points,206
+3150,3146,Shape Reroute Connectors,1033
+3151,3146,Object Add Text,1400
+3152,3145,Group Shape Styles Classic,15290
+3153,3152,Shape Styles Gallery Classic,13822
+3154,3152,Drawing1 Color Picker Fill,15292
+3155,3152,Object Fill More Colors Dialog,1051
+3156,3152,Object Picture Fill,12612
+3157,3152,Shape Fill Gradient Gallery Classic,13870
+3158,3152,Shape Fill Effect More Gradients Dialog Classic,15174
+3159,3152,Drawing1 Gallery Textures,15297
+3160,3152,Shape Fill Effect More Textures Dialog Classic,15175
+3161,3152,Shape Fill Effect Pattern Classic,15176
+3162,3152,Drawing1 Color Picker Line Styles,15295
+3163,3152,Object Border Outline Color More Colors Dialog,1052
+3164,3152,Outline Weight Gallery,11866
+3165,3152,Line Styles Dialog,1054
+3166,3152,Outline Dashes Gallery,11865
+3167,3152,Arrow Style Gallery,11864
+3168,3152,Arrows More,1055
+3169,3152,Outline Line Pattern Fill,1053
+3170,3152,Shape Change Shape Gallery,11530
+3171,3152,Drawing Object Format Dialog,14182
+3172,3145,Group Shadow Effects,13817
+3173,3172,Shadow Style Gallery Classic,13129
+3174,3172,Shadow Color Picker Classic,13868
+3175,3172,Shadow Semitransparent Classic,1859
+3176,3172,Object Shadow Color More Colors Dialog,1072
+3177,3172,Shadow Nudge Up Classic,1068
+3178,3172,Shadow Nudge Left Classic,1070
+3179,3172,Shadow On Or Off Classic,2175
+3180,3172,Shadow Nudge Right Classic,1071
+3181,3172,Shadow Nudge Down Classic,1069
+3182,3145,Group3 D Effects,13818
+3183,3182,_3 D Effects Gallery Classic,13811
+3184,3182,_3 D Effect Color Picker Classic,13869
+3185,3182,_3 D Effect Color Picker More Classic,1073
+3186,3182,_3 D Extrusion Depth Gallery Classic,13979
+3187,3182,_3 D Direction Gallery Classic,13812
+3188,3182,_3 D Extrusion Perspective Classic,1390
+3189,3182,_3 D Extrusion Parallel Classic,1391
+3190,3182,_3 D Lighting Gallery Classic,13813
+3191,3182,_3 D Lighting Flat Classic,1392
+3192,3182,_3 D Lighting Normal Classic,1393
+3193,3182,_3 D Lighting Dim Classic,1394
+3194,3182,_3 D Surface Material Gallery Classic,13978
+3195,3182,_3 D Tilt Up Classic,1376
+3196,3182,_3 D Tilt Left Classic,1377
+3197,3182,_3 D Effects On Off Classic,1374
+3198,3182,_3 D Tilt Right Classic,1378
+3199,3182,_3 D Tilt Down Classic,1375
+3200,3145,Group Arrange,11581
+3201,3200,Text Wrap Gallery,18323
+3202,3200,Layout Options Dialog Wrapping,21604
+3203,3200,Object Bring Forward Menu,17239
+3204,3200,Object Bring Forward,170
+3205,3200,Object Bring To Front,166
+3206,3200,Object Bring In Front Of Text,3451
+3207,3200,Object Send Backward Menu,17240
+3208,3200,Object Send Backward,171
+3209,3200,Object Send To Back,167
+3210,3200,Object Send Behind Text,3452
+3211,3200,Selection Pane,13244
+3212,3200,Object Align Menu,11920
+3213,3200,Objects Align Left Smart,12784
+3214,3200,Objects Align Center Horizontal Smart,12788
+3215,3200,Objects Align Right Smart,12785
+3216,3200,Objects Align Top Smart,12786
+3217,3200,Objects Align Middle Vertical Smart,12789
+3218,3200,Objects Align Bottom Smart,12787
+3219,3200,Align Distribute Horizontally,12790
+3220,3200,Align Distribute Vertically,12791
+3221,3200,Objects Align Relative To Container Smart,12783
+3222,3200,Objects Align Relative To Margin,14469
+3223,3200,Objects Align Selected Smart,12782
+3224,3200,Objects Group Menu,14409
+3225,3200,Objects Group,164
+3226,3200,Objects Regroup,338
+3227,3200,Objects Ungroup,165
+3228,3200,Object Rotate Gallery,11924
+3229,3200,Chart Rotation Options Dialog,22220
+3230,3145,Group Size Classic,15284
+3231,3230,Shape Height,13915
+3232,3230,Shape Width,13916
+3233,3230,Object Size Dialog Classic,14606
+3234,0,Tab Set Word Art Tools,13941
+3235,3234,Tab Word Art Tools Format,12806
+3236,3235,Group Word Art Text,11550
+3237,3236,Word Art Edit Text Classic,2094
+3238,3236,Word Art Spacing Menu,13134
+3239,3236,Word Art Spacing Very Tight,1356
+3240,3236,Word Art Spacing Tight,1357
+3241,3236,Word Art Spacing Normal,1358
+3242,3236,Word Art Spacing Loose,1359
+3243,3236,Word Art Spacing Very Loose,1360
+3244,3236,Word Art Spacing Kern Character Pairs,1361
+3245,3236,Word Art Even Text Height Classic,1063
+3246,3236,Word Art Vertical Text,1061
+3247,3236,Text Align Menu,13135
+3248,3236,Text Align Left,1108
+3249,3236,Text Align Center,1109
+3250,3236,Text Align Right,1352
+3251,3236,Text Align Word Justify,1354
+3252,3236,Text Align Letter Justify,1353
+3253,3236,Text Align Stretch Justify,1355
+3254,3235,Group Word Art Styles Classic,15085
+3255,3254,Word Art Styles Gallery Classic,13819
+3256,3254,Drawing1 Color Picker Fill Word Art,16029
+3257,3254,Object Fill More Colors Dialog,1051
+3258,3254,Object Picture Fill,12612
+3259,3254,Shape Fill Gradient Gallery Classic,13870
+3260,3254,Shape Fill Effect More Gradients Dialog Classic,15174
+3261,3254,Drawing1 Gallery Textures,15297
+3262,3254,Shape Fill Effect More Textures Dialog Classic,15175
+3263,3254,Shape Fill Effect Pattern Classic,15176
+3264,3254,Drawing1 Color Picker Line Styles Word Art,16028
+3265,3254,Object Border Outline Color More Colors Dialog,1052
+3266,3254,Outline Weight Gallery,11866
+3267,3254,Line Styles Dialog,1054
+3268,3254,Outline Dashes Gallery,11865
+3269,3254,Arrow Style Gallery,11864
+3270,3254,Arrows More,1055
+3271,3254,Outline Line Pattern Fill,1053
+3272,3254,Word Art Change Shape Gallery,13866
+3273,3235,Group Shadow Effects,13817
+3274,3273,Shadow Style Gallery Classic,13129
+3275,3273,Shadow Color Picker Classic,13868
+3276,3273,Shadow Semitransparent Classic,1859
+3277,3273,Object Shadow Color More Colors Dialog,1072
+3278,3273,Shadow Nudge Up Classic,1068
+3279,3273,Shadow Nudge Left Classic,1070
+3280,3273,Shadow On Or Off Classic,2175
+3281,3273,Shadow Nudge Right Classic,1071
+3282,3273,Shadow Nudge Down Classic,1069
+3283,3235,Group3 D Effects,13818
+3284,3283,_3 D Effects Gallery Classic,13811
+3285,3283,_3 D Effect Color Picker Classic,13869
+3286,3283,_3 D Effect Color Picker More Classic,1073
+3287,3283,_3 D Extrusion Depth Gallery Classic,13979
+3288,3283,_3 D Direction Gallery Classic,13812
+3289,3283,_3 D Extrusion Perspective Classic,1390
+3290,3283,_3 D Extrusion Parallel Classic,1391
+3291,3283,_3 D Lighting Gallery Classic,13813
+3292,3283,_3 D Lighting Flat Classic,1392
+3293,3283,_3 D Lighting Normal Classic,1393
+3294,3283,_3 D Lighting Dim Classic,1394
+3295,3283,_3 D Surface Material Gallery Classic,13978
+3296,3283,_3 D Tilt Up Classic,1376
+3297,3283,_3 D Tilt Left Classic,1377
+3298,3283,_3 D Effects On Off Classic,1374
+3299,3283,_3 D Tilt Right Classic,1378
+3300,3283,_3 D Tilt Down Classic,1375
+3301,3235,Group Arrange,11581
+3302,3301,Text Wrap Gallery,18323
+3303,3301,Layout Options Dialog Wrapping,21604
+3304,3301,Object Bring Forward Menu,17239
+3305,3301,Object Bring Forward,170
+3306,3301,Object Bring To Front,166
+3307,3301,Object Bring In Front Of Text,3451
+3308,3301,Object Send Backward Menu,17240
+3309,3301,Object Send Backward,171
+3310,3301,Object Send To Back,167
+3311,3301,Object Send Behind Text,3452
+3312,3301,Selection Pane,13244
+3313,3301,Object Align Menu,11920
+3314,3301,Objects Align Left Smart,12784
+3315,3301,Objects Align Center Horizontal Smart,12788
+3316,3301,Objects Align Right Smart,12785
+3317,3301,Objects Align Top Smart,12786
+3318,3301,Objects Align Middle Vertical Smart,12789
+3319,3301,Objects Align Bottom Smart,12787
+3320,3301,Align Distribute Horizontally,12790
+3321,3301,Align Distribute Vertically,12791
+3322,3301,Objects Align Relative To Container Smart,12783
+3323,3301,Objects Align Relative To Margin,14469
+3324,3301,Objects Align Selected Smart,12782
+3325,3301,Objects Group Menu,14409
+3326,3301,Objects Group,164
+3327,3301,Objects Regroup,338
+3328,3301,Objects Ungroup,165
+3329,3301,Object Rotate Gallery,11924
+3330,3301,Chart Rotation Options Dialog,22220
+3331,3235,Group Size Classic,15284
+3332,3331,Shape Height,13915
+3333,3331,Shape Width,13916
+3334,3331,Object Size Dialog Classic,14606
+3335,0,Tab Set Diagram Tools,13942
+3336,3335,Tab Diagram Tools Format Classic,13131
+3337,3336,Group Diagram Layout Classic,15157
+3338,3337,Diagram Shape Insert Classic,6933
+3339,3337,Diagram Reverse Classic,6099
+3340,3337,Diagram Shape Move Forward Classic,6011
+3341,3337,Diagram Shape Move Backward Classic,6010
+3342,3337,Diagram Auto Layout Classic,6100
+3343,3337,Diagram Fit To Contents Classic,6826
+3344,3337,Diagram Expand Classic,6828
+3345,3337,Diagram Resize Classic,6827
+3346,3336,Group Diagram Styles Classic,15158
+3347,3346,Diagram Styles Classic,6068
+3348,3346,Drawing1 Color Picker Fill,15292
+3349,3346,Object Fill More Colors Dialog,1051
+3350,3346,Object Picture Fill,12612
+3351,3346,Shape Fill Gradient Gallery Classic,13870
+3352,3346,Shape Fill Effect More Gradients Dialog Classic,15174
+3353,3346,Drawing1 Gallery Textures,15297
+3354,3346,Shape Fill Effect More Textures Dialog Classic,15175
+3355,3346,Shape Fill Effect Pattern Classic,15176
+3356,3346,Drawing1 Color Picker Line Styles,15295
+3357,3346,Object Border Outline Color More Colors Dialog,1052
+3358,3346,Outline Weight Gallery,11866
+3359,3346,Line Styles Dialog,1054
+3360,3346,Outline Dashes Gallery,11865
+3361,3346,Arrow Style Gallery,11864
+3362,3346,Arrows More,1055
+3363,3346,Outline Line Pattern Fill,1053
+3364,3346,Diagram Change To Menu Classic,13136
+3365,3346,Diagram Change To Cycle Classic,5830
+3366,3346,Diagram Change To Radial Classic,5829
+3367,3346,Diagram Change To Pyramid Classic,6009
+3368,3346,Diagram Change To Venn Diagram Classic,5833
+3369,3346,Diagram Change To Target Classic,5832
+3370,3336,Group Shadow Effects,13817
+3371,3370,Shadow Style Gallery Classic,13129
+3372,3370,Shadow Color Picker Classic,13868
+3373,3370,Shadow Semitransparent Classic,1859
+3374,3370,Object Shadow Color More Colors Dialog,1072
+3375,3370,Shadow Nudge Up Classic,1068
+3376,3370,Shadow Nudge Left Classic,1070
+3377,3370,Shadow On Or Off Classic,2175
+3378,3370,Shadow Nudge Right Classic,1071
+3379,3370,Shadow Nudge Down Classic,1069
+3380,3336,Group3 D Effects,13818
+3381,3380,_3 D Effects Gallery Classic,13811
+3382,3380,_3 D Effect Color Picker Classic,13869
+3383,3380,_3 D Effect Color Picker More Classic,1073
+3384,3380,_3 D Extrusion Depth Gallery Classic,13979
+3385,3380,_3 D Direction Gallery Classic,13812
+3386,3380,_3 D Extrusion Perspective Classic,1390
+3387,3380,_3 D Extrusion Parallel Classic,1391
+3388,3380,_3 D Lighting Gallery Classic,13813
+3389,3380,_3 D Lighting Flat Classic,1392
+3390,3380,_3 D Lighting Normal Classic,1393
+3391,3380,_3 D Lighting Dim Classic,1394
+3392,3380,_3 D Surface Material Gallery Classic,13978
+3393,3380,_3 D Tilt Up Classic,1376
+3394,3380,_3 D Tilt Left Classic,1377
+3395,3380,_3 D Effects On Off Classic,1374
+3396,3380,_3 D Tilt Right Classic,1378
+3397,3380,_3 D Tilt Down Classic,1375
+3398,3336,Group Diagram Arrange Classic,15304
+3399,3398,Picture Position Gallery,13142
+3400,3398,Layout Options Dialog Position,21603
+3401,3398,Object Bring Forward Menu,17239
+3402,3398,Object Bring Forward,170
+3403,3398,Object Bring To Front,166
+3404,3398,Object Bring In Front Of Text,3451
+3405,3398,Object Send Backward Menu,17240
+3406,3398,Object Send Backward,171
+3407,3398,Object Send To Back,167
+3408,3398,Object Send Behind Text,3452
+3409,3398,Text Wrap Gallery,18323
+3410,3398,Layout Options Dialog Wrapping,21604
+3411,3398,Object Align Menu,11920
+3412,3398,Objects Align Left Smart,12784
+3413,3398,Objects Align Center Horizontal Smart,12788
+3414,3398,Objects Align Right Smart,12785
+3415,3398,Objects Align Top Smart,12786
+3416,3398,Objects Align Middle Vertical Smart,12789
+3417,3398,Objects Align Bottom Smart,12787
+3418,3398,Align Distribute Horizontally,12790
+3419,3398,Align Distribute Vertically,12791
+3420,3398,Objects Align Relative To Container Smart,12783
+3421,3398,Objects Align Relative To Margin,14469
+3422,3398,Objects Align Selected Smart,12782
+3423,3398,Objects Group Menu,14409
+3424,3398,Objects Group,164
+3425,3398,Objects Regroup,338
+3426,3398,Objects Ungroup,165
+3427,3336,Group Size Classic,15284
+3428,3427,Shape Height,13915
+3429,3427,Shape Width,13916
+3430,3427,Object Size Dialog Classic,14606
+3431,0,Tab Set Organization Chart Tools,13943
+3432,3431,Tab Organization Chart Tools Format,13130
+3433,3432,Group Organization Chart Shape Insert,11613
+3434,3433,Organization Chart Insert Subordinate,5856
+3435,3433,Organization Chart Insert Coworker,5855
+3436,3433,Organization Chart Insert Assistant,5849
+3437,3432,Group Organization Chart Layout Classic,15159
+3438,3437,Organization Chart Layout Standard,6131
+3439,3437,Organization Chart Layout Right Hanging,6134
+3440,3437,Organization Chart Layout Left Hanging,6133
+3441,3437,Organization Chart Layout Both Hanging,6132
+3442,3437,Organization Chart Auto Layout,6071
+3443,3432,Group Organization Chart Style Classic,15160
+3444,3443,Organization Chart Style,6949
+3445,3443,Drawing1 Color Picker Fill,15292
+3446,3443,Object Fill More Colors Dialog,1051
+3447,3443,Object Picture Fill,12612
+3448,3443,Shape Fill Gradient Gallery Classic,13870
+3449,3443,Shape Fill Effect More Gradients Dialog Classic,15174
+3450,3443,Drawing1 Gallery Textures,15297
+3451,3443,Shape Fill Effect More Textures Dialog Classic,15175
+3452,3443,Shape Fill Effect Pattern Classic,15176
+3453,3443,Drawing1 Color Picker Line Styles,15295
+3454,3443,Object Border Outline Color More Colors Dialog,1052
+3455,3443,Outline Weight Gallery,11866
+3456,3443,Line Styles Dialog,1054
+3457,3443,Outline Dashes Gallery,11865
+3458,3443,Arrow Style Gallery,11864
+3459,3443,Arrows More,1055
+3460,3443,Outline Line Pattern Fill,1053
+3461,3432,Group Organization Chart Select,15163
+3462,3461,Organization Chart Select Level,6072
+3463,3461,Organization Chart Select Branch,6073
+3464,3461,Organization Chart Select All Assistants,6074
+3465,3461,Organization Chart Select All Connectors,6075
+3466,3432,Group Shadow Effects,13817
+3467,3466,Shadow Style Gallery Classic,13129
+3468,3466,Shadow Color Picker Classic,13868
+3469,3466,Shadow Semitransparent Classic,1859
+3470,3466,Object Shadow Color More Colors Dialog,1072
+3471,3466,Shadow Nudge Up Classic,1068
+3472,3466,Shadow Nudge Left Classic,1070
+3473,3466,Shadow On Or Off Classic,2175
+3474,3466,Shadow Nudge Right Classic,1071
+3475,3466,Shadow Nudge Down Classic,1069
+3476,3432,Group3 D Effects,13818
+3477,3476,_3 D Effects Gallery Classic,13811
+3478,3476,_3 D Effect Color Picker Classic,13869
+3479,3476,_3 D Effect Color Picker More Classic,1073
+3480,3476,_3 D Extrusion Depth Gallery Classic,13979
+3481,3476,_3 D Direction Gallery Classic,13812
+3482,3476,_3 D Extrusion Perspective Classic,1390
+3483,3476,_3 D Extrusion Parallel Classic,1391
+3484,3476,_3 D Lighting Gallery Classic,13813
+3485,3476,_3 D Lighting Flat Classic,1392
+3486,3476,_3 D Lighting Normal Classic,1393
+3487,3476,_3 D Lighting Dim Classic,1394
+3488,3476,_3 D Surface Material Gallery Classic,13978
+3489,3476,_3 D Tilt Up Classic,1376
+3490,3476,_3 D Tilt Left Classic,1377
+3491,3476,_3 D Effects On Off Classic,1374
+3492,3476,_3 D Tilt Right Classic,1378
+3493,3476,_3 D Tilt Down Classic,1375
+3494,3432,Group Diagram Arrange Classic,15304
+3495,3494,Picture Position Gallery,13142
+3496,3494,Layout Options Dialog Position,21603
+3497,3494,Object Bring Forward Menu,17239
+3498,3494,Object Bring Forward,170
+3499,3494,Object Bring To Front,166
+3500,3494,Object Bring In Front Of Text,3451
+3501,3494,Object Send Backward Menu,17240
+3502,3494,Object Send Backward,171
+3503,3494,Object Send To Back,167
+3504,3494,Object Send Behind Text,3452
+3505,3494,Text Wrap Gallery,18323
+3506,3494,Layout Options Dialog Wrapping,21604
+3507,3494,Object Align Menu,11920
+3508,3494,Objects Align Left Smart,12784
+3509,3494,Objects Align Center Horizontal Smart,12788
+3510,3494,Objects Align Right Smart,12785
+3511,3494,Objects Align Top Smart,12786
+3512,3494,Objects Align Middle Vertical Smart,12789
+3513,3494,Objects Align Bottom Smart,12787
+3514,3494,Align Distribute Horizontally,12790
+3515,3494,Align Distribute Vertically,12791
+3516,3494,Objects Align Relative To Container Smart,12783
+3517,3494,Objects Align Relative To Margin,14469
+3518,3494,Objects Align Selected Smart,12782
+3519,3494,Objects Group Menu,14409
+3520,3494,Objects Group,164
+3521,3494,Objects Regroup,338
+3522,3494,Objects Ungroup,165
+3523,3432,Group Size Classic,15284
+3524,3523,Shape Height,13915
+3525,3523,Shape Width,13916
+3526,3523,Object Size Dialog Classic,14606
+3527,0,Tab Set Picture Tools,13263
+3528,3527,Tab Picture Tools Format,11527
+3529,3528,Group Picture Tools,11875
+3530,3529,Picture Background Removal,19622
+3531,3529,Picture Corrections Menu,21477
+3532,3529,Picture Sharpen Soften Gallery,16794
+3533,3529,Picture Brightness And Contrast Gallery,16790
+3534,3529,Picture Corrections Dialog,15078
+3535,3529,Picture Color Menu,21187
+3536,3529,Picture Saturation Gallery,16791
+3537,3529,Picture Color Tempertature Gallery,16792
+3538,3529,Picture Recolor Gallery,14231
+3539,3529,Recolor Color Picker,14767
+3540,3529,Picture Recolor More Colors Dialog,14769
+3541,3529,Picture Set Transparent Color,2827
+3542,3529,Picture Color Dialog,16827
+3543,3529,Picture Artistic Effects Gallery,16793
+3544,3529,Artistic Effects Dialog,16828
+3545,3529,Pictures Compress,6382
+3546,3529,Picture Change,14826
+3547,3529,Picture Reset Split Button,22710
+3548,3529,Picture Reset,1362
+3549,3529,Picture Reset And Size,22711
+3550,3528,Group Picture Styles,15503
+3551,3550,Picture Styles Gallery,15504
+3552,3550,Outline Color Picker,11690
+3553,3550,Object Border Outline Color More Colors Dialog,1052
+3554,3550,Outline Weight Gallery,11866
+3555,3550,Line Styles Dialog,1054
+3556,3550,Outline Dashes Gallery,11865
+3557,3550,Picture Effects Menu,15782
+3558,3550,Picture Effects Preset Gallery,11643
+3559,3550,_3 D Bevel Options Dialog,13233
+3560,3550,Picture Effects Shadow Gallery,15554
+3561,3550,Shadow Options Dialog,12684
+3562,3550,Picture Reflection Gallery,15562
+3563,3550,Reflections More Options,17742
+3564,3550,Picture Effects Glow Gallery,15557
+3565,3550,Glow Color Picker,14766
+3566,3550,Glow Color More Colors Dialog,14768
+3567,3550,Glows More Options,17744
+3568,3550,Picture Effects Soft Edges Gallery,15560
+3569,3550,Soft Edges More Options,17746
+3570,3550,_3 D Bevel Picture Top Gallery,14711
+3571,3550,Picture Rotation Gallery,15565
+3572,3550,_3 D Rotation Options Dialog,13232
+3573,3550,Pictures Convert To Smart Art,17841
+3574,3550,Object Format Dialog,962
+3575,3528,Group Arrange,11581
+3576,3575,Text Wrap Gallery,18323
+3577,3575,Layout Options Dialog Wrapping,21604
+3578,3575,Object Bring Forward Menu,17239
+3579,3575,Object Bring Forward,170
+3580,3575,Object Bring To Front,166
+3581,3575,Object Bring In Front Of Text,3451
+3582,3575,Object Send Backward Menu,17240
+3583,3575,Object Send Backward,171
+3584,3575,Object Send To Back,167
+3585,3575,Object Send Behind Text,3452
+3586,3575,Selection Pane,13244
+3587,3575,Object Align Menu,11920
+3588,3575,Objects Align Left Smart,12784
+3589,3575,Objects Align Center Horizontal Smart,12788
+3590,3575,Objects Align Right Smart,12785
+3591,3575,Objects Align Top Smart,12786
+3592,3575,Objects Align Middle Vertical Smart,12789
+3593,3575,Objects Align Bottom Smart,12787
+3594,3575,Align Distribute Horizontally,12790
+3595,3575,Align Distribute Vertically,12791
+3596,3575,Objects Align Relative To Container Smart,12783
+3597,3575,Objects Align Relative To Margin,14469
+3598,3575,Objects Align Selected Smart,12782
+3599,3575,Objects Group Menu,14409
+3600,3575,Objects Group,164
+3601,3575,Objects Regroup,338
+3602,3575,Objects Ungroup,165
+3603,3575,Object Rotate Gallery,11924
+3604,3575,Chart Rotation Options Dialog,22220
+3605,3528,Group Picture Size,11568
+3606,3605,Picture Crop Tools,18131
+3607,3605,Picture Crop,732
+3608,3605,Picture Shape Gallery,15783
+3609,3605,Picture Crop Aspect Ratio Menu,18612
+3610,3605,Picture Crop Aspect Ratio1 To1,18613
+3611,3605,Picture Crop Aspect Ratio2 To3,18614
+3612,3605,Picture Crop Aspect Ratio3 To4,22569
+3613,3605,Picture Crop Aspect Ratio3 To5,18615
+3614,3605,Picture Crop Aspect Ratio4 To5,18616
+3615,3605,Picture Crop Aspect Ratio3 To2,22194
+3616,3605,Picture Crop Aspect Ratio4 To3,22570
+3617,3605,Picture Crop Aspect Ratio5 To3,22195
+3618,3605,Picture Crop Aspect Ratio5 To4,22196
+3619,3605,Picture Crop Aspect Ratio16 To9,22571
+3620,3605,Picture Crop Aspect Ratio16 To10,22572
+3621,3605,Picture Fill Crop,18654
+3622,3605,Picture Fit Crop,18653
+3623,3605,Shape Height,13915
+3624,3605,Shape Width,13916
+3625,3605,Layout Options Dialog Size,21605
+3626,0,Tab Set Picture Tools Classic,14603
+3627,3626,Tab Picture Tools Format Classic,13145
+3628,3627,Group Picture Tools Classic,15286
+3629,3628,Drawing1 Gallery Brightness,15302
+3630,3628,Picture Brightness And Contrast Dialog,13146
+3631,3628,Drawing1 Gallery Contrast,15303
+3632,3628,Picture Recolor Gallery Word,13976
+3633,3628,Pictures Compress,6382
+3634,3628,Picture Reset,1362
+3635,3627,Group Shadow Effects,13817
+3636,3635,Shadow Style Gallery Classic,13129
+3637,3635,Shadow Color Picker Classic,13868
+3638,3635,Shadow Semitransparent Classic,1859
+3639,3635,Object Shadow Color More Colors Dialog,1072
+3640,3635,Shadow Nudge Up Classic,1068
+3641,3635,Shadow Nudge Left Classic,1070
+3642,3635,Shadow On Or Off Classic,2175
+3643,3635,Shadow Nudge Right Classic,1071
+3644,3635,Shadow Nudge Down Classic,1069
+3645,3627,Group Border,13975
+3646,3645,Picture Border Color Picker Classic,15784
+3647,3645,Object Border Outline Color More Colors Dialog,1052
+3648,3645,Outline Dashes Gallery,11865
+3649,3645,Line Styles Dialog,1054
+3650,3645,Outline Weight Gallery,11866
+3651,3627,Group Arrange,11581
+3652,3651,Text Wrap Gallery,18323
+3653,3651,Layout Options Dialog Wrapping,21604
+3654,3651,Object Bring Forward Menu,17239
+3655,3651,Object Bring Forward,170
+3656,3651,Object Bring To Front,166
+3657,3651,Object Bring In Front Of Text,3451
+3658,3651,Object Send Backward Menu,17240
+3659,3651,Object Send Backward,171
+3660,3651,Object Send To Back,167
+3661,3651,Object Send Behind Text,3452
+3662,3651,Selection Pane,13244
+3663,3651,Object Align Menu,11920
+3664,3651,Objects Align Left Smart,12784
+3665,3651,Objects Align Center Horizontal Smart,12788
+3666,3651,Objects Align Right Smart,12785
+3667,3651,Objects Align Top Smart,12786
+3668,3651,Objects Align Middle Vertical Smart,12789
+3669,3651,Objects Align Bottom Smart,12787
+3670,3651,Align Distribute Horizontally,12790
+3671,3651,Align Distribute Vertically,12791
+3672,3651,Objects Align Relative To Container Smart,12783
+3673,3651,Objects Align Relative To Margin,14469
+3674,3651,Objects Align Selected Smart,12782
+3675,3651,Objects Group Menu,14409
+3676,3651,Objects Group,164
+3677,3651,Objects Regroup,338
+3678,3651,Objects Ungroup,165
+3679,3651,Object Rotate Gallery,11924
+3680,3651,Chart Rotation Options Dialog,22220
+3681,3627,Group Picture Size Classic,15285
+3682,3681,Picture Crop,732
+3683,3681,Shape Height,13915
+3684,3681,Shape Width,13916
+3685,3681,Object Size Dialog Classic,14606
+3686,0,Tab Set Table Tools,13262
+3687,3686,Tab Table Tools Design,14133
+3688,3687,Group Table Layout,16072
+3689,3688,Table Style Header Row Word,14125
+3690,3688,Table Style Total Row Word,14126
+3691,3688,Table Style Banded Rows Word,14129
+3692,3688,Table Styles First Column Word,14127
+3693,3688,Table Style Last Column Word,14128
+3694,3688,Table Style Banded Columns Word,14130
+3695,3687,Group Table Styles Word,15084
+3696,3695,Table Styles Gallery Word,14134
+3697,3695,Table Style Modify,14132
+3698,3695,Table Style Clear,12387
+3699,3695,New Table Style Word,15912
+3700,3695,Shading Color Picker,13162
+3701,3695,Shading Colors More Colors Dialog,13163
+3702,3687,Group Table Borders,17221
+3703,3702,Border Styles Gallery,24117
+3704,3702,Table Sample Border,24116
+3705,3702,Table Draw Border Pen Style,1724
+3706,3702,Table Draw Border Pen Weight,2622
+3707,3702,Border Color Picker,12834
+3708,3702,Border More Colors Dialog,12184
+3709,3702,Borders Selection Gallery,24118
+3710,3702,Horizontal Line Insert,3653
+3711,3702,Table Draw Table,2059
+3712,3702,Table Show Gridlines,2626
+3713,3702,Borders Shading Dialog Word,3466
+3714,3702,Table Paint Border,24115
+3715,3686,Tab Table Tools Layout,11869
+3716,3715,Group Table,14733
+3717,3716,Table Select Menu,12936
+3718,3716,Table Select Cell,3678
+3719,3716,Table Column Select,802
+3720,3716,Table Row Select,801
+3721,3716,Table Select,803
+3722,3716,Table Show Gridlines,2626
+3723,3716,Table Properties Dialog,3704
+3724,3715,Group Table Draw,16806
+3725,3724,Table Draw Table,2059
+3726,3724,Table Eraser,2060
+3727,3715,Group Table Rows And Columns,11916
+3728,3727,Table Delete Rows And Columns Menu Word,12937
+3729,3727,Cells Delete,292
+3730,3727,Table Columns Delete,294
+3731,3727,Table Rows Delete,293
+3732,3727,Table Delete,3679
+3733,3727,Table Rows Insert Above Word,3681
+3734,3727,Table Rows Insert Below Word,3683
+3735,3727,Table Columns Insert Left,3685
+3736,3727,Table Columns Insert Right,3687
+3737,3727,Table Insert Cells Dialog,2163
+3738,3715,Group Table Merge,12938
+3739,3738,Merge Cells,798
+3740,3738,Split Cells,800
+3741,3738,Table Split Table,808
+3742,3715,Group Table Cell Size,14734
+3743,3742,Table Auto Fit Menu,12939
+3744,3742,Table Auto Fit Contents,3907
+3745,3742,Table Auto Fit Window,3908
+3746,3742,Table Auto Fit Fixed Column Width,3909
+3747,3742,Table Row Height,14475
+3748,3742,Table Column Width,14474
+3749,3742,Table Rows Distribute,2068
+3750,3742,Table Columns Distribute,2067
+3751,3742,Table Properties Dialog,3704
+3752,3715,Group Table Alignment,11571
+3753,3752,Table Cell Align Top Left,3914
+3754,3752,Table Cell Align Top Center,3915
+3755,3752,Table Cell Align Top Right,3916
+3756,3752,Table Cell Align Middle Left,3917
+3757,3752,Table Cell Align Middle Center,3918
+3758,3752,Table Cell Align Middle Right,3919
+3759,3752,Table Cell Align Bottom Left,3920
+3760,3752,Table Cell Align Bottom Center,3921
+3761,3752,Table Cell Align Bottom Right,3922
+3762,3752,Text Direction,2872
+3763,3752,Table Options Dialog,3705
+3764,3715,Group Table Data,11918
+3765,3764,Sort Dialog Classic,928
+3766,3764,Table Repeat Header Rows,805
+3767,3764,Convert Table To Text,929
+3768,3764,Table Formula Dialog,807
+3769,0,Tab Set Equation Tools,15456
+3770,3769,Tab Equation Tools Design,15451
+3771,3770,Group Equation Tools,15452
+3772,3771,Equation Insert Gallery,12258
+3773,3771,Save Selection To Equation Gallery,12289
+3774,3771,Equation Professional,15367
+3775,3771,Equation Linear Format,15368
+3776,3771,Equation Normal Text,15370
+3777,3771,Equation Options,15449
+3778,3770,Group Equation Symbols,15453
+3779,3778,Equation Symbols Insert Gallery,15433
+3780,3770,Group Equation Structures,15454
+3781,3780,Equation Fraction Gallery,15435
+3782,3780,Equation Script Gallery,15439
+3783,3780,Equation Radical Gallery,15436
+3784,3780,Equation Integral Gallery,15434
+3785,3780,Equation Large Operator Gallery,15437
+3786,3780,Equation Delimiter Gallery,15438
+3787,3780,Equation Function Gallery,15440
+3788,3780,Equation Accent Gallery,15441
+3789,3780,Equation Limit Gallery,15442
+3790,3780,Equation Operator Gallery,15443
+3791,3780,Equation Matrix Gallery,15444
+3792,0,Tab Set Ink Tools,14344
+3793,3792,Tab Ink Tools Pens,13965
+3794,3793,Group Pens Write,18961
+3795,3794,Ink Ballpoint Pen,13969
+3796,3794,Ink Highlighter,13971
+3797,3794,Ink Eraser,9523
+3798,3794,Objects Select,182
+3799,3793,Group Pens,18962
+3800,3799,Pens Gallery,18966
+3801,3799,Pen Add Favorite,18663
+3802,3799,Ink Color Picker,15155
+3803,3799,Ink Color More Colors Dialog,7879
+3804,3799,Line Thickness,14780
+3805,3799,Line Styles Dialog,1054
+3806,3793,Group Ink Select,13133
+3807,3806,Objects Select,182
+3808,3793,Group Ink Format,15154
+3809,3808,Objects Select,182
+3810,3793,Group Ink Pens,13966
+3811,3810,Ink Felt Tip Pen,13970
+3812,3793,Group Ink Close,13968
+3813,3812,Ink Stop Inking Reading View,9524
+3814,0,Tab Set Appointment,19691
+3815,3814,Tab Appointment,14923
+3816,3815,Group Send,14997
+3817,3816,Send Default,2617
+3818,3816,Send Update,1983
+3819,3816,Account Menu,15108
+3820,3816,Send Account Gallery,22967
+3821,3816,Save And Close,1975
+3822,3816,Post,2575
+3823,3815,Group Recover,16066
+3824,3823,Recover Invite To Meeting,1911
+3825,3815,Group Actions,15055
+3826,3825,Save And Close,1975
+3827,3825,Cancel Meeting,1657
+3828,3825,Delete,478
+3829,3825,Remove From Calendar,1564
+3830,3825,Open In Browser Outlook,13428
+3831,3825,Copy To Personal Calendar,2572
+3832,3825,Custom Actions Menu,15054
+3833,3825,Custom Actions Gallery,22975
+3834,3825,View Appointment In Calendar,1987
+3835,3825,Forward Menu,14359
+3836,3825,Forward In Forward Menu,15952
+3837,3825,Forward As I Calendar,5459
+3838,3825,Delete Distribution Group,21049
+3839,3825,Contact Send Group Menu,21048
+3840,3825,Forward As V Card,5573
+3841,3825,Forward Contact,13260
+3842,3825,Copy To Personal Contacts,695
+3843,3825,New Contact Menu,16071
+3844,3825,Save And New,1665
+3845,3825,New Contact From Same Company,1908
+3846,3825,Contact Send Menu,14967
+3847,3825,Forward As Business Card,13040
+3848,3825,Move To One Note,22382
+3849,3825,Open In Web Browser,9061
+3850,3825,Customize Search Folder,7794
+3851,3825,Rename This Folder,2512
+3852,3825,Copy This Folder,2499
+3853,3825,Move This Folder,2506
+3854,3825,Delete This Folder,2500
+3855,3825,Forward,356
+3856,3825,Toggle Mark As Unread,21047
+3857,3825,Forward Task,21052
+3858,3825,Menu Tasks More Actions,19715
+3859,3825,Copy To Personal Task List,2573
+3860,3815,Group Show,14920
+3861,3860,Show Appointment Page,14934
+3862,3860,Show Form Region Page,14919
+3863,3860,Show Custom Page,14915
+3864,3860,Show Scheduling Page,14935
+3865,3860,Show Tracking Page,14916
+3866,3860,Show Tracking Page Split Menu,18020
+3867,3860,View Tracking Status,18019
+3868,3860,O L Copy Tracking Status,18018
+3869,3860,Show All Fields Page,14922
+3870,3860,Show Custom Properties Page,14917
+3871,3860,Show Custom Actions Page,14918
+3872,3860,Show Members Page,14941
+3873,3860,Show Notes Page,14942
+3874,3860,Show Contact Page,14937
+3875,3860,Show Details Page,14940
+3876,3860,Show Certificates Page,14938
+3877,3860,Show Journal Page,14990
+3878,3860,Show Message Page,14914
+3879,3860,Show Share Page,14960
+3880,3860,Show Task Page,14986
+3881,3860,Show Task Details Page,14987
+3882,3815,Group Linked Meeting Notes,24502
+3883,3882,Take Meeting Notes,24503
+3884,3815,Group Attendees Meeting Not Sent,14930
+3885,3884,Invite Attendees,1086
+3886,3815,Group Attendees Meeting Sent,15979
+3887,3886,Cancel Invitation,2487
+3888,3886,Message To Attendees Menu,14924
+3889,3886,New Message To Attendees,1981
+3890,3886,Reply To All Attendees With Message,1984
+3891,3886,Reply All With Instant Message,14384
+3892,3886,Dial Menu,2616
+3893,3886,Call,15185
+3894,3886,Dial Gallery,22966
+3895,3886,New Call,2501
+3896,3886,Address Book,353
+3897,3886,Check Names,361
+3898,3886,Responses Menu,15778
+3899,3886,Request Responses,1881
+3900,3886,Allow New Time Proposals,6848
+3901,3815,Group Respond,14350
+3902,3901,Menu Accept Invitation,19984
+3903,3901,Accept Invitation Edit Response,19985
+3904,3901,Accept Invitation Send Response,19986
+3905,3901,Accept Invitation No Response,19987
+3906,3901,Menu Tentative Invitation,19992
+3907,3901,Tentative Invitation Edit Response,19993
+3908,3901,Tentative Invitation Send Response,19994
+3909,3901,Tentative Invitation No Response,19995
+3910,3901,Menu Decline Invitation,19988
+3911,3901,Decline Invitation Edit Response,19989
+3912,3901,Decline Invitation Send Response,19990
+3913,3901,Decline Invitation No Response,19991
+3914,3901,Accept Invitation,1087
+3915,3901,Tentative Accept Invitation,1089
+3916,3901,Decline Invitation,1088
+3917,3901,Propose New Time Menu,14928
+3918,3901,Propose New Time,6892
+3919,3901,Tentative Propose New Time,6905
+3920,3901,Decline And Propose New Time,6866
+3921,3901,Respond Menu,22378
+3922,3901,Reply,354
+3923,3901,Reply All,355
+3924,3901,Forward,356
+3925,3901,Reply With Instant Message,13619
+3926,3901,Reply All With Instant Message,14384
+3927,3901,Dial Menu,2616
+3928,3901,Call,15185
+3929,3901,Dial Gallery,22966
+3930,3901,New Call,2501
+3931,3901,Vote Menu,9091
+3932,3901,Voting Gallery,22971
+3933,3901,Approve Approval Request,19887
+3934,3901,Reject Approval Request,19888
+3935,3901,Reply With Meeting,19512
+3936,3901,Persona Send I M Menu,7239
+3937,3901,Respond Actions Menu,22381
+3938,3901,Forward As Attachment,13158
+3939,3901,Remove From Calendar,1564
+3940,3901,No Response Required For Invitation,16467
+3941,3901,Out Of Date Invitation,16468
+3942,3901,Change Response Button Menu,16469
+3943,3901,Change To Accept Invitation,16470
+3944,3901,Change To Tentative Accept Invitation,16472
+3945,3901,Change To Decline Invitation,16471
+3946,3901,Change To Propose New Time,16580
+3947,3901,Accept Proposal,6843
+3948,3901,View All Proposals,6907
+3949,3901,Post Reply,2989
+3950,3901,Send Again,2507
+3951,3901,Accept Task,1664
+3952,3901,Decline Task,3265
+3953,3901,Cancel Accept Task,2003
+3954,3901,Cancel Decline Task,2005
+3955,3815,Group Appointment More Options,21042
+3956,3955,Show Time As Gallery,14926
+3957,3955,Reminder Gallery,14925
+3958,3955,Reminder Sound,608
+3959,3955,Recurrence,1977
+3960,3955,Recurrence Edit Series,2010
+3961,3955,Show Time Zones,15662
+3962,3955,Room Finder,22383
+3963,3815,Group Appointment Options,14932
+3964,3963,Categorize Menu,14381
+3965,3963,Clear All Categories,11856
+3966,3963,Categorize Gallery,22152
+3967,3963,All Categories,11855
+3968,3963,Private,1663
+3969,3963,High Importance,1074
+3970,3963,Low Importance,1075
+3971,3815,Group Zoom,11813
+3972,3971,Zoom Dialog,925
+3973,3815,Group Ink,13964
+3974,3973,Inking Start,9071
+3975,3815,Group Appointment Actions,19961
+3976,3975,Open Appointment,19960
+3977,3975,Delete,478
+3978,3975,Cancel Meeting,1657
+3979,3975,Forward Menu,14359
+3980,3975,Forward,356
+3981,3975,Forward As I Calendar,5459
+3982,3815,Group Attendees,19968
+3983,3982,Invite Attendees,1086
+3984,3982,Add Or Remove Attendees,5430
+3985,3982,Message To Attendees Menu,14924
+3986,3982,New Message To Attendees,1981
+3987,3982,Reply To All Attendees With Message,1984
+3988,3982,Reply All With Instant Message,14384
+3989,3982,Dial Menu,2616
+3990,3982,Call,15185
+3991,3982,Dial Gallery,22966
+3992,3982,New Call,2501
+3993,3982,Tracking,19973
+3994,3815,Group Calendar Respond,18755
+3995,3994,Accept Invitation,1087
+3996,3994,Tentative Accept Invitation,1089
+3997,3994,Decline Invitation,1088
+3998,3994,Menu Accept Invitation,19984
+3999,3994,Menu Tentative Invitation,19992
+4000,3994,Menu Decline Invitation,19988
+4001,3994,Propose New Time Gallery,22340
+4002,3994,Respond Menu,22378
+4003,3994,Reply,354
+4004,3994,Reply All,355
+4005,3994,Forward,356
+4006,3994,Reply With Instant Message,13619
+4007,3994,Reply All With Instant Message,14384
+4008,3994,Dial Menu,2616
+4009,3994,Call,15185
+4010,3994,Dial Gallery,22966
+4011,3994,New Call,2501
+4012,3815,Group Calendar Options,18760
+4013,4012,Show Time As Gallery,14926
+4014,4012,Reminder Gallery,14925
+4015,4012,Reminder Sound,608
+4016,4012,Recurrence Explorer,20913
+4017,4012,Recurrence Edit Series,2010
+4018,3815,Group Calendar Tags,19964
+4019,4018,Categorize Menu,14381
+4020,4018,Clear All Categories,11856
+4021,4018,Categorize Gallery,22152
+4022,4018,All Categories,11855
+4023,4018,Set Category Quick Click,14184
+4024,4018,Private,1663
+4025,4018,High Importance,1074
+4026,4018,Low Importance,1075
+4027,0,Tab Set Reccurring Appointment,19978
+4028,4027,Tab Recurring Appointment,19963
+4029,4028,Group Recurring Appointment Actions,19962
+4030,4029,Menu Open Appointment,19965
+4031,4029,Open Appointment Occurrence,19966
+4032,4029,Open Appointment Series,19967
+4033,4029,Delete Appointment Gallery,19974
+4034,4029,Menu Cancel Meeting,19975
+4035,4029,Cancel Meeting Occurrence,19977
+4036,4029,Cancel Meeting Series,19976
+4037,4029,Menu Forward Recurring,20009
+4038,4029,Forward Occurrence,19982
+4039,4029,Forward Series,19983
+4040,4029,Menu Forward As I Calendar,20006
+4041,4029,Forward As I Calendar Occurrence,20007
+4042,4029,Forward As I Calendar Series,20008
+4043,4028,Group Linked Meeting Notes,24502
+4044,4043,Take Meeting Notes,24503
+4045,4028,Group Recurring Attendees,19969
+4046,4045,Menu Invite,19979
+4047,4045,Invite Occurrence,19980
+4048,4045,Invite Series,19981
+4049,4045,Add Or Remove Attendees,5430
+4050,4045,Message To Attendees Menu,14924
+4051,4045,New Message To Attendees,1981
+4052,4045,Reply To All Attendees With Message,1984
+4053,4045,Reply All With Instant Message,14384
+4054,4045,Dial Menu,2616
+4055,4045,Call,15185
+4056,4045,Dial Gallery,22966
+4057,4045,New Call,2501
+4058,4045,Menu Tracking,19970
+4059,4045,Tracking Occurrence,19971
+4060,4045,Tracking Series,19972
+4061,4028,Group Calendar Recurring Respond,20011
+4062,4061,Menu Accept Invitation,19984
+4063,4061,Menu Tentative Invitation,19992
+4064,4061,Menu Decline Invitation,19988
+4065,4061,Propose New Time Gallery,22340
+4066,4061,Respond Menu,22378
+4067,4061,Reply,354
+4068,4061,Reply All,355
+4069,4061,Forward,356
+4070,4061,Reply With Instant Message,13619
+4071,4061,Reply All With Instant Message,14384
+4072,4061,Dial Menu,2616
+4073,4061,Call,15185
+4074,4061,Dial Gallery,22966
+4075,4061,New Call,2501
+4076,4028,Group Calendar Options,18760
+4077,4076,Show Time As Gallery,14926
+4078,4076,Reminder Gallery,14925
+4079,4076,Reminder Sound,608
+4080,4076,Recurrence Explorer,20913
+4081,4076,Recurrence Edit Series,2010
+4082,4028,Group Calendar Tags,19964
+4083,4082,Categorize Menu,14381
+4084,4082,Clear All Categories,11856
+4085,4082,Categorize Gallery,22152
+4086,4082,All Categories,11855
+4087,4082,Set Category Quick Click,14184
+4088,4082,Private,1663
+4089,4082,High Importance,1074
+4090,4082,Low Importance,1075
+4091,0,Tab Set To Do Bar,19996
+4092,4091,Tab Task List,19997
+4093,4092,Group Task Open,22526
+4094,4093,Open Selected Items,5476
+4095,4092,Group Task List Respond,20001
+4096,4095,Post Reply,2989
+4097,4095,Reply,354
+4098,4095,Reply All,355
+4099,4095,Forward,356
+4100,4095,Reply With Meeting,19512
+4101,4095,Persona Send I M Menu,7239
+4102,4095,Reply With Instant Message,13619
+4103,4095,Reply All With Instant Message,14384
+4104,4095,Respond Actions Menu,22381
+4105,4095,Forward As Attachment,13158
+4106,4095,Dial Menu,2616
+4107,4095,Call,15185
+4108,4095,Dial Gallery,22966
+4109,4095,New Call,2501
+4110,4092,Group Task List Manage Task,20002
+4111,4110,Mark Task Complete,2985
+4112,4110,Remove From List,20013
+4113,4092,Group Follow Up,20012
+4114,4113,Flag Today,11313
+4115,4113,Flag Tomorrow,11314
+4116,4113,Flag This Week,11315
+4117,4113,Flag Next Week,11316
+4118,4113,Flag No Date,11634
+4119,4113,Flag Custom,11319
+4120,4092,Group Task List Arrangement,20003
+4121,4120,Arrangement Gallery,19730
+4122,4120,Arrange By Group,7627
+4123,4120,Current View Settings,1861
+4124,4092,Group Task List Actions,20000
+4125,4124,Move To Folder Gallery,20150
+4126,4124,Move To Folder,1679
+4127,4124,Copy To Folder,1676
+4128,4124,Always Move Conversation,17649
+4129,4124,Stop Moving Conversation,17650
+4130,4124,Move To One Note,22382
+4131,4092,Group Task List Tags,20004
+4132,4131,Categorize Menu,14381
+4133,4131,Clear All Categories,11856
+4134,4131,Categorize Gallery,22152
+4135,4131,All Categories,11855
+4136,4131,Set Category Quick Click,14184
+4137,4131,Private,1663
+4138,4131,High Importance,1074
+4139,4131,Low Importance,1075
+4140,0,Tab Set Daily Task List,19998
+4141,4140,Tab Daily Task List,19999
+4142,4141,Group Task Open,22526
+4143,4142,Open Selected Items,5476
+4144,4141,Group Task List Respond,20001
+4145,4144,Post Reply,2989
+4146,4144,Reply,354
+4147,4144,Reply All,355
+4148,4144,Forward,356
+4149,4144,Reply With Meeting,19512
+4150,4144,Persona Send I M Menu,7239
+4151,4144,Reply With Instant Message,13619
+4152,4144,Reply All With Instant Message,14384
+4153,4144,Respond Actions Menu,22381
+4154,4144,Forward As Attachment,13158
+4155,4144,Dial Menu,2616
+4156,4144,Call,15185
+4157,4144,Dial Gallery,22966
+4158,4144,New Call,2501
+4159,4141,Group Task List Manage Task,20002
+4160,4159,Mark Task Complete,2985
+4161,4159,Remove From List,20013
+4162,4141,Group Follow Up,20012
+4163,4162,Flag Today,11313
+4164,4162,Flag Tomorrow,11314
+4165,4162,Flag This Week,11315
+4166,4162,Flag Next Week,11316
+4167,4162,Flag No Date,11634
+4168,4162,Flag Custom,11319
+4169,4141,Group Daily Task List Arrangement,20005
+4170,4169,Menu Task Well Arrange,20010
+4171,4169,Task Well Sort Start,12837
+4172,4169,Task Well Sort Due Date,12838
+4173,4169,Task Well Show Completed,12839
+4174,4141,Group Task List Actions,20000
+4175,4174,Move To Folder Gallery,20150
+4176,4174,Move To Folder,1679
+4177,4174,Copy To Folder,1676
+4178,4174,Always Move Conversation,17649
+4179,4174,Stop Moving Conversation,17650
+4180,4174,Move To One Note,22382
+4181,4141,Group Task List Tags,20004
+4182,4181,Categorize Menu,14381
+4183,4181,Clear All Categories,11856
+4184,4181,Categorize Gallery,22152
+4185,4181,All Categories,11855
+4186,4181,Set Category Quick Click,14184
+4187,4181,Private,1663
+4188,4181,High Importance,1074
+4189,4181,Low Importance,1075
+4190,0,Tab Set Search,19911
+4191,4190,Tab Search Query,19912
+4192,4191,Group Search Scope,19913
+4193,4192,All Module Name Items,12964
+4194,4192,Search Upscope To All Calendar Items,19942
+4195,4192,Search Upscope To All Contact Items,19943
+4196,4192,Search Upscope To All Task Items,19944
+4197,4192,Search Upscope To All Note Items,19945
+4198,4192,Search Upscope To All Journal Items,19946
+4199,4192,Search Upscope To This Mailbox,25148
+4200,4192,Search Downscope To Folder,19922
+4201,4192,Search Upscope To Subfolders,20110
+4202,4192,Search Upscope To All Item Types,19920
+4203,4191,Group Search Results,25256
+4204,4203,Search View All Results,24144
+4205,4191,Group Mail Refine Search,19914
+4206,4205,Quick Search From,18258
+4207,4205,Quick Search To,21176
+4208,4205,Quick Search Subject,19923
+4209,4205,Quick Search Has Attachments,18269
+4210,4205,Quick Search Categories,18264
+4211,4205,Quick Search Any Category,18266
+4212,4205,Quick Search No Categories,18265
+4213,4205,Quick Search Received Date Gallery,19927
+4214,4205,Quick Search To Menu,19924
+4215,4205,Quick Search To Cc Me,18260
+4216,4205,Quick Search Not To Cc Me,18261
+4217,4205,Quick Search To Recipient,19928
+4218,4205,Quick Search Unread,18262
+4219,4205,Quick Search Flagged By Me,18263
+4220,4205,Quick Search High Importance,18268
+4221,4205,More Search Criteria,19919
+4222,4205,Retention Expiring Quick Search,20172
+4223,4205,Search Form Fields,19941
+4224,4191,Group Calendar Refine Search,21171
+4225,4224,Quick Search Organizer,19931
+4226,4224,Quick Search Subject,19923
+4227,4224,Quick Search Has Attachments,18269
+4228,4224,Quick Search Categories,18264
+4229,4224,Quick Search Any Category,18266
+4230,4224,Quick Search No Categories,18265
+4231,4224,Quick Search Response Menu,19937
+4232,4224,Quick Search No Response Appointments,18273
+4233,4224,Quick Search Accepted Appointments,18271
+4234,4224,Quick Search Tentative Appointments,18272
+4235,4224,More Search Criteria,19919
+4236,4224,Retention Expiring Quick Search,20172
+4237,4224,Search Form Fields,19941
+4238,4191,Group Contact Refine Search,21172
+4239,4238,Quick Search Categories,18264
+4240,4238,Quick Search Any Category,18266
+4241,4238,Quick Search No Categories,18265
+4242,4238,Quick Search Phone Menu,19929
+4243,4238,Quick Search Has Business Phone,18283
+4244,4238,Quick Search Has Home Phone,18285
+4245,4238,Quick Search Has Mobile Phone,18284
+4246,4238,Quick Search Address Menu,19930
+4247,4238,Quick Search Has Email Address,18286
+4248,4238,Quick Search Has I M Address,18287
+4249,4238,Quick Search Has Business Address,18288
+4250,4238,Quick Search Has Home Address,18289
+4251,4238,More Search Criteria,19919
+4252,4238,Retention Expiring Quick Search,20172
+4253,4238,Search Form Fields,19941
+4254,4191,Group Task Refine Search,21173
+4255,4254,Quick Search Categories,18264
+4256,4254,Quick Search Any Category,18266
+4257,4254,Quick Search No Categories,18265
+4258,4254,Quick Search Task Start Date Gallery,19933
+4259,4254,Quick Search Task Due Date Gallery,19932
+4260,4254,Quick Search Modified Date Gallery,19934
+4261,4254,Quick Search Complete Menu,19939
+4262,4254,Quick Search All Completed,18282
+4263,4254,Quick Search All Incomplete,19940
+4264,4254,Quick Search Task Status Gallery,19938
+4265,4254,Quick Search Importance Gallery,20513
+4266,4254,More Search Criteria,19919
+4267,4254,Retention Expiring Quick Search,20172
+4268,4254,Search Form Fields,19941
+4269,4191,Group Note Refine Search,21174
+4270,4269,Quick Search Categories,18264
+4271,4269,Quick Search Any Category,18266
+4272,4269,Quick Search No Categories,18265
+4273,4269,Quick Search Modified Date Gallery,19934
+4274,4269,More Search Criteria,19919
+4275,4269,Retention Expiring Quick Search,20172
+4276,4269,Search Form Fields,19941
+4277,4191,Group Journal Refine Search,21175
+4278,4277,Quick Search Categories,18264
+4279,4277,Quick Search Any Category,18266
+4280,4277,Quick Search No Categories,18265
+4281,4277,Quick Search Modified Date Gallery,19934
+4282,4277,Quick Search Journal Start Date Gallery,19935
+4283,4277,Quick Search Journal End Date Gallery,19936
+4284,4277,More Search Criteria,19919
+4285,4277,Retention Expiring Quick Search,20172
+4286,4277,Search Form Fields,19941
+4287,4191,Group Search Options,19916
+4288,4287,Recent Searches,19918
+4289,4287,Search Tools,19926
+4290,4287,Outlook Search Index State,16126
+4291,4287,Search Stores To Search Gallery,19925
+4292,4287,Advanced Find,5505
+4293,4287,Find Public Folder,5438
+4294,4287,Outlook Search Options,15172
+4295,4191,Group Clear Search,19917
+4296,4295,Quick Search Cancel,18270
+4297,0,Tab Set Attachments,20517
+4298,4297,Tab Attachments,20518
+4299,4298,Group Attachment Actions,20521
+4300,4299,Open Attach,20528
+4301,4299,Print Attach,20524
+4302,4299,Menu Attachments More Actions,20530
+4303,4299,Save Attach As,20526
+4304,4299,Save Attachments,3167
+4305,4299,Remove Attach,20523
+4306,4298,Group Attachment Selection,20519
+4307,4306,Select All Attach,20525
+4308,4306,Copy Attach,20527
+4309,4298,Group Chinese Translation Readonly,22360
+4310,4309,Translate To Simplified Chinese Readonly,22361
+4311,4309,Translate To Traditional Chinese Readonly,22362
+4312,4309,Chinese Translation Dialog Readonly,22363
+4313,4298,Group Attachment Message,20522
+4314,4313,Show Message,20529
+4315,0,Tab Compose Tools,24434
+4316,4315,Tab Message,24435
+4317,4316,Group Clipboard,12597
+4318,4317,Paste Menu,15502
+4319,4317,Paste,22
+4320,4317,Paste Gallery,18046
+4321,4317,Paste Special Dialog,755
+4322,4317,Paste Set Default,14585
+4323,4317,Cut,21
+4324,4317,Copy,19
+4325,4317,Format Painter,108
+4326,4317,Show Clipboard,809
+4327,4316,Group Basic Text,15480
+4328,4327,Font,1728
+4329,4327,Font Size,1731
+4330,4327,Font Size Increase Word,62
+4331,4327,Font Size Decrease Word,63
+4332,4327,Bullets Gallery Word,11749
+4333,4327,List Level Gallery,13346
+4334,4327,Bullet Define New,12243
+4335,4327,Numbering Gallery Word,11750
+4336,4327,Define New Number Format,12244
+4337,4327,List Set Numbering Value,11229
+4338,4327,Clear Formatting,11739
+4339,4327,Bold,113
+4340,4327,Italic,114
+4341,4327,Underline,115
+4342,4327,Text Highlight Color Picker,13926
+4343,4327,Highlighting Stop,13931
+4344,4327,Font Color Picker,11949
+4345,4327,Font Color More Colors Dialog,1005
+4346,4327,Align Left,120
+4347,4327,Align Center,122
+4348,4327,Align Right,121
+4349,4327,Paragraph Distributed,2792
+4350,4327,Indent Decrease Word,3473
+4351,4327,Indent Increase Word,3472
+4352,4327,Text Direction Left To Right,1846
+4353,4327,Text Direction Right To Left,1847
+4354,4327,Font Dialog,253
+4355,4316,Group Names,14349
+4356,4355,Address Book,353
+4357,4355,Check Names,361
+4358,4316,Group Include Main Tab,21053
+4359,4358,Attach File,6003
+4360,4358,Attach Item Combo,21039
+4361,4358,Business Card Insert Menu,12546
+4362,4358,Recently Used Business Card,14357
+4363,4358,Business Card Insert Dialog,11835
+4364,4358,Calendar Insert,11496
+4365,4358,Attach Item,2505
+4366,4358,Signature Insert Menu,5608
+4367,4358,Signature Gallery,22965
+4368,4358,Signatures Stationery Dialog,3766
+4369,4316,Group Message Options,14347
+4370,4369,Policy Tags Menu,22525
+4371,4369,Archive Policy Tags Gallery,21575
+4372,4369,Retention Policy Tags Gallery,18680
+4373,4369,All Retention Policy Tags,18681
+4374,4369,Folder Policy Retention Gallery,22053
+4375,4369,Retention Expiring Quick Search,20172
+4376,4369,High Importance,1074
+4377,4369,Low Importance,1075
+4378,4369,Message Options,5598
+4379,4369,Categorize Menu,14381
+4380,4369,Clear All Categories,11856
+4381,4369,Categorize Gallery,22152
+4382,4369,All Categories,11855
+4383,4369,Private,1663
+4384,4369,Follow Up Compose Menu,12847
+4385,4369,Flag Today,11313
+4386,4369,Flag Tomorrow,11314
+4387,4369,Flag This Week,11315
+4388,4369,Flag Next Week,11316
+4389,4369,Flag No Date,11634
+4390,4369,Flag Custom,11319
+4391,4369,Flag Message,1885
+4392,4369,Add Reminder,11453
+4393,4369,Tag Mark Complete,1907
+4394,4369,Clear Flag,2776
+4395,4369,Toggle Mark As Unread,21047
+4396,4369,Follow Up Read Menu,11633
+4397,4316,Group Fields,15483
+4398,4397,Show Bcc,1860
+4399,4397,Show From,1867
