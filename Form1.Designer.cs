@@ -45,13 +45,13 @@ namespace UWMConfigVersionSelector
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ToolStripAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripUpdate = new System.Windows.Forms.ToolStripMenuItem();
             this.testToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.grpOpenWithConsole = new System.Windows.Forms.GroupBox();
             this.btnUnloadConfig = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.toolStripUpdate = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.grpOpenWithConsole.SuspendLayout();
@@ -186,6 +186,14 @@ namespace UWMConfigVersionSelector
             this.ToolStripAbout.Text = "About";
             this.ToolStripAbout.Click += new System.EventHandler(this.ToolStripAbout_Click);
             // 
+            // toolStripUpdate
+            // 
+            this.toolStripUpdate.Image = ((System.Drawing.Image)(resources.GetObject("toolStripUpdate.Image")));
+            this.toolStripUpdate.Name = "toolStripUpdate";
+            this.toolStripUpdate.Size = new System.Drawing.Size(187, 38);
+            this.toolStripUpdate.Text = "Check for Updates";
+            this.toolStripUpdate.Click += new System.EventHandler(this.toolStripUpdate_Click);
+            // 
             // testToolStripMenuItem1
             // 
             this.testToolStripMenuItem1.Image = global::UWMConfigVersionSelector.Properties.Resources._9055432_bxs_exit_icon;
@@ -252,14 +260,6 @@ namespace UWMConfigVersionSelector
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // toolStripUpdate
-            // 
-            this.toolStripUpdate.Image = ((System.Drawing.Image)(resources.GetObject("toolStripUpdate.Image")));
-            this.toolStripUpdate.Name = "toolStripUpdate";
-            this.toolStripUpdate.Size = new System.Drawing.Size(187, 38);
-            this.toolStripUpdate.Text = "Check for Updates";
-            this.toolStripUpdate.Click += new System.EventHandler(this.toolStripUpdate_Click);
-            // 
             // Form1
             // 
             this.AllowDrop = true;
@@ -281,7 +281,7 @@ namespace UWMConfigVersionSelector
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UWM ConfigVersionSelector Version 2.0";
+            this.Text = "UWM ConfigVersionSelector Version 2.1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
