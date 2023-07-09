@@ -41,6 +41,11 @@ namespace UWMConfigVersionSelector
 
             string[] args = Environment.GetCommandLineArgs();
 
+            if (CheckInternetConnection())
+            {
+                CheckForUpdates(false);
+            }
+
 
             string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
             string[] AMVersionsInDir = Directory.GetDirectories(appPath + @"\AMConsoles\");
@@ -163,6 +168,7 @@ namespace UWMConfigVersionSelector
             string creatorversion = manager.Manifest.CreatorVersion.ToString();
             string marketingversion = manager.Manifest.MarketingVersion.ToString();
             string productname = manager.Manifest.ProductName.ToString();
+           
 
             richTextBox1.Clear();
             richTextBox1.AppendText("Configpath: ");
@@ -342,7 +348,7 @@ namespace UWMConfigVersionSelector
 
         }
 
-        static void CheckForUpdates()
+        static void CheckForUpdates(bool output)
         {
             try
             {
@@ -365,7 +371,11 @@ namespace UWMConfigVersionSelector
                 }
                 else
                 {
-                    MessageBox.Show("You are already using the newest version.","No new version available");
+                    if (output == true)
+                    {
+                        MessageBox.Show("You are already using the newest version.", "No new version available");
+                    }
+                    
                 }
             }
             catch (Exception ex)
@@ -416,7 +426,7 @@ namespace UWMConfigVersionSelector
         {
             if (CheckInternetConnection())
             {
-                CheckForUpdates();
+                CheckForUpdates(true);
             }
             else
             {
