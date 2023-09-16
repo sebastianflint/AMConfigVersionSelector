@@ -916,7 +916,6 @@ C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\UWMConfigV
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\UWMConfigVersionSelector.application
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\UWMConfigVersionSelector.exe
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\UWMConfigVersionSelector.pdb
-C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\System.Text.Json.dll
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\ExceptionHandling.dll
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\DevExpress.Utils.v17.1.dll
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\DevExpress.XtraEditors.v17.1.dll

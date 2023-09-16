@@ -1,0 +1,1463 @@
+1,0,Main,0
+2,1,Tab Home,11954
+3,2,Group Clipboard,12597
+4,3,Paste Menu,15502
+5,3,Paste,22
+6,3,Paste,22
+7,3,Paste Formulas,5836
+8,3,Paste Values,370
+9,3,Paste No Borders,5837
+10,3,Paste Transpose,5838
+11,3,Paste Link,1956
+12,3,Paste Special Dialog,755
+13,3,Paste As Hyperlink,2787
+14,3,Paste As Picture Menu,16024
+15,3,Copy As Picture,754
+16,3,Paste As Picture,997
+17,3,Paste Picture Link,998
+18,3,Cut,21
+19,3,Copy,19
+20,3,Format Painter,108
+21,3,Show Clipboard,809
+22,2,Group Font,11543
+23,22,Font,1728
+24,22,Font Size,1731
+25,22,Font Size Increase,403
+26,22,Font Size Decrease,404
+27,22,Bold,113
+28,22,Italic,114
+29,22,Underline Gallery,13932
+30,22,Underline,115
+31,22,Underline Double,60
+32,22,Borders Gallery,12605
+33,22,Border Bottom No Toggle,15685
+34,22,Border Top No Toggle,15684
+35,22,Border Left No Toggle,15686
+36,22,Border Right No Toggle,15687
+37,22,Border None,151
+38,22,Borders All,1704
+39,22,Border Outside,150
+40,22,Border Thick Outside,1705
+41,22,Border Double Bottom,11952
+42,22,Border Thick Bottom,1700
+43,22,Border Top And Bottom,1701
+44,22,Border Top And Thick Bottom,1703
+45,22,Border Top And Double Bottom,1702
+46,22,Border Draw Line,6206
+47,22,Border Draw Grid,6207
+48,22,Border Erase,6049
+49,22,Border Color Picker Excel,15165
+50,22,Border More Colors Dialog,12184
+51,22,Border Style,6050
+52,22,Borders More Dialog,12606
+53,22,Cell Fill Color Picker,11951
+54,22,Font Shading Color More Colors Dialog,12182
+55,22,Font Color Picker,11949
+56,22,Font Color More Colors Dialog Excel,12183
+57,22,Phonetic Guide Menu,13973
+58,22,Phonetic Guide Field Show,1614
+59,22,Phonetic Guide Field Show,1614
+60,22,Phonetic Guide Edit,1611
+61,22,Phonetic Guide Settings,1613
+62,22,Format Cells Font Dialog,11881
+63,2,Group Alignment Excel,11608
+64,63,Align Left,120
+65,63,Align Center,122
+66,63,Align Right,121
+67,63,Indent Decrease Excel,3162
+68,63,Indent Increase Excel,3161
+69,63,Align Top Excel,15051
+70,63,Align Middle Excel,15052
+71,63,Align Bottom Excel,15053
+72,63,Orientation Menu,11927
+73,63,Text Orientation Angle Counterclockwise,1013
+74,63,Text Orientation Angle Clockwise,1014
+75,63,Text Orientation Vertical,405
+76,63,Text Orientation Rotate Up,406
+77,63,Text Orientation Rotate Down,407
+78,63,Cell Alignment Options,11882
+79,63,Align Left To Right Menu,11771
+80,63,Text Direction Left To Right,1846
+81,63,Text Direction Right To Left,1847
+82,63,Text Direction Context,4021
+83,63,Wrap Text,11901
+84,63,Merge Center Menu,11928
+85,63,Merge Center,402
+86,63,Merge Center,402
+87,63,Merge Cells Across,1742
+88,63,Merge Cells,798
+89,63,Unmerge Cells,15924
+90,63,Cell Alignment Options,11882
+91,2,Group Number,11607
+92,91,Number Format Gallery,13137
+93,91,Number Formats Dialog,13138
+94,91,Accounting Format Menu,15316
+95,91,Accounting Format,395
+96,91,Accounting Format Excel,13457
+97,91,Accounting Format Excel,13457
+98,91,Accounting Format Excel,13457
+99,91,Accounting Format Excel,13457
+100,91,Accounting Format Excel,13457
+101,91,Accounting Format Excel,13457
+102,91,Accounting Format Excel,13457
+103,91,Accounting Format Excel,13457
+104,91,Accounting Format Excel,13457
+105,91,Accounting Format Excel,13457
+106,91,Accounting Format Excel,13457
+107,91,Accounting Format Excel,13457
+108,91,Accounting Format Excel,13457
+109,91,Accounting Format Excel,13457
+110,91,Accounting Format Excel,13457
+111,91,Accounting Format Excel,13457
+112,91,Accounting Format Excel,13457
+113,91,Accounting Format Excel,13457
+114,91,Accounting Format Excel,13457
+115,91,Accounting Format Excel,13457
+116,91,Accounting Format Excel,13457
+117,91,Accounting Format Excel,13457
+118,91,Accounting Format Excel,13457
+119,91,Accounting Format Excel,13457
+120,91,Accounting Format Excel,13457
+121,91,Accounting Format Excel,13457
+122,91,Accounting Format Excel,13457
+123,91,Accounting Format Excel,13457
+124,91,Accounting Format Excel,13457
+125,91,Accounting Format Excel,13457
+126,91,Accounting Format Excel,13457
+127,91,Accounting Format More Excel,13458
+128,91,Percent Style,396
+129,91,Comma Style,397
+130,91,Decimals Increase,398
+131,91,Decimals Decrease,399
+132,91,Format Cells Number Dialog,11880
+133,2,Group Styles,11545
+134,133,Conditional Formatting Menu,14340
+135,133,Conditional Formatting Highlight Cells Menu,12280
+136,133,Conditional Formatting Highlight Greater Than,12213
+137,133,Conditional Formatting Highlight Less Than,12214
+138,133,Conditional Formatting Highlight Between,12198
+139,133,Conditional Formatting Highlight Equal To,12215
+140,133,Conditional Formatting Highlight Text Containing,12216
+141,133,Conditional Formatting Highlight Date Occuring,12217
+142,133,Conditional Formatting Highlight Duplicate Values,12218
+143,133,Conditional Formatting Highlight Rules More,12333
+144,133,Conditional Formatting Top Bottom Menu,12281
+145,133,Conditional Formatting Top NItems,12219
+146,133,Conditional Formatting Top NPercent,12220
+147,133,Conditional Formatting Bottom NItems,12221
+148,133,Conditional Formatting Bottom NPercent,12222
+149,133,Conditional Formatting Above Average,12223
+150,133,Conditional Formatting Below Average,12224
+151,133,Conditional Formatting Top Bottom More,12332
+152,133,Conditional Formatting Data Bars Gallery,12190
+153,133,Conditional Formatting Data Bars More Options,12193
+154,133,Conditional Formatting Color Scales Gallery,12191
+155,133,Conditional Formatting Color Scales More,12194
+156,133,Conditional Formatting Icon Sets Gallery,12192
+157,133,Conditional Formatting Icon Sets More,12195
+158,133,Conditional Formatting New Rule,15097
+159,133,Conditional Formatting Clear Menu,12301
+160,133,Conditional Formatting Clear Selected Cells,12199
+161,133,Conditional Formatting Clear Sheet,12200
+162,133,Conditional Formatting Clear Table,12201
+163,133,Conditional Formatting Clear Pivot Table,12202
+164,133,Conditional Formattings Manage,12212
+165,133,Format As Table Gallery,12210
+166,133,Table Style New,12386
+167,133,Pivot Table New Style,12186
+168,133,Cell Styles Gallery,12382
+169,133,Cell Style New,12383
+170,133,Cell Styles Merge,12384
+171,2,Group Cells,11609
+172,171,Insert Cellst Menu,14572
+173,171,Cells Insert Smart,12311
+174,171,Cells Insert Dialog,295
+175,171,Sheet Rows Insert,15612
+176,171,Sheet Columns Insert,15613
+177,171,Table Rows Insert Above Excel,7373
+178,171,Table Rows Insert Below Excel,12197
+179,171,Table Columns Insert Left Excel,7568
+180,171,Table Columns Insert Right Excel,12196
+181,171,Sheet Insert,852
+182,171,Table Delete Rows And Columns Menu,15314
+183,171,Cells Delete Smart,12312
+184,171,Cells Delete,292
+185,171,Sheet Rows Delete,15614
+186,171,Sheet Columns Delete,15615
+187,171,Table Rows Delete Excel,7374
+188,171,Table Columns Delete Excel,7569
+189,171,Sheet Delete,847
+190,171,Format Cells Menu,12299
+191,171,Row Height,541
+192,171,Row Height Auto Fit,882
+193,171,Column Width,542
+194,171,Column Width Auto Fit,885
+195,171,Column Width Default,888
+196,171,Hide And Unhide Menu,15648
+197,171,Rows Hide,883
+198,171,Columns Hide,886
+199,171,Sheet Hide,890
+200,171,Rows Unhide,884
+201,171,Columns Unhide,887
+202,171,Sheet Unhide,891
+203,171,Sheet Rename,889
+204,171,Sheet Move Or Copy,848
+205,171,Sheet Tab Color Gallery,12181
+206,171,Sheet Tab Color More Colors Dialog,12185
+207,171,Sheet Protect,893
+208,171,Lock,225
+209,171,Format Cells Dialog,855
+210,2,Group Editing Excel,12831
+211,210,Auto Sum Menu,11929
+212,210,Auto Sum,226
+213,210,Auto Sum,226
+214,210,Auto Sum Average,5803
+215,210,Auto Sum Count,5804
+216,210,Auto Sum Max,5806
+217,210,Auto Sum Min,5807
+218,210,Auto Sum More Functions,5808
+219,210,Fill Menu,11925
+220,210,Fill Down,372
+221,210,Fill Right,371
+222,210,Fill Up,867
+223,210,Fill Left,868
+224,210,Fill Across Worksheets,869
+225,210,Fill Series,870
+226,210,Fill Justify,871
+227,210,Clear Menu,11902
+228,210,Clear All,1964
+229,210,Clear Formats,872
+230,210,Clear Contents,873
+231,210,Clear Comments,874
+232,210,Sort Filter Menu,11948
+233,210,Sort Ascending Excel,12947
+234,210,Sort Descending Excel,12948
+235,210,Sort Custom Excel,12949
+236,210,Filter,899
+237,210,Sort Clear,900
+238,210,Filter Reapply,12231
+239,210,Select Menu Excel,12581
+240,210,Find Dialog Excel,1849
+241,210,Replace Dialog,313
+242,210,Go To,757
+243,210,Go To Special,12582
+244,210,Go To Formulas,12583
+245,210,Go To Comments,12584
+246,210,Go To Conditional Formatting,12585
+247,210,Go To Constants,12586
+248,210,Go To Data Validation,12587
+249,210,Objects Select,182
+250,210,Selection Pane,13244
+251,1,Tab Insert,11536
+252,251,Group Insert Tables Excel,11611
+253,252,Pivot Table Insert Menu,14573
+254,252,Pivot Table Insert,12247
+255,252,Pivot Table Insert,12247
+256,252,Pivot Chart Insert,12248
+257,252,Table Insert Excel,7193
+258,251,Group Insert Illustrations,11548
+259,258,Picture Insert From File,2619
+260,258,Clip Art Insert,682
+261,258,Shapes Insert Gallery,11529
+262,258,Smart Art Insert,1032
+263,251,Group Insert Charts Excel,15533
+264,263,Chart Type Column Insert Gallery,15534
+265,263,Chart Type All Insert Dialog,15541
+266,263,Chart Type Line Insert Gallery,15535
+267,263,Chart Type All Insert Dialog,15541
+268,263,Chart Type Pie Insert Gallery,15536
+269,263,Chart Type All Insert Dialog,15541
+270,263,Chart Type Bar Insert Gallery,15537
+271,263,Chart Type All Insert Dialog,15541
+272,263,Chart Type Area Insert Gallery,15538
+273,263,Chart Type All Insert Dialog,15541
+274,263,Chart Type XYScatter Insert Gallery,15539
+275,263,Chart Type All Insert Dialog,15541
+276,263,Chart Type Other Insert Gallery,15540
+277,263,Chart Type All Insert Dialog,15541
+278,263,Chart Type All Insert Dialog,15541
+279,251,Group Insert Links,12599
+280,279,Hyperlink Insert,1576
+281,251,Group Insert Text,15291
+282,281,Text Box Insert Excel,14471
+283,281,Text Box Insert Menu,13098
+284,281,Text Box Insert Horizontal,13099
+285,281,Text Box Insert Vertical,318
+286,281,Header Footer Insert,762
+287,281,Word Art Insert Gallery,12119
+288,281,Signature Line Insert Menu,14410
+289,281,Signature Line Insert,11303
+290,281,Signature Line Menu Item Insert,12781
+291,281,Signature Line Menu Item Insert,12781
+292,281,Signature Line Menu Item Insert,12781
+293,281,Signature Line Menu Item Insert,12781
+294,281,Signature Line Menu Item Insert,12781
+295,281,Signature Line Menu Item Insert,12781
+296,281,Signature Line Menu Item Insert,12781
+297,281,Signature Services Add,13036
+298,281,Ole Objectct Insert,546
+299,281,Symbol Insert,308
+300,251,Group Insert Barcode,12601
+301,300,Barcode Insert,11335
+302,300,Label Insert,11331
+303,1,Tab Page Layout Excel,11537
+304,303,Group Themes Excel,12497
+305,304,Themes Gallery,14014
+306,304,Theme Search Office Online,12305
+307,304,Theme Browse For Themes,16182
+308,304,Theme Save Current,13991
+309,304,Theme Colors Gallery,12245
+310,304,Theme Colors Create New,12680
+311,304,Theme Fonts Gallery,12863
+312,304,Theme Fonts Create New,12681
+313,304,Theme Effects Gallery,12864
+314,303,Group Page Setup,11551
+315,314,Page Margins Gallery,11475
+316,314,Margins Custom Margins,12795
+317,314,Page Orientation Gallery,11533
+318,314,Page Size Gallery,12610
+319,314,Page Size More Paper Sizes Dialog Excel,13139
+320,314,Print Area Menu,11931
+321,314,Print Area Set Print Area,364
+322,314,Print Area Clear Print Area,1584
+323,314,Print Area Add To Print Area,1583
+324,314,Page Break Menu,11932
+325,314,Page Break Insert Excel,12608
+326,314,Page Break Remove,12609
+327,314,Page Breaks Reset All,1585
+328,314,Sheet Background,952
+329,314,Print Titles,12588
+330,314,Page Setup Page Dialog,11883
+331,303,Group Page Layout Scale To Fit,11617
+332,331,Page Scale To Fit Width,12561
+333,331,Page Scale To Fit Options Dialog,12607
+334,331,Page Scale To Fit Height,12562
+335,331,Page Scale To Fit Options Dialog,12607
+336,331,Page Scale To Fit Scale,13974
+337,331,Page Setup Page Dialog,11883
+338,303,Group Page Layout Sheet Options,11618
+339,338,Right To Left Document,1925
+340,338,Page Setup Sheet Dialog,11884
+341,303,Group Arrange,11581
+342,341,Object Bring To Front Menu,14407
+343,341,Object Bring To Front,166
+344,341,Object Bring To Front,166
+345,341,Object Bring Forward,170
+346,341,Object Send To Back Menu,14408
+347,341,Object Send To Back,167
+348,341,Object Send To Back,167
+349,341,Object Send Backward,171
+350,341,Selection Pane,13244
+351,341,Object Align Menu,11920
+352,341,Objects Align Left,664
+353,341,Objects Align Center Horizontal,668
+354,341,Objects Align Right,665
+355,341,Objects Align Top,666
+356,341,Objects Align Middle Vertical,669
+357,341,Objects Align Bottom,667
+358,341,Align Distribute Horizontally Classic,408
+359,341,Align Distribute Vertically Classic,465
+360,341,Snap To Grid,549
+361,341,Snap To Shapes,1402
+362,341,View Gridlines Toggle Excel,14607
+363,341,Objects Group Menu,14409
+364,341,Objects Group,164
+365,341,Objects Regroup,338
+366,341,Objects Ungroup,165
+367,341,Object Rotate Gallery,11924
+368,341,Object Rotation Options Dialog,15678
+369,1,Tab Formulas,11599
+370,369,Group Function Library,11620
+371,370,Function Wizard,385
+372,370,Auto Sum Menu,11929
+373,370,Auto Sum,226
+374,370,Auto Sum,226
+375,370,Auto Sum Average,5803
+376,370,Auto Sum Count,5804
+377,370,Auto Sum Max,5806
+378,370,Auto Sum Min,5807
+379,370,Auto Sum More Functions,5808
+380,370,Functions Recently Usedt Insert Gallery,12817
+381,370,Function Wizard,385
+382,370,Functions Financial Insert Gallery,12818
+383,370,Function Wizard,385
+384,370,Functions Logical Insert Gallery,12822
+385,370,Function Wizard,385
+386,370,Functions Text Insert Gallery,12821
+387,370,Function Wizard,385
+388,370,Functions Date Time Insert Gallery,12819
+389,370,Function Wizard,385
+390,370,Functions Lookup Reference Insert Gallery,12824
+391,370,Function Wizard,385
+392,370,Functions Math Trig Insert Gallery,12820
+393,370,Function Wizard,385
+394,370,Formula More Functions Menu,14580
+395,370,Functions Statistical Insert Gallery,12823
+396,370,Function Wizard,385
+397,370,Functions Engineering Insert Gallery,13985
+398,370,Function Wizard,385
+399,370,Functions Cube Insert Gallery,13984
+400,370,Function Wizard,385
+401,370,Functions Information Insert Gallery,12825
+402,370,Function Wizard,385
+403,369,Group Named Cells,11621
+404,403,Name Manager,13369
+405,403,Name Define Menu,11933
+406,403,Name Define,13380
+407,403,Name Define,13380
+408,403,Names Apply,881
+409,403,Name Use In Formula,12589
+410,403,Name Paste Name,879
+411,403,Name Create From Selection,880
+412,369,Group Formula Auditing,11622
+413,412,Trace Precedents,486
+414,412,Trace Dependents,451
+415,412,Trace Remove Arrows Menu,11946
+416,412,Trace Remove All Arrows,453
+417,412,Trace Remove All Arrows,453
+418,412,Trace Precedents Remove Arrows,452
+419,412,Trace Dependent Remove Arrows,450
+420,412,Show Formulas,6059
+421,412,Error Checking Menu,11945
+422,412,Error Checking,6122
+423,412,Error Checking,6122
+424,412,Trace Error,463
+425,412,Circular References,1623
+426,412,Formula Evaluate,5687
+427,412,Watch Window,5686
+428,369,Group Calculation,12604
+429,428,Calculation Options Menu,12590
+430,428,Calculation Options Automatically,12592
+431,428,Calculation Options Automatically Except Data Tables,12593
+432,428,Calculation Options Manuallly,12591
+433,428,Calculate Now,960
+434,428,Calculate Sheet,999
+435,1,Tab Data,11600
+436,435,Group Get External Data,11624
+437,436,Get External Data From Access,12494
+438,436,Get External Data From Web,3829
+439,436,Get External Data From Text,3844
+440,436,Get External Data From Other Sources,12495
+441,436,Get External Data Existing Connections,12496
+442,435,Group Connections,11625
+443,442,Refresh All Menu,15647
+444,442,Refresh All,1952
+445,442,Refresh All,1952
+446,442,Refresh,459
+447,442,Refresh Status,1954
+448,442,Refresh Cancel,1953
+449,442,Connection Properties,12489
+450,442,Connections,11205
+451,442,Data Range Properties,1951
+452,442,Edit Links,14736
+453,435,Group Sort Filter,11610
+454,453,Sort Ascending Excel,12947
+455,453,Sort Descending Excel,12948
+456,453,Sort Dialog,12946
+457,453,Filter,899
+458,453,Sort Clear,900
+459,453,Filter Reapply,12231
+460,453,Advanced Filter Dialog,901
+461,435,Group Data Tools,11627
+462,461,Convert Text To Table,806
+463,461,Remove Duplicates,12230
+464,461,Data Validation Menu,15653
+465,461,Data Validation,2034
+466,461,Data Validation,2034
+467,461,Data Validation Circle Invalid,2035
+468,461,Data Validation Clear Validation Circles,2055
+469,461,Consolidate,863
+470,461,What If Analysis Menu,11936
+471,461,Scenario Manager,857
+472,461,Goal Seek,856
+473,461,Data Table,862
+474,435,Group Outline,11626
+475,474,Outline Group Menu,14574
+476,474,Outline Group,3159
+477,474,Outline Group,3159
+478,474,Outline Auto,904
+479,474,Outline Ungroup Menu,14575
+480,474,Outline Ungroup,3160
+481,474,Outline Ungroup,3160
+482,474,Outline Clear,905
+483,474,Outline Subtotals,861
+484,474,Outline Show Detail,462
+485,474,Outline Hide Detail,464
+486,474,Outline Settings,906
+487,1,Tab Review,11601
+488,487,Group Proofing,11546
+489,488,Spelling,2
+490,488,Research Pane,7343
+491,488,Thesaurus,9056
+492,488,Translation Pane,6111
+493,488,Hangul Hanja Conversion,3492
+494,487,Group Comments,11563
+495,494,Review New Comment,1589
+496,494,Review Delete Comment,1592
+497,494,Review Previous Comment,1590
+498,494,Review Next Comment,1591
+499,494,Review Show Or Hide Comment,1593
+500,494,Review Show All Comments,1594
+501,494,Review Show Ink,7500
+502,487,Group Changes Excel,11630
+503,502,Sheet Protect,893
+504,502,Review Protect Workbook,894
+505,502,Review Protect Workbook Menu,16132
+506,502,Review Restrict Editing,16136
+507,502,File Permission Unrestricted,7990
+508,502,File Permission Do Not Distribute,7991
+509,502,File Permission Restrict As,10014
+510,502,Review Share Workbook,2040
+511,502,Review Protect And Share Workbook,3059
+512,502,Review Allow Users To Edit Ranges,6997
+513,502,Review Track Changes Menu,11910
+514,502,Review Highlight Changes,2042
+515,502,Review Accept Or Reject Change Dialog,305
+516,487,Group Ink,13964
+517,516,Inking Start,9071
+518,1,Tab View,11541
+519,518,Group Workbook Views,15642
+520,519,View Normal View Excel,723
+521,519,View Page Layout View,11441
+522,519,View Page Break Preview View,724
+523,519,View Custom Views,950
+524,519,View Full Screen View,178
+525,518,Group View Show Hide,15640
+526,525,View Ruler Excel,15117
+527,525,Gridlines Excel,15923
+528,525,View Message Bar,13362
+529,525,View Formula Bar,849
+530,525,View Headings,15644
+531,525,View Document Actions Pane,7465
+532,518,Group Zoom,11813
+533,532,Zoom Dialog,925
+534,532,Zoom Current100,16027
+535,532,Zoom To Selection,15789
+536,518,Group Window,15641
+537,536,Window New,303
+538,536,Windows Arrange All,298
+539,536,View Freeze Panes Gallery,13961
+540,536,Window Split Toggle,15688
+541,536,Window Hide,865
+542,536,Window Unhide,866
+543,536,View Side By Side,15977
+544,536,Window Side By Side Synchronous Scrolling,7873
+545,536,Window Reset Position,7874
+546,536,Window Save Workspace,846
+547,536,Window Switch Windows Menu Excel,12672
+548,536,Window Name Goes Here,830
+549,536,Window Name Goes Here,830
+550,536,Window Name Goes Here,830
+551,536,Window Name Goes Here,830
+552,536,Window Name Goes Here,830
+553,536,Window Name Goes Here,830
+554,536,Window Name Goes Here,830
+555,536,Window Name Goes Here,830
+556,536,Window Name Goes Here,830
+557,536,Window Name Goes Here,830
+558,518,Group Macros,16104
+559,558,Menu Macros,16106
+560,558,Play Macro,16105
+561,558,Play Macro,16105
+562,558,Macro Record,184
+563,558,Macro Relative References,896
+564,1,Tab Developer,12557
+565,564,Group Code,12556
+566,565,Visual Basic,1695
+567,565,Macro Play,186
+568,565,Macro Record,184
+569,565,Macro Relative References,896
+570,565,Macro Security,3627
+571,564,Group Controls,11811
+572,571,Controls Gallery,13914
+573,571,Design Mode,1605
+574,571,Control Properties,13100
+575,571,View Code,13101
+576,571,Run Dialog,470
+577,564,Group Xml,12559
+578,577,Xml Source,12594
+579,577,Xml Map Properties,7813
+580,577,Xml Expansion Packs Excel,7784
+581,577,Xml Data Refresh,7812
+582,577,Xml Import,7433
+583,577,Xml Export,7432
+584,564,Group Modify,14597
+585,584,Document Panel Template,14596
+586,1,Tab Add Ins,12308
+587,586,Group Add Ins Menu Commands,13950
+588,586,Group Add Ins Toolbar Commands,13951
+589,586,Group Add Ins Custom Toolbars,14337
+590,1,Tab Print Preview,12902
+591,590,Group Print Preview Print,12903
+592,591,File Print,4
+593,591,Page Setup Page Dialog,11883
+594,590,Group Print Preview Zoom,15781
+595,594,Zoom Print Preview Excel,25
+596,590,Group Print Preview Preview,12904
+597,596,Page Next,317
+598,596,Page Previous,316
+599,596,Margins Show Hide,13977
+600,596,Print Preview Close,923
+601,0,Tab Set Smart Art Tools,13937
+602,601,Tab Smart Art Tools Design,11683
+603,602,Group Smart Art Create Graphic,12271
+604,603,Smart Art Add Shape Split Menu,15099
+605,603,Smart Art Add Shape,12084
+606,603,Smart Art Add Shape After,13204
+607,603,Smart Art Add Shape Before,13205
+608,603,Smart Art Add Shape Above,13206
+609,603,Smart Art Add Shape Below,13207
+610,603,Smart Art Add Assistant,13208
+611,603,Smart Art Add Bullet,14810
+612,603,Smart Art Right To Left,13249
+613,603,Smart Art Organization Chart Menu,13780
+614,603,Smart Art Organization Chart Standard,13248
+615,603,Smart Art Organization Chart Both,13247
+616,603,Smart Art Organization Chart Left Hanging,13245
+617,603,Smart Art Organization Chart Right Hanging,13246
+618,603,Smart Art Promote,14232
+619,603,Smart Art Demote,14233
+620,603,Smart Art Text Pane,12095
+621,602,Group Smart Art Layouts,12268
+622,621,Smart Art Layout Gallery,12097
+623,621,Smart Art More Layouts Dialog,12098
+624,602,Group Smart Art Quick Styles,12269
+625,624,Smart Art Change Colors Gallery,12100
+626,624,Smart Art Styles Gallery,12099
+627,602,Group Smart Art Reset,12273
+628,627,Smart Art Reset Graphic,12093
+629,601,Tab Smart Art Tools Format,11684
+630,629,Group Smart Art Shapes,15289
+631,630,Smart Art Edit In2D,12096
+632,630,Shape Change Shape Gallery,11530
+633,630,Smart Art Larger Shape,12090
+634,630,Smart Art Smaller Shape,12091
+635,629,Group Shape Styles,11594
+636,635,Shape Styles Gallery,11532
+637,635,Shape Styles Other Theme Fills Gallery,13779
+638,635,Shape Fill Color Picker,11689
+639,635,Object Fill More Colors Dialog,1051
+640,635,Object Picture Fill,12612
+641,635,Gradient Gallery,12116
+642,635,Shape Fill More Gradients Dialog,12683
+643,635,Shape Fill Texture Gallery,11531
+644,635,More Texture Options,15679
+645,635,Shape Outline Color Picker,15293
+646,635,Object Border Outline Color More Colors Dialog,1052
+647,635,Outline Weight Gallery,11866
+648,635,Line Styles Dialog,1054
+649,635,Outline Dashes Gallery,11865
+650,635,Line Styles Dialog,1054
+651,635,Arrow Style Gallery,11864
+652,635,Arrows More,1055
+653,635,Shape Effects Menu,14861
+654,635,Object Effect Preset Gallery,11642
+655,635,_3DBevel Options Dialog,13233
+656,635,Object Effect Shadow Gallery,12118
+657,635,Shadow Options Dialog,12684
+658,635,Reflection Gallery,14229
+659,635,Object Effect Glow Gallery,12115
+660,635,Glow Color Picker,14766
+661,635,Glow Color More Colors Dialog,14768
+662,635,Object Effect Soft Edges Gallery,12102
+663,635,Bevel Shape Gallery,14696
+664,635,_3DBevel Options Dialog,13233
+665,635,_3DRotation Gallery,11644
+666,635,_3DRotation Options Dialog,13232
+667,635,Object Format Dialog,962
+668,629,Group Word Art Styles,14834
+669,668,Text Styles Gallery,14839
+670,668,Word Art Clear,14840
+671,668,Text Fill Color Picker,14835
+672,668,Text Fill Color More Colors Dialog,15680
+673,668,Text Picture Fill,14841
+674,668,Text Fill Gradient Gallery,14842
+675,668,Text Fill More Gradients Dialog,14843
+676,668,Text Fill Texture Gallery,14844
+677,668,Text Fill More Textures,16081
+678,668,Text Outline Color Picker,14836
+679,668,Text Outline Color More Colors Dialog,14837
+680,668,Text Outline Weight Gallery,14847
+681,668,Text Outline More Lines Dialog,14846
+682,668,Text Outline Dashes Gallery,14845
+683,668,Text Outline More Lines Dialog,14846
+684,668,Text Effects Menu,14838
+685,668,Text Effect Shadow Gallery,14848
+686,668,Text Effects More Shadows Dialog,14849
+687,668,Text Reflection Gallery,14857
+688,668,Text Effect Glow Gallery,14854
+689,668,Text Glow Color Picker,14855
+690,668,Text Glow Color More Colors Dialog,14856
+691,668,Bevel Text Gallery,15075
+692,668,Text Effects Bevel More3DOptions Dialog,14851
+693,668,Text Effects3DRotation Gallery,14852
+694,668,Text Effects3DRotation Options Dialog,14853
+695,668,Text Effect Transform Gallery,12120
+696,668,Word Art Format Dialog,15677
+697,629,Group Arrange,11581
+698,697,Object Bring To Front Menu,14407
+699,697,Object Bring To Front,166
+700,697,Object Bring To Front,166
+701,697,Object Bring Forward,170
+702,697,Object Send To Back Menu,14408
+703,697,Object Send To Back,167
+704,697,Object Send To Back,167
+705,697,Object Send Backward,171
+706,697,Selection Pane,13244
+707,697,Object Align Menu,11920
+708,697,Objects Align Left,664
+709,697,Objects Align Center Horizontal,668
+710,697,Objects Align Right,665
+711,697,Objects Align Top,666
+712,697,Objects Align Middle Vertical,669
+713,697,Objects Align Bottom,667
+714,697,Align Distribute Horizontally Classic,408
+715,697,Align Distribute Vertically Classic,465
+716,697,Snap To Grid,549
+717,697,Snap To Shapes,1402
+718,697,View Gridlines Toggle Excel,14607
+719,697,Objects Group Menu,14409
+720,697,Objects Group,164
+721,697,Objects Regroup,338
+722,697,Objects Ungroup,165
+723,697,Object Rotate Gallery,11924
+724,697,Object Rotation Options Dialog,15678
+725,629,Group Smart Art Size,12274
+726,725,Shape Height,13915
+727,725,Shape Width,13916
+728,0,Tab Set Chart Tools,13936
+729,728,Tab Chart Tools Design,11686
+730,729,Group Chart Type,13217
+731,730,Chart Change Type,13214
+732,730,Chart Save Templates,11459
+733,729,Group Chart Data,13215
+734,733,Chart Switch Row Column,13210
+735,733,Chart Edit Data Source,954
+736,729,Group Chart Layouts,11602
+737,736,Chart Layout Gallery,11457
+738,729,Group Chart Styles,11603
+739,738,Chart Styles Gallery,11456
+740,729,Group Chart Location,13216
+741,740,Chart Placement,955
+742,728,Tab Chart Tools Layout,11687
+743,742,Group Chart Current Selection,15046
+744,743,Chart Element Selector,11468
+745,743,Chart Format Selection,11467
+746,743,Chart Reset To Match Style,14057
+747,742,Group Chart Shapes,11605
+748,747,Picture Insert From File,2619
+749,747,Shapes Insert Gallery,11529
+750,747,Text Box Insert Excel,14471
+751,747,Text Box Insert Menu,13098
+752,747,Text Box Insert Horizontal,13099
+753,747,Text Box Insert Vertical,318
+754,742,Group Chart Labels,15047
+755,754,Chart Title,11955
+756,754,Chart Title Options Dialog,14290
+757,754,Chart Axis Titles,11461
+758,754,Chart Primary Horizontal Axis Title,11956
+759,754,Chart Primary Horizontal Axis Title Options Dialog,14293
+760,754,Chart Primary Vertical Axis Title,11957
+761,754,Chart Primary Vertical Axis Title Options Dialog,14294
+762,754,Chart Secondary Horizontal Axis Title,14315
+763,754,Chart Secondary Horizontal Axis Title Options Dialog,14295
+764,754,Chart Secondary Vertical Axis Title,14316
+765,754,Chart Secondary Vertical Axis Title Options Dialog,14296
+766,754,Chart Depth Axis Title,11958
+767,754,Chart Depth Axis Title Options Dialog,14297
+768,754,Chart Legend,11959
+769,754,Chart Legend Options Dialog Dialog,14291
+770,754,Chart Data Label,11960
+771,754,Chart Data Label Dialog,14292
+772,754,Chart Data Table,11967
+773,754,Chart Data Table Options Dialog,14308
+774,742,Group Chart Axes,11604
+775,774,Chart Axes,11463
+776,774,Chart Primary Horizontal Axis,11964
+777,774,Chart Primary Horizontal Axis Options Dialog,14303
+778,774,Chart Primary Vertical Axis,11965
+779,774,Chart Primary Vertical Axis Options Dialog,14304
+780,774,Chart Secondary Horizontal Axis,14319
+781,774,Chart Secondary Horizontal Axis Option,14305
+782,774,Chart Secondary Vertical Axis,14320
+783,774,Chart Secondary Vertical Axis Options Dialog,14306
+784,774,Chart Depth Axis,11966
+785,774,Chart Depth Axis Options Dialog,14307
+786,774,Chart Gridlines,11464
+787,774,Chart Primary Horizontal Gridlines,11961
+788,774,Chart Primary Horizontal Gridlines Options Dialog,14298
+789,774,Chart Primary Vertical Gridlines,11962
+790,774,Chart Primary Vertical Gridlines Options Dialog,14299
+791,774,Chart Secondary Horizontal Gridlines,14317
+792,774,Chart Secondary Horizontal Gridlines Options Dialog,14300
+793,774,Chart Secondary Vertical Gridlines,14318
+794,774,Chart Secondary Vertical Gridlines Options Dialog,14301
+795,774,Chart Depth Gridlines,11963
+796,774,Chart Depth Gridlines Options Dialog,14302
+797,742,Group Chart Background,15787
+798,797,Chart Plot Area,11972
+799,797,Chart Plot Area Options Dialog,14312
+800,797,Chart Wall,11973
+801,797,Chart Wall Options Dialog,14313
+802,797,Chart Floor,11974
+803,797,Chart Floor Options Dialog,14314
+804,797,Chart3DView,14059
+805,742,Group Chart Analysis,15788
+806,805,Chart Trendline,11968
+807,805,Chart Trendline Options Dialog,14309
+808,805,Chart Lines,11970
+809,805,Chart Up Down Bars,11971
+810,805,Chart Up Down Bars Options Dialog,14311
+811,805,Chart Error Bars,11969
+812,805,Chart Error Bars Options Dialog,14310
+813,742,Group Chart Properties,15340
+814,813,Chart Name Label,15341
+815,813,Chart Name,15342
+816,728,Tab Chart Tools Format,11688
+817,816,Group Chart Current Selection,15046
+818,817,Chart Element Selector,11468
+819,817,Chart Format Selection,11467
+820,817,Chart Reset To Match Style,14057
+821,816,Group Shape Styles,11594
+822,821,Shape Styles Gallery,11532
+823,821,Shape Styles Other Theme Fills Gallery,13779
+824,821,Shape Fill Color Picker,11689
+825,821,Object Fill More Colors Dialog,1051
+826,821,Object Picture Fill,12612
+827,821,Gradient Gallery,12116
+828,821,Shape Fill More Gradients Dialog,12683
+829,821,Shape Fill Texture Gallery,11531
+830,821,More Texture Options,15679
+831,821,Shape Outline Color Picker,15293
+832,821,Object Border Outline Color More Colors Dialog,1052
+833,821,Outline Weight Gallery,11866
+834,821,Line Styles Dialog,1054
+835,821,Outline Dashes Gallery,11865
+836,821,Line Styles Dialog,1054
+837,821,Arrow Style Gallery,11864
+838,821,Arrows More,1055
+839,821,Shape Effects Menu,14861
+840,821,Object Effect Preset Gallery,11642
+841,821,_3DBevel Options Dialog,13233
+842,821,Object Effect Shadow Gallery,12118
+843,821,Shadow Options Dialog,12684
+844,821,Reflection Gallery,14229
+845,821,Object Effect Glow Gallery,12115
+846,821,Glow Color Picker,14766
+847,821,Glow Color More Colors Dialog,14768
+848,821,Object Effect Soft Edges Gallery,12102
+849,821,Bevel Shape Gallery,14696
+850,821,_3DBevel Options Dialog,13233
+851,821,_3DRotation Gallery,11644
+852,821,_3DRotation Options Dialog,13232
+853,821,Object Format Dialog,962
+854,816,Group Word Art Styles,14834
+855,854,Text Styles Gallery,14839
+856,854,Word Art Clear,14840
+857,854,Text Fill Color Picker,14835
+858,854,Text Fill Color More Colors Dialog,15680
+859,854,Text Picture Fill,14841
+860,854,Text Fill Gradient Gallery,14842
+861,854,Text Fill More Gradients Dialog,14843
+862,854,Text Fill Texture Gallery,14844
+863,854,Text Fill More Textures,16081
+864,854,Text Outline Color Picker,14836
+865,854,Text Outline Color More Colors Dialog,14837
+866,854,Text Outline Weight Gallery,14847
+867,854,Text Outline More Lines Dialog,14846
+868,854,Text Outline Dashes Gallery,14845
+869,854,Text Outline More Lines Dialog,14846
+870,854,Text Effects Menu,14838
+871,854,Text Effect Shadow Gallery,14848
+872,854,Text Effects More Shadows Dialog,14849
+873,854,Text Reflection Gallery,14857
+874,854,Text Effect Glow Gallery,14854
+875,854,Text Glow Color Picker,14855
+876,854,Text Glow Color More Colors Dialog,14856
+877,854,Bevel Text Gallery,15075
+878,854,Text Effects Bevel More3DOptions Dialog,14851
+879,854,Text Effects3DRotation Gallery,14852
+880,854,Text Effects3DRotation Options Dialog,14853
+881,854,Text Effect Transform Gallery,12120
+882,854,Word Art Format Dialog,15677
+883,816,Group Arrange,11581
+884,883,Object Bring To Front Menu,14407
+885,883,Object Bring To Front,166
+886,883,Object Bring To Front,166
+887,883,Object Bring Forward,170
+888,883,Object Send To Back Menu,14408
+889,883,Object Send To Back,167
+890,883,Object Send To Back,167
+891,883,Object Send Backward,171
+892,883,Selection Pane,13244
+893,883,Object Align Menu,11920
+894,883,Objects Align Left,664
+895,883,Objects Align Center Horizontal,668
+896,883,Objects Align Right,665
+897,883,Objects Align Top,666
+898,883,Objects Align Middle Vertical,669
+899,883,Objects Align Bottom,667
+900,883,Align Distribute Horizontally Classic,408
+901,883,Align Distribute Vertically Classic,465
+902,883,Snap To Grid,549
+903,883,Snap To Shapes,1402
+904,883,View Gridlines Toggle Excel,14607
+905,883,Objects Group Menu,14409
+906,883,Objects Group,164
+907,883,Objects Regroup,338
+908,883,Objects Ungroup,165
+909,883,Object Rotate Gallery,11924
+910,883,Object Rotation Options Dialog,15678
+911,816,Group Size,11877
+912,911,Shape Height,13915
+913,911,Shape Width,13916
+914,911,Object Size And Properties Dialog,14099
+915,0,Tab Set Drawing Tools,13261
+916,915,Tab Drawing Tools Format,11528
+917,916,Group Shapes,11549
+918,917,Shapes Insert Gallery,11529
+919,917,Object Edit Shape Menu,12317
+920,917,Shape Change Shape Gallery,11530
+921,917,Shape Convert To Freeform,14103
+922,917,Object Edit Points,206
+923,917,Shape Reroute Connectors,1033
+924,917,Text Box Insert Excel,14471
+925,917,Text Box Insert Menu,13098
+926,917,Text Box Insert Horizontal,13099
+927,917,Text Box Insert Vertical,318
+928,916,Group Shape Styles,11594
+929,928,Shape Styles Gallery,11532
+930,928,Shape Styles Other Theme Fills Gallery,13779
+931,928,Shape Fill Color Picker,11689
+932,928,Object Fill More Colors Dialog,1051
+933,928,Object Picture Fill,12612
+934,928,Gradient Gallery,12116
+935,928,Shape Fill More Gradients Dialog,12683
+936,928,Shape Fill Texture Gallery,11531
+937,928,More Texture Options,15679
+938,928,Shape Outline Color Picker,15293
+939,928,Object Border Outline Color More Colors Dialog,1052
+940,928,Outline Weight Gallery,11866
+941,928,Line Styles Dialog,1054
+942,928,Outline Dashes Gallery,11865
+943,928,Line Styles Dialog,1054
+944,928,Arrow Style Gallery,11864
+945,928,Arrows More,1055
+946,928,Shape Effects Menu,14861
+947,928,Object Effect Preset Gallery,11642
+948,928,_3DBevel Options Dialog,13233
+949,928,Object Effect Shadow Gallery,12118
+950,928,Shadow Options Dialog,12684
+951,928,Reflection Gallery,14229
+952,928,Object Effect Glow Gallery,12115
+953,928,Glow Color Picker,14766
+954,928,Glow Color More Colors Dialog,14768
+955,928,Object Effect Soft Edges Gallery,12102
+956,928,Bevel Shape Gallery,14696
+957,928,_3DBevel Options Dialog,13233
+958,928,_3DRotation Gallery,11644
+959,928,_3DRotation Options Dialog,13232
+960,928,Object Format Dialog,962
+961,916,Group Word Art Styles,14834
+962,961,Text Styles Gallery,14839
+963,961,Word Art Clear,14840
+964,961,Text Fill Color Picker,14835
+965,961,Text Fill Color More Colors Dialog,15680
+966,961,Text Picture Fill,14841
+967,961,Text Fill Gradient Gallery,14842
+968,961,Text Fill More Gradients Dialog,14843
+969,961,Text Fill Texture Gallery,14844
+970,961,Text Fill More Textures,16081
+971,961,Text Outline Color Picker,14836
+972,961,Text Outline Color More Colors Dialog,14837
+973,961,Text Outline Weight Gallery,14847
+974,961,Text Outline More Lines Dialog,14846
+975,961,Text Outline Dashes Gallery,14845
+976,961,Text Outline More Lines Dialog,14846
+977,961,Text Effects Menu,14838
+978,961,Text Effect Shadow Gallery,14848
+979,961,Text Effects More Shadows Dialog,14849
+980,961,Text Reflection Gallery,14857
+981,961,Text Effect Glow Gallery,14854
+982,961,Text Glow Color Picker,14855
+983,961,Text Glow Color More Colors Dialog,14856
+984,961,Bevel Text Gallery,15075
+985,961,Text Effects Bevel More3DOptions Dialog,14851
+986,961,Text Effects3DRotation Gallery,14852
+987,961,Text Effects3DRotation Options Dialog,14853
+988,961,Text Effect Transform Gallery,12120
+989,961,Word Art Format Dialog,15677
+990,916,Group Arrange,11581
+991,990,Object Bring To Front Menu,14407
+992,990,Object Bring To Front,166
+993,990,Object Bring To Front,166
+994,990,Object Bring Forward,170
+995,990,Object Send To Back Menu,14408
+996,990,Object Send To Back,167
+997,990,Object Send To Back,167
+998,990,Object Send Backward,171
+999,990,Selection Pane,13244
+1000,990,Object Align Menu,11920
+1001,990,Objects Align Left,664
+1002,990,Objects Align Center Horizontal,668
+1003,990,Objects Align Right,665
+1004,990,Objects Align Top,666
+1005,990,Objects Align Middle Vertical,669
+1006,990,Objects Align Bottom,667
+1007,990,Align Distribute Horizontally Classic,408
+1008,990,Align Distribute Vertically Classic,465
+1009,990,Snap To Grid,549
+1010,990,Snap To Shapes,1402
+1011,990,View Gridlines Toggle Excel,14607
+1012,990,Objects Group Menu,14409
+1013,990,Objects Group,164
+1014,990,Objects Regroup,338
+1015,990,Objects Ungroup,165
+1016,990,Object Rotate Gallery,11924
+1017,990,Object Rotation Options Dialog,15678
+1018,916,Group Size,11877
+1019,1018,Shape Height,13915
+1020,1018,Shape Width,13916
+1021,1018,Object Size And Properties Dialog,14099
+1022,0,Tab Set Picture Tools,13263
+1023,1022,Tab Picture Tools Format,11527
+1024,1023,Group Picture Tools,11875
+1025,1024,Picture Brightness Gallery,13140
+1026,1024,Picture Corrections Dialog,15078
+1027,1024,Picture Contrast Gallery,13141
+1028,1024,Picture Corrections Dialog,15078
+1029,1024,Picture Recolor Gallery,14231
+1030,1024,Recolor Color Picker,14767
+1031,1024,Picture Recolor More Colors Dialog,14769
+1032,1024,Picture Set Transparent Color,2827
+1033,1024,Pictures Compress,6382
+1034,1024,Picture Change,14826
+1035,1024,Picture Reset,1362
+1036,1023,Group Picture Styles,15503
+1037,1036,Picture Styles Gallery,15504
+1038,1036,Picture Shape Gallery,15783
+1039,1036,Outline Color Picker,11690
+1040,1036,Object Border Outline Color More Colors Dialog,1052
+1041,1036,Outline Weight Gallery,11866
+1042,1036,Line Styles Dialog,1054
+1043,1036,Outline Dashes Gallery,11865
+1044,1036,Line Styles Dialog,1054
+1045,1036,Picture Effects Menu,15782
+1046,1036,Picture Effects Preset Gallery,11643
+1047,1036,_3DBevel Options Dialog,13233
+1048,1036,Picture Effects Shadow Gallery,15554
+1049,1036,Shadow Options Dialog,12684
+1050,1036,Picture Reflection Gallery,15562
+1051,1036,Picture Effects Glow Gallery,15557
+1052,1036,Glow Color Picker,14766
+1053,1036,Glow Color More Colors Dialog,14768
+1054,1036,Picture Effects Soft Edges Gallery,15560
+1055,1036,_3DBevel Picture Top Gallery,14711
+1056,1036,_3DBevel Options Dialog,13233
+1057,1036,Picture Rotation Gallery,15565
+1058,1036,_3DRotation Options Dialog,13232
+1059,1036,Object Format Dialog,962
+1060,1023,Group Arrange,11581
+1061,1060,Object Bring To Front Menu,14407
+1062,1060,Object Bring To Front,166
+1063,1060,Object Bring To Front,166
+1064,1060,Object Bring Forward,170
+1065,1060,Object Send To Back Menu,14408
+1066,1060,Object Send To Back,167
+1067,1060,Object Send To Back,167
+1068,1060,Object Send Backward,171
+1069,1060,Selection Pane,13244
+1070,1060,Object Align Menu,11920
+1071,1060,Objects Align Left,664
+1072,1060,Objects Align Center Horizontal,668
+1073,1060,Objects Align Right,665
+1074,1060,Objects Align Top,666
+1075,1060,Objects Align Middle Vertical,669
+1076,1060,Objects Align Bottom,667
+1077,1060,Align Distribute Horizontally Classic,408
+1078,1060,Align Distribute Vertically Classic,465
+1079,1060,Snap To Grid,549
+1080,1060,Snap To Shapes,1402
+1081,1060,View Gridlines Toggle Excel,14607
+1082,1060,Objects Group Menu,14409
+1083,1060,Objects Group,164
+1084,1060,Objects Regroup,338
+1085,1060,Objects Ungroup,165
+1086,1060,Object Rotate Gallery,11924
+1087,1060,Object Rotation Options Dialog,15678
+1088,1023,Group Picture Size,11568
+1089,1088,Picture Crop,732
+1090,1088,Shape Height,13915
+1091,1088,Shape Width,13916
+1092,1088,Object Size And Properties Dialog,14099
+1093,0,Tab Set Pivot Table Tools,13945
+1094,1093,Tab Pivot Table Tools Options,11885
+1095,1094,Group Pivot Table Options,11898
+1096,1095,Pivot Table Name Label,14578
+1097,1095,Pivot Table Name,12471
+1098,1095,Pivot Table Options Menu,11940
+1099,1095,Pivot Table Options,1604
+1100,1095,Pivot Table Options,1604
+1101,1095,Pivot Table Show Pages,461
+1102,1095,Pivot Table Generate Get Pivot Data,6136
+1103,1094,Group Pivot Table Active Field,11888
+1104,1103,Label Active Field,14579
+1105,1103,Pivot Field Name,12472
+1106,1103,Pivot Table Field Settings,460
+1107,1103,Pivot Table Expand Field,12188
+1108,1103,Pivot Collapse Field,12189
+1109,1094,Group Pivot Table Group,11895
+1110,1109,Pivot Table Group Selection,12624
+1111,1109,Outline Ungroup,3160
+1112,1109,Pivot Table Group Field,12625
+1113,1094,Group Pivot Table Sort,11891
+1114,1113,Sort Ascending Excel,12947
+1115,1113,Sort Descending Excel,12948
+1116,1113,Sort Dialog,12946
+1117,1094,Group Pivot Table Data,11897
+1118,1117,Refresh Menu,11934
+1119,1117,Refresh,459
+1120,1117,Refresh,459
+1121,1117,Refresh All,1952
+1122,1117,Refresh Status,1954
+1123,1117,Refresh Cancel,1953
+1124,1117,Connection Properties,12489
+1125,1117,Pivot Table Edit Data Source,15344
+1126,1117,Pivot Table Change Data Source,12250
+1127,1117,Pivot Table Change Data Source,12250
+1128,1117,Connection Properties,12489
+1129,1094,Group Pivot Actions,16025
+1130,1129,Pivot Table Clear Menu,12330
+1131,1129,Pivot Clear All,11451
+1132,1129,Pivot Clear Filters,12491
+1133,1129,Pivot Table Select Flyout,16026
+1134,1129,Pivot Table Select Label And Data,994
+1135,1129,Pivot Table Select Data,993
+1136,1129,Pivot Table Select Label,995
+1137,1129,Pivot Table Select Entire Table,1600
+1138,1129,Pivot Table Enable Selection,991
+1139,1129,Pivot Table Move,12249
+1140,1094,Group Pivot Table Tools,11896
+1141,1140,Pivot Chart Insert Classic,3789
+1142,1140,Pivot Table Formulas Menu,11938
+1143,1140,Pivot Table Field Insert,1597
+1144,1140,Pivot Table Calculated Item,1598
+1145,1140,Pivot Table Solve Order,2914
+1146,1140,Pivot Table List Formulas,992
+1147,1140,Pivot Table Olap Tools,11939
+1148,1140,Pivot Table Olap Property Fields,6076
+1149,1140,Pivot Table Olap Offline,3988
+1150,1140,Pivot Table Olap Convert To Formulas,12470
+1151,1094,Group Pivot Table Show Hide,11892
+1152,1151,Pivot Field List Show Hide,3790
+1153,1151,Pivot Plus Minus Buttons Show Hide,12498
+1154,1151,Pivot Plus Minus Field Headers Show Hide,12187
+1155,1093,Tab Pivot Table Tools Design,11887
+1156,1155,Group Pivot Table Layout,11890
+1157,1156,Pivot Table Layout Subtotals,11893
+1158,1156,Pivot Table Subtotals Do Not Show,14905
+1159,1156,Pivot Table Subtotals On Bottom,14906
+1160,1156,Pivot Table Subtotals On Top,14907
+1161,1156,Pivot Table Layout Grand Totals,11886
+1162,1156,Pivot Table Grand Totals Off For Rows And Columns,14908
+1163,1156,Pivot Table Grand Totals On For Rows And Columns,14909
+1164,1156,Pivot Table Grand Totals On For Rows Only,14910
+1165,1156,Pivot Table Grand Totals On For Columns Only,14911
+1166,1156,Pivot Table Layout Report Layout,12318
+1167,1156,Pivot Table Layout Show In Compact Form,12319
+1168,1156,Pivot Table Layout Show In Outline Form,12320
+1169,1156,Pivot Table Layout Show In Tabular Form,12321
+1170,1156,Pivot Table Layout Blank Rows,12473
+1171,1156,Pivot Table Blank Rows Insert,14912
+1172,1156,Pivot Table Blank Rows Remove,14913
+1173,1155,Group Pivot Table Style Options,11900
+1174,1173,Table Style Row Headers,12482
+1175,1173,Table Style Column Headers,12483
+1176,1173,Table Style Banded Rows,12480
+1177,1173,Table Style Banded Columns,12481
+1178,1155,Group Pivot Table Styles,11899
+1179,1178,Pivot Table Styles Gallery,12209
+1180,1178,Pivot Table New Style,12186
+1181,1178,Table Style Clear,12387
+1182,0,Tab Set Header And Footer Tools,13264
+1183,1182,Tab Header And Footer Tools Design,12162
+1184,1183,Group Header Footer,13980
+1185,1184,Header Footer Header Gallery,12164
+1186,1184,Header Footer Footer Gallery,12165
+1187,1183,Group Header Footer Elements,12166
+1188,1187,Header Footer Page Number Insert Excel,12167
+1189,1187,Header Footer Number Of Pages Insert,12168
+1190,1187,Header Footer Current Date,12169
+1191,1187,Header Footer Current Time Insert,12170
+1192,1187,Header Footer File Path Insert,12171
+1193,1187,Header Footer File Name Insert,12172
+1194,1187,Header Footer Sheet Name Insert,12173
+1195,1187,Header Footer Picture Insert,12175
+1196,1187,Header Footer Format Picture,12176
+1197,1183,Group Header Footer Navigation,13105
+1198,1197,Go To Header,13928
+1199,1197,Go To Footer,13929
+1200,1183,Group Header Footer Options,12177
+1201,1200,Header Footer Different First Page Excel,12179
+1202,1200,Header Footer Different Odd Even Page Excel,12178
+1203,1200,Header Footer Scale With Document,12180
+1204,1200,Header Footer Align Margins,12174
+1205,0,Tab Set Table Tools Excel,15092
+1206,1205,Tab Table Tools Design Excel,12826
+1207,1206,Group Table Properties,11574
+1208,1207,Table Name Label,14577
+1209,1207,Table Name,12488
+1210,1207,Table Resize,7765
+1211,1206,Group Table Tools,11575
+1212,1211,Table Summarize With Pivot,12487
+1213,1211,Remove Duplicates,12230
+1214,1211,Table Convert To Range,7375
+1215,1206,Group Table External Data,12830
+1216,1215,Table Export Menu,15362
+1217,1215,Table Export Table To Share Point List,7684
+1218,1215,Table Export Table To Visio Pivot Diagram,15363
+1219,1215,Refresh Menu,11934
+1220,1215,Refresh,459
+1221,1215,Refresh,459
+1222,1215,Refresh All,1952
+1223,1215,Refresh Status,1954
+1224,1215,Refresh Cancel,1953
+1225,1215,Connection Properties,12489
+1226,1215,Data Range Properties,1951
+1227,1215,Table Open In Browser,7763
+1228,1215,Table Unlink External Data,7683
+1229,1206,Group Table Style Options,12827
+1230,1229,Table Style Header Row,12394
+1231,1229,Table Style Totals Row,7372
+1232,1229,Table Style Banded Rows,12480
+1233,1229,Table Style First Column,12478
+1234,1229,Table Style Last Column,12479
+1235,1229,Table Style Banded Columns,12481
+1236,1206,Group Table Styles Excel,15091
+1237,1236,Table Styles Gallery Excel,12211
+1238,1236,Table Style New,12386
+1239,1236,Table Style Clear,12387
+1240,0,Tab Set Pivot Chart Tools,14394
+1241,1240,Tab Pivot Chart Tools Design,14395
+1242,1241,Group Chart Type,13217
+1243,1242,Chart Change Type,13214
+1244,1242,Chart Save Templates,11459
+1245,1241,Group Chart Data,13215
+1246,1245,Chart Switch Row Column,13210
+1247,1245,Chart Edit Data Source,954
+1248,1241,Group Chart Layouts,11602
+1249,1248,Chart Layout Gallery,11457
+1250,1241,Group Chart Styles,11603
+1251,1250,Chart Styles Gallery,11456
+1252,1241,Group Chart Location,13216
+1253,1252,Chart Placement,955
+1254,1240,Tab Pivot Chart Tools Layout,14396
+1255,1254,Group Chart Current Selection,15046
+1256,1255,Chart Element Selector,11468
+1257,1255,Chart Format Selection,11467
+1258,1255,Chart Reset To Match Style,14057
+1259,1254,Group Chart Shapes,11605
+1260,1259,Picture Insert From File,2619
+1261,1259,Shapes Insert Gallery,11529
+1262,1259,Text Box Insert Excel,14471
+1263,1259,Text Box Insert Menu,13098
+1264,1259,Text Box Insert Horizontal,13099
+1265,1259,Text Box Insert Vertical,318
+1266,1254,Group Chart Labels,15047
+1267,1266,Chart Title,11955
+1268,1266,Chart Title Options Dialog,14290
+1269,1266,Chart Axis Titles,11461
+1270,1266,Chart Primary Horizontal Axis Title,11956
+1271,1266,Chart Primary Horizontal Axis Title Options Dialog,14293
+1272,1266,Chart Primary Vertical Axis Title,11957
+1273,1266,Chart Primary Vertical Axis Title Options Dialog,14294
+1274,1266,Chart Secondary Horizontal Axis Title,14315
+1275,1266,Chart Secondary Horizontal Axis Title Options Dialog,14295
+1276,1266,Chart Secondary Vertical Axis Title,14316
+1277,1266,Chart Secondary Vertical Axis Title Options Dialog,14296
+1278,1266,Chart Depth Axis Title,11958
+1279,1266,Chart Depth Axis Title Options Dialog,14297
+1280,1266,Chart Legend,11959
+1281,1266,Chart Legend Options Dialog Dialog,14291
+1282,1266,Chart Data Label,11960
+1283,1266,Chart Data Label Dialog,14292
+1284,1266,Chart Data Table,11967
+1285,1266,Chart Data Table Options Dialog,14308
+1286,1254,Group Chart Axes,11604
+1287,1286,Chart Axes,11463
+1288,1286,Chart Primary Horizontal Axis,11964
+1289,1286,Chart Primary Horizontal Axis Options Dialog,14303
+1290,1286,Chart Primary Vertical Axis,11965
+1291,1286,Chart Primary Vertical Axis Options Dialog,14304
+1292,1286,Chart Secondary Horizontal Axis,14319
+1293,1286,Chart Secondary Horizontal Axis Option,14305
+1294,1286,Chart Secondary Vertical Axis,14320
+1295,1286,Chart Secondary Vertical Axis Options Dialog,14306
+1296,1286,Chart Depth Axis,11966
+1297,1286,Chart Depth Axis Options Dialog,14307
+1298,1286,Chart Gridlines,11464
+1299,1286,Chart Primary Horizontal Gridlines,11961
+1300,1286,Chart Primary Horizontal Gridlines Options Dialog,14298
+1301,1286,Chart Primary Vertical Gridlines,11962
+1302,1286,Chart Primary Vertical Gridlines Options Dialog,14299
+1303,1286,Chart Secondary Horizontal Gridlines,14317
+1304,1286,Chart Secondary Horizontal Gridlines Options Dialog,14300
+1305,1286,Chart Secondary Vertical Gridlines,14318
+1306,1286,Chart Secondary Vertical Gridlines Options Dialog,14301
+1307,1286,Chart Depth Gridlines,11963
+1308,1286,Chart Depth Gridlines Options Dialog,14302
+1309,1254,Group Chart Background,15787
+1310,1309,Chart Plot Area,11972
+1311,1309,Chart Plot Area Options Dialog,14312
+1312,1309,Chart Wall,11973
+1313,1309,Chart Wall Options Dialog,14313
+1314,1309,Chart Floor,11974
+1315,1309,Chart Floor Options Dialog,14314
+1316,1309,Chart3DView,14059
+1317,1254,Group Chart Analysis,15788
+1318,1317,Chart Trendline,11968
+1319,1317,Chart Trendline Options Dialog,14309
+1320,1317,Chart Lines,11970
+1321,1317,Chart Up Down Bars,11971
+1322,1317,Chart Up Down Bars Options Dialog,14311
+1323,1317,Chart Error Bars,11969
+1324,1317,Chart Error Bars Options Dialog,14310
+1325,1254,Group Chart Properties,15340
+1326,1325,Chart Name Label,15341
+1327,1325,Chart Name,15342
+1328,1240,Tab Pivot Chart Tools Format,14397
+1329,1328,Group Chart Current Selection,15046
+1330,1329,Chart Element Selector,11468
+1331,1329,Chart Format Selection,11467
+1332,1329,Chart Reset To Match Style,14057
+1333,1328,Group Shape Styles,11594
+1334,1333,Shape Styles Gallery,11532
+1335,1333,Shape Styles Other Theme Fills Gallery,13779
+1336,1333,Shape Fill Color Picker,11689
+1337,1333,Object Fill More Colors Dialog,1051
+1338,1333,Object Picture Fill,12612
+1339,1333,Gradient Gallery,12116
+1340,1333,Shape Fill More Gradients Dialog,12683
+1341,1333,Shape Fill Texture Gallery,11531
+1342,1333,More Texture Options,15679
+1343,1333,Shape Outline Color Picker,15293
+1344,1333,Object Border Outline Color More Colors Dialog,1052
+1345,1333,Outline Weight Gallery,11866
+1346,1333,Line Styles Dialog,1054
+1347,1333,Outline Dashes Gallery,11865
+1348,1333,Line Styles Dialog,1054
+1349,1333,Arrow Style Gallery,11864
+1350,1333,Arrows More,1055
+1351,1333,Shape Effects Menu,14861
+1352,1333,Object Effect Preset Gallery,11642
+1353,1333,_3DBevel Options Dialog,13233
+1354,1333,Object Effect Shadow Gallery,12118
+1355,1333,Shadow Options Dialog,12684
+1356,1333,Reflection Gallery,14229
+1357,1333,Object Effect Glow Gallery,12115
+1358,1333,Glow Color Picker,14766
+1359,1333,Glow Color More Colors Dialog,14768
+1360,1333,Object Effect Soft Edges Gallery,12102
+1361,1333,Bevel Shape Gallery,14696
+1362,1333,_3DBevel Options Dialog,13233
+1363,1333,_3DRotation Gallery,11644
+1364,1333,_3DRotation Options Dialog,13232
+1365,1333,Object Format Dialog,962
+1366,1328,Group Word Art Styles,14834
+1367,1366,Text Styles Gallery,14839
+1368,1366,Word Art Clear,14840
+1369,1366,Text Fill Color Picker,14835
+1370,1366,Text Fill Color More Colors Dialog,15680
+1371,1366,Text Picture Fill,14841
+1372,1366,Text Fill Gradient Gallery,14842
+1373,1366,Text Fill More Gradients Dialog,14843
+1374,1366,Text Fill Texture Gallery,14844
+1375,1366,Text Fill More Textures,16081
+1376,1366,Text Outline Color Picker,14836
+1377,1366,Text Outline Color More Colors Dialog,14837
+1378,1366,Text Outline Weight Gallery,14847
+1379,1366,Text Outline More Lines Dialog,14846
+1380,1366,Text Outline Dashes Gallery,14845
+1381,1366,Text Outline More Lines Dialog,14846
+1382,1366,Text Effects Menu,14838
+1383,1366,Text Effect Shadow Gallery,14848
+1384,1366,Text Effects More Shadows Dialog,14849
+1385,1366,Text Reflection Gallery,14857
+1386,1366,Text Effect Glow Gallery,14854
+1387,1366,Text Glow Color Picker,14855
+1388,1366,Text Glow Color More Colors Dialog,14856
+1389,1366,Bevel Text Gallery,15075
+1390,1366,Text Effects Bevel More3DOptions Dialog,14851
+1391,1366,Text Effects3DRotation Gallery,14852
+1392,1366,Text Effects3DRotation Options Dialog,14853
+1393,1366,Text Effect Transform Gallery,12120
+1394,1366,Word Art Format Dialog,15677
+1395,1328,Group Arrange,11581
+1396,1395,Object Bring To Front Menu,14407
+1397,1395,Object Bring To Front,166
+1398,1395,Object Bring To Front,166
+1399,1395,Object Bring Forward,170
+1400,1395,Object Send To Back Menu,14408
+1401,1395,Object Send To Back,167
+1402,1395,Object Send To Back,167
+1403,1395,Object Send Backward,171
+1404,1395,Selection Pane,13244
+1405,1395,Object Align Menu,11920
+1406,1395,Objects Align Left,664
+1407,1395,Objects Align Center Horizontal,668
+1408,1395,Objects Align Right,665
+1409,1395,Objects Align Top,666
+1410,1395,Objects Align Middle Vertical,669
+1411,1395,Objects Align Bottom,667
+1412,1395,Align Distribute Horizontally Classic,408
+1413,1395,Align Distribute Vertically Classic,465
+1414,1395,Snap To Grid,549
+1415,1395,Snap To Shapes,1402
+1416,1395,View Gridlines Toggle Excel,14607
+1417,1395,Objects Group Menu,14409
+1418,1395,Objects Group,164
+1419,1395,Objects Regroup,338
+1420,1395,Objects Ungroup,165
+1421,1395,Object Rotate Gallery,11924
+1422,1395,Object Rotation Options Dialog,15678
+1423,1328,Group Size,11877
+1424,1423,Shape Height,13915
+1425,1423,Shape Width,13916
+1426,1423,Object Size And Properties Dialog,14099
+1427,1240,Tab Pivot Chart Tools Analyze,14237
+1428,1427,Group Pivot Chart Active Field,14240
+1429,1428,Label Active Field,14579
+1430,1428,Pivot Field Name,12472
+1431,1428,Pivot Table Expand Field,12188
+1432,1428,Pivot Collapse Field,12189
+1433,1427,Group Pivot Chart Data,14239
+1434,1433,Refresh Menu,11934
+1435,1433,Refresh,459
+1436,1433,Refresh,459
+1437,1433,Refresh All,1952
+1438,1433,Refresh Status,1954
+1439,1433,Refresh Cancel,1953
+1440,1433,Connection Properties,12489
+1441,1433,Pivot Chart Clear Menu,15550
+1442,1433,Pivot Clear All,11451
+1443,1433,Pivot Clear Filters,12491
+1444,1427,Group Pivot Chart Show Or Hide,14238
+1445,1444,Pivot Field List Show Hide,3790
+1446,1444,Pivot Chart Filter Show,14244
+1447,0,Tab Set Ink Tools,14344
+1448,1447,Tab Ink Tools Pens,13965
+1449,1448,Group Ink Select,13133
+1450,1449,Objects Select,182
+1451,1449,Ink Delete All Ink,7674
+1452,1448,Group Ink Pens,13966
+1453,1452,Ink Ballpoint Pen,13969
+1454,1452,Ink Felt Tip Pen,13970
+1455,1452,Ink Highlighter,13971
+1456,1452,Ink Eraser,9523
+1457,1448,Group Ink Format,15154
+1458,1457,Ink Color Picker,15155
+1459,1457,Ink Color More Colors Dialog,7879
+1460,1457,Outline Weight Gallery,11866
+1461,1457,Line Styles Dialog,1054
+1462,1448,Group Ink Close,13968
+1463,1462,Ink Tools Close,15599

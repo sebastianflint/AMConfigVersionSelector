@@ -15,6 +15,7 @@ using System.IO;
 using System.Text.Json;
 using System.Net;
 using System.Net.NetworkInformation;
+using Microsoft.Win32;
 
 namespace UWMConfigVersionSelector
 {
@@ -41,10 +42,7 @@ namespace UWMConfigVersionSelector
 
             string[] args = Environment.GetCommandLineArgs();
 
-            if (CheckInternetConnection())
-            {
-                CheckForUpdates(false);
-            }
+      
 
 
             string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
@@ -130,6 +128,12 @@ namespace UWMConfigVersionSelector
                 ConfigPath = args[1];
                 GetAAMPProperties(ConfigPath);
             }
+
+                if (CheckInternetConnection())
+                {
+                    CheckForUpdates(false);
+                }
+
 
         }
 
@@ -352,7 +356,7 @@ namespace UWMConfigVersionSelector
         {
             try
             {
-                string currentVersion = "V2.1";
+                string currentVersion = "V2.2";
                 string latestVersion = GetLatestVersion("sebastianflint", "AMConfigVersionSelector");
 
                 if (currentVersion != latestVersion)
@@ -434,6 +438,26 @@ namespace UWMConfigVersionSelector
             }
 
            
+        }
+
+        private void optionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void testToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://forums.ivanti.com/s/article/Ivanti-Environment-Manager-Version-History-and-Support-Lifecycle");
+        }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://forums.ivanti.com/s/article/Ivanti-UWM-Application-Control-Version-History-and-Support-Lifecycle");
         }
     }
 }
