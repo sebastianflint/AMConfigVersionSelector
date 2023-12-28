@@ -42,7 +42,8 @@ namespace UWMConfigVersionSelector
 
             string[] args = Environment.GetCommandLineArgs();
 
-      
+            toolTip1 = new ToolTip();
+
 
 
             string[] EMVersionsInDir = Directory.GetDirectories(appPath + @"\EMConsoles\");
@@ -356,7 +357,7 @@ namespace UWMConfigVersionSelector
         {
             try
             {
-                string currentVersion = "V2.3";
+                string currentVersion = "V2.4";
                 string latestVersion = GetLatestVersion("sebastianflint", "AMConfigVersionSelector");
 
                 if (currentVersion != latestVersion)
@@ -458,6 +459,27 @@ namespace UWMConfigVersionSelector
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
             Process.Start("https://forums.ivanti.com/s/article/Ivanti-UWM-Application-Control-Version-History-and-Support-Lifecycle");
+        }
+
+        private void cmbEMVersions_MouseEnter(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void cmbEMVersions_MouseHover(object sender, EventArgs e)
+        {
+
+            
+        }
+
+        private void cmbEMVersions_DropDown(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnOpenAemp_MouseHover(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -56,6 +56,7 @@ namespace UWMConfigVersionSelector
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.grpOpenWithConsole.SuspendLayout();
@@ -153,6 +154,9 @@ namespace UWMConfigVersionSelector
             this.cmbEMVersions.Name = "cmbEMVersions";
             this.cmbEMVersions.Size = new System.Drawing.Size(147, 21);
             this.cmbEMVersions.TabIndex = 13;
+            this.cmbEMVersions.DropDown += new System.EventHandler(this.cmbEMVersions_DropDown);
+            this.cmbEMVersions.MouseEnter += new System.EventHandler(this.cmbEMVersions_MouseEnter);
+            this.cmbEMVersions.MouseHover += new System.EventHandler(this.cmbEMVersions_MouseHover);
             // 
             // btnOpenAemp
             // 
@@ -163,6 +167,7 @@ namespace UWMConfigVersionSelector
             this.btnOpenAemp.Text = "Open EM Console";
             this.btnOpenAemp.UseVisualStyleBackColor = true;
             this.btnOpenAemp.Click += new System.EventHandler(this.btnOpenAemp_Click);
+            this.btnOpenAemp.MouseHover += new System.EventHandler(this.btnOpenAemp_MouseHover);
             // 
             // notifyIcon1
             // 
@@ -323,7 +328,7 @@ namespace UWMConfigVersionSelector
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UWM ConfigVersionSelector Version 2.3";
+            this.Text = "UWM ConfigVersionSelector Version 2.4";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
@@ -368,6 +373,7 @@ namespace UWMConfigVersionSelector
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
