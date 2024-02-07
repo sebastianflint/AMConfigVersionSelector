@@ -1,0 +1,2050 @@
+1,0,Main,0
+2,1,Tab Home,11954
+3,2,Group Clipboard,12597
+4,3,Paste Menu,15502
+5,3,Paste,22
+6,3,Paste Gallery,18046
+7,3,Paste Special Dialog,755
+8,3,Paste Set Default,14585
+9,3,Cut,21
+10,3,Copy,19
+11,3,Format Painter,108
+12,3,Show Clipboard,809
+13,2,Group Font,11543
+14,13,Font,1728
+15,13,Font Size,1731
+16,13,Font Size Increase Word,62
+17,13,Font Size Decrease Word,63
+18,13,Change Case Gallery,13093
+19,13,Clear Formatting,11739
+20,13,Asian Layout Phonetic Guide,3511
+21,13,Character Border,3517
+22,13,Bold,113
+23,13,Italic,114
+24,13,Underline Gallery,13932
+25,13,Underline More Underlines Dialog,13934
+26,13,Underline Color Picker,13933
+27,13,Underline Color More Colors Dialog,3953
+28,13,Strikethrough,290
+29,13,Subscript,58
+30,13,Superscript,57
+31,13,Text Effects Gallery,21183
+32,13,Text Outline Color Picker Alternate,11935
+33,13,Text Outline Color More Colors Dialog,14837
+34,13,Text Outline Weight Gallery,14847
+35,13,Text Outline More Lines Dialog,14846
+36,13,Text Outline Dashes Gallery,14845
+37,13,Text Effect Shadow Gallery,14848
+38,13,Text Effects More Shadows Dialog,14849
+39,13,Text Reflection Gallery,14857
+40,13,Text Effects Reflections More Options,17743
+41,13,Text Effect Glow Gallery,14854
+42,13,Text Glow Color Picker,14855
+43,13,Text Glow Color More Colors Dialog,14856
+44,13,Text Effects Glows More Options,17745
+45,13,Text Highlight Color Picker,13926
+46,13,Highlighting Stop,13931
+47,13,Font Color Picker,11949
+48,13,Font Color More Colors Dialog,1005
+49,13,Text Fill Gradient Gallery,14842
+50,13,Text Fill More Gradients Dialog,14843
+51,13,Character Shading,3518
+52,13,Asian Layout Characters Enclose,3969
+53,13,Font Dialog,253
+54,2,Group Paragraph,11544
+55,54,Bullets Gallery Word,11749
+56,54,List Level Gallery,13346
+57,54,Bullet Define New,12243
+58,54,Numbering Gallery Word,11750
+59,54,Define New Number Format,12244
+60,54,List Set Numbering Value,11229
+61,54,Multilevel List Gallery,13347
+62,54,List Define New,13348
+63,54,List Define New Style,13349
+64,54,Indent Decrease Word,3473
+65,54,Indent Increase Word,3472
+66,54,Text Direction Left To Right,1846
+67,54,Text Direction Right To Left,1847
+68,54,Asian Layout Menu,13898
+69,54,Asian Layout Horizontal In Vertical,3963
+70,54,Asian Layout Combine Characters,3512
+71,54,Asian Layout Two Lines In One,3964
+72,54,Asian Layout Fit Text,3510
+73,54,Asian Layout Character Scaling,386
+74,54,Sort Dialog Classic,928
+75,54,Paragraph Marks,119
+76,54,East Asian Editing Marks,3900
+77,54,Align Left,120
+78,54,Align Center,122
+79,54,Align Right,121
+80,54,Align Justify,123
+81,54,Align Justify Menu,13097
+82,54,Align Justify With Mixed Languages,13900
+83,54,Align Justify Low,13901
+84,54,Align Justify Medium,13902
+85,54,Align Justify High,13903
+86,54,Paragraph Distributed,2792
+87,54,Align Justify Thai,13904
+88,54,Line Spacing Gallery,22142
+89,54,Shading Color Picker,13162
+90,54,Shading Colors More Colors Dialog,13163
+91,54,Table Borders Menu,12941
+92,54,Border Bottom Word,2868
+93,54,Border Top Word,2867
+94,54,Border Left Word,2869
+95,54,Border Right Word,2870
+96,54,Border None,151
+97,54,Borders All,1704
+98,54,Border Outside,150
+99,54,Border Inside,149
+100,54,Border Inside Horizontal,1840
+101,54,Border Inside Vertical,1841
+102,54,Border Diagonal Down,1842
+103,54,Border Diagonal Up,1843
+104,54,Horizontal Line Insert,3653
+105,54,Table Draw Table,2059
+106,54,Table Show Gridlines,2626
+107,54,Borders Shading Dialog Word,3466
+108,54,Paragraph Dialog,779
+109,2,Group Styles,11545
+110,109,Quick Styles Gallery,11737
+111,109,Quick Styles Save Selection As New,13086
+112,109,Clear Formatting,11739
+113,109,Apply Styles Pane,13367
+114,109,Change Styles Menu,15927
+115,109,Quick Styles Sets,11738
+116,109,Quick Styles Reset From Template,14785
+117,109,Quick Styles Reset Document Styles,14784
+118,109,Quick Styles Save Quick Style Set,13090
+119,109,Theme Colors Gallery,12245
+120,109,Theme Colors Create New,12680
+121,109,Theme Fonts Gallery,12863
+122,109,Theme Fonts Create New,12681
+123,109,Paragraph Spacing,16703
+124,109,Paragraph Spacing Custom,16712
+125,109,Quick Styles Set As Default,15361
+126,109,Styles Pane,5757
+127,2,Group Editing,12580
+128,127,Select Menu Excel,12581
+129,127,Navigation Pane Find,21233
+130,127,Find Dialog,141
+131,127,Go To,757
+132,127,Replace Dialog,313
+133,127,Select Menu,11926
+134,127,Select All,756
+135,127,Objects Select,182
+136,127,Select Text With Similar Formatting,5946
+137,127,Selection Pane,13244
+138,1,Tab Insert,11536
+139,138,Group Insert Pages,11547
+140,139,Cover Page Insert Gallery,12255
+141,139,Theme Search Office Online,12305
+142,139,Cover Page Remove,14792
+143,139,Save Selection To Cover Page Gallery,12288
+144,139,Blank Page Insert,13110
+145,139,Page Break Insert Word,3462
+146,138,Group Insert Tables,12598
+147,146,Table Insert Gallery,13821
+148,146,Table Insert Dialog Word,3392
+149,146,Table Draw Table,2059
+150,146,Convert Text To Table,806
+151,146,Table Excel Spreadsheet Insert,142
+152,146,Quick Tables Insert Gallery,12259
+153,146,Save Selection To Quick Tables Gallery,12293
+154,138,Group Insert Illustrations,11548
+155,154,Picture Insert From File,2619
+156,154,Clip Art Insert,682
+157,154,Gallery All Shapes And Canvas,15287
+158,154,Drawing Canvas Insert,5811
+159,154,Smart Art Insert,1032
+160,154,Chart Insert,17
+161,154,Screenshot Insert Gallery,18673
+162,154,Screen Clipping,18674
+163,138,Group Insert Links,12599
+164,163,Hyperlink Insert,1576
+165,163,Bookmark Insert,758
+166,163,Cross Reference Insert,775
+167,138,Group Header Footer,13980
+168,167,Header Insert Gallery,12253
+169,167,Theme Search Office Online,12305
+170,167,Header Footer Edit Header,14122
+171,167,Header Footer Remove Header Word,14793
+172,167,Save Selection To Header Gallery,12291
+173,167,Footer Insert Gallery,12254
+174,167,Header Footer Edit Footer,15350
+175,167,Header Footer Remove Footer Word,14794
+176,167,Save Selection To Footer Gallery,12290
+177,167,Header Footer Page Number Insert,127
+178,167,Page Numbers In Header Insert Gallery,14107
+179,167,Save Selection To Page Number Top,14113
+180,167,Page Nambers In Footer Insert Gallery,14108
+181,167,Save Selection To Page Number Bottom,14114
+182,167,Page Nambers In Margins Insert Gallery,14109
+183,167,Save Selection To Page Number Margin,14115
+184,167,Page Number Field Insert Gallery,12256
+185,167,Save Selection To Page Number Gallery,12292
+186,167,Page Number Format,2384
+187,167,Page Numbers Remove,14795
+188,138,Group Insert Text,15291
+189,188,Japanese Greetings Insert Menu,13899
+190,188,Mail Merge Japanese Greeting Insert,6090
+191,188,Mail Merge Japanese Greeting Japanese Opening Sentence Insert,6091
+192,188,Mail Merge Japanese Greeting Closing Sentence Insert,6092
+193,188,Text Box Insert Gallery,14106
+194,188,Text Box Insert,139
+195,188,Text Box Insert Vertical Word,14611
+196,188,Save Selection To Text Box Gallery,14111
+197,188,Quick Parts Insert Gallery,12260
+198,188,Auto Text Gallery,14105
+199,188,Save Selection To Auto Text Gallery,14110
+200,188,Property Insert,12775
+201,188,Field Insert,772
+202,188,Building Blocks Organizer,12686
+203,188,Save Selection To Quick Part Gallery,12287
+204,188,Word Art Insert Gallery,12119
+205,188,Word Art Insert Gallery Classic,13820
+206,188,Drop Cap Insert Gallery,11478
+207,188,Drop Cap Options Dialog,289
+208,188,Signature Line Insert Menu,14410
+209,188,Signature Line Insert,11303
+210,188,Signature Services Add,13036
+211,188,Date And Time Insert,768
+212,188,Ole Object Insert Menu,13149
+213,188,Ole Objectct Insert,546
+214,188,Text From File Insert,777
+215,138,Group Insert Symbols,12600
+216,215,Insert Building Blocks Equations Gallery,15301
+217,215,Equation Insert New,15365
+218,215,Save Selection To Equation Gallery,12289
+219,215,Symbol Insert Gallery,12322
+220,215,Symbols Dialog,13806
+221,215,Insert Number Alternate,21994
+222,138,Group Insert Barcode,12601
+223,222,Barcode Insert,11335
+224,222,Label Insert,11331
+225,1,Tab Page Layout Word,12065
+226,225,Group Themes Word,14139
+227,226,Themes Gallery,14014
+228,226,Theme Reset From Template,14823
+229,226,Theme Search Office Online,12305
+230,226,Theme Browse For Themes,16182
+231,226,Theme Save Current,13991
+232,226,Theme Colors Gallery,12245
+233,226,Theme Colors Create New,12680
+234,226,Theme Fonts Gallery,12863
+235,226,Theme Fonts Create New,12681
+236,226,Theme Effects Gallery,12864
+237,225,Group Page Layout Setup,13981
+238,237,Text Direction Gallery Word,13935
+239,237,Text Direction Options Dialog,782
+240,237,Page Margins Gallery,11475
+241,237,Margins Custom Margins,12795
+242,237,Page Orientation Gallery,11533
+243,237,Page Size Gallery,12610
+244,237,Page Size More Paper Sizes Dialog,15048
+245,237,Table Columns Gallery,11950
+246,237,Columns Dialog,9
+247,237,Breaks Gallery,12917
+248,237,Line Numbers Menu,12925
+249,237,Line Numbers Off,12926
+250,237,Line Numbers Continuous,12927
+251,237,Line Numbers Reset Page,12928
+252,237,Line Numbers Reset Section,12929
+253,237,Line Numbers Suppress,12930
+254,237,Line Numbers Options Dialog,15049
+255,237,Hyphenation Menu,12797
+256,237,Hyphenation None,12799
+257,237,Hyphenation Automatic,12798
+258,237,Hyphenation Manual,2336
+259,237,Hyphenation Options,2800
+260,237,Page Setup Dialog,247
+261,225,Group Page Background,13982
+262,261,Watermark Gallery,12257
+263,261,Theme Search Office Online,12305
+264,261,Watermark Custom Dialog,4003
+265,261,Watermark Remove,14791
+266,261,Save Selection To Water Mark Gallery,12294
+267,261,Page Color Picker,13927
+268,261,Page Color More Colors Dialog,2857
+269,261,Page Color Fill Effects,2858
+270,261,Page Border And Shading Dialog,15086
+271,225,Group Paragraph Layout,11553
+272,271,Indent Label,13913
+273,271,Paragraph Indent Left,13906
+274,271,Paragraph Indent Right,13907
+275,271,Spacing Label,13912
+276,271,Paragraph Spacing Before,13908
+277,271,Paragraph Spacing After,13909
+278,271,Paragraph Dialog,779
+279,225,Group Arrange,11581
+280,279,Picture Position Gallery,13142
+281,279,Layout Options Dialog Position,21603
+282,279,Text Wrap Gallery,18323
+283,279,Layout Options Dialog Wrapping,21604
+284,279,Object Bring Forward Menu,17239
+285,279,Object Bring Forward,170
+286,279,Object Bring To Front,166
+287,279,Object Bring In Front Of Text,3451
+288,279,Object Send Backward Menu,17240
+289,279,Object Send Backward,171
+290,279,Object Send To Back,167
+291,279,Object Send Behind Text,3452
+292,279,Selection Pane,13244
+293,279,Object Align Menu,11920
+294,279,Objects Align Left Smart,12784
+295,279,Objects Align Center Horizontal Smart,12788
+296,279,Objects Align Right Smart,12785
+297,279,Objects Align Top Smart,12786
+298,279,Objects Align Middle Vertical Smart,12789
+299,279,Objects Align Bottom Smart,12787
+300,279,Align Distribute Horizontally,12790
+301,279,Align Distribute Vertically,12791
+302,279,Objects Align Relative To Container Smart,12783
+303,279,Objects Align Relative To Margin,14469
+304,279,Objects Align Selected Smart,12782
+305,279,View Gridlines Word,300
+306,279,Grid Settings,217
+307,279,Objects Group Menu,14409
+308,279,Objects Group,164
+309,279,Objects Regroup,338
+310,279,Objects Ungroup,165
+311,279,Object Rotate Gallery,11924
+312,279,Chart Rotation Options Dialog,22220
+313,1,Tab References,11538
+314,313,Group Table Of Contents,11556
+315,314,Table Of Contents Gallery,14455
+316,314,Table Of Contents Dialog,2299
+317,314,Table Of Contents Remove,14796
+318,314,Save Selection To Table Of Contents Gallery,14456
+319,314,Table Of Contents Add Text Gallery,12816
+320,314,Table Of Contents Update,6115
+321,313,Group Footnotes,11555
+322,321,Footnote Insert,260
+323,321,Endnote Insert Word,2285
+324,321,Footnote Next,15279
+325,321,Footnote Next Word,2269
+326,321,Footnote Previous Word,2268
+327,321,Endnote Next Word,2271
+328,321,Endnote Previous Word,2270
+329,321,Footnotes Endnotes Show,764
+330,321,Footnote Endnote Dialog,3365
+331,313,Group Citations And Bibliography,11554
+332,331,Citation Insert,11327
+333,331,Bibliography Add New Source,11330
+334,331,Bibliography Add New Placeholder,14726
+335,331,Bibliography Manage Sources,11328
+336,331,Bibliography Style,11326
+337,331,Bibliography Gallery,15214
+338,331,Bibliography Insert,11324
+339,331,Save Selection To Bibliography Gallery,15235
+340,313,Group Captions,12570
+341,340,Caption Insert,774
+342,340,Table Of Figures Insert,2301
+343,340,Table Of Figures Update,15058
+344,340,Cross Reference Insert,775
+345,313,Group Index,12571
+346,345,Index Mark Entry,2293
+347,345,Index Insert,2298
+348,345,Index Update,12794
+349,313,Group Table Of Authorities,12572
+350,349,Citation Mark,2295
+351,349,Table Of Authorities Insert,2302
+352,349,Table Of Authorities Update,15057
+353,1,Tab Mailings,11539
+354,353,Group Envelope Label Create,14570
+355,354,Envelope Chinese Dialog,3972
+356,354,Japanese Greetings Insert Menu,13899
+357,354,Mail Merge Japanese Greeting Insert,6090
+358,354,Mail Merge Japanese Greeting Japanese Opening Sentence Insert,6091
+359,354,Mail Merge Japanese Greeting Closing Sentence Insert,6092
+360,354,Japanese Postcard Menu,20993
+361,354,Japanese Postcard Create Address Side,20994
+362,354,Japanese Postcard Create Letter Side,20995
+363,354,Envelopes And Labels Dialog,24
+364,354,Labels Dialog,795
+365,353,Group Mail Merge Start,13148
+366,365,Mail Merge Start Mail Merge Menu,12807
+367,365,Mail Merge Start Letters,12808
+368,365,Mail Merge Start Email,12809
+369,365,Mail Merge Start Envelopes,12811
+370,365,Mail Merge Start Labels,12812
+371,365,Mail Merge Start Directory,12813
+372,365,Mail Merge Clear Merge Type,12814
+373,365,Mail Merge Wizard,6070
+374,365,Mail Merge Select Recipients,12815
+375,365,Mail Merge Create List,5912
+376,365,Mail Merge Recepients Use Existing List,2246
+377,365,Mail Merge Recepients Use Outlook Contacts,15277
+378,365,Mail Merge Recipients Edit List,6349
+379,353,Group Mail Merge Write Insert Fields,11559
+380,379,Mail Merge Highlight Merge Fields,6069
+381,379,Mail Merge Address Block Insert,6346
+382,379,Mail Merge Greeting Line Insert,6347
+383,379,Mail Merge Merge Field Insert Menu,15500
+384,379,Mail Merge Merge Field Insert,6348
+385,379,Mail Merge Rules,12800
+386,379,Mail Merge Match Fields,6345
+387,379,Mail Merge Update Labels,6693
+388,353,Group Mail Merge Preview Results,11560
+389,388,Mail Merge Results Preview,163
+390,388,Mail Merge Go To First Record,154
+391,388,Mail Merge Go To Previous Record,155
+392,388,Mail Merge Go To Record,1730
+393,388,Mail Merge Go To Next Record,156
+394,388,Mail Merge Got To Last Record,157
+395,388,Mail Merge Find Recipient,6539
+396,388,Mail Merge Auto Check For Errors,161
+397,353,Group Mail Merge Finish,11561
+398,397,Mail Merge Finish And Merge Menu,12796
+399,397,Mail Merge Merge To Document,159
+400,397,Mail Merge Merge To Printer,160
+401,397,Mail Merge Merge To E Mail,5908
+402,1,Tab Review Word,11540
+403,402,Group Proofing,11546
+404,403,Spelling And Grammar,2566
+405,403,Research Pane,7343
+406,403,Thesaurus,9056
+407,403,Word Count,792
+408,402,Group Language,19382
+409,408,Translate Menu,20574
+410,408,Translate Document,21186
+411,408,Translate Selected,22095
+412,408,Mini Translator,12843
+413,408,Translation Language Options,19243
+414,408,Language Commands,22144
+415,408,Set Language,790
+416,408,Language Preferences,22145
+417,408,Review Japanese Consistency Checker,2815
+418,408,English Writing Assistant,14453
+419,408,Ime Dictionary Update,827
+420,408,Hangul Hanja Conversion,3492
+421,402,Group Chinese Translation,15600
+422,421,Translate To Simplified Chinese,4025
+423,421,Translate To Traditional Chinese,3997
+424,421,Chinese Translation Dialog,3958
+425,402,Group Comments,11563
+426,425,Review New Comment,1589
+427,425,Review Delete Comments Menu,14339
+428,425,Review Delete Comment,1592
+429,425,Review Delete All Comments Shown,6246
+430,425,Review Delete All Comments In Document,6247
+431,425,Review Previous Comment Word,12240
+432,425,Review Next Comment Word,12241
+433,425,Review Ink Comment New,14571
+434,425,Review Ink Comment Pen,9407
+435,425,Review Ink Comment Eraser,9408
+436,402,Group Changes Tracking,11562
+437,436,Review Track Changes Menu,11910
+438,436,Review Track Changes,2041
+439,436,Review Change Tracking Options,13800
+440,436,Review Change User Name,2350
+441,436,Review Display For Review,6968
+442,436,Review Show Markup Menu,12316
+443,436,Review Show Comments,6231
+444,436,Review Show Ink Markup,9321
+445,436,Review Show Insertions And Deletions,6232
+446,436,Review Show Formatting,6233
+447,436,Review Show Markup Area Highlight,11455
+448,436,Review Balloons Menu,11914
+449,436,Review Show Revisions In Balloons,9317
+450,436,Review Show Revisions Inline,9318
+451,436,Review Show Only Comments And Formatting In Baloons,9319
+452,436,Review Show Reviewers Menu,6137
+453,436,Review Highlight Updates,20904
+454,436,Review Other Authors,20905
+455,436,Review Reviewing Pane Menu,15283
+456,436,Review Reviewing Pane,6239
+457,436,Review Reviewing Pane Vertical,13808
+458,436,Review Reviewing Pane Horizontal,13807
+459,402,Group Changes,11564
+460,459,Review Accept Change Menu,11911
+461,459,Review Accept Change And Move To Next,15551
+462,459,Review Accept Change,1715
+463,459,Review Accept All Changes Shown,6241
+464,459,Review Accept All Changes In Document,6242
+465,459,Review Reject Change Menu,11912
+466,459,Review Reject Change And Move To Next,15552
+467,459,Review Reject Change,1716
+468,459,Review Reject All Changes Shown,6244
+469,459,Review Reject All Changes In Document,6245
+470,459,Review Previous Change,6237
+471,459,Review Next Change,6238
+472,402,Group Compare,11565
+473,472,Review Compare Menu,12757
+474,472,Review Compare Major Version,12760
+475,472,Review Compare Last Version,12761
+476,472,Review Compare Specific Version,12762
+477,472,Review View Changes In The Source Document,14138
+478,472,Review Compare Two Versions,12758
+479,472,Review Combine Revisions,12759
+480,472,Review Show Source Documents Menu,15348
+481,402,Group Protect,12792
+482,481,Block Authors Menu,22441
+483,481,Apply Co Authoring Lock,17839
+484,481,Release All My Locks,22442
+485,481,Review Restrict Formatting,16135
+486,402,Group Ink,13964
+487,486,Inking Start,9071
+488,1,Tab View,11541
+489,488,Group Document Views,15639
+490,489,View Print Layout View,287
+491,489,View Full Screen Reading View,9377
+492,489,View Web Layout View,3621
+493,489,View Outline View,737
+494,489,View Draft View,224
+495,488,Group View Show Hide,15640
+496,495,View Ruler Word,7391
+497,495,View Gridlines,15643
+498,495,Navigation Pane Show Hide,17641
+499,495,View Document Actions Pane,7465
+500,488,Group Zoom,11813
+501,500,Zoom Dialog,925
+502,500,Zoom Current100,16027
+503,500,Zoom One Page,5
+504,500,Zoom Two Pages,15682
+505,500,Zoom Page Width,6
+506,488,Group Window,15641
+507,506,Window New,303
+508,506,Windows Arrange All,298
+509,506,Window Split,302
+510,506,Window Side By Side,7698
+511,506,Window Side By Side Synchronous Scrolling,7873
+512,506,Window Reset Position,7874
+513,506,Window Switch Windows Menu Word,12670
+514,506,Window More Windows Dialog,959
+515,488,Group Macros,16104
+516,515,Menu Macros,16106
+517,515,Play Macro,16105
+518,515,Macro Record Or Stop,2780
+519,515,Macro Recorder Pause,185
+520,1,Tab Developer,12557
+521,520,Group Code,12556
+522,521,Visual Basic,1695
+523,521,Macro Play,186
+524,521,Macro Record Or Stop,2780
+525,521,Macro Recorder Pause,185
+526,521,Macro Security,3627
+527,520,Group Addins,18732
+528,527,Add In Manager,943
+529,527,Com Add Ins Dialog,3754
+530,520,Group Controls,11811
+531,530,Content Control Rich Text,15100
+532,530,Content Control Text,15101
+533,530,Content Control Picture,15102
+534,530,Content Control Building Block Gallery,15105
+535,530,Content Control Combo Box,15103
+536,530,Content Control Drop Down List,15104
+537,530,Content Control Date,15106
+538,530,Content Control Check Box,20879
+539,530,Controls Gallery Classic,15343
+540,530,Design Mode,1605
+541,530,Control Properties,13100
+542,530,Content Controls Group Menu,15330
+543,530,Content Controls Group,15070
+544,530,Content Controls Ungroup,15331
+545,520,Group Xml,12559
+546,545,Xml Structure,12567
+547,545,Xml Schema,12568
+548,545,Xml Transformation,7891
+549,545,Xml Expansion Packs Word,12569
+550,520,Group Protect,12792
+551,550,Block Authors Menu,22441
+552,550,Apply Co Authoring Lock,17839
+553,550,Release All My Locks,22442
+554,550,Review Restrict Formatting,16135
+555,520,Group Templates,15747
+556,555,Document Template,751
+557,555,Document Panel Template,14596
+558,1,Tab Add Ins,12308
+559,558,Group Add Ins Menu Commands,13950
+560,558,Group Add Ins Toolbar Commands,13951
+561,558,Group Add Ins Custom Toolbars,14337
+562,1,Tab Blog Post,15792
+563,562,Group Blog Publish,15793
+564,563,Blog Publish Menu,15794
+565,563,Blog Publish,15795
+566,563,Blog Publish Draft,15796
+567,563,Blog Home Page,16165
+568,563,Blog Category Insert,15800
+569,563,Blog Insert Categories,16056
+570,563,Blog Open Existing,15802
+571,563,Blog Manage Accounts,15797
+572,562,Group Clipboard,12597
+573,572,Paste Menu,15502
+574,572,Paste,22
+575,572,Paste Gallery,18046
+576,572,Paste Special Dialog,755
+577,572,Paste Set Default,14585
+578,572,Cut,21
+579,572,Copy,19
+580,572,Format Painter,108
+581,572,Show Clipboard,809
+582,562,Group Blog Basic Text,15803
+583,582,Font,1728
+584,582,Font Size,1731
+585,582,Font Size Increase Word,62
+586,582,Font Size Decrease Word,63
+587,582,Bullets,12
+588,582,Numbering,11
+589,582,Indent Decrease Word,3473
+590,582,Indent Increase Word,3472
+591,582,Paragraph Marks,119
+592,582,East Asian Editing Marks,3900
+593,582,Bold,113
+594,582,Italic,114
+595,582,Underline,115
+596,582,Strikethrough,290
+597,582,Font Color Picker,11949
+598,582,Font Color More Colors Dialog,1005
+599,582,Text Fill Gradient Gallery,14842
+600,582,Text Fill More Gradients Dialog,14843
+601,582,Text Highlight Color Picker,13926
+602,582,Highlighting Stop,13931
+603,582,Shading Color Picker,13162
+604,582,Shading Colors More Colors Dialog,13163
+605,582,Align Left,120
+606,582,Align Center,122
+607,582,Align Right,121
+608,582,Clear Formatting,11739
+609,582,Font Dialog,253
+610,562,Group Blog Styles,16167
+611,610,Quick Styles Gallery,11737
+612,610,Quick Styles Save Selection As New,13086
+613,610,Clear Formatting,11739
+614,610,Apply Styles Pane,13367
+615,610,Styles Pane,5757
+616,562,Group Blog Proofing,16166
+617,616,Spelling Menu,15780
+618,616,Spelling And Grammar,2566
+619,616,Research Pane,7343
+620,616,Thesaurus,9056
+621,616,Translate Menu,20574
+622,616,Translate Document,21186
+623,616,Translate Selected,22095
+624,616,Mini Translator,12843
+625,616,Translation Language Options,19243
+626,616,English Writing Assistant,14453
+627,616,Ime Dictionary Update,827
+628,616,Review Japanese Consistency Checker,2815
+629,616,Hangul Hanja Conversion,3492
+630,616,Translate To Simplified Chinese,4025
+631,616,Translate To Traditional Chinese,3997
+632,616,Chinese Translation Dialog,3958
+633,616,Set Language,790
+634,616,Word Count,792
+635,1,Tab Blog Insert,15804
+636,635,Group Insert Tables,12598
+637,636,Table Insert Gallery,13821
+638,636,Table Insert Dialog Word,3392
+639,636,Table Draw Table,2059
+640,636,Convert Text To Table,806
+641,636,Table Excel Spreadsheet Insert,142
+642,636,Quick Tables Insert Gallery,12259
+643,636,Save Selection To Quick Tables Gallery,12293
+644,635,Group Insert Illustrations,11548
+645,644,Picture Insert From File,2619
+646,644,Clip Art Insert,682
+647,644,Gallery All Shapes And Canvas,15287
+648,644,Drawing Canvas Insert,5811
+649,644,Smart Art Insert,1032
+650,644,Chart Insert,17
+651,644,Screenshot Insert Gallery,18673
+652,644,Screen Clipping,18674
+653,635,Group Blog Insert Links,15928
+654,653,Hyperlink Insert,1576
+655,635,Group Blog Insert Text,15805
+656,655,Japanese Greetings Insert Menu,13899
+657,655,Mail Merge Japanese Greeting Insert,6090
+658,655,Mail Merge Japanese Greeting Japanese Opening Sentence Insert,6091
+659,655,Mail Merge Japanese Greeting Closing Sentence Insert,6092
+660,655,Word Art Insert Gallery,12119
+661,655,Word Art Insert Gallery Classic,13820
+662,635,Group Blog Symbols,16207
+663,662,Symbol Insert Gallery,12322
+664,662,Symbols Dialog,13806
+665,1,Tab Print Preview,12902
+666,665,Group Print Preview Print,12903
+667,666,Print Preview And Print,22586
+668,666,Print Options Menu Word,2346
+669,665,Group Print Preview Page Setup,15724
+670,669,Page Margins Gallery,11475
+671,669,Margins Custom Margins,12795
+672,669,Page Orientation Gallery,11533
+673,669,Page Size Gallery,12610
+674,669,Page Size More Paper Sizes Dialog,15048
+675,669,Page Setup Dialog,247
+676,665,Group Zoom,11813
+677,676,Zoom Dialog,925
+678,676,Zoom Current100,16027
+679,676,Zoom One Page,5
+680,676,Zoom Two Pages,15682
+681,676,Zoom Page Width,6
+682,665,Group Print Preview Preview,12904
+683,682,Show Ruler,15726
+684,682,Magnifier,172
+685,682,Print Preview Shrink One Page,173
+686,682,Page Next Word,2242
+687,682,Page Previous Word,2241
+688,682,Print Preview Close,923
+689,1,Tab Outlining,12931
+690,689,Group Outlining Tools,12933
+691,690,Outline Promote To Heading,6214
+692,690,Outline Promote,132
+693,690,Outline Level Gallery,6116
+694,690,Outline Demote,133
+695,690,Outline Demote To Body Text,136
+696,690,Outline Move Up,134
+697,690,Outline Move Down,135
+698,690,Outline Expand,137
+699,690,Outline Collapse,138
+700,690,Outline Show Level,6117
+701,690,Outline Show Text Formatting,252
+702,690,Outline Show First Line Only,251
+703,689,Group Master Document,12934
+704,703,Master Document Show,230
+705,703,Master Document Expand Or Collapse Subdocuments,1633
+706,703,Master Document Create Subdocument,231
+707,703,Master Document Insert Subdocument,233
+708,703,Master Document Unlink Subdocument,232
+709,703,Master Document Merge Subdocuments,235
+710,703,Master Document Split Subdocuments,234
+711,703,Master Document Lock Subdocument,236
+712,689,Group Outlining Close,12932
+713,712,Outline View Close,15093
+714,1,Tab Conflicts,16765
+715,714,Group Clipboard,12597
+716,715,Paste Menu,15502
+717,715,Paste,22
+718,715,Paste Gallery,18046
+719,715,Paste Special Dialog,755
+720,715,Paste Set Default,14585
+721,715,Cut,21
+722,715,Copy,19
+723,715,Format Painter,108
+724,715,Show Clipboard,809
+725,714,Group Conflicts,16766
+726,725,Conflicts Accept Menu,16767
+727,725,Conflicts Accept And Move To Next,16768
+728,725,Conflicts Accept All In Document,16769
+729,725,Conflicts Reject Menu,16770
+730,725,Conflicts Reject And Move To Next,16771
+731,725,Conflicts Reject All In Document,16772
+732,725,Conflicts Previous,16773
+733,725,Conflicts Next,16774
+734,714,Group Comments,11563
+735,734,Review New Comment,1589
+736,734,Review Delete Comments Menu,14339
+737,734,Review Delete Comment,1592
+738,734,Review Delete All Comments Shown,6246
+739,734,Review Delete All Comments In Document,6247
+740,734,Review Previous Comment Word,12240
+741,734,Review Next Comment Word,12241
+742,734,Review Ink Comment New,14571
+743,734,Review Ink Comment Pen,9407
+744,734,Review Ink Comment Eraser,9408
+745,714,Group Ink,13964
+746,745,Inking Start,9071
+747,714,Group Conflicts Close,16775
+748,747,Conflict View Close,16776
+749,1,Tab Background Removal,22110
+750,749,Group Background Removal Mode,22111
+751,750,Picture Background Removal Mark Foreground,19623
+752,750,Picture Background Removal Mark Background,19624
+753,750,Picture Background Removal Mark Delete,19625
+754,749,Group Background Removal Close,22112
+755,754,Background Removal Close,22113
+756,754,Keep Background Removal,22338
+757,0,Tab Set Smart Art Tools,13937
+758,757,Tab Smart Art Tools Design,11683
+759,758,Group Smart Art Create Graphic,12271
+760,759,Smart Art Add Shape Split Menu,15099
+761,759,Smart Art Add Shape,12084
+762,759,Smart Art Add Shape After,13204
+763,759,Smart Art Add Shape Before,13205
+764,759,Smart Art Add Shape Above,13206
+765,759,Smart Art Add Shape Below,13207
+766,759,Smart Art Add Assistant,13208
+767,759,Smart Art Add Bullet,14810
+768,759,Smart Art Text Pane,12095
+769,759,Smart Art Promote,14232
+770,759,Smart Art Demote,14233
+771,759,Smart Art Right To Left,13249
+772,759,Smart Art Reorder Up,16803
+773,759,Smart Art Reorder Down,16804
+774,759,Smart Art Organization Chart Menu,13780
+775,759,Smart Art Organization Chart Standard,13248
+776,759,Smart Art Organization Chart Both,13247
+777,759,Smart Art Organization Chart Left Hanging,13245
+778,759,Smart Art Organization Chart Right Hanging,13246
+779,758,Group Smart Art Layouts,12268
+780,779,Smart Art Layout Gallery,12097
+781,779,Smart Art More Layouts Dialog,12098
+782,758,Group Smart Art Quick Styles,12269
+783,782,Smart Art Change Colors Gallery,12100
+784,782,Smart Art Recolor Images,18714
+785,782,Smart Art Styles Gallery,12099
+786,758,Group Smart Art Reset,12273
+787,786,Smart Art Reset Graphic,12093
+788,757,Tab Smart Art Tools Format,11684
+789,788,Group Smart Art Shapes,15289
+790,789,Smart Art Edit In2 D,12096
+791,789,Shape Change Shape Gallery,11530
+792,789,Smart Art Larger Shape,12090
+793,789,Smart Art Smaller Shape,12091
+794,788,Group Shape Styles,11594
+795,794,Shape Styles Gallery,11532
+796,794,Shape Styles Other Theme Fills Gallery,13779
+797,794,Shape Fill Color Picker,11689
+798,794,Object Fill More Colors Dialog,1051
+799,794,Object Picture Fill,12612
+800,794,Gradient Gallery,12116
+801,794,Shape Fill More Gradients Dialog,12683
+802,794,Shape Fill Texture Gallery,11531
+803,794,More Texture Options,15679
+804,794,Shape Outline Color Picker,15293
+805,794,Object Border Outline Color More Colors Dialog,1052
+806,794,Outline Weight Gallery,11866
+807,794,Line Styles Dialog,1054
+808,794,Outline Dashes Gallery,11865
+809,794,Arrow Style Gallery,11864
+810,794,Arrows More,1055
+811,794,Shape Effects Menu,14861
+812,794,Object Effect Preset Gallery,11642
+813,794,_3 D Bevel Options Dialog,13233
+814,794,Object Effect Shadow Gallery,12118
+815,794,Shadow Options Dialog,12684
+816,794,Reflection Gallery,14229
+817,794,Reflections More Options,17742
+818,794,Object Effect Glow Gallery,12115
+819,794,Glow Color Picker,14766
+820,794,Glow Color More Colors Dialog,14768
+821,794,Glows More Options,17744
+822,794,Object Effect Soft Edges Gallery,12102
+823,794,Soft Edges More Options,17746
+824,794,Bevel Shape Gallery,14696
+825,794,_3 D Rotation Gallery,11644
+826,794,_3 D Rotation Options Dialog,13232
+827,794,Object Format Dialog,962
+828,788,Group Word Art Styles,14834
+829,828,Text Styles Gallery,14839
+830,828,Word Art Clear,14840
+831,828,Text Fill Color Picker,14835
+832,828,Text Fill Color More Colors Dialog,15680
+833,828,Text Picture Fill,14841
+834,828,Text Fill Gradient Gallery,14842
+835,828,Text Fill More Gradients Dialog,14843
+836,828,Text Fill Texture Gallery,14844
+837,828,Text Fill More Textures,16081
+838,828,Text Outline Color Picker,14836
+839,828,Text Outline Color More Colors Dialog,14837
+840,828,Text Outline Weight Gallery,14847
+841,828,Text Outline More Lines Dialog,14846
+842,828,Text Outline Dashes Gallery,14845
+843,828,Text Effects Menu,14838
+844,828,Text Effect Shadow Gallery,14848
+845,828,Text Effects More Shadows Dialog,14849
+846,828,Text Reflection Gallery,14857
+847,828,Text Effects Reflections More Options,17743
+848,828,Text Effect Glow Gallery,14854
+849,828,Text Glow Color Picker,14855
+850,828,Text Glow Color More Colors Dialog,14856
+851,828,Text Effects Glows More Options,17745
+852,828,Bevel Text Gallery,15075
+853,828,Text Effects Bevel More3 D Options Dialog,14851
+854,828,Text Effects3 D Rotation Gallery,14852
+855,828,Text Effects3 D Rotation Options Dialog,14853
+856,828,Text Effect Transform Gallery,12120
+857,828,Word Art Format Dialog,15677
+858,788,Group Arrange,11581
+859,858,Picture Position Gallery,13142
+860,858,Layout Options Dialog Position,21603
+861,858,Text Wrap Gallery,18323
+862,858,Layout Options Dialog Wrapping,21604
+863,858,Object Bring Forward Menu,17239
+864,858,Object Bring Forward,170
+865,858,Object Bring To Front,166
+866,858,Object Bring In Front Of Text,3451
+867,858,Object Send Backward Menu,17240
+868,858,Object Send Backward,171
+869,858,Object Send To Back,167
+870,858,Object Send Behind Text,3452
+871,858,Selection Pane,13244
+872,858,Object Align Menu,11920
+873,858,Objects Align Left Smart,12784
+874,858,Objects Align Center Horizontal Smart,12788
+875,858,Objects Align Right Smart,12785
+876,858,Objects Align Top Smart,12786
+877,858,Objects Align Middle Vertical Smart,12789
+878,858,Objects Align Bottom Smart,12787
+879,858,Align Distribute Horizontally,12790
+880,858,Align Distribute Vertically,12791
+881,858,Objects Align Relative To Container Smart,12783
+882,858,Objects Align Relative To Margin,14469
+883,858,Objects Align Selected Smart,12782
+884,858,View Gridlines Word,300
+885,858,Grid Settings,217
+886,858,Objects Group Menu,14409
+887,858,Objects Group,164
+888,858,Objects Regroup,338
+889,858,Objects Ungroup,165
+890,858,Object Rotate Gallery,11924
+891,858,Chart Rotation Options Dialog,22220
+892,788,Group Smart Art Size,12274
+893,892,Shape Height,13915
+894,892,Shape Width,13916
+895,892,Layout Options Dialog Size,21605
+896,0,Tab Set Chart Tools,13936
+897,896,Tab Chart Tools Design,11686
+898,897,Group Chart Type,13217
+899,898,Chart Change Type,13214
+900,898,Chart Save Templates,11459
+901,897,Group Chart Data,13215
+902,901,Chart Switch Row Column,13210
+903,901,Chart Edit Data Source,954
+904,901,Chart Show Data,13211
+905,901,Chart Refresh,13212
+906,897,Group Chart Layouts,11602
+907,906,Chart Layout Gallery,11457
+908,897,Group Chart Styles,11603
+909,908,Chart Styles Gallery,11456
+910,896,Tab Chart Tools Layout,11687
+911,910,Group Chart Current Selection,15046
+912,911,Chart Element Selector,11468
+913,911,Chart Format Selection,11467
+914,911,Chart Reset To Match Style,14057
+915,910,Group Chart Shapes,11605
+916,915,Picture Insert From File,2619
+917,915,Shapes Insert Gallery,11529
+918,915,Text Box Insert Word,15162
+919,915,Text Box Draw Menu,15161
+920,915,Text Box Insert,139
+921,915,Text Box Insert Vertical Word,14611
+922,910,Group Chart Labels,15047
+923,922,Chart Title,11955
+924,922,Chart Title Options Dialog,14290
+925,922,Chart Axis Titles,11461
+926,922,Chart Primary Horizontal Axis Title,11956
+927,922,Chart Primary Horizontal Axis Title Options Dialog,14293
+928,922,Chart Primary Vertical Axis Title,11957
+929,922,Chart Primary Vertical Axis Title Options Dialog,14294
+930,922,Chart Secondary Horizontal Axis Title,14315
+931,922,Chart Secondary Horizontal Axis Title Options Dialog,14295
+932,922,Chart Secondary Vertical Axis Title,14316
+933,922,Chart Secondary Vertical Axis Title Options Dialog,14296
+934,922,Chart Depth Axis Title,11958
+935,922,Chart Depth Axis Title Options Dialog,14297
+936,922,Chart Legend,11959
+937,922,Chart Legend Options Dialog Dialog,14291
+938,922,Chart Data Label,11960
+939,922,Chart Data Label Dialog,14292
+940,922,Chart Data Table,11967
+941,922,Chart Data Table Options Dialog,14308
+942,910,Group Chart Axes,11604
+943,942,Chart Axes,11463
+944,942,Chart Primary Horizontal Axis,11964
+945,942,Chart Primary Horizontal Axis Options Dialog,14303
+946,942,Chart Primary Vertical Axis,11965
+947,942,Chart Primary Vertical Axis Options Dialog,14304
+948,942,Chart Secondary Horizontal Axis,14319
+949,942,Chart Secondary Horizontal Axis Option,14305
+950,942,Chart Secondary Vertical Axis,14320
+951,942,Chart Secondary Vertical Axis Options Dialog,14306
+952,942,Chart Depth Axis,11966
+953,942,Chart Depth Axis Options Dialog,14307
+954,942,Chart Gridlines,11464
+955,942,Chart Primary Horizontal Gridlines,11961
+956,942,Chart Primary Horizontal Gridlines Options Dialog,14298
+957,942,Chart Primary Vertical Gridlines,11962
+958,942,Chart Primary Vertical Gridlines Options Dialog,14299
+959,942,Chart Secondary Horizontal Gridlines,14317
+960,942,Chart Secondary Horizontal Gridlines Options Dialog,14300
+961,942,Chart Secondary Vertical Gridlines,14318
+962,942,Chart Secondary Vertical Gridlines Options Dialog,14301
+963,942,Chart Depth Gridlines,11963
+964,942,Chart Depth Gridlines Options Dialog,14302
+965,910,Group Chart Background,15787
+966,965,Chart Plot Area,11972
+967,965,Chart Plot Area Options Dialog,14312
+968,965,Chart Wall,11973
+969,965,Chart Wall Options Dialog,14313
+970,965,Chart Floor,11974
+971,965,Chart Floor Options Dialog,14314
+972,965,Chart3 D View,14059
+973,910,Group Chart Analysis,15788
+974,973,Chart Trendline,11968
+975,973,Chart Trendline Options Dialog,14309
+976,973,Chart Lines,11970
+977,973,Chart Up Down Bars,11971
+978,973,Chart Up Down Bars Options Dialog,14311
+979,973,Chart Error Bars,11969
+980,973,Chart Error Bars Options Dialog,14310
+981,896,Tab Chart Tools Format,11688
+982,981,Group Chart Current Selection,15046
+983,982,Chart Element Selector,11468
+984,982,Chart Format Selection,11467
+985,982,Chart Reset To Match Style,14057
+986,981,Group Shape Styles,11594
+987,986,Shape Styles Gallery,11532
+988,986,Shape Styles Other Theme Fills Gallery,13779
+989,986,Shape Fill Color Picker,11689
+990,986,Object Fill More Colors Dialog,1051
+991,986,Object Picture Fill,12612
+992,986,Gradient Gallery,12116
+993,986,Shape Fill More Gradients Dialog,12683
+994,986,Shape Fill Texture Gallery,11531
+995,986,More Texture Options,15679
+996,986,Shape Outline Color Picker,15293
+997,986,Object Border Outline Color More Colors Dialog,1052
+998,986,Outline Weight Gallery,11866
+999,986,Line Styles Dialog,1054
+1000,986,Outline Dashes Gallery,11865
+1001,986,Arrow Style Gallery,11864
+1002,986,Arrows More,1055
+1003,986,Shape Effects Menu,14861
+1004,986,Object Effect Preset Gallery,11642
+1005,986,_3 D Bevel Options Dialog,13233
+1006,986,Object Effect Shadow Gallery,12118
+1007,986,Shadow Options Dialog,12684
+1008,986,Reflection Gallery,14229
+1009,986,Reflections More Options,17742
+1010,986,Object Effect Glow Gallery,12115
+1011,986,Glow Color Picker,14766
+1012,986,Glow Color More Colors Dialog,14768
+1013,986,Glows More Options,17744
+1014,986,Object Effect Soft Edges Gallery,12102
+1015,986,Soft Edges More Options,17746
+1016,986,Bevel Shape Gallery,14696
+1017,986,_3 D Rotation Gallery,11644
+1018,986,_3 D Rotation Options Dialog,13232
+1019,986,Object Format Dialog,962
+1020,981,Group Word Art Styles,14834
+1021,1020,Text Styles Gallery,14839
+1022,1020,Word Art Clear,14840
+1023,1020,Text Fill Color Picker,14835
+1024,1020,Text Fill Color More Colors Dialog,15680
+1025,1020,Text Picture Fill,14841
+1026,1020,Text Fill Gradient Gallery,14842
+1027,1020,Text Fill More Gradients Dialog,14843
+1028,1020,Text Fill Texture Gallery,14844
+1029,1020,Text Fill More Textures,16081
+1030,1020,Text Outline Color Picker,14836
+1031,1020,Text Outline Color More Colors Dialog,14837
+1032,1020,Text Outline Weight Gallery,14847
+1033,1020,Text Outline More Lines Dialog,14846
+1034,1020,Text Outline Dashes Gallery,14845
+1035,1020,Text Effects Menu,14838
+1036,1020,Text Effect Shadow Gallery,14848
+1037,1020,Text Effects More Shadows Dialog,14849
+1038,1020,Text Reflection Gallery,14857
+1039,1020,Text Effects Reflections More Options,17743
+1040,1020,Text Effect Glow Gallery,14854
+1041,1020,Text Glow Color Picker,14855
+1042,1020,Text Glow Color More Colors Dialog,14856
+1043,1020,Text Effects Glows More Options,17745
+1044,1020,Bevel Text Gallery,15075
+1045,1020,Text Effects Bevel More3 D Options Dialog,14851
+1046,1020,Text Effects3 D Rotation Gallery,14852
+1047,1020,Text Effects3 D Rotation Options Dialog,14853
+1048,1020,Text Effect Transform Gallery,12120
+1049,1020,Word Art Format Dialog,15677
+1050,981,Group Arrange,11581
+1051,1050,Picture Position Gallery,13142
+1052,1050,Layout Options Dialog Position,21603
+1053,1050,Text Wrap Gallery,18323
+1054,1050,Layout Options Dialog Wrapping,21604
+1055,1050,Object Bring Forward Menu,17239
+1056,1050,Object Bring Forward,170
+1057,1050,Object Bring To Front,166
+1058,1050,Object Bring In Front Of Text,3451
+1059,1050,Object Send Backward Menu,17240
+1060,1050,Object Send Backward,171
+1061,1050,Object Send To Back,167
+1062,1050,Object Send Behind Text,3452
+1063,1050,Selection Pane,13244
+1064,1050,Object Align Menu,11920
+1065,1050,Objects Align Left Smart,12784
+1066,1050,Objects Align Center Horizontal Smart,12788
+1067,1050,Objects Align Right Smart,12785
+1068,1050,Objects Align Top Smart,12786
+1069,1050,Objects Align Middle Vertical Smart,12789
+1070,1050,Objects Align Bottom Smart,12787
+1071,1050,Align Distribute Horizontally,12790
+1072,1050,Align Distribute Vertically,12791
+1073,1050,Objects Align Relative To Container Smart,12783
+1074,1050,Objects Align Relative To Margin,14469
+1075,1050,Objects Align Selected Smart,12782
+1076,1050,View Gridlines Word,300
+1077,1050,Grid Settings,217
+1078,1050,Objects Group Menu,14409
+1079,1050,Objects Group,164
+1080,1050,Objects Regroup,338
+1081,1050,Objects Ungroup,165
+1082,1050,Object Rotate Gallery,11924
+1083,1050,Chart Rotation Options Dialog,22220
+1084,981,Group Size,11877
+1085,1084,Shape Height,13915
+1086,1084,Shape Width,13916
+1087,1084,Layout Options Dialog Size,21605
+1088,0,Tab Set Text Box Tools,13944
+1089,1088,Tab Text Box Tools Format,14472
+1090,1089,Group Text Box Text,11580
+1091,1090,Text Box Insert Word,15162
+1092,1090,Text Box Draw Menu,15161
+1093,1090,Text Box Insert,139
+1094,1090,Text Box Insert Vertical Word,14611
+1095,1090,Text Direction,2872
+1096,1090,Text Box Link Create,2308
+1097,1090,Text Box Link Break,2309
+1098,1089,Group Text Box Styles,15083
+1099,1098,Text Box Style Gallery,14473
+1100,1098,Drawing1 Color Picker Fill,15292
+1101,1098,Object Fill More Colors Dialog,1051
+1102,1098,Object Picture Fill,12612
+1103,1098,Shape Fill Gradient Gallery Classic,13870
+1104,1098,Shape Fill Effect More Gradients Dialog Classic,15174
+1105,1098,Drawing1 Gallery Textures,15297
+1106,1098,Shape Fill Effect More Textures Dialog Classic,15175
+1107,1098,Shape Fill Effect Pattern Classic,15176
+1108,1098,Drawing1 Color Picker Line Styles,15295
+1109,1098,Object Border Outline Color More Colors Dialog,1052
+1110,1098,Outline Weight Gallery,11866
+1111,1098,Line Styles Dialog,1054
+1112,1098,Outline Dashes Gallery,11865
+1113,1098,Arrow Style Gallery,11864
+1114,1098,Arrows More,1055
+1115,1098,Outline Line Pattern Fill,1053
+1116,1098,Shape Change Shape Gallery,11530
+1117,1098,Drawing Object Format Dialog,14182
+1118,1089,Group Shadow Effects,13817
+1119,1118,Shadow Style Gallery Classic,13129
+1120,1118,Shadow Color Picker Classic,13868
+1121,1118,Shadow Semitransparent Classic,1859
+1122,1118,Object Shadow Color More Colors Dialog,1072
+1123,1118,Shadow Nudge Up Classic,1068
+1124,1118,Shadow Nudge Left Classic,1070
+1125,1118,Shadow On Or Off Classic,2175
+1126,1118,Shadow Nudge Right Classic,1071
+1127,1118,Shadow Nudge Down Classic,1069
+1128,1089,Group3 D Effects,13818
+1129,1128,_3 D Effects Gallery Classic,13811
+1130,1128,_3 D Effect Color Picker Classic,13869
+1131,1128,_3 D Effect Color Picker More Classic,1073
+1132,1128,_3 D Extrusion Depth Gallery Classic,13979
+1133,1128,_3 D Direction Gallery Classic,13812
+1134,1128,_3 D Extrusion Perspective Classic,1390
+1135,1128,_3 D Extrusion Parallel Classic,1391
+1136,1128,_3 D Lighting Gallery Classic,13813
+1137,1128,_3 D Lighting Flat Classic,1392
+1138,1128,_3 D Lighting Normal Classic,1393
+1139,1128,_3 D Lighting Dim Classic,1394
+1140,1128,_3 D Surface Material Gallery Classic,13978
+1141,1128,_3 D Tilt Up Classic,1376
+1142,1128,_3 D Tilt Left Classic,1377
+1143,1128,_3 D Effects On Off Classic,1374
+1144,1128,_3 D Tilt Right Classic,1378
+1145,1128,_3 D Tilt Down Classic,1375
+1146,1089,Group Text Box Arrange,15305
+1147,1146,Text Box Position Gallery,14476
+1148,1146,Layout Options Dialog Position,21603
+1149,1146,Object Bring Forward Menu,17239
+1150,1146,Object Bring Forward,170
+1151,1146,Object Bring To Front,166
+1152,1146,Object Bring In Front Of Text,3451
+1153,1146,Object Send Backward Menu,17240
+1154,1146,Object Send Backward,171
+1155,1146,Object Send To Back,167
+1156,1146,Object Send Behind Text,3452
+1157,1146,Text Wrap Gallery,18323
+1158,1146,Layout Options Dialog Wrapping,21604
+1159,1146,Object Align Menu,11920
+1160,1146,Objects Align Left Smart,12784
+1161,1146,Objects Align Center Horizontal Smart,12788
+1162,1146,Objects Align Right Smart,12785
+1163,1146,Objects Align Top Smart,12786
+1164,1146,Objects Align Middle Vertical Smart,12789
+1165,1146,Objects Align Bottom Smart,12787
+1166,1146,Align Distribute Horizontally,12790
+1167,1146,Align Distribute Vertically,12791
+1168,1146,Objects Align Relative To Container Smart,12783
+1169,1146,Objects Align Relative To Margin,14469
+1170,1146,Objects Align Selected Smart,12782
+1171,1146,View Gridlines Word,300
+1172,1146,Grid Settings,217
+1173,1146,Objects Group Menu,14409
+1174,1146,Objects Group,164
+1175,1146,Objects Regroup,338
+1176,1146,Objects Ungroup,165
+1177,1146,Object Rotate Gallery,11924
+1178,1146,Chart Rotation Options Dialog,22220
+1179,1089,Group Size Classic,15284
+1180,1179,Shape Height,13915
+1181,1179,Shape Width,13916
+1182,1179,Object Size Dialog Classic,14606
+1183,0,Tab Set Drawing Tools,13261
+1184,1183,Tab Drawing Tools Format,11528
+1185,1184,Group Shapes,11549
+1186,1185,Shapes Insert Gallery,11529
+1187,1185,Object Edit Shape Menu,12317
+1188,1185,Shape Change Shape Gallery,11530
+1189,1185,Object Edit Points,206
+1190,1185,Shape Reroute Connectors,1033
+1191,1185,Text Box Insert Word,15162
+1192,1185,Text Box Insert Menu,13098
+1193,1185,Text Box Insert Horizontal,13099
+1194,1185,Text Box Insert Vertical,318
+1195,1184,Group Shape Styles,11594
+1196,1195,Shape Styles Gallery,11532
+1197,1195,Shape Styles Other Theme Fills Gallery,13779
+1198,1195,Shape Fill Color Picker,11689
+1199,1195,Object Fill More Colors Dialog,1051
+1200,1195,Object Picture Fill,12612
+1201,1195,Gradient Gallery,12116
+1202,1195,Shape Fill More Gradients Dialog,12683
+1203,1195,Shape Fill Texture Gallery,11531
+1204,1195,More Texture Options,15679
+1205,1195,Shape Outline Color Picker,15293
+1206,1195,Object Border Outline Color More Colors Dialog,1052
+1207,1195,Outline Weight Gallery,11866
+1208,1195,Line Styles Dialog,1054
+1209,1195,Outline Dashes Gallery,11865
+1210,1195,Arrow Style Gallery,11864
+1211,1195,Arrows More,1055
+1212,1195,Shape Effects Menu,14861
+1213,1195,Object Effect Preset Gallery,11642
+1214,1195,_3 D Bevel Options Dialog,13233
+1215,1195,Object Effect Shadow Gallery,12118
+1216,1195,Shadow Options Dialog,12684
+1217,1195,Reflection Gallery,14229
+1218,1195,Reflections More Options,17742
+1219,1195,Object Effect Glow Gallery,12115
+1220,1195,Glow Color Picker,14766
+1221,1195,Glow Color More Colors Dialog,14768
+1222,1195,Glows More Options,17744
+1223,1195,Object Effect Soft Edges Gallery,12102
+1224,1195,Soft Edges More Options,17746
+1225,1195,Bevel Shape Gallery,14696
+1226,1195,_3 D Rotation Gallery,11644
+1227,1195,_3 D Rotation Options Dialog,13232
+1228,1195,Object Format Dialog,962
+1229,1184,Group Word Art Styles,14834
+1230,1229,Text Styles Gallery,14839
+1231,1229,Word Art Clear,14840
+1232,1229,Text Fill Color Picker,14835
+1233,1229,Text Fill Color More Colors Dialog,15680
+1234,1229,Text Picture Fill,14841
+1235,1229,Text Fill Gradient Gallery,14842
+1236,1229,Text Fill More Gradients Dialog,14843
+1237,1229,Text Fill Texture Gallery,14844
+1238,1229,Text Fill More Textures,16081
+1239,1229,Text Outline Color Picker,14836
+1240,1229,Text Outline Color More Colors Dialog,14837
+1241,1229,Text Outline Weight Gallery,14847
+1242,1229,Text Outline More Lines Dialog,14846
+1243,1229,Text Outline Dashes Gallery,14845
+1244,1229,Text Effects Menu,14838
+1245,1229,Text Effect Shadow Gallery,14848
+1246,1229,Text Effects More Shadows Dialog,14849
+1247,1229,Text Reflection Gallery,14857
+1248,1229,Text Effects Reflections More Options,17743
+1249,1229,Text Effect Glow Gallery,14854
+1250,1229,Text Glow Color Picker,14855
+1251,1229,Text Glow Color More Colors Dialog,14856
+1252,1229,Text Effects Glows More Options,17745
+1253,1229,Bevel Text Gallery,15075
+1254,1229,Text Effects Bevel More3 D Options Dialog,14851
+1255,1229,Text Effects3 D Rotation Gallery,14852
+1256,1229,Text Effects3 D Rotation Options Dialog,14853
+1257,1229,Text Effect Transform Gallery,12120
+1258,1229,Word Art Format Dialog,15677
+1259,1184,Group Textbox,19384
+1260,1259,Text Direction Gallery,13235
+1261,1259,Text Direction Options Dialog,782
+1262,1259,Text Align Gallery,13994
+1263,1259,Text Box Link Create,2308
+1264,1259,Text Box Link Break,2309
+1265,1184,Group Arrange,11581
+1266,1265,Picture Position Gallery,13142
+1267,1265,Layout Options Dialog Position,21603
+1268,1265,Text Wrap Gallery,18323
+1269,1265,Layout Options Dialog Wrapping,21604
+1270,1265,Object Bring Forward Menu,17239
+1271,1265,Object Bring Forward,170
+1272,1265,Object Bring To Front,166
+1273,1265,Object Bring In Front Of Text,3451
+1274,1265,Object Send Backward Menu,17240
+1275,1265,Object Send Backward,171
+1276,1265,Object Send To Back,167
+1277,1265,Object Send Behind Text,3452
+1278,1265,Selection Pane,13244
+1279,1265,Object Align Menu,11920
+1280,1265,Objects Align Left Smart,12784
+1281,1265,Objects Align Center Horizontal Smart,12788
+1282,1265,Objects Align Right Smart,12785
+1283,1265,Objects Align Top Smart,12786
+1284,1265,Objects Align Middle Vertical Smart,12789
+1285,1265,Objects Align Bottom Smart,12787
+1286,1265,Align Distribute Horizontally,12790
+1287,1265,Align Distribute Vertically,12791
+1288,1265,Objects Align Relative To Container Smart,12783
+1289,1265,Objects Align Relative To Margin,14469
+1290,1265,Objects Align Selected Smart,12782
+1291,1265,View Gridlines Word,300
+1292,1265,Grid Settings,217
+1293,1265,Objects Group Menu,14409
+1294,1265,Objects Group,164
+1295,1265,Objects Regroup,338
+1296,1265,Objects Ungroup,165
+1297,1265,Object Rotate Gallery,11924
+1298,1265,Chart Rotation Options Dialog,22220
+1299,1184,Group Size,11877
+1300,1299,Shape Height,13915
+1301,1299,Shape Width,13916
+1302,1299,Layout Options Dialog Size,21605
+1303,0,Tab Set Drawing Tools Classic,14605
+1304,1303,Tab Drawing Tools Format Classic,13815
+1305,1304,Group Shapes Classic,15288
+1306,1305,Shapes Insert Gallery,11529
+1307,1305,Object Edit Shape Menu Classic,17728
+1308,1305,Object Edit Points,206
+1309,1305,Shape Reroute Connectors,1033
+1310,1305,Object Add Text,1400
+1311,1304,Group Shape Styles Classic,15290
+1312,1311,Shape Styles Gallery Classic,13822
+1313,1311,Drawing1 Color Picker Fill,15292
+1314,1311,Object Fill More Colors Dialog,1051
+1315,1311,Object Picture Fill,12612
+1316,1311,Shape Fill Gradient Gallery Classic,13870
+1317,1311,Shape Fill Effect More Gradients Dialog Classic,15174
+1318,1311,Drawing1 Gallery Textures,15297
+1319,1311,Shape Fill Effect More Textures Dialog Classic,15175
+1320,1311,Shape Fill Effect Pattern Classic,15176
+1321,1311,Drawing1 Color Picker Line Styles,15295
+1322,1311,Object Border Outline Color More Colors Dialog,1052
+1323,1311,Outline Weight Gallery,11866
+1324,1311,Line Styles Dialog,1054
+1325,1311,Outline Dashes Gallery,11865
+1326,1311,Arrow Style Gallery,11864
+1327,1311,Arrows More,1055
+1328,1311,Outline Line Pattern Fill,1053
+1329,1311,Shape Change Shape Gallery,11530
+1330,1311,Drawing Object Format Dialog,14182
+1331,1304,Group Shadow Effects,13817
+1332,1331,Shadow Style Gallery Classic,13129
+1333,1331,Shadow Color Picker Classic,13868
+1334,1331,Shadow Semitransparent Classic,1859
+1335,1331,Object Shadow Color More Colors Dialog,1072
+1336,1331,Shadow Nudge Up Classic,1068
+1337,1331,Shadow Nudge Left Classic,1070
+1338,1331,Shadow On Or Off Classic,2175
+1339,1331,Shadow Nudge Right Classic,1071
+1340,1331,Shadow Nudge Down Classic,1069
+1341,1304,Group3 D Effects,13818
+1342,1341,_3 D Effects Gallery Classic,13811
+1343,1341,_3 D Effect Color Picker Classic,13869
+1344,1341,_3 D Effect Color Picker More Classic,1073
+1345,1341,_3 D Extrusion Depth Gallery Classic,13979
+1346,1341,_3 D Direction Gallery Classic,13812
+1347,1341,_3 D Extrusion Perspective Classic,1390
+1348,1341,_3 D Extrusion Parallel Classic,1391
+1349,1341,_3 D Lighting Gallery Classic,13813
+1350,1341,_3 D Lighting Flat Classic,1392
+1351,1341,_3 D Lighting Normal Classic,1393
+1352,1341,_3 D Lighting Dim Classic,1394
+1353,1341,_3 D Surface Material Gallery Classic,13978
+1354,1341,_3 D Tilt Up Classic,1376
+1355,1341,_3 D Tilt Left Classic,1377
+1356,1341,_3 D Effects On Off Classic,1374
+1357,1341,_3 D Tilt Right Classic,1378
+1358,1341,_3 D Tilt Down Classic,1375
+1359,1304,Group Arrange,11581
+1360,1359,Picture Position Gallery,13142
+1361,1359,Layout Options Dialog Position,21603
+1362,1359,Text Wrap Gallery,18323
+1363,1359,Layout Options Dialog Wrapping,21604
+1364,1359,Object Bring Forward Menu,17239
+1365,1359,Object Bring Forward,170
+1366,1359,Object Bring To Front,166
+1367,1359,Object Bring In Front Of Text,3451
+1368,1359,Object Send Backward Menu,17240
+1369,1359,Object Send Backward,171
+1370,1359,Object Send To Back,167
+1371,1359,Object Send Behind Text,3452
+1372,1359,Selection Pane,13244
+1373,1359,Object Align Menu,11920
+1374,1359,Objects Align Left Smart,12784
+1375,1359,Objects Align Center Horizontal Smart,12788
+1376,1359,Objects Align Right Smart,12785
+1377,1359,Objects Align Top Smart,12786
+1378,1359,Objects Align Middle Vertical Smart,12789
+1379,1359,Objects Align Bottom Smart,12787
+1380,1359,Align Distribute Horizontally,12790
+1381,1359,Align Distribute Vertically,12791
+1382,1359,Objects Align Relative To Container Smart,12783
+1383,1359,Objects Align Relative To Margin,14469
+1384,1359,Objects Align Selected Smart,12782
+1385,1359,View Gridlines Word,300
+1386,1359,Grid Settings,217
+1387,1359,Objects Group Menu,14409
+1388,1359,Objects Group,164
+1389,1359,Objects Regroup,338
+1390,1359,Objects Ungroup,165
+1391,1359,Object Rotate Gallery,11924
+1392,1359,Chart Rotation Options Dialog,22220
+1393,1304,Group Size Classic,15284
+1394,1393,Shape Height,13915
+1395,1393,Shape Width,13916
+1396,1393,Object Size Dialog Classic,14606
+1397,0,Tab Set Word Art Tools,13941
+1398,1397,Tab Word Art Tools Format,12806
+1399,1398,Group Word Art Text,11550
+1400,1399,Word Art Edit Text Classic,2094
+1401,1399,Word Art Spacing Menu,13134
+1402,1399,Word Art Spacing Very Tight,1356
+1403,1399,Word Art Spacing Tight,1357
+1404,1399,Word Art Spacing Normal,1358
+1405,1399,Word Art Spacing Loose,1359
+1406,1399,Word Art Spacing Very Loose,1360
+1407,1399,Word Art Spacing Kern Character Pairs,1361
+1408,1399,Word Art Even Text Height Classic,1063
+1409,1399,Word Art Vertical Text,1061
+1410,1399,Text Align Menu,13135
+1411,1399,Text Align Left,1108
+1412,1399,Text Align Center,1109
+1413,1399,Text Align Right,1352
+1414,1399,Text Align Word Justify,1354
+1415,1399,Text Align Letter Justify,1353
+1416,1399,Text Align Stretch Justify,1355
+1417,1398,Group Word Art Styles Classic,15085
+1418,1417,Word Art Styles Gallery Classic,13819
+1419,1417,Drawing1 Color Picker Fill Word Art,16029
+1420,1417,Object Fill More Colors Dialog,1051
+1421,1417,Object Picture Fill,12612
+1422,1417,Shape Fill Gradient Gallery Classic,13870
+1423,1417,Shape Fill Effect More Gradients Dialog Classic,15174
+1424,1417,Drawing1 Gallery Textures,15297
+1425,1417,Shape Fill Effect More Textures Dialog Classic,15175
+1426,1417,Shape Fill Effect Pattern Classic,15176
+1427,1417,Drawing1 Color Picker Line Styles Word Art,16028
+1428,1417,Object Border Outline Color More Colors Dialog,1052
+1429,1417,Outline Weight Gallery,11866
+1430,1417,Line Styles Dialog,1054
+1431,1417,Outline Dashes Gallery,11865
+1432,1417,Arrow Style Gallery,11864
+1433,1417,Arrows More,1055
+1434,1417,Outline Line Pattern Fill,1053
+1435,1417,Word Art Change Shape Gallery,13866
+1436,1398,Group Shadow Effects,13817
+1437,1436,Shadow Style Gallery Classic,13129
+1438,1436,Shadow Color Picker Classic,13868
+1439,1436,Shadow Semitransparent Classic,1859
+1440,1436,Object Shadow Color More Colors Dialog,1072
+1441,1436,Shadow Nudge Up Classic,1068
+1442,1436,Shadow Nudge Left Classic,1070
+1443,1436,Shadow On Or Off Classic,2175
+1444,1436,Shadow Nudge Right Classic,1071
+1445,1436,Shadow Nudge Down Classic,1069
+1446,1398,Group3 D Effects,13818
+1447,1446,_3 D Effects Gallery Classic,13811
+1448,1446,_3 D Effect Color Picker Classic,13869
+1449,1446,_3 D Effect Color Picker More Classic,1073
+1450,1446,_3 D Extrusion Depth Gallery Classic,13979
+1451,1446,_3 D Direction Gallery Classic,13812
+1452,1446,_3 D Extrusion Perspective Classic,1390
+1453,1446,_3 D Extrusion Parallel Classic,1391
+1454,1446,_3 D Lighting Gallery Classic,13813
+1455,1446,_3 D Lighting Flat Classic,1392
+1456,1446,_3 D Lighting Normal Classic,1393
+1457,1446,_3 D Lighting Dim Classic,1394
+1458,1446,_3 D Surface Material Gallery Classic,13978
+1459,1446,_3 D Tilt Up Classic,1376
+1460,1446,_3 D Tilt Left Classic,1377
+1461,1446,_3 D Effects On Off Classic,1374
+1462,1446,_3 D Tilt Right Classic,1378
+1463,1446,_3 D Tilt Down Classic,1375
+1464,1398,Group Arrange,11581
+1465,1464,Picture Position Gallery,13142
+1466,1464,Layout Options Dialog Position,21603
+1467,1464,Text Wrap Gallery,18323
+1468,1464,Layout Options Dialog Wrapping,21604
+1469,1464,Object Bring Forward Menu,17239
+1470,1464,Object Bring Forward,170
+1471,1464,Object Bring To Front,166
+1472,1464,Object Bring In Front Of Text,3451
+1473,1464,Object Send Backward Menu,17240
+1474,1464,Object Send Backward,171
+1475,1464,Object Send To Back,167
+1476,1464,Object Send Behind Text,3452
+1477,1464,Selection Pane,13244
+1478,1464,Object Align Menu,11920
+1479,1464,Objects Align Left Smart,12784
+1480,1464,Objects Align Center Horizontal Smart,12788
+1481,1464,Objects Align Right Smart,12785
+1482,1464,Objects Align Top Smart,12786
+1483,1464,Objects Align Middle Vertical Smart,12789
+1484,1464,Objects Align Bottom Smart,12787
+1485,1464,Align Distribute Horizontally,12790
+1486,1464,Align Distribute Vertically,12791
+1487,1464,Objects Align Relative To Container Smart,12783
+1488,1464,Objects Align Relative To Margin,14469
+1489,1464,Objects Align Selected Smart,12782
+1490,1464,View Gridlines Word,300
+1491,1464,Grid Settings,217
+1492,1464,Objects Group Menu,14409
+1493,1464,Objects Group,164
+1494,1464,Objects Regroup,338
+1495,1464,Objects Ungroup,165
+1496,1464,Object Rotate Gallery,11924
+1497,1464,Chart Rotation Options Dialog,22220
+1498,1398,Group Size Classic,15284
+1499,1498,Shape Height,13915
+1500,1498,Shape Width,13916
+1501,1498,Object Size Dialog Classic,14606
+1502,0,Tab Set Diagram Tools,13942
+1503,1502,Tab Diagram Tools Format Classic,13131
+1504,1503,Group Diagram Layout Classic,15157
+1505,1504,Diagram Shape Insert Classic,6933
+1506,1504,Diagram Reverse Classic,6099
+1507,1504,Diagram Shape Move Forward Classic,6011
+1508,1504,Diagram Shape Move Backward Classic,6010
+1509,1504,Diagram Auto Layout Classic,6100
+1510,1504,Diagram Fit To Contents Classic,6826
+1511,1504,Diagram Expand Classic,6828
+1512,1504,Diagram Resize Classic,6827
+1513,1503,Group Diagram Styles Classic,15158
+1514,1513,Diagram Styles Classic,6068
+1515,1513,Drawing1 Color Picker Fill,15292
+1516,1513,Object Fill More Colors Dialog,1051
+1517,1513,Object Picture Fill,12612
+1518,1513,Shape Fill Gradient Gallery Classic,13870
+1519,1513,Shape Fill Effect More Gradients Dialog Classic,15174
+1520,1513,Drawing1 Gallery Textures,15297
+1521,1513,Shape Fill Effect More Textures Dialog Classic,15175
+1522,1513,Shape Fill Effect Pattern Classic,15176
+1523,1513,Drawing1 Color Picker Line Styles,15295
+1524,1513,Object Border Outline Color More Colors Dialog,1052
+1525,1513,Outline Weight Gallery,11866
+1526,1513,Line Styles Dialog,1054
+1527,1513,Outline Dashes Gallery,11865
+1528,1513,Arrow Style Gallery,11864
+1529,1513,Arrows More,1055
+1530,1513,Outline Line Pattern Fill,1053
+1531,1513,Diagram Change To Menu Classic,13136
+1532,1513,Diagram Change To Cycle Classic,5830
+1533,1513,Diagram Change To Radial Classic,5829
+1534,1513,Diagram Change To Pyramid Classic,6009
+1535,1513,Diagram Change To Venn Diagram Classic,5833
+1536,1513,Diagram Change To Target Classic,5832
+1537,1503,Group Shadow Effects,13817
+1538,1537,Shadow Style Gallery Classic,13129
+1539,1537,Shadow Color Picker Classic,13868
+1540,1537,Shadow Semitransparent Classic,1859
+1541,1537,Object Shadow Color More Colors Dialog,1072
+1542,1537,Shadow Nudge Up Classic,1068
+1543,1537,Shadow Nudge Left Classic,1070
+1544,1537,Shadow On Or Off Classic,2175
+1545,1537,Shadow Nudge Right Classic,1071
+1546,1537,Shadow Nudge Down Classic,1069
+1547,1503,Group3 D Effects,13818
+1548,1547,_3 D Effects Gallery Classic,13811
+1549,1547,_3 D Effect Color Picker Classic,13869
+1550,1547,_3 D Effect Color Picker More Classic,1073
+1551,1547,_3 D Extrusion Depth Gallery Classic,13979
+1552,1547,_3 D Direction Gallery Classic,13812
+1553,1547,_3 D Extrusion Perspective Classic,1390
+1554,1547,_3 D Extrusion Parallel Classic,1391
+1555,1547,_3 D Lighting Gallery Classic,13813
+1556,1547,_3 D Lighting Flat Classic,1392
+1557,1547,_3 D Lighting Normal Classic,1393
+1558,1547,_3 D Lighting Dim Classic,1394
+1559,1547,_3 D Surface Material Gallery Classic,13978
+1560,1547,_3 D Tilt Up Classic,1376
+1561,1547,_3 D Tilt Left Classic,1377
+1562,1547,_3 D Effects On Off Classic,1374
+1563,1547,_3 D Tilt Right Classic,1378
+1564,1547,_3 D Tilt Down Classic,1375
+1565,1503,Group Diagram Arrange Classic,15304
+1566,1565,Picture Position Gallery,13142
+1567,1565,Layout Options Dialog Position,21603
+1568,1565,Object Bring Forward Menu,17239
+1569,1565,Object Bring Forward,170
+1570,1565,Object Bring To Front,166
+1571,1565,Object Bring In Front Of Text,3451
+1572,1565,Object Send Backward Menu,17240
+1573,1565,Object Send Backward,171
+1574,1565,Object Send To Back,167
+1575,1565,Object Send Behind Text,3452
+1576,1565,Text Wrap Gallery,18323
+1577,1565,Layout Options Dialog Wrapping,21604
+1578,1565,Object Align Menu,11920
+1579,1565,Objects Align Left Smart,12784
+1580,1565,Objects Align Center Horizontal Smart,12788
+1581,1565,Objects Align Right Smart,12785
+1582,1565,Objects Align Top Smart,12786
+1583,1565,Objects Align Middle Vertical Smart,12789
+1584,1565,Objects Align Bottom Smart,12787
+1585,1565,Align Distribute Horizontally,12790
+1586,1565,Align Distribute Vertically,12791
+1587,1565,Objects Align Relative To Container Smart,12783
+1588,1565,Objects Align Relative To Margin,14469
+1589,1565,Objects Align Selected Smart,12782
+1590,1565,View Gridlines Word,300
+1591,1565,Grid Settings,217
+1592,1565,Objects Group Menu,14409
+1593,1565,Objects Group,164
+1594,1565,Objects Regroup,338
+1595,1565,Objects Ungroup,165
+1596,1503,Group Size Classic,15284
+1597,1596,Shape Height,13915
+1598,1596,Shape Width,13916
+1599,1596,Object Size Dialog Classic,14606
+1600,0,Tab Set Organization Chart Tools,13943
+1601,1600,Tab Organization Chart Tools Format,13130
+1602,1601,Group Organization Chart Shape Insert,11613
+1603,1602,Organization Chart Insert Subordinate,5856
+1604,1602,Organization Chart Insert Coworker,5855
+1605,1602,Organization Chart Insert Assistant,5849
+1606,1601,Group Organization Chart Layout Classic,15159
+1607,1606,Organization Chart Layout Standard,6131
+1608,1606,Organization Chart Layout Right Hanging,6134
+1609,1606,Organization Chart Layout Left Hanging,6133
+1610,1606,Organization Chart Layout Both Hanging,6132
+1611,1606,Organization Chart Auto Layout,6071
+1612,1601,Group Organization Chart Style Classic,15160
+1613,1612,Organization Chart Style,6949
+1614,1612,Drawing1 Color Picker Fill,15292
+1615,1612,Object Fill More Colors Dialog,1051
+1616,1612,Object Picture Fill,12612
+1617,1612,Shape Fill Gradient Gallery Classic,13870
+1618,1612,Shape Fill Effect More Gradients Dialog Classic,15174
+1619,1612,Drawing1 Gallery Textures,15297
+1620,1612,Shape Fill Effect More Textures Dialog Classic,15175
+1621,1612,Shape Fill Effect Pattern Classic,15176
+1622,1612,Drawing1 Color Picker Line Styles,15295
+1623,1612,Object Border Outline Color More Colors Dialog,1052
+1624,1612,Outline Weight Gallery,11866
+1625,1612,Line Styles Dialog,1054
+1626,1612,Outline Dashes Gallery,11865
+1627,1612,Arrow Style Gallery,11864
+1628,1612,Arrows More,1055
+1629,1612,Outline Line Pattern Fill,1053
+1630,1601,Group Organization Chart Select,15163
+1631,1630,Organization Chart Select Level,6072
+1632,1630,Organization Chart Select Branch,6073
+1633,1630,Organization Chart Select All Assistants,6074
+1634,1630,Organization Chart Select All Connectors,6075
+1635,1601,Group Shadow Effects,13817
+1636,1635,Shadow Style Gallery Classic,13129
+1637,1635,Shadow Color Picker Classic,13868
+1638,1635,Shadow Semitransparent Classic,1859
+1639,1635,Object Shadow Color More Colors Dialog,1072
+1640,1635,Shadow Nudge Up Classic,1068
+1641,1635,Shadow Nudge Left Classic,1070
+1642,1635,Shadow On Or Off Classic,2175
+1643,1635,Shadow Nudge Right Classic,1071
+1644,1635,Shadow Nudge Down Classic,1069
+1645,1601,Group3 D Effects,13818
+1646,1645,_3 D Effects Gallery Classic,13811
+1647,1645,_3 D Effect Color Picker Classic,13869
+1648,1645,_3 D Effect Color Picker More Classic,1073
+1649,1645,_3 D Extrusion Depth Gallery Classic,13979
+1650,1645,_3 D Direction Gallery Classic,13812
+1651,1645,_3 D Extrusion Perspective Classic,1390
+1652,1645,_3 D Extrusion Parallel Classic,1391
+1653,1645,_3 D Lighting Gallery Classic,13813
+1654,1645,_3 D Lighting Flat Classic,1392
+1655,1645,_3 D Lighting Normal Classic,1393
+1656,1645,_3 D Lighting Dim Classic,1394
+1657,1645,_3 D Surface Material Gallery Classic,13978
+1658,1645,_3 D Tilt Up Classic,1376
+1659,1645,_3 D Tilt Left Classic,1377
+1660,1645,_3 D Effects On Off Classic,1374
+1661,1645,_3 D Tilt Right Classic,1378
+1662,1645,_3 D Tilt Down Classic,1375
+1663,1601,Group Diagram Arrange Classic,15304
+1664,1663,Picture Position Gallery,13142
+1665,1663,Layout Options Dialog Position,21603
+1666,1663,Object Bring Forward Menu,17239
+1667,1663,Object Bring Forward,170
+1668,1663,Object Bring To Front,166
+1669,1663,Object Bring In Front Of Text,3451
+1670,1663,Object Send Backward Menu,17240
+1671,1663,Object Send Backward,171
+1672,1663,Object Send To Back,167
+1673,1663,Object Send Behind Text,3452
+1674,1663,Text Wrap Gallery,18323
+1675,1663,Layout Options Dialog Wrapping,21604
+1676,1663,Object Align Menu,11920
+1677,1663,Objects Align Left Smart,12784
+1678,1663,Objects Align Center Horizontal Smart,12788
+1679,1663,Objects Align Right Smart,12785
+1680,1663,Objects Align Top Smart,12786
+1681,1663,Objects Align Middle Vertical Smart,12789
+1682,1663,Objects Align Bottom Smart,12787
+1683,1663,Align Distribute Horizontally,12790
+1684,1663,Align Distribute Vertically,12791
+1685,1663,Objects Align Relative To Container Smart,12783
+1686,1663,Objects Align Relative To Margin,14469
+1687,1663,Objects Align Selected Smart,12782
+1688,1663,View Gridlines Word,300
+1689,1663,Grid Settings,217
+1690,1663,Objects Group Menu,14409
+1691,1663,Objects Group,164
+1692,1663,Objects Regroup,338
+1693,1663,Objects Ungroup,165
+1694,1601,Group Size Classic,15284
+1695,1694,Shape Height,13915
+1696,1694,Shape Width,13916
+1697,1694,Object Size Dialog Classic,14606
+1698,0,Tab Set Picture Tools,13263
+1699,1698,Tab Picture Tools Format,11527
+1700,1699,Group Picture Tools,11875
+1701,1700,Picture Background Removal,19622
+1702,1700,Picture Corrections Menu,21477
+1703,1700,Picture Sharpen Soften Gallery,16794
+1704,1700,Picture Brightness And Contrast Gallery,16790
+1705,1700,Picture Corrections Dialog,15078
+1706,1700,Picture Color Menu,21187
+1707,1700,Picture Saturation Gallery,16791
+1708,1700,Picture Color Tempertature Gallery,16792
+1709,1700,Picture Recolor Gallery,14231
+1710,1700,Recolor Color Picker,14767
+1711,1700,Picture Recolor More Colors Dialog,14769
+1712,1700,Picture Set Transparent Color,2827
+1713,1700,Picture Color Dialog,16827
+1714,1700,Picture Artistic Effects Gallery,16793
+1715,1700,Artistic Effects Dialog,16828
+1716,1700,Pictures Compress,6382
+1717,1700,Picture Change,14826
+1718,1700,Picture Reset Split Button,22710
+1719,1700,Picture Reset,1362
+1720,1700,Picture Reset And Size,22711
+1721,1699,Group Picture Styles,15503
+1722,1721,Picture Styles Gallery,15504
+1723,1721,Outline Color Picker,11690
+1724,1721,Object Border Outline Color More Colors Dialog,1052
+1725,1721,Outline Weight Gallery,11866
+1726,1721,Line Styles Dialog,1054
+1727,1721,Outline Dashes Gallery,11865
+1728,1721,Picture Effects Menu,15782
+1729,1721,Picture Effects Preset Gallery,11643
+1730,1721,_3 D Bevel Options Dialog,13233
+1731,1721,Picture Effects Shadow Gallery,15554
+1732,1721,Shadow Options Dialog,12684
+1733,1721,Picture Reflection Gallery,15562
+1734,1721,Reflections More Options,17742
+1735,1721,Picture Effects Glow Gallery,15557
+1736,1721,Glow Color Picker,14766
+1737,1721,Glow Color More Colors Dialog,14768
+1738,1721,Glows More Options,17744
+1739,1721,Picture Effects Soft Edges Gallery,15560
+1740,1721,Soft Edges More Options,17746
+1741,1721,_3 D Bevel Picture Top Gallery,14711
+1742,1721,Picture Rotation Gallery,15565
+1743,1721,_3 D Rotation Options Dialog,13232
+1744,1721,Pictures Convert To Smart Art,17841
+1745,1721,Object Format Dialog,962
+1746,1699,Group Arrange,11581
+1747,1746,Picture Position Gallery,13142
+1748,1746,Layout Options Dialog Position,21603
+1749,1746,Text Wrap Gallery,18323
+1750,1746,Layout Options Dialog Wrapping,21604
+1751,1746,Object Bring Forward Menu,17239
+1752,1746,Object Bring Forward,170
+1753,1746,Object Bring To Front,166
+1754,1746,Object Bring In Front Of Text,3451
+1755,1746,Object Send Backward Menu,17240
+1756,1746,Object Send Backward,171
+1757,1746,Object Send To Back,167
+1758,1746,Object Send Behind Text,3452
+1759,1746,Selection Pane,13244
+1760,1746,Object Align Menu,11920
+1761,1746,Objects Align Left Smart,12784
+1762,1746,Objects Align Center Horizontal Smart,12788
+1763,1746,Objects Align Right Smart,12785
+1764,1746,Objects Align Top Smart,12786
+1765,1746,Objects Align Middle Vertical Smart,12789
+1766,1746,Objects Align Bottom Smart,12787
+1767,1746,Align Distribute Horizontally,12790
+1768,1746,Align Distribute Vertically,12791
+1769,1746,Objects Align Relative To Container Smart,12783
+1770,1746,Objects Align Relative To Margin,14469
+1771,1746,Objects Align Selected Smart,12782
+1772,1746,View Gridlines Word,300
+1773,1746,Grid Settings,217
+1774,1746,Objects Group Menu,14409
+1775,1746,Objects Group,164
+1776,1746,Objects Regroup,338
+1777,1746,Objects Ungroup,165
+1778,1746,Object Rotate Gallery,11924
+1779,1746,Chart Rotation Options Dialog,22220
+1780,1699,Group Picture Size,11568
+1781,1780,Picture Crop Tools,18131
+1782,1780,Picture Crop,732
+1783,1780,Picture Shape Gallery,15783
+1784,1780,Picture Crop Aspect Ratio Menu,18612
+1785,1780,Picture Crop Aspect Ratio1 To1,18613
+1786,1780,Picture Crop Aspect Ratio2 To3,18614
+1787,1780,Picture Crop Aspect Ratio3 To4,22569
+1788,1780,Picture Crop Aspect Ratio3 To5,18615
+1789,1780,Picture Crop Aspect Ratio4 To5,18616
+1790,1780,Picture Crop Aspect Ratio3 To2,22194
+1791,1780,Picture Crop Aspect Ratio4 To3,22570
+1792,1780,Picture Crop Aspect Ratio5 To3,22195
+1793,1780,Picture Crop Aspect Ratio5 To4,22196
+1794,1780,Picture Crop Aspect Ratio16 To9,22571
+1795,1780,Picture Crop Aspect Ratio16 To10,22572
+1796,1780,Picture Fill Crop,18654
+1797,1780,Picture Fit Crop,18653
+1798,1780,Shape Height,13915
+1799,1780,Shape Width,13916
+1800,1780,Layout Options Dialog Size,21605
+1801,0,Tab Set Picture Tools Classic,14603
+1802,1801,Tab Picture Tools Format Classic,13145
+1803,1802,Group Picture Tools Classic,15286
+1804,1803,Drawing1 Gallery Brightness,15302
+1805,1803,Picture Brightness And Contrast Dialog,13146
+1806,1803,Drawing1 Gallery Contrast,15303
+1807,1803,Picture Recolor Gallery Word,13976
+1808,1803,Pictures Compress,6382
+1809,1803,Picture Reset,1362
+1810,1802,Group Shadow Effects,13817
+1811,1810,Shadow Style Gallery Classic,13129
+1812,1810,Shadow Color Picker Classic,13868
+1813,1810,Shadow Semitransparent Classic,1859
+1814,1810,Object Shadow Color More Colors Dialog,1072
+1815,1810,Shadow Nudge Up Classic,1068
+1816,1810,Shadow Nudge Left Classic,1070
+1817,1810,Shadow On Or Off Classic,2175
+1818,1810,Shadow Nudge Right Classic,1071
+1819,1810,Shadow Nudge Down Classic,1069
+1820,1802,Group Border,13975
+1821,1820,Picture Border Color Picker Classic,15784
+1822,1820,Object Border Outline Color More Colors Dialog,1052
+1823,1820,Outline Dashes Gallery,11865
+1824,1820,Line Styles Dialog,1054
+1825,1820,Outline Weight Gallery,11866
+1826,1802,Group Arrange,11581
+1827,1826,Picture Position Gallery,13142
+1828,1826,Layout Options Dialog Position,21603
+1829,1826,Text Wrap Gallery,18323
+1830,1826,Layout Options Dialog Wrapping,21604
+1831,1826,Object Bring Forward Menu,17239
+1832,1826,Object Bring Forward,170
+1833,1826,Object Bring To Front,166
+1834,1826,Object Bring In Front Of Text,3451
+1835,1826,Object Send Backward Menu,17240
+1836,1826,Object Send Backward,171
+1837,1826,Object Send To Back,167
+1838,1826,Object Send Behind Text,3452
+1839,1826,Selection Pane,13244
+1840,1826,Object Align Menu,11920
+1841,1826,Objects Align Left Smart,12784
+1842,1826,Objects Align Center Horizontal Smart,12788
+1843,1826,Objects Align Right Smart,12785
+1844,1826,Objects Align Top Smart,12786
+1845,1826,Objects Align Middle Vertical Smart,12789
+1846,1826,Objects Align Bottom Smart,12787
+1847,1826,Align Distribute Horizontally,12790
+1848,1826,Align Distribute Vertically,12791
+1849,1826,Objects Align Relative To Container Smart,12783
+1850,1826,Objects Align Relative To Margin,14469
+1851,1826,Objects Align Selected Smart,12782
+1852,1826,View Gridlines Word,300
+1853,1826,Grid Settings,217
+1854,1826,Objects Group Menu,14409
+1855,1826,Objects Group,164
+1856,1826,Objects Regroup,338
+1857,1826,Objects Ungroup,165
+1858,1826,Object Rotate Gallery,11924
+1859,1826,Chart Rotation Options Dialog,22220
+1860,1802,Group Picture Size Classic,15285
+1861,1860,Picture Crop,732
+1862,1860,Shape Height,13915
+1863,1860,Shape Width,13916
+1864,1860,Object Size Dialog Classic,14606
+1865,0,Tab Set Table Tools,13262
+1866,1865,Tab Table Tools Design,14133
+1867,1866,Group Table Layout,16072
+1868,1867,Table Style Header Row Word,14125
+1869,1867,Table Style Total Row Word,14126
+1870,1867,Table Style Banded Rows Word,14129
+1871,1867,Table Styles First Column Word,14127
+1872,1867,Table Style Last Column Word,14128
+1873,1867,Table Style Banded Columns Word,14130
+1874,1866,Group Table Styles Word,15084
+1875,1874,Table Styles Gallery Word,14134
+1876,1874,Table Style Modify,14132
+1877,1874,Table Style Clear,12387
+1878,1874,New Table Style Word,15912
+1879,1874,Shading Color Picker,13162
+1880,1874,Shading Colors More Colors Dialog,13163
+1881,1874,Table Borders Menu,12941
+1882,1874,Border Bottom Word,2868
+1883,1874,Border Top Word,2867
+1884,1874,Border Left Word,2869
+1885,1874,Border Right Word,2870
+1886,1874,Border None,151
+1887,1874,Borders All,1704
+1888,1874,Border Outside,150
+1889,1874,Border Inside,149
+1890,1874,Border Inside Horizontal,1840
+1891,1874,Border Inside Vertical,1841
+1892,1874,Border Diagonal Down,1842
+1893,1874,Border Diagonal Up,1843
+1894,1874,Horizontal Line Insert,3653
+1895,1874,Table Draw Table,2059
+1896,1874,Table Show Gridlines,2626
+1897,1874,Borders Shading Dialog Word,3466
+1898,1866,Group Table Draw Borders,12940
+1899,1898,Table Draw Border Pen Style,1724
+1900,1898,Table Draw Border Pen Weight,2622
+1901,1898,Border Color Picker,12834
+1902,1898,Table Draw Table,2059
+1903,1898,Table Eraser,2060
+1904,1898,Borders Shading Dialog Word,3466
+1905,1865,Tab Table Tools Layout,11869
+1906,1905,Group Table,14733
+1907,1906,Table Select Menu,12936
+1908,1906,Table Select Cell,3678
+1909,1906,Table Column Select,802
+1910,1906,Table Row Select,801
+1911,1906,Table Select,803
+1912,1906,Table Show Gridlines,2626
+1913,1906,Table Properties Dialog,3704
+1914,1905,Group Table Rows And Columns,11916
+1915,1914,Table Delete Rows And Columns Menu Word,12937
+1916,1914,Cells Delete,292
+1917,1914,Table Columns Delete,294
+1918,1914,Table Rows Delete,293
+1919,1914,Table Delete,3679
+1920,1914,Table Rows Insert Above Word,3681
+1921,1914,Table Rows Insert Below Word,3683
+1922,1914,Table Columns Insert Left,3685
+1923,1914,Table Columns Insert Right,3687
+1924,1914,Table Insert Cells Dialog,2163
+1925,1905,Group Table Merge,12938
+1926,1925,Merge Cells,798
+1927,1925,Split Cells,800
+1928,1925,Table Split Table,808
+1929,1905,Group Table Cell Size,14734
+1930,1929,Table Auto Fit Menu,12939
+1931,1929,Table Auto Fit Contents,3907
+1932,1929,Table Auto Fit Window,3908
+1933,1929,Table Auto Fit Fixed Column Width,3909
+1934,1929,Table Row Height,14475
+1935,1929,Table Column Width,14474
+1936,1929,Table Rows Distribute,2068
+1937,1929,Table Columns Distribute,2067
+1938,1929,Table Properties Dialog,3704
+1939,1905,Group Table Alignment,11571
+1940,1939,Table Cell Align Top Left,3914
+1941,1939,Table Cell Align Top Center,3915
+1942,1939,Table Cell Align Top Right,3916
+1943,1939,Table Cell Align Middle Left,3917
+1944,1939,Table Cell Align Middle Center,3918
+1945,1939,Table Cell Align Middle Right,3919
+1946,1939,Table Cell Align Bottom Left,3920
+1947,1939,Table Cell Align Bottom Center,3921
+1948,1939,Table Cell Align Bottom Right,3922
+1949,1939,Text Direction,2872
+1950,1939,Table Options Dialog,3705
+1951,1905,Group Table Data,11918
+1952,1951,Sort Dialog Classic,928
+1953,1951,Table Repeat Header Rows,805
+1954,1951,Convert Table To Text,929
+1955,1951,Table Formula Dialog,807
+1956,0,Tab Set Header And Footer Tools,13264
+1957,1956,Tab Header And Footer Tools Design,12162
+1958,1957,Group Header Footer,13980
+1959,1958,Header Insert Gallery,12253
+1960,1958,Theme Search Office Online,12305
+1961,1958,Header Footer Edit Header,14122
+1962,1958,Header Footer Remove Header Word,14793
+1963,1958,Save Selection To Header Gallery,12291
+1964,1958,Footer Insert Gallery,12254
+1965,1958,Header Footer Edit Footer,15350
+1966,1958,Header Footer Remove Footer Word,14794
+1967,1958,Save Selection To Footer Gallery,12290
+1968,1958,Header Footer Page Number Insert,127
+1969,1958,Page Numbers In Header Insert Gallery,14107
+1970,1958,Save Selection To Page Number Top,14113
+1971,1958,Page Nambers In Footer Insert Gallery,14108
+1972,1958,Save Selection To Page Number Bottom,14114
+1973,1958,Page Nambers In Margins Insert Gallery,14109
+1974,1958,Save Selection To Page Number Margin,14115
+1975,1958,Page Number Field Insert Gallery,12256
+1976,1958,Save Selection To Page Number Gallery,12292
+1977,1958,Page Number Format,2384
+1978,1958,Page Numbers Remove,14795
+1979,1957,Group Header Footer Insert,13104
+1980,1979,Date And Time Insert,768
+1981,1979,Quick Parts Insert Gallery,12260
+1982,1979,Auto Text Gallery,14105
+1983,1979,Save Selection To Auto Text Gallery,14110
+1984,1979,Property Insert,12775
+1985,1979,Field Insert,772
+1986,1979,Building Blocks Organizer,12686
+1987,1979,Save Selection To Quick Part Gallery,12287
+1988,1979,Picture Insert From File,2619
+1989,1979,Clip Art Insert,682
+1990,1957,Group Header Footer Navigation,13105
+1991,1990,Go To Header,13928
+1992,1990,Go To Footer,13929
+1993,1990,Header Footer Previous Section,238
+1994,1990,Header Footer Next Section,239
+1995,1990,Header Footer Link To Previous,250
+1996,1957,Group Header Footer Options,12177
+1997,1996,Header Footer Different First Page Word,13107
+1998,1996,Header Footer Different Odd Even Page Word,13108
+1999,1996,Header Footer Show Document Text,13109
+2000,1957,Group Header Footer Position,13106
+2001,2000,Header Footer Position Header From Top,13910
+2002,2000,Header Footer Position Footer From Bottom,13911
+2003,2000,Insert Alignment Tab,13592
+2004,1957,Group Header Footer Close,15045
+2005,2004,Header Footer Close,924
+2006,0,Tab Set Equation Tools,15456
+2007,2006,Tab Equation Tools Design,15451
+2008,2007,Group Equation Tools,15452
+2009,2008,Equation Insert Gallery,12258
+2010,2008,Save Selection To Equation Gallery,12289
+2011,2008,Equation Professional,15367
+2012,2008,Equation Linear Format,15368
+2013,2008,Equation Normal Text,15370
+2014,2008,Equation Options,15449
+2015,2007,Group Equation Symbols,15453
+2016,2015,Equation Symbols Insert Gallery,15433
+2017,2007,Group Equation Structures,15454
+2018,2017,Equation Fraction Gallery,15435
+2019,2017,Equation Script Gallery,15439
+2020,2017,Equation Radical Gallery,15436
+2021,2017,Equation Integral Gallery,15434
+2022,2017,Equation Large Operator Gallery,15437
+2023,2017,Equation Delimiter Gallery,15438
+2024,2017,Equation Function Gallery,15440
+2025,2017,Equation Accent Gallery,15441
+2026,2017,Equation Limit Gallery,15442
+2027,2017,Equation Operator Gallery,15443
+2028,2017,Equation Matrix Gallery,15444
+2029,0,Tab Set Ink Tools,14344
+2030,2029,Tab Ink Tools Pens,13965
+2031,2030,Group Pens Write,18961
+2032,2031,Ink Ballpoint Pen,13969
+2033,2031,Ink Highlighter,13971
+2034,2031,Ink Eraser,9523
+2035,2031,Objects Select,182
+2036,2030,Group Pens,18962
+2037,2036,Pens Gallery,18966
+2038,2036,Pen Add Favorite,18663
+2039,2036,Ink Color Picker,15155
+2040,2036,Ink Color More Colors Dialog,7879
+2041,2036,Line Thickness,14780
+2042,2036,Line Styles Dialog,1054
+2043,2030,Group Ink Select,13133
+2044,2043,Objects Select,182
+2045,2030,Group Ink Format,15154
+2046,2045,Objects Select,182
+2047,2030,Group Ink Pens,13966
+2048,2047,Ink Felt Tip Pen,13970
+2049,2030,Group Ink Close,13968
+2050,2049,Ink Tools Close,15599

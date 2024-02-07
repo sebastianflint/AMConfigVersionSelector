@@ -54,10 +54,10 @@
     <ApplicationIcon>8059787_maintenance_update device_data processing_setting_configuration_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>6EC23B0652CB316D43B9C8309E9289E044795264</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>D4F5716F6A5743F5DE5C826FD428D10ECF80FC4C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>AMConfigVersionSelector_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>AMConfigVersionSelector_2_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -144,6 +144,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="AMConfigVersionSelector_1_TemporaryKey.pfx" />
+    <None Include="AMConfigVersionSelector_2_TemporaryKey.pfx" />
     <None Include="AMConfigVersionSelector_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
