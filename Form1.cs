@@ -357,7 +357,7 @@ namespace UWMConfigVersionSelector
         {
             try
             {
-                string currentVersion = "V2.4";
+                string currentVersion = "V2.5";
                 string latestVersion = GetLatestVersion("sebastianflint", "AMConfigVersionSelector");
 
                 if (currentVersion != latestVersion)
