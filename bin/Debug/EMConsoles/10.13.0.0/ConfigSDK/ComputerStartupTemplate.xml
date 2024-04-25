@@ -1,0 +1,280 @@
+﻿<EMSnippet ClassName="UEM.EMSnippet.0000" CreatedByVerion="10.13.0.0" OriginConfigFriendlyName="" OriginConfigID="D25C208E-A5D1-4D6A-B887-53FCB33527B2">
+  <Branches ClassName="UEM.BranchCollection.0000">
+    <Branch ClassName="UEM.Branch.0000" OriginalPath="Branches" VersionNumber="0" LinkID="04EF955C-11B9-4735-A062-51029A9C9E4D" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Prepare Machine Environment" Enabled="True" EventType="ComputerStartup">
+      <Actions ClassName="UEM.ActionBaseCollection.0000">
+        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.EnvironmentVariables.Set" ActionType="32" LinkID="A7B2EF30-9B62-44EF-8E41-F3C8F0AF7214" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Set environment variable 'Role' to be 'PROD'" EventType="ComputerStartup">
+          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Name" PropertyType="String" Value="Role" />
+            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Value" PropertyType="String" Value="PROD" />
+            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+          </ActionProperties>
+          <Description ClassName="UEM.Description.0000" Text="" />
+          <Notes ClassName="UEM.Notes.0000" Text="" />
+          <Actions ClassName="UEM.ActionBaseCollection.0000">
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="6FE6AF08-E4AE-4EC5-A9E9-788CD7CD882B" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Set Registry Value: &quot;Machine_Role&quot; in Key HKEY_LOCAL_MACHINE\SOFTWARE\Morgan Stanley\Core\DesktopPersonalisation\Appsense" Enabled="True" EventType="ComputerStartup">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_SZ" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="%ROLE%" />
+                  </ActionProperties>
+                </ActionProperty>
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ExpandVariables" PropertyType="Boolean" Value="False" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Morgan Stanley\Core\DesktopPersonalisation\Appsense" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="Machine_Role" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+              </ActionProperties>
+              <Description ClassName="UEM.Description.0000" Text="" />
+              <Notes ClassName="UEM.Notes.0000" Text="" />
+            </Action>
+          </Actions>
+        </Action>
+      </Actions>
+      <Branches ClassName="UEM.BranchCollection.0000">
+        <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="4445A660-2F7A-425C-A325-82FA20ACCD55" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Configure Machine Environment" Enabled="True" EventType="ComputerStartup">
+          <Branches ClassName="UEM.BranchCollection.0000">
+            <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="7B853302-7336-47C7-BA99-D2928A087458" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="All Machines" Enabled="True" EventType="ComputerStartup">
+              <Actions ClassName="UEM.ActionBaseCollection.0000">
+                <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.RunNode" LinkID="3CBEB276-E8BE-423C-AA06-467C8B0CEE03" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Enabled="True" EventType="ComputerStartup">
+                  <RunNodes ClassName="UEM.RunNodeReferenceDictionary.0000">
+                    <RunNodeReference ClassName="UEM.RunNodeReference.0000" ResuableNode="D9F6F2B6-687E-4612-A963-A87B353BA7B4" />
+                  </RunNodes>
+                </Action>
+              </Actions>
+              <Branches ClassName="UEM.BranchCollection.0000">
+                <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="739DDF2E-D019-4F30-8083-610CD5D5E208" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="CXD Machine Settings" Enabled="True" EventType="ComputerStartup">
+                  <Actions ClassName="UEM.ActionBaseCollection.0000">
+                    <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.RunCondition" LinkID="0186C32F-3706-4EB6-BFEE-3628BA45E263" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Enabled="True" StopOnFail="True" EventType="ComputerStartup">
+                      <RunConditionNodes ClassName="UEM.RunConditionReferenceDictionary.0000">
+                        <RunConditionReference ClassName="UEM.RunConditionReference.0000" ReusableConditionNode="FF2DCE63-539F-4310-9E5A-417BAA66BAFF" />
+                      </RunConditionNodes>
+                      <Actions ClassName="UEM.ActionBaseCollection.0000">
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.SelfHealRegistry" ActionType="8192" LinkID="10E9E26F-797C-4D2A-9923-64650D1F46E6" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Make sure value 'LegalNoticeText' in registry key 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon' does NOT exist" Enabled="True" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Name" PropertyType="String" Value="LegalNoticeText" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Default" PropertyType="Boolean" Value="False" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Delete" PropertyType="Integer" Value="1" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="" />
+                          <Notes ClassName="UEM.Notes.0000" Text="" />
+                        </Action>
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.DeleteKey" ActionType="1" LinkID="9FB91AD4-E652-4282-8830-DBE099A85518" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Delete Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SpeedScreen\iexplore.exe" Enabled="True" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SpeedScreen\iexplore.exe" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="Delete iExplore speedscreen" />
+                          <Notes ClassName="UEM.Notes.0000" Text="" />
+                        </Action>
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.CreateKey" ActionType="1" LinkID="88855756-2140-4DAC-9FC4-F1EB7F435E1A" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\PICA Passthrough\iexplore.exe" Enabled="True" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Citrix\CtxHook\AppInit_Dlls\PICA Passthrough\iexplore.exe" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="Disable Workspace Control Loop -iexplore.exe" />
+                          <Notes ClassName="UEM.Notes.0000" Text="We need to disable the work space control loop within the VDA so that users do not end up in an unuseable state when they browse through http://desktopondemand" />
+                        </Action>
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.CreateKey" ActionType="1" LinkID="CE8866AD-1169-4607-B4C8-049BE8A8D220" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\PICA Passthrough\wfica32.exe" Enabled="True" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Citrix\CtxHook\AppInit_Dlls\PICA Passthrough\wfica32.exe" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="Disable Workspace Control Loop -wfica.exe" />
+                          <Notes ClassName="UEM.Notes.0000" Text="We need to disable the work space control loop within the VDA so that users do not end up in an unuseable state when they browse through http://desktopondemand" />
+                        </Action>
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.CreateKey" ActionType="1" LinkID="5ACAD33A-6D0F-4604-B0B6-41DCC9552D6F" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\PICA Passthrough\pnamain.exe" Enabled="True" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Citrix\CtxHook\AppInit_Dlls\PICA Passthrough\pnamain.exe" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="Disable Workspace Control Loop - pnamain" />
+                          <Notes ClassName="UEM.Notes.0000" Text="We need to disable the work space control loop within the VDA so that users do not end up in an unuseable state when they browse through http://desktopondemand" />
+                        </Action>
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.CreateKey" ActionType="1" LinkID="2E9206C5-1834-4FF5-842D-CA5E1BE3F6F9" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Create Registry Key: HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\PICA Passthrough\firefox.exe" Enabled="True" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Citrix\CtxHook\AppInit_Dlls\PICA Passthrough\firefox.exe" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="Disable Workspace Control Loop -firefox" />
+                          <Notes ClassName="UEM.Notes.0000" Text="We need to disable the work space control loop within the VDA so that users do not end up in an unuseable state when they browse through http://desktopondemand" />
+                        </Action>
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Condition.ComputerGroup" ActionType="134217728" LinkID="F4DDD677-AB7A-41D1-9FD0-23F81FB8F8C2" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Computer Group Is NotEqual MST_CXD_FARMGUID_EXCLUDE" Enabled="True" IsCached="On" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Operator" PropertyType="String" Value="NotEqual" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="GroupName" PropertyType="String" Value="CN=MST_CXD_FARMGUID_EXCLUDE,OU=Groups,OU=Morgan Stanley,OU=Customer Users,OU=Testing,OU=QA,DC=Testing,DC=Local" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Query" PropertyType="String" Value="" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="" />
+                          <Notes ClassName="UEM.Notes.0000" Text="" />
+                          <Actions ClassName="UEM.ActionBaseCollection.0000">
+                            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Execute" ActionType="8" LinkID="C52D8F1D-F5B5-4FFF-9180-C668DCC20126" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Execute %SystemRoot%\system32\wscript.exe //B &quot;%binpath%\AppSense\msad_cxd_farm_register.vbs&quot;" Enabled="True" EventType="ComputerStartup">
+                              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="FileName" PropertyType="String" Value="%SystemRoot%\system32\wscript.exe" />
+                                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="WorkingDirectory" PropertyType="String" Value="%SystemRoot%\system32" />
+                                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Parameters" PropertyType="String" Value="//B &quot;%binpath%\AppSense\msad_cxd_farm_register.vbs&quot;" />
+                                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Synchronous" PropertyType="Boolean" Value="False" />
+                              </ActionProperties>
+                              <Description ClassName="UEM.Description.0000" Text="Run CXD Farm Registration script" />
+                              <Notes ClassName="UEM.Notes.0000" Text="" />
+                            </Action>
+                          </Actions>
+                        </Action>
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.SelfHealService" ActionType="4096" LinkID="116521C2-57C1-46A4-8224-88DBFC41A985" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Ensure Service 'Citrix CGP Server Service' NEVER starts" Enabled="True" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ServiceDisplayName" PropertyType="String" Value="Citrix CGP Server Service" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ServiceName" PropertyType="String" Value="Citrix CGP Server Service" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="StartupParameters" PropertyType="String" Value="" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Status" PropertyType="Integer" Value="1" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="Make sure CGP Service is not running" />
+                          <Notes ClassName="UEM.Notes.0000" Text="CGP always off - until citrix fixes the CGP service&#xD;&#xA;Portica - always running&#xD;&#xA;WorkstationAgent - always running&#xD;&#xA;cpsvc - always running&#xD;&#xA;citrixUSB - always running" />
+                        </Action>
+                        <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="1D6E2C48-E947-4997-91AA-0FAA49F9382C" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Set Registry Value: &quot;ShutdownWithoutLogon&quot; in Key HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" Enabled="True" EventType="ComputerStartup">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_SZ" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                              </ActionProperties>
+                            </ActionProperty>
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ExpandVariables" PropertyType="Boolean" Value="False" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="ShutdownWithoutLogon" />
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                          </ActionProperties>
+                          <Description ClassName="UEM.Description.0000" Text="" />
+                          <Notes ClassName="UEM.Notes.0000" Text="" />
+                        </Action>
+                      </Actions>
+                    </Action>
+                  </Actions>
+                </Branch>
+                <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="A6CB7734-4376-40DD-A640-213398109443" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="CXA Machine Settings" Enabled="False" EventType="ComputerStartup" />
+              </Branches>
+            </Branch>
+          </Branches>
+        </Branch>
+      </Branches>
+    </Branch>
+  </Branches>
+  <Library ClassName="UEM.ReusableLibrary.0000">
+    <ReusableNodes ClassName="UEM.ReusableNodesBase.0000" LinkID="DB5C3065-2243-48D2-9F1C-1E3A6F3D0D80" EventType="ReusableNodes">
+      <Branches ClassName="UEM.BranchCollection.0000">
+        <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="D9F6F2B6-687E-4612-A963-A87B353BA7B4" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="CopyAppSenseBinFiles" Enabled="True" EventType="ReusableNodes">
+          <Actions ClassName="UEM.ActionBaseCollection.0000">
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Folder.Create" ActionType="2" LinkID="7821A8D7-E27D-460A-B45E-DD369EEF2017" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Create Folder &gt;%binpath%\AppSense" Enabled="False" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Source" PropertyType="String" Value="%binpath%\AppSense" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Recurse" PropertyType="Boolean" Value="True" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+              </ActionProperties>
+              <Description ClassName="UEM.Description.0000" Text="Create AppSense Bin Folder" />
+              <Notes ClassName="UEM.Notes.0000" Text="This folder contains a local copy of scipts, files and exes used by the AppSense configuration" />
+              <Actions ClassName="UEM.ActionBaseCollection.0000">
+                <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Folder.Copy" ActionType="2" LinkID="C27ADD55-2EC4-42D0-965F-1219987DA368" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Copy Folder &gt; \\%distsrv%\apps\Appsense\Resources" Enabled="False" StopOnFail="True" EventType="ReusableNodes">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Source" PropertyType="String" Value="\\%distsrv%\apps\Appsense\Resources" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Target" PropertyType="String" Value="%binpath%\AppSense" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Recurse" PropertyType="Boolean" Value="False" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="NoOverwriteFolder" PropertyType="Boolean" Value="False" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="FileCondition" PropertyType="String" Value="Last Modified Time" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ConditionOperator" PropertyType="String" Value="IsGreaterThan" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ConditionValue" PropertyType="String" Value="Destination" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="CopyChages" PropertyType="String" Value="True" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="CopyType" PropertyType="String" Value="Copy" />
+                  </ActionProperties>
+                  <Description ClassName="UEM.Description.0000" Text="Copy AppSense resource files and scripts to %binpath%\AppSense folder" />
+                  <Notes ClassName="UEM.Notes.0000" Text="Copy down AppSense resource files and scripts from the network to %binpath%\AppSense folder" />
+                </Action>
+                <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.File.Copy" ActionType="4" LinkID="6DE8ED86-95F7-4D26-B80F-2EEAEFA66BAA" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Copy File &gt; \\msad\root\turn\Platform8\DesktopPersonalisation\bin\appdata_exclusion.rcj" Enabled="False" StopOnFail="True" EventType="ReusableNodes">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Source" PropertyType="String" Value="\\msad\root\turn\Platform8\DesktopPersonalisation\bin\appdata_exclusion.rcj" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Target" PropertyType="String" Value="%binpath%\AppSense" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="FailIfExists" PropertyType="Boolean" Value="False" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="FileCondition" PropertyType="String" Value="Last Modified Time" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ConditionOperator" PropertyType="String" Value="IsGreaterThan" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ConditionValue" PropertyType="String" Value="Destination" />
+                  </ActionProperties>
+                  <Description ClassName="UEM.Description.0000" Text="Copy AppData exclusion file to binpath\AppSense folder" />
+                  <Notes ClassName="UEM.Notes.0000" Text="Exclusion file to be moved to apps\appsense\resource folder once all exclusions are in place" />
+                </Action>
+              </Actions>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Folder.Create" ActionType="2" LinkID="8CEBF994-7FC2-4144-B0C4-920CF29B1240" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Create Folder &gt;%binpath%\AppSense" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Source" PropertyType="String" Value="%binpath%\AppSense" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Recurse" PropertyType="Boolean" Value="True" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+              </ActionProperties>
+              <Description ClassName="UEM.Description.0000" Text="Create AppSense Bin Folder" />
+              <Notes ClassName="UEM.Notes.0000" Text="This folder contains a local copy of scipts, files and exes used by the AppSense configuration" />
+              <Actions ClassName="UEM.ActionBaseCollection.0000">
+                <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Folder.Copy" ActionType="2" LinkID="BA66843D-8A16-419B-AC74-4BEC524E5890" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Copy Folder &gt; \\wsusfap\QA\testing\CustomerUsers\MorganStanley\apps\Appsense\Resources" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Source" PropertyType="String" Value="\\wsusfap\QA\testing\CustomerUsers\MorganStanley\apps\Appsense\Resources" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Target" PropertyType="String" Value="%binpath%\AppSense" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Recurse" PropertyType="Boolean" Value="False" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="NoOverwriteFolder" PropertyType="Boolean" Value="False" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="FileCondition" PropertyType="String" Value="Last Modified Time" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ConditionOperator" PropertyType="String" Value="IsGreaterThan" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ConditionValue" PropertyType="String" Value="Destination" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="CopyChages" PropertyType="String" Value="True" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="CopyType" PropertyType="String" Value="Copy" />
+                  </ActionProperties>
+                  <Description ClassName="UEM.Description.0000" Text="Copy AppSense resource files and scripts to %binpath%\AppSense folder" />
+                  <Notes ClassName="UEM.Notes.0000" Text="Copy down AppSense resource files and scripts from the network to %binpath%\AppSense folder" />
+                </Action>
+                <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.File.Copy" ActionType="4" LinkID="DC93040D-E730-4479-8A7D-6220F96F0A73" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Copy File &gt; \\wsusfap\QA\testing\CustomerUsers\MorganStanley\msda\root\appdata_exclusion.rcj.dummy.txt" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Source" PropertyType="String" Value="\\wsusfap\QA\testing\CustomerUsers\MorganStanley\msda\root\appdata_exclusion.rcj.dummy.txt" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Target" PropertyType="String" Value="%binpath%\AppSense" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="FailIfExists" PropertyType="Boolean" Value="False" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="System" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="FileCondition" PropertyType="String" Value="Last Modified Time" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ConditionOperator" PropertyType="String" Value="IsGreaterThan" />
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ConditionValue" PropertyType="String" Value="Destination" />
+                  </ActionProperties>
+                  <Description ClassName="UEM.Description.0000" Text="Copy AppData exclusion file to binpath\AppSense folder" />
+                  <Notes ClassName="UEM.Notes.0000" Text="Exclusion file to be moved to apps\appsense\resource folder once all exclusions are in place" />
+                </Action>
+              </Actions>
+            </Action>
+          </Actions>
+        </Branch>
+      </Branches>
+    </ReusableNodes>
+    <ReusableConditions ClassName="UEM.ReusableConditionsBase.0000" LinkID="1E38E8F6-174B-45D1-9328-691AA75AC6A5" EventType="ReusableConditions">
+      <Branches ClassName="UEM.BranchCollection.0000">
+        <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="FF2DCE63-539F-4310-9E5A-417BAA66BAFF" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="IsCXD" Enabled="True" EventType="ReusableConditions">
+          <Actions ClassName="UEM.ActionBaseCollection.0000">
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Condition.CustomScripts" ActionType="1073741824" LinkID="D2CBB7C8-B8F4-41CE-BB46-A2F9A7D31747" OriginID="D25C208E-A5D1-4D6A-B887-53FCB33527B2" Name="Custom Condition 'isCXD' is a VBScript. Run As SYSTEM" Enabled="True" IsCached="Off" EventType="ReusableConditions">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Host" PropertyType="String" Value="VBScript" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Description" PropertyType="String" Value="isCXD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAsSystem" PropertyType="Boolean" Value="True" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ScriptData" PropertyType="String" Value="Dim myFSO&#xA;Set myFSO = CreateObject(&quot;Scripting.FileSystemObject&quot;)&#xA;Set objWshShell = WScript.CreateObject(&quot;WScript.Shell&quot;)&#xA;Set oEnv = objWshShell.Environment(&quot;Process&quot;)&#xA;strProgFiles = oEnv (&quot;PROGRAMFILES&quot;)&#xA;If (myFSO.FileExists (strProgFiles &amp; &quot;\Citrix\ICAService\picaSvc.exe&quot;)) Then&#xA;'Alert User&#xA;'Return Success&#xA;WScript.Quit 0&#xA;Else &#xA;'Return failure&#xA;WScript.Quit 1&#xA;End If" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="MaxRunTime" PropertyType="String" Value="0" />
+              </ActionProperties>
+              <Description ClassName="UEM.Description.0000" Text="Query to determine if Machine is running Citrix XenDesktop software" />
+              <Notes ClassName="UEM.Notes.0000" Text="" />
+            </Action>
+          </Actions>
+        </Branch>
+      </Branches>
+    </ReusableConditions>
+  </Library>
+  <RunAsUserLibrary ClassName="UEM.RunAsUserLibrary.0000" RunAsUserLibraryID="B7753E7E-28FF-41DE-9854-E8E10DA0D929" />
+</EMSnippet>
