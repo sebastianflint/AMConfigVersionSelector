@@ -1,0 +1,235 @@
+﻿<EMSnippet ClassName="UEM.EMSnippet.0000" CreatedByVerion="10.14.0.0" OriginConfigFriendlyName="" OriginConfigID="76970257-733E-46A2-B62F-D5D01D673AE0">
+  <Branches ClassName="UEM.BranchCollection.0000">
+    <Branch ClassName="UEM.Branch.0000" OriginalPath="Configuration.User.Events.ProcessStarted.Branches" VersionNumber="0" LinkID="A90BDF59-7329-4F56-B1A6-8C2DD903B98D" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Internet Explorer" Enabled="True" EventType="UserProcessStarted">
+      <Actions ClassName="UEM.ActionBaseCollection.0000">
+        <Action ClassName="UEM.Action.0000" Identifier="UEM.Condition.UserProcessName" ActionType="4294967296" LinkID="F3A71108-5C70-47DF-9703-84D2987E228A" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="User Process Name Is Equal To IEXPLORE.EXE" Enabled="True" EventType="UserProcessStarted">
+          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="CurrentUser" />
+            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Operator" PropertyType="String" Value="Equal" />
+            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ApplicationName" PropertyType="String" Value="IEXPLORE.EXE" />
+          </ActionProperties>
+          <Description ClassName="UEM.Description.0000" Text="" />
+          <Notes ClassName="UEM.Notes.0000" Text="" />
+          <Actions ClassName="UEM.ActionBaseCollection.0000">
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.RunCondition" LinkID="712C68D6-4B34-4F9D-B167-F4C1C3182FC3" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Enabled="True" EventType="UserProcessStarted">
+              <RunConditionNodes ClassName="UEM.RunConditionReferenceDictionary.0000">
+                <RunConditionReference ClassName="UEM.RunConditionReference.0000" ReusableConditionNode="D6BA72E7-CCF7-4BDD-9325-5BB076B0E996" />
+              </RunConditionNodes>
+              <Actions ClassName="UEM.ActionBaseCollection.0000">
+                <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.RunCondition" LinkID="1D45630B-C67A-4FAC-88D7-CEB8654CEAE2" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Enabled="True" EventType="UserProcessStarted">
+                  <RunConditionNodes ClassName="UEM.RunConditionReferenceDictionary.0000">
+                    <RunConditionReference ClassName="UEM.RunConditionReference.0000" ReusableConditionNode="8CF09025-4300-4CFE-BBAC-33BFDBED5EDB" />
+                  </RunConditionNodes>
+                  <Actions ClassName="UEM.ActionBaseCollection.0000">
+                    <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.RunNode" LinkID="7B9B782D-B41D-4E45-BC4E-5B60339B1916" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Enabled="True" EventType="UserProcessStarted">
+                      <RunNodes ClassName="UEM.RunNodeReferenceDictionary.0000">
+                        <RunNodeReference ClassName="UEM.RunNodeReference.0000" ResuableNode="898EF09C-2A83-4A89-877B-8E2E833A4B65" />
+                      </RunNodes>
+                    </Action>
+                    <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="80C007A8-BEB3-49BB-984F-3E6DBA55719E" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;Start Page&quot; in Key HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" Enabled="True" EventType="UserProcessStarted">
+                      <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                        <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_SZ" />
+                        <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                          <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                            <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="www.morganstanley.com" />
+                          </ActionProperties>
+                        </ActionProperty>
+                        <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ExpandVariables" PropertyType="Boolean" Value="False" />
+                        <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                        <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Microsoft\Internet Explorer\Main" />
+                        <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="Start Page" />
+                        <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAs" PropertyType="String" Value="CurrentUser" />
+                      </ActionProperties>
+                      <Description ClassName="UEM.Description.0000" Text="" />
+                      <Notes ClassName="UEM.Notes.0000" Text="" />
+                    </Action>
+                  </Actions>
+                </Action>
+              </Actions>
+            </Action>
+          </Actions>
+        </Action>
+      </Actions>
+    </Branch>
+  </Branches>
+  <Library ClassName="UEM.ReusableLibrary.0000">
+    <ReusableNodes ClassName="UEM.ReusableNodesBase.0000" LinkID="E9CFF234-3DB1-4B78-A6B6-71098A1C3909" EventType="ReusableNodes">
+      <Branches ClassName="UEM.BranchCollection.0000">
+        <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="898EF09C-2A83-4A89-877B-8E2E833A4B65" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Unlock IE" Enabled="True" EventType="ReusableNodes">
+          <Actions ClassName="UEM.ActionBaseCollection.0000">
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="B019CA83-3890-4923-AAB6-549E09F41FDB" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;Advanced&quot; in Key HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Policies\Microsoft\Internet Explorer\Control Panel" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="Advanced" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_DWORD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                  </ActionProperties>
+                </ActionProperty>
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="DF7CCF69-A7AC-434D-B793-6498E8B14EBC" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;HomePage&quot; in Key HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Policies\Microsoft\Internet Explorer\Control Panel" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="HomePage" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_DWORD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                  </ActionProperties>
+                </ActionProperty>
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="F5B85497-1BF1-4CC4-A105-A0ABC4961495" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;Autoconfig&quot; in Key HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Policies\Microsoft\Internet Explorer\Control Panel" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="Autoconfig" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_DWORD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                  </ActionProperties>
+                </ActionProperty>
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.DeleteValue" ActionType="1" LinkID="4DFC5201-1498-462E-86A6-5F54BD9D6C82" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Delete Registry Value: &quot;RunInvalidSignatures&quot; in Key HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Download" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Policies\Microsoft\Internet Explorer\Download" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="RunInvalidSignatures" />
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="022895BC-A6D8-4277-B57F-E0C2543CB9B3" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;NoExtensionManagement&quot; in Key HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Policies\Microsoft\Internet Explorer\Restrictions" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="NoExtensionManagement" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_DWORD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                  </ActionProperties>
+                </ActionProperty>
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.DeleteKey" ActionType="1" LinkID="088111A8-F7AF-4BAB-85BD-633BC8B877FE" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Delete Registry Key: HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones" />
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.DeleteKey" ActionType="1" LinkID="09027BAD-C6F0-4690-AAE4-7C94C0FCD810" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Delete Registry Key: HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMapKey" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMapKey" />
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.DeleteKey" ActionType="1" LinkID="ACF65408-B475-48CD-8385-983A41494717" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Delete Registry Key: HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings\Zones" />
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.DeleteKey" ActionType="1" LinkID="B22B9EAC-B8E4-4A9C-B84F-F07BFC4F2E86" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Delete Registry Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap" />
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="1C7ACD14-CF08-44EA-ADDD-4CA486B8F00A" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;RestrictToList&quot; in Key HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Ext" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_CURRENT_USER" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="Software\Microsoft\Windows\CurrentVersion\Policies\Ext" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="RestrictToList" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_DWORD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                  </ActionProperties>
+                </ActionProperty>
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="84A4992E-CCCA-41B0-9461-D61504CB235A" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;Security_HKLM_only&quot; in Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="Security_HKLM_only" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_DWORD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                  </ActionProperties>
+                </ActionProperty>
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="A3F4D19E-3A31-427E-BFD8-D5A3D997FA2A" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;Security_options_edit&quot; in Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="Security_options_edit" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_DWORD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                  </ActionProperties>
+                </ActionProperty>
+              </ActionProperties>
+            </Action>
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Action.Registry.SetValue" ActionType="1" LinkID="66989CDA-12E8-4062-A8C8-1B8D6D3B68F3" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Set Registry Value: &quot;Security_zones_map_edit&quot; in Key HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" Enabled="True" StopOnFail="True" EventType="ReusableNodes">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Hive" PropertyType="String" Value="HKEY_LOCAL_MACHINE" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Key" PropertyType="String" Value="SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueName" PropertyType="String" Value="Security_zones_map_edit" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueType" PropertyType="String" Value="REG_DWORD" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItems" PropertyType="Collection" Value="">
+                  <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                    <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ValueDataItem0" PropertyType="String" Value="0" />
+                  </ActionProperties>
+                </ActionProperty>
+              </ActionProperties>
+            </Action>
+          </Actions>
+        </Branch>
+      </Branches>
+    </ReusableNodes>
+    <ReusableConditions ClassName="UEM.ReusableConditionsBase.0000" LinkID="6C4428C2-4F1D-4573-B593-75080CCB1820" EventType="ReusableConditions">
+      <Branches ClassName="UEM.BranchCollection.0000">
+        <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="D6BA72E7-CCF7-4BDD-9325-5BB076B0E996" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="offCorpNet" Enabled="True" EventType="ReusableConditions">
+          <Actions ClassName="UEM.ActionBaseCollection.0000">
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Condition.CustomScripts" ActionType="1073741824" LinkID="25C417BE-7577-4CCB-8C31-72B4FD79E8D8" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Custom Condition 'Off CorpNet' is a VBScript. Run As SYSTEM" IsCached="Off" EventType="ReusableConditions">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Host" PropertyType="String" Value="VBScript" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Description" PropertyType="String" Value="Off CorpNet" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAsSystem" PropertyType="Boolean" Value="True" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ScriptData" PropertyType="String" Value="Set sh = createobject(&quot;wscript.shell&quot;) &#xA;Set fso = createobject(&quot;scripting.filesystemobject&quot;) &#xA;Set Env = sh.Environment(&quot;PROCESS&quot;) &#xA;Workfile = Env(&quot;TEMP&quot;) &amp; &quot;\&quot; &amp; fso.gettempname &#xA;sh.run &quot;%comspec% /c ipconfig &gt;&quot; &amp; Chr(34) &amp; workfile &amp; Chr(34),0,true &#xA;set sh = nothing &#xA;set ts = fso.opentextfile(workfile) &#xA;data = split(ts.readall,vbcrlf) &#xA;ts.close &#xA;set ts = nothing &#xA;'fso.deletefile workfile &#xA;set fso = nothing &#xA;index = -1 &#xA;for n = 0 to ubound(data) &#xA; data(n) = replace(data(n),vbCr,&quot;&quot;) &#xA; If instr(data(n),&quot;Local Area Connection&quot;) or instr(data(n),&quot;Wireless&quot;) then&#xA;  n = n + 2&#xA;  If instr(data(n),&quot;DNS Suffix&quot;) then &#xA;      If instr(data(n),&quot;appsense.com&quot;) then &#xA;    bfound = true&#xA;      Else &#xA;    bfound = false&#xA;      End if &#xA;  End if &#xA; End if&#xA;index = index + 1 &#xA;next&#xA;&#xA;if bfound = true then&#xA;' wscript.echo &quot;Off CorpNet = False&quot;&#xA; wscript.quit 1&#xA;else&#xA;' wscript.echo &quot;Off CorpNet = True&quot;&#xA; wscript.quit 0&#xA;end if" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="MaxRunTime" PropertyType="String" Value="0" />
+              </ActionProperties>
+              <Description ClassName="UEM.Description.0000" Text="" />
+              <Notes ClassName="UEM.Notes.0000" Text="" />
+            </Action>
+          </Actions>
+        </Branch>
+        <Branch ClassName="UEM.Branch.0000" VersionNumber="0" LinkID="8CF09025-4300-4CFE-BBAC-33BFDBED5EDB" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="IsLaptop" Enabled="True" EventType="ReusableConditions">
+          <Actions ClassName="UEM.ActionBaseCollection.0000">
+            <Action ClassName="UEM.Action.0000" Identifier="UEM.Condition.CustomScripts" ActionType="1073741824" LinkID="A48A3E34-F191-426F-AE36-2556370CED6B" OriginID="76970257-733E-46A2-B62F-D5D01D673AE0" Name="Custom Condition 'IsLatop' is a VBScript. Run As SYSTEM" IsCached="Off" EventType="ReusableConditions">
+              <ActionProperties ClassName="UEM.ActionPropertyCollection.0000">
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Host" PropertyType="String" Value="VBScript" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="Description" PropertyType="String" Value="IsLatop" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="RunAsSystem" PropertyType="Boolean" Value="True" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="ScriptData" PropertyType="String" Value="Dim Fso, srtVal&#xA;Set Fso = wscript.CreateObject(&quot;wscript.shell&quot;)&#xA;&#xA;On Error Resume Next&#xA;strVal = fso.regread(&quot;HKLM\Software\Morgan Stanley\Winbuild\Computer_Type&quot;)&#xA;On Error GoTo 0&#xA;&#xA;If strVal = &quot;LAPTOP&quot; Then&#xA;' wscript.echo &quot;Is Laptop = True&quot;&#xA; wscript.quit 0&#xA;Else&#xA;' wscript.echo &quot;Is Laptop = False&quot;&#xA; wscript.quit 1&#xA;End If" />
+                <ActionProperty ClassName="UEM.ActionProperty.0000" Name="MaxRunTime" PropertyType="String" Value="0" />
+              </ActionProperties>
+              <Description ClassName="UEM.Description.0000" Text="" />
+              <Notes ClassName="UEM.Notes.0000" Text="" />
+            </Action>
+          </Actions>
+        </Branch>
+      </Branches>
+    </ReusableConditions>
+  </Library>
+  <RunAsUserLibrary ClassName="UEM.RunAsUserLibrary.0000" RunAsUserLibraryID="16451F2C-EE40-461D-97C0-8A588490D871" />
+</EMSnippet>
