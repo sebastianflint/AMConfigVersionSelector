@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Excel>
+	<Tab ControlName="MainMenu" DisplayName="Main Menu" Id="">
+		<Button ControlName="FileSave" DisplayName="Save" Id="3" />
+		<Button ControlName="FileSaveAs" DisplayName="Save As" Id="748" />
+		<Button ControlName="FileOpen" DisplayName="Open" Id="23" />
+		<Button ControlName="FileClose" DisplayName="Close" Id="106" />
+		<Button ControlName="ApplicationOptionsDialog" DisplayName="Options" Id="11323" />
+		<Button ControlName="FileExit" DisplayName="Exit" Id="752" />
+	</Tab>
+	<Tab ControlName="TabInfo" DisplayName="Info" Id="18148">
+		<Group ControlName="GroupFileLocation" DisplayName="File Location" Id="19513" />
+		<Group ControlName="GroupUploadErrors" DisplayName="Upload Errors" Id="20237" />
+		<Group ControlName="GroupProductActivationRequired" DisplayName="Product Activation Required" Id="18155" />
+		<Group ControlName="GroupWorkflows" DisplayName="Work flows" Id="19097" />
+		<Group ControlName="GrupPolicyWarning" DisplayName="Policy Warning" Id="19095" />
+		<Group ControlName="GroupSecurityWarning" DisplayName="Security Warning" Id="19092" />
+		<Group ControlName="GroupProtectedView" DisplayName="Protected View" Id="19093" />
+		<Group ControlName="GroupReadOnly" DisplayName="Read Only" Id="19100" />
+		<Group ControlName="GroupReadOnlyServer" DisplayName="Read Only Server" Id="19101" />
+		<Group ControlName="GroupReadOnlyOffline" DisplayName="Read Only Offline" Id="19102" />
+		<Group ControlName="GroupReadOnlyCheckOutRequired" DisplayName="Read Only Check Out Required" Id="19103" />
+		<Group ControlName="GroupReadOnlyCachedOffline" DisplayName="Group Read Only Cached Offline" Id="21201">
+		  <Button ControlName="ReadOnlyCachedOffline" DisplayName="Read Only Cached Offline" Id="21202" />
+		</Group>
+		<Group ControlName="GroupReadOnlyCached" DisplayName="Read Only Cached" Id="21485" />
+		<Group ControlName="GroupCheckIn" DisplayName="Check In" Id="19104">
+		  <Button ControlName="FileCheckOutDiscard" DisplayName="Discard Check Out" Id="16204" />
+		</Group>
+		<Group ControlName="GroupFileConvert" DisplayName="File Convert" Id="19096">
+		  <Button ControlName="UpgradeDocument" DisplayName="Upgrade Document" Id="15022" />
+		</Group>
+		<Group ControlName="GroupNoteBoard" DisplayName="Note Board" Id="19081" />
+		<Group ControlName="GroupSignatures" DisplayName="Signatures" Id="19952" />
+		<Group ControlName="GroupPermissions" DisplayName="Permissions" Id="19519">
+		  <Control ControlName="FileMarkAsFinal" DisplayName="Mark as Final" Id="13033" />
+		  <Control ControlName="FileDocumentEncrypt" DisplayName="Encrypt Document" Id="15675" />
+		  <Button ControlName="UsagePermissions" DisplayName="Permissions" Id="9003" />
+		  <Control ControlName="FilePermissionUnrestricted" DisplayName="Unrestricted Access" Id="7990" />
+		  <Control ControlName="FilePermissionDoNotDistribute" DisplayName="Restricted Access" Id="7991" />
+		  <Button ControlName="FilePermissionRestrictAs" DisplayName="Manage Credentials" Id="10014" />
+		  <Button ControlName="FileAddDigitalSignature" DisplayName="Add a Digital Signature" Id="13035" />
+		</Group>
+		<Group ControlName="GroupPrepareForSharing" DisplayName="Prepare For Sharing" Id="19659">
+		  <Control ControlName="AllowPersonallyIdentifiableInformation" DisplayName="Allow Personally Identifiable Information" Id="19668" />
+		</Group>
+		<Group ControlName="GroupVersions" DisplayName="Versions" Id="18242" />
+		<Group ControlName="GroupThumbnail" DisplayName="Thumbnail" Id="18792" />
+		<Group ControlName="GroupDocumentProperties" DisplayName="Document Properties" Id="18149" />
+	</Tab>
+	<Tab ControlName="TabRecent" DisplayName="Recent" Id="19950">
+		<Group ControlName="GroupRecentFiles" DisplayName="Recent Files" Id="19091" />
+		<Group ControlName="GroupRecentFilesOptions" DisplayName="Files Options" Id="22288" />
+		<Group ControlName="GroupRecentPlaces" DisplayName="Recent Places" Id="22688" />
+		<Group ControlName="GroupRecoverUnsavedFiles" DisplayName="Recover Unsaved Files" Id="22689" />
+	</Tab>
+	<Tab ControlName="TabNew" DisplayName="New" Id="19949">
+		<Group ControlName="GroupNewFormTemplates" DisplayName="New Form Templates" Id="19143" />
+		<Group ControlName="GroupNew2003Dialog" DisplayName="New 2003 Dialog" Id="19090" />
+		<Group ControlName="GroupNewFormPreview" DisplayName="New Form Preview" Id="20854" />
+	</Tab>
+	<Tab ControlName="TabPrint" DisplayName="Print" Id="18244">
+		<Group ControlName="GroupPrintProtectedView" DisplayName="Print Protected View" Id="19094" />
+		<Group ControlName="GroupPrintSettings" DisplayName="Print Settings" Id="19139" />
+		<Group ControlName="GroupPrintPreview" DisplayName="Print Preview" Id="19140" />
+	</Tab>
+	<Tab ControlName="TabShare" DisplayName="Save &amp; Send" Id="18147">
+		<TaskFormGroup ControlName="GroupShare" DisplayName="Share" Id="18791">
+			<Category ControlName="Share" DisplayName="Category Share" Id="18198">
+				<Task ControlName="SendUsingEmail" DisplayName="Task Send Using Email" Id="18209">
+					<Group ControlName="GroupSendUsingEmail" DisplayName="Send Using Email" Id="18166" />
+					<Group ControlName="GroupSendAsAttachment" DisplayName="Send as Attachment" Id="18169" />
+					<Group ControlName="GroupSendAsLink" DisplayName="Send As link" Id="18168" />
+					<Group ControlName="GroupSendAsPdf" DisplayName="Send As PDF" Id="18170" />
+					<Group ControlName="GroupSendAsXps" DisplayName="Send As XPS" Id="18171" />
+					<Group ControlName="GroupSendAsInternetFax" DisplayName="Send As Internet Fax" Id="18186" />
+				</Task>
+				<Task ControlName="ButtonTaskSaveToWebProvider" DisplayName="Save To Web Provider" Id="18205">
+					<Group ControlName="GroupSaveToWebProvider" DisplayName="Save to Web" Id="18164" >
+						<Button ControlName="NewFolder" DisplayName="New Folder" Id="1755" />
+					</Group>
+				</Task>
+				<Task ControlName="FileSaveToSharePoint" DisplayName="Task Save to SharePoint" Id="18204">
+					<Group ControlName="GroupFileSaveToSharePoint" DisplayName="Save to SharePoint" Id="18163" />
+				</Task>
+				<Task ControlName="SendByInstantMessage" DisplayName="Task Send By Instant Message" Id="18210">
+					<Group ControlName="GroupSendByInstantMessage" DisplayName="Send By Instant Message" Id="18187" />
+				</Task>
+				<Task ControlName="ShareApplication" DisplayName="Task Share Application" Id="18211">
+					<Group ControlName="GroupShareApplication" DisplayName="Share Application" Id="18188" />
+				</Task>
+			</Category>
+			<Category ControlName="FileTypes" DisplayName="File Types" Id="18196">
+				<Task ControlName="FileTypeChange" DisplayName="Change File Type" Id="18202">
+					<Group ControlName="GroupFileSave" DisplayName="File Save" Id="18159" />
+				</Task>
+				<Task ControlName="FileSaveAsPdfOrXps" DisplayName="Task Create PDF/XPS Document" Id="12499">
+					<Group ControlName="GroupCreatePdfOrXpsDocument" DisplayName="Create PDF/XPS Document" Id="18161" />
+				</Task>
+			</Category>
+			<Category ControlName="Workflow" DisplayName="Workflow" Id="18199">
+				<Task ControlName="WorkflowStart" DisplayName="Task Workflow Start" Id="18212">
+					<Group ControlName="GroupWorkflowStart" DisplayName="Workflow Start" Id="18189" />
+				</Task>
+				<Task ControlName="WorkflowsUnavailable" DisplayName="Task Workflows Unavailable" Id="18213">
+					<Group ControlName="GroupWorkflowsUnavailable" DisplayName="Workflows Unavailable" Id="18190" />
+				</Task>
+			</Category>
+		</TaskFormGroup>
+	</Tab>
+	<Tab ControlName="TabHelp" DisplayName="Help" Id="20802">
+		<TaskGroup ControlName="GroupContactMicrosoft" DisplayName="Contact Microsoft" Id="18154">
+			<Category ControlName="HelpAndTraining" DisplayName="Help And Training" Id="18200">
+				<Task ControlName="Help" DisplayName="Help" Id="984" />
+				<Task ControlName="HelpGettingStarted" DisplayName="Getting Started" Id="18216" />
+				<Task ControlName="HelpContactMicrosoft" DisplayName="Contact Us" Id="18215" />
+			</Category>
+			<Category ControlName="ToolsForWorkingWithOffice" DisplayName="Tools For Working With Office" Id="18201">
+				<Task ControlName="ApplicationOptionsDialog" DisplayName="Options" Id="11323" />
+				<Task ControlName="ClickToRunStatusUpdates" DisplayName="Click To Run Status Updates" Id="18214" />
+				<Task ControlName="ProductUpdates" DisplayName="Check for Updates" Id="18220" />
+			</Category>
+			<Group ControlName="GroupOfficeBranding" DisplayName="Office Branding" Id="22547" />
+			<Group ControlName="GroupClickToRunUpdateStatus" DisplayName="Click To Run Update Status" Id="20511" />
+		</TaskGroup>
+	</Tab>
+</Excel>

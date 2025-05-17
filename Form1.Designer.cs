@@ -56,6 +56,8 @@ namespace UWMConfigVersionSelector
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.openAMConsolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openEMConsolesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.statusStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -130,6 +132,7 @@ namespace UWMConfigVersionSelector
             this.statusStrip1.Size = new System.Drawing.Size(696, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
+            this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
             // 
             // toolStripStatusLabel1
             // 
@@ -272,7 +275,7 @@ namespace UWMConfigVersionSelector
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.optionsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -285,7 +288,9 @@ namespace UWMConfigVersionSelector
             // 
             this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
-            this.toolStripMenuItem2});
+            this.toolStripMenuItem2,
+            this.openAMConsolesToolStripMenuItem,
+            this.openEMConsolesToolStripMenuItem});
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.optionsToolStripMenuItem.Text = "Options";
@@ -294,23 +299,37 @@ namespace UWMConfigVersionSelector
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(176, 22);
             this.toolStripMenuItem1.Text = "Open EM Releases";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(176, 22);
             this.toolStripMenuItem2.Text = "Open AM Releases";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // openAMConsolesToolStripMenuItem
+            // 
+            this.openAMConsolesToolStripMenuItem.Name = "openAMConsolesToolStripMenuItem";
+            this.openAMConsolesToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.openAMConsolesToolStripMenuItem.Text = "Open AM Consoles";
+            this.openAMConsolesToolStripMenuItem.Click += new System.EventHandler(this.openAMConsolesToolStripMenuItem_Click);
+            // 
+            // openEMConsolesToolStripMenuItem
+            // 
+            this.openEMConsolesToolStripMenuItem.Name = "openEMConsolesToolStripMenuItem";
+            this.openEMConsolesToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
+            this.openEMConsolesToolStripMenuItem.Text = "Open EM Consoles";
+            this.openEMConsolesToolStripMenuItem.Click += new System.EventHandler(this.openEMConsolesToolStripMenuItem_Click);
             // 
             // Form1
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(696, 326);
             this.Controls.Add(this.btnUnloadConfig);
             this.Controls.Add(this.groupBox1);
@@ -328,7 +347,7 @@ namespace UWMConfigVersionSelector
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UWM ConfigVersionSelector Version 2.8";
+            this.Text = "UWM ConfigVersionSelector Version 2.9";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
@@ -374,6 +393,8 @@ namespace UWMConfigVersionSelector
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolStripMenuItem openAMConsolesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openEMConsolesToolStripMenuItem;
     }
 }
 

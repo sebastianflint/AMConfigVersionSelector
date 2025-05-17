@@ -16,6 +16,7 @@ using System.Text.Json;
 using System.Net;
 using System.Net.NetworkInformation;
 using Microsoft.Win32;
+using System.Threading;
 
 namespace UWMConfigVersionSelector
 {
@@ -264,6 +265,7 @@ namespace UWMConfigVersionSelector
                 Process.Start(startInfo);
 
                 toolStripStatusLabel1.Text = "Starting Console Version " + cmbAMVersion.Text;
+
             }
             catch
             {
@@ -310,7 +312,15 @@ namespace UWMConfigVersionSelector
 
         private void testToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+             DialogResult dialogResult = MessageBox.Show("Close program?", "Close", MessageBoxButtons.OKCancel);
+            if (dialogResult == DialogResult.OK)
+            {
             this.Close(); 
+            }
+            else if (dialogResult == DialogResult.Cancel)
+            {
+          
+            }
         }
 
         private void ToolStripAbout_Click(object sender, EventArgs e)
@@ -334,19 +344,20 @@ namespace UWMConfigVersionSelector
             cmbEMVersions.SelectedItem = null;
             ConfigPath = "";
         }
-
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Close program?", "Close", MessageBoxButtons.OKCancel);
+           /* DialogResult dialogResult = MessageBox.Show("Close program?", "Close", MessageBoxButtons.OKCancel);
             if (dialogResult == DialogResult.OK)
             {
-                
+
             }
             else if (dialogResult == DialogResult.Cancel)
             {
                 e.Cancel = true;
             }
+           */
         }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -357,7 +368,7 @@ namespace UWMConfigVersionSelector
         {
             try
             {
-                string currentVersion = "V2.8";
+                string currentVersion = "V2.9";
                 string latestVersion = GetLatestVersion("sebastianflint", "AMConfigVersionSelector");
 
                 if (currentVersion != latestVersion)
@@ -480,6 +491,21 @@ namespace UWMConfigVersionSelector
         private void btnOpenAemp_MouseHover(object sender, EventArgs e)
         {
             
+        }
+
+        private void openAMConsolesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:\Program Files (x86)\UWM Config VersionSelector\AMConsoles");
+        }
+
+        private void openEMConsolesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start(@"C:\Program Files (x86)\UWM Config VersionSelector\EMConsoles");
+        }
+
+        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }
