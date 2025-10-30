@@ -39,7 +39,6 @@ namespace UWMConfigVersionSelector
             this.btnOpenAamp = new System.Windows.Forms.Button();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lblHeader = new System.Windows.Forms.Label();
             this.cmbEMVersions = new System.Windows.Forms.ComboBox();
             this.btnOpenAemp = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
@@ -138,16 +137,6 @@ namespace UWMConfigVersionSelector
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
-            // 
-            // lblHeader
-            // 
-            this.lblHeader.AutoSize = true;
-            this.lblHeader.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeader.Location = new System.Drawing.Point(31, 101);
-            this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(385, 33);
-            this.lblHeader.TabIndex = 10;
-            this.lblHeader.Text = "UWM ConfigVersionSelector";
             // 
             // cmbEMVersions
             // 
@@ -254,9 +243,9 @@ namespace UWMConfigVersionSelector
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(163, 30);
+            this.pictureBox3.Location = new System.Drawing.Point(74, 11);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(121, 63);
+            this.pictureBox3.Size = new System.Drawing.Size(204, 149);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 12;
             this.pictureBox3.TabStop = false;
@@ -265,9 +254,9 @@ namespace UWMConfigVersionSelector
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::UWMConfigVersionSelector.Properties.Resources.SVA_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(521, 31);
+            this.pictureBox1.Location = new System.Drawing.Point(529, 29);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 80);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -336,7 +325,6 @@ namespace UWMConfigVersionSelector
             this.Controls.Add(this.grpOpenWithConsole);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.lblHeader);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -347,7 +335,7 @@ namespace UWMConfigVersionSelector
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "UWM ConfigVersionSelector Version 2.9";
+            this.Text = "UWM ConfigVersionSelector Version 3.0";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.Form1_DragDrop);
@@ -376,7 +364,6 @@ namespace UWMConfigVersionSelector
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label lblHeader;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.ComboBox cmbEMVersions;
         private System.Windows.Forms.Button btnOpenAemp;

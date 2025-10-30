@@ -1208,9 +1208,10 @@ C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\PackageMan
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\obj\Debug\UWMConfigVersionSelector.TrustInfo.xml
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\obj\Debug\UWMConfigVersionSelector.exe.manifest
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\obj\Debug\UWMConfigVersionSelector.application
-C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfigVersionSelector.csproj.CopyComplete
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\System.Memory.dll
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\System.Buffers.xml
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\System.Memory.xml
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\sebastian\Documents\GitHub\AMConfigVersionSelector\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Sebastian\Documents\GitHub\AMConfigVersionSelector\obj\Debug\UWMConfigVersionSelector.exe.config
+C:\Users\Sebastian\Documents\GitHub\AMConfigVersionSelector\obj\Debug\AMConfig.C9904427.Up2Date
