@@ -3,27 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|c:\\users\\sebastian\\documents\\github\\amconfigversionselector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|c:\\users\\sebastian\\documents\\github\\amconfigversionselector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AMConfigVersionSelector||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|solutionrelative:form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AMConfigVersionSelector||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|solutionrelative:form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED119A59-5813-4CE5-9331-AD88A071F1D6}|AMConfigVersionSelector.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,32 +33,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAFwBAAAAAAAAAAAvwGYBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-02-13T20:40:51.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AMConfigVersionSelector",
-              "DocumentMoniker": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\AMConfigVersionSelector.csproj",
-              "RelativeDocumentMoniker": "AMConfigVersionSelector.csproj",
-              "ToolTip": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\AMConfigVersionSelector.csproj",
-              "RelativeToolTip": "AMConfigVersionSelector.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2022-08-17T19:51:47.168Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -67,13 +43,13 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-02-13T20:40:51.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Entwurf]",
               "DocumentMoniker": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -85,19 +61,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwFoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-02-13T20:40:51.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AMConfigVersionSelector",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\AMConfigVersionSelector.csproj",
+              "RelativeDocumentMoniker": "AMConfigVersionSelector.csproj",
+              "ToolTip": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\AMConfigVersionSelector.csproj",
+              "RelativeToolTip": "AMConfigVersionSelector.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2022-08-17T19:51:47.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Form1.resx",
               "DocumentMoniker": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Form1.resx",
               "RelativeDocumentMoniker": "Form1.resx",
               "ToolTip": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Form1.resx",
               "RelativeToolTip": "Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2023-12-28T23:34:47.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-28T23:34:47.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Sebastian\\Documents\\GitHub\\AMConfigVersionSelector\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -105,8 +104,7 @@
               "RelativeToolTip": "Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T17:59:46.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T17:59:46.539Z"
             }
           ]
         }
