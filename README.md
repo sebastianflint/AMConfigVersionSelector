@@ -7,7 +7,7 @@
 
 <br/>
 
-![Version](https://img.shields.io/badge/version-3.1-4f8cff?style=for-the-badge&labelColor=13161e)
+![Version](https://img.shields.io/badge/version-4.0-4f8cff?style=for-the-badge&labelColor=13161e)
 ![Platform](https://img.shields.io/badge/platform-Windows-7c5cfc?style=for-the-badge&labelColor=13161e)
 ![Framework](https://img.shields.io/badge/.NET_Framework-4.x-2dd98e?style=for-the-badge&labelColor=13161e)
 ![Language](https://img.shields.io/badge/C%23-WinForms-e8ecf8?style=for-the-badge&labelColor=13161e)
