@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScintillaNET>
+  <Language Name="default">
+    <Styles>
+      <Style Name="Default" FontName="Consolas"/>
+    </Styles>
+  </Language>
+ 
+
+  <Language Name="css">
+
+    <Lexer LexerName="css" StreamCommentPrefix="/*" StreamCommentSuffix="*/" >
+      <Keywords List="0">
+        azimuth background background-attachment background-color background-image background-position background-repeat border border-bottom border-bottom-color border-bottom-style border-bottom-width border-collapse border-color border-left border-left-color border-left-style border-left-width border-right border-right-color border-right-style border-right-width border-spacing border-style border-top border-top-color border-top-style border-top-width border-width bottom caption-side clear clip color content counter-increment counter-reset cue cue-after cue-before cursor direction display elevation empty-cells float font font-family font-size font-size-adjust font-stretch font-style font-variant font-weight height left letter-spacing line-height list-style list-style-image list-style-position list-style-type margin margin-bottom margin-left margin-right margin-top marker-offset marks max-height max-width min-height min-width orphans outline outline-color outline-style outline-width overflow padding padding-bottom padding-left padding-right padding-top page page-break-after page-break-before page-break-inside pause pause-after pause-before pitch pitch-range play-during position quotes richness right size speak speak-header speak-numeral speak-ponctuation speech-rate stress table-layout text-align text-decoration text-indent text-shadow text-transform top unicode-bidi vertical-align visibility voice-family volume white-space widows width word-spacing z-index
+        active after before checked disabled empty enabled first first-child first-letter first-line first-of-type focus hover lang last-child last-of-type left link not only-child only-of-type nth-child right root target visited
+      </Keywords>
+    </Lexer>
+
+    <Styles>
+      <Style Name="DOCUMENT_DEFAULT"/>
+
+      <Style Name="TAG" ForeColor="blue" FontName="Batang"/>
+
+      <Style Name="CLASS" ForeColor="red"/>
+      <Style Name="PSEUDOCLASS" ForeColor="orange" Bold="Yes"/>
+      <Style Name="UNKNOWN_PSEUDOCLASS" ForeColor="orange" Bold="Yes"/>
+      <Style Name="OPERATOR" ForeColor="#AE690C" Bold="Yes"/>
+      <Style Name="IDENTIFIER" ForeColor="#7590FF" Bold="Yes"/>
+      <Style Name="UNKNOWN_IDENTIFIER" ForeColor="black"/>
+      <Style Name="VALUE" ForeColor="black" Bold="Yes"/>
+      <Style Name="COMMENT" ForeColor="green"/>
+      <Style Name="ID" ForeColor="blue" Bold="Yes"/>
+      <Style Name="IMPORTANT" ForeColor="red" Bold="Yes"/>
+      <Style Name="DIRECTIVE" ForeColor="green" Bold="Yes"/>
+      <Style Name="DOUBLESTRING" ForeColor="#A31515" Bold="Yes"/>
+      <Style Name="SINGLESTRING" ForeColor="#A31515" Bold="Yes"/>
+      <Style Name="IDENTIFIER2" ForeColor="#7590FF" Bold="Yes"/>
+      <Style Name="ATTRIBUTE" ForeColor="black"/>
+    </Styles>
+  </Language>
+</ScintillaNET>

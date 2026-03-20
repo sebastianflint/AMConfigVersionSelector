@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="UWMConfigVersionSelector.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
-  <description asmv2:iconFile="8059787_maintenance_update device_data processing_setting_configuration_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="UWMConfigVersionSelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -3595,14 +3595,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UWMConfigVersionSelector.exe" size="2043904">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UWMConfigVersionSelector.exe" size="93184">
       <assemblyIdentity name="UWMConfigVersionSelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jVlf+n/OSaSfxARTe3VNpslblPCbXqtlwRTy/5qTMbA=</dsig:DigestValue>
+        <dsig:DigestValue>/1oSX+rtaOHN2UafJuU0WJANnORf6Ry39st22Ai9RWs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3649,6 +3649,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>0QQTJgzM76aehnO5Ykcauj28rl/8ykFDrt8ny1EhpZY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3giGTdOdfxrKcyGOkf5uF/3wrvrlCLkYnSGtyTzrBgs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="UWMConfigVersionSelector.exe.config" size="802">

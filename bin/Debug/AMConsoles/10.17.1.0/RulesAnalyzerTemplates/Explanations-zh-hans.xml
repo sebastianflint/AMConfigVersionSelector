@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="GB2312"?>
+<?xml-stylesheet type="text/xsl" href="Explanations.xsl"?>
+<Explanations>
+
+<Item name="Group">
+	组规则适用于属于特定组的用户。其定义了允许和拒绝的项目列表。
+</Item>
+
+<Item name="Default">
+	默认规则中定义了一组默认设置。默认规则适用于所有用户，除非被匹配用户、组、客户端或自定义规则所覆盖。上述设置的例子包括: 启用受信任的所有权检查，默认允许本地驱动器。
+</Item>
+
+<Item name="User">
+	用户规则适用于特定用户。其定义了允许和拒绝的项目列表。
+</Item>
+  
+<Item name="AADUser">AAD 用户规则适用于特定用户。其定义了允许和拒绝的项目列表。
+</Item>  
+  
+<Item name="AADGroup">AAD 组规则适用于属于特定组的用户。其定义了允许和拒绝的项目列表。
+</Item>  
+
+<Item name="Device">
+  设备是指运行应用程序控制代理的计算机，或是通过终端服务连接 Microsoft 终端服务器(运行应用程序控制代理)的计算机。设备规则适用于运行应用程序控制代理的设备，也适用于连接终端服务器(托管应用程序控制代理)的客户端。设备规则指定适用于该设备所有登录用户的允许和拒绝的项目列表。
+</Item>
+
+<Item name="Exemptions">
+	豁免规则适用于用户、组或客户端，并确保不再应用其他规则。
+</Item>
+
+<Item name="Custom">
+	自定义规则将各种可用条件相结合，创建强大而灵活的表达式。您可以根据计算机、目录成员资格、环境、文件和文件夹、注册表、会话和客户端、用户以及 Visual Basic 或 JavaScript 脚本来创建条件。每个会话或每个请求可以对条件进行一次评估。</Item>
+
+<Item name="Process">
+   进程规则是以应用程序为中心的规则，经配置后可根据进程的请求来允许或拒绝进程的运行。该规则还允许将网络访问限制和应用程序权限级别置于应用程序级别，而不是用户或组级别。这意味着不同的应用程序可能具有一组完全不同的限制，而基于用户、组或设备的规则中没有这些限制。</Item>
+
+<Item name="Deny">
+	此规则已拒绝该请求。
+</Item>
+
+<Item name="Allow">
+	此规则已允许该请求。
+</Item>
+
+
+<Item name="Matched Term">
+	这是据规则中定义而匹配的允许或拒绝的项目，其导致规则触发。该项目可以是完全匹配或通配符匹配。例如，mspaint.exe 应与 mspaint.exe 和 ms*.exe 相匹配。</Item>
+
+
+<Item name="Trusted Ownership">
+	所请求的文件不属于可信所有者。受信任的所有权检查会将文件所有者与“可信所有者”列表中的用户和组列表进行比较。如果所有者不可信，则受信任的所有权检查将拒绝执行任何文件。您可以在全局或在单个文件和文件夹上禁用受信任的所有权检查。</Item>
+
+
+<Item name="Deny Script File Program">
+	此规则已暂时拒绝该请求，以便应用程序控制能够确定是否允许执行其处理的文件(脚本文件)。
+</Item>
+
+<Item name="System Process">
+	发出请求的进程是系统进程，尚未经过应用程序控制的验证。这是“默认规则”中的设置。</Item>
+
+<Item name="Client Mapped Drive">
+	所请求的文件位于 Citrix 客户端映射的驱动器上。应用程序控制无法访问这些驱动器，因此始终拒绝这些文件。</Item>
+
+
+<Item name="Prohibited Media">
+	所请求的文件位于禁用介质上(即软盘或光盘)。访问这些文件的唯一方法是将允许的数字签名添加至规则。</Item>
+
+
+<Item name="Remote File">
+	所请求的文件位于网络上。可以通过向规则添加允许的数字签名或文件/文件夹来访问文件。</Item>
+
+<Item name="Local File">
+	所请求的文件位于本地驱动器上。默认规则设置为“默认允许本地驱动器”，因此该请求遭到拒绝。</Item>
+
+<Item name="none">
+	什么都没有
+</Item>
+
+<Item name="None">
+	找不到可以拒绝此请求的设置。
+</Item>
+
+<Item name="Limit">
+	匹配项目有应用程序限制或时间限制。如果超出限制并且没有其他优先规则，则该请求将遭到拒绝。</Item>
+
+<Item name="Exempt">
+	此规则标记为“豁免”，因此匹配的用户可以运行任何文件。
+</Item>
+
+<Item name="Accessible Signature">
+	所请求的文件中的签名与该规则的“允许的项目”列表中的签名相匹配。
+</Item>
+
+<Item name="Prohibited Signature">
+	所请求的文件中的签名与该规则的“拒绝的项目”列表中的签名相匹配。
+</Item>
+
+<Item name="Accessible File">
+	所请求的文件与该规则的“允许的项目”列表中的文件项目相匹配。“匹配”显示匹配项目。
+</Item>
+
+<Item name="Prohibited File">
+	所请求的文件与该规则的“拒绝的项目”列表中的文件项目相匹配。“匹配”显示匹配项目。
+</Item>
+
+<Item name="Prohibited Folder">
+	所请求的文件所在的文件夹与该规则的“拒绝的项目”列表中的文件夹项目相匹配。“匹配”显示匹配项目。
+</Item>
+
+<Item name="Accessible Folder">
+	所请求的文件所在的文件夹与该规则的“允许的项目”列表中的文件夹项目相匹配。“匹配”显示匹配项目。
+</Item>
+
+<Item name="Accessible Drive">
+	所请求的文件位于该规则的“允许的项目”列表中定义的驱动器上。
+</Item>
+
+<Item name="Prohibited Drive">
+	所请求的文件位于该规则的“拒绝的项目”列表中定义的驱动器上。
+</Item>
+
+<Item name="File Extension">
+	所请求文件的扩展名与默认规则“扩展名筛选”中指定的其中一个扩展名相匹配。应用程序控制已忽略此文件。
+	规则。
+</Item>
+
+<Item name="Self-authorized">
+	所请求的文件最初遭到拒绝，然后由用户自行授权。
+</Item>
+
+<Item name="File Exists">
+	“文件存在”测试失败，因此请求被允许。
+</Item>
+
+<Item name="File Not Found">
+	所请求的文件不存在或无法找到。
+</Item>
+
+<Item name="Internal">
+	此请求已由应用程序控制进行特殊的内部处理。
+</Item>
+
+<Item name="Logon">
+	用户仍处于登录状态。
+</Item>
+
+<Item name="No Configuration">
+	没有保存或部署的配置。
+</Item>
+
+<Item name="SafeSpace File">
+	所请求的文件与该规则的“SafeSpace 项目”列表中的文件项目相匹配。“匹配”显示匹配项目。
+</Item>
+
+<Item name="SafeSpace Signature">
+	所请求的文件中的签名与该规则的“SafeSpace 项目”列表中的签名相匹配。“匹配”显示匹配项目。
+</Item>
+
+<Item name="SafeSpace Folder">
+	所请求的文件所在的文件夹与该规则的“SafeSpace 项目”列表中的文件夹项目相匹配。“匹配”显示匹配项目。
+</Item>
+
+<Item name="SafeSpace">
+	此规则允许该请求在 SafeSpace 中运行。
+</Item>
+
+<Item name="Self-authorized (native)">
+	所请求的文件最初遭到拒绝，然后由用户自行授权。
+</Item>
+<Item name="Self-authorized (in a SafeSpace)">
+	所请求的文件最初遭到拒绝，然后由用户自行授权在 SafeSpace 中运行。
+</Item>
+  
+  <Item name="Scripted">
+    脚本规则与用户提供的脚本结果相关联。如果脚本返回 &apos;True&apos;，则规则将匹配。该规则定义了允许和拒绝的项目列表。
+  </Item>
+
+  <Item name="Trusted Applications">
+    所请求的文件正在由可信应用程序运行。允许“可信应用程序”执行文件，否则这些文件会遭到规则拒绝。
+  </Item>
+
+  <Item name="Trusted Content">
+    “可信应用程序”运行的文件、文件夹和驱动器列表。
+  </Item>
+
+  <Item name="Trusted Vendors">
+    所请求的文件的数字证书与可信供应商项目列表中的数字证书相匹配。
+  </Item>
+
+  <Item name="Certificate Valid">
+    数字证书已经过匹配和验证。
+  </Item>
+
+  <Item name="Default Route">
+    默认路由是来自 IP 地址 0.0.0.0 的请求。如果给定目标地址没有其他已知路由，则使用此特殊地址。
+  </Item>
+
+  <Item name="Network Item: Resource">
+    所请求的网络项目位于该规则的“拒绝的项目”列表中。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="Network Item: Host">
+    所请求的网络项目位于该规则的“拒绝的项目”列表中。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="User Rights Modified">
+    此规则已更改用户的权限。
+  </Item>
+
+  <Item name="User Rights Elevated">
+    此规则已提升用户的权限。
+  </Item>
+
+  <Item name="User Rights Restricted">
+    此规则已限制用户的权限。
+  </Item>
+
+  <Item name="UAC Replacement">此应用程序的清单表明应升高运行。
+  </Item>
+
+  <Item name="ActiveX">
+    此规则已允许 ActiveX 请求。
+  </Item>
+
+  <Item name="ActiveX Elevated">
+    此规则已允许安装 ActiveX 控件。
+  </Item>
+
+  <Item name="ActiveX Restricted">
+    此规则已限制安装 ActiveX 控件。
+  </Item>
+
+  <Item name="File">
+    所请求的文件与该规则的用户权限列表中的文件项目相匹配。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="BuiltIn File">
+    所请求的文件与该规则的用户权限项目列表中的内置组件相匹配。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="Signature">
+    所请求的文件中的签名与该规则的用户权限项目列表中的签名相匹配。
+  </Item>
+
+  <Item name="Folder">
+    所请求的文件所在的文件夹与该规则的用户权限项目列表中的文件夹项目相匹配。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="Self-Elevated">
+    用户选择使用该规则设置所允许的提升的用户权限执行所请求的文件。“目标”显示匹配规则。
+  </Item>
+
+  <Item name="User-Requested Rule Change">
+    通过使用更改请求功能，系统允许用户访问此应用程序或获取相关的提升权限。
+  </Item>
+
+  <Item name="BuiltIn COM Component">
+    请求与该规则的“用户权限项目”列表中的内置 COM 组件相匹配。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="Uninstall Control">
+    请求与该规则的用户权限系统控制列表中的卸载控件项目相匹配。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="Service Control">
+    请求与该规则的用户权限系统控制列表中的服务控件项目相匹配。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="Event Log Control">
+    请求与该规则的用户权限系统控制列表中的事件日志控件项目相匹配。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="Prohibited Win Store App">
+    所请求的 Windows 应用商店应用与该规则的拒绝的项目列表中的项目相匹配。“匹配”显示匹配项目。
+  </Item>
+  <Item name="Accessible Win Store App">
+    所请求的 Windows 应用商店应用与该规则的允许的项目列表中的项目相匹配。“匹配”显示匹配项目。
+  </Item>
+  <Item name="Windows Store (Packaged) App">
+    默认情况下，允许使用 Windows 应用商店(打包)应用。这些应用只能在 Windows 8 及更高版本的操作系统上使用。
+  </Item>
+  <Item name="Prohibited Win Store App Publisher">
+    所请求的 Windows 应用商店应用与该规则的拒绝的项目列表中的项目相匹配。“匹配”显示匹配项目。
+  </Item>
+  <Item name="Accessible Win Store App Publisher">
+    所请求的 Windows 应用商店应用与该规则的允许的项目列表中的项目相匹配。“匹配”显示匹配项目。
+  </Item>
+
+  <Item name="URL Redirect">
+    此规则已将 URL 重定向。
+  </Item>
+  <Item name="Redirected URL">
+    所请求的 URL 与浏览器控件 URL 重定向列表中禁止的 URL 相匹配。
+  </Item>
+
+  <Item name="URL Allow">
+    此规则已允许使用 URL。
+  </Item>
+  <Item name="Allowed URL">
+    所请求的 URL 与浏览器控件 URL 重定向列表中允许的 URL 相匹配。
+  </Item>
+
+  <Item name="URL Elevate">
+    此规则已提升用户对所请求 URL 的权限。
+  </Item>
+  <Item name="Elevated Website">
+    所请求的 URL 与浏览器控件网站列表中具有提升权限的网站相匹配。
+  </Item>
+
+  <Item name="Exempt for URL redirection">
+    策略安全级别已在自定义设置中启用，并且匹配的策略已标记为“无限制”。
+  </Item>
+
+  <Item name="Exempt for URL elevation">
+    策略安全级别已在自定义设置中启用，并且匹配的策略已标记为“无限制”。
+  </Item>
+  
+  
+  <Item name="User Rights Default">
+    此规则指示用户的权限为操作系统提供的普通权限。
+  </Item>
+  <Item name="Process Termination Control File">
+    请求与该规则的用户权限系统控制列表中的“进程终止控件文件”项目相匹配。“匹配”显示匹配项目。
+  </Item>
+  <Item name="Process Termination Control Folder">
+    请求与该规则的用户权限系统控制列表中的进程终止控件文件夹项目相匹配。“匹配”显示匹配项目。
+  </Item>
+</Explanations>

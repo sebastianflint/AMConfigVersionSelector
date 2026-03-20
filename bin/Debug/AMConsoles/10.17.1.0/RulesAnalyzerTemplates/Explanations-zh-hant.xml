@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="big5"?>
+<?xml-stylesheet type="text/xsl" href="Explanations.xsl"?>
+<Explanations>
+
+<Item name="Group">
+	群組規則適用於屬於特定群組的使用者。它定義了允許與拒絕的項目清單。
+</Item>
+
+<Item name="Default">
+	預設規則中定義了一組預設設定。除非由對應的使用者、群組、用戶端規則或自訂規則覆寫，預設規則適用於所有使用者。預設設定的範例為: 啟用檢查受信任的擁有權、預設允許本機磁碟。
+</Item>
+
+<Item name="User">
+	使用者規則適用於特定使用者。它定義了允許與拒絕的項目清單。
+</Item>
+  
+<Item name="AADUser">AAD 使用者規則適用於特定使用者。它定義了允許與拒絕的項目清單。
+</Item>  
+  
+<Item name="AADGroup">AAD 群組規則適用於屬於特定群組的使用者。它定義了允許與拒絕的項目清單。
+</Item>  
+
+<Item name="Device">
+  裝置的定義為任何正在執行應用程式控制代理程式的電腦，或透過終端機服務連接到 Microsoft 終端機伺服器，並正在執行應用程式控制代理程式的電腦。裝置規則可適用於正在執行應用程式控制代理程式的裝置，或連接到終端機伺服器主控應用程式控制代理程式的用戶端。裝置規則定義適用於登入該裝置的任何使用者的允許與拒絕的項目清單。
+</Item>
+
+<Item name="Exemptions">
+	豁免規則適用於一位使用者、群組或用戶端，並確保不應用其他規則。
+</Item>
+
+<Item name="Custom">
+	自訂規則結合各種可用條件，建立強大與彈性的運算式。您可以根據電腦、目錄、成員資格、環境、檔案和資料夾、登錄、工作階段和用戶端、使用者、Visual Basic 或 JavaScript 的指令碼建立條件。您可以在每個工作階段或每個要求完成後評估條件。
+</Item>
+
+<Item name="Process">
+   處理規則是可以根據處理程序的要求設定允許或拒絕該處理程序運行的中心規則應用程式。此規則同時允許網路存取限制與應用程式權限等級置於應用程式層級中，而非使用者或群組層級，即代表不同應用程式可以設定完全不同的限制，而基於使用者、群組或裝置的規則沒有這些限制。
+</Item>
+
+<Item name="Deny">
+	此規則已拒絕要求。
+</Item>
+
+<Item name="Allow">
+	此規則已允許要求。
+</Item>
+
+
+<Item name="Matched Term">
+	此為經規則定義相符的允許或拒絕的項目 – 此項目致使規則觸發。搜尋結果為完全相符或經萬用字元比對相符的結果。例如，mspaint.exe 和 ms*.exe 相符的搜尋結果為 mspaint.exe。
+</Item>
+
+
+<Item name="Trusted Ownership">
+	要求的檔案並非為受信任的擁有者所有。受信任的擁有權檢查將比對檔案擁有者是否列於受信任的擁有者清單中的使用者與群組清單中。受信任的擁有權檢查將禁止任何不受信任的擁有者執行任何檔案。您可以全面停用受信任的擁有權檢查或在個別檔案或資料夾中停用。</Item>
+
+
+<Item name="Deny Script File Program">
+	此規則已 (暫時) 拒絕要求，以啟用應用程式控制，決定是否允許執行該檔案 (指令檔)。
+</Item>
+
+<Item name="System Process">
+	提出此要求的處理程序是系統處理程序，該程序未經應用程式控制驗證。此為預設規則的設定。
+</Item>
+
+<Item name="Client Mapped Drive">
+	要求的檔案在 Citrix 用戶端對應磁碟機中。應用程式控制無法存取這些磁碟機，因此一律拒絕此種檔案。
+</Item>
+
+
+<Item name="Prohibited Media">
+	要求的檔案在禁止的媒體上 (例如磁碟片、光碟機)。唯一能允許這些檔案的方式是在規則中增加一個已允許的數位簽章。
+</Item>
+
+
+<Item name="Remote File">
+	要求的檔案在網路上。透過在規則中增加一個已允許的數位簽章或已允許的檔案/資料夾，便可允許檔案。
+</Item>
+
+<Item name="Local File">
+	要求的檔案在本機磁碟中。此要求因為預設規則設定「預設允許本機磁碟」遭拒。
+</Item>
+
+<Item name="none">
+	什麼都沒有
+</Item>
+
+<Item name="None">
+	找不到拒絕此項要求的設定。
+</Item>
+
+<Item name="Limit">
+	符合的項目有應用程式限制或時間限制。若超過時間限制，且沒有其他優先規則，此要求將遭拒。
+</Item>
+
+<Item name="Exempt">
+	此規則標示為「豁免」，因此符合的使用者可以執行任何檔案。
+</Item>
+
+<Item name="Accessible Signature">
+	要求的檔案的簽章符合此規則的允許項目清單中的簽章。
+</Item>
+
+<Item name="Prohibited Signature">
+	要求的檔案的簽章符合此規則的拒絕項目清單中的簽章。
+</Item>
+
+<Item name="Accessible File">要求的檔案符合此規則的允許項目清單中的檔案項目。「符合」顯示符合的項目。
+</Item>
+
+<Item name="Prohibited File">要求的檔案符合此規則的拒絕項目清單中的檔案項目。「符合」顯示符合的項目。
+</Item>
+
+<Item name="Prohibited Folder">要求的檔案所在的資料夾符合此規則的拒絕項目清單中的資料夾項目。「符合」顯示符合的項目。
+</Item>
+
+<Item name="Accessible Folder">要求的檔案所在的資料夾符合此規則的允許項目清單中的資料夾項目。「符合」顯示符合的項目。
+</Item>
+
+<Item name="Accessible Drive">
+	要求的檔案所在的磁碟機符合此規則定義的允許項目清單。
+</Item>
+
+<Item name="Prohibited Drive">
+	要求的檔案所在的磁碟機符合此規則定義的拒絕項目清單。
+</Item>
+
+<Item name="File Extension">
+	要求的檔案的副檔名符合預設規則的「副檔名篩選」其中一項指定的副檔名。應用程式控制已忽略此檔案。
+規則。</Item>
+
+<Item name="Self-authorized">
+	要求的檔案原先遭拒，之後經使用者自行授權。
+</Item>
+
+<Item name="File Exists">
+	允許要求，因「檔案存在」測試失敗。
+</Item>
+
+<Item name="File Not Found">
+	要求的檔案不存在或找不到。
+</Item>
+
+<Item name="Internal">
+	此要求已經受應用程式控制的特殊內部處理。
+</Item>
+
+<Item name="Logon">
+	使用者仍在登入中。
+</Item>
+
+<Item name="No Configuration">
+	沒有已儲存或已部屬的組態。</Item>
+
+<Item name="SafeSpace File">
+	要求的檔案符合此規則的 SafeSpace 項目清單中的檔案項目。「符合」顯示符合的項目。
+</Item>
+
+<Item name="SafeSpace Signature">
+	要求的檔案的簽章符合此規則的 SafeSpace 項目清單中的簽章。「符合」顯示符合的項目。
+</Item>
+
+<Item name="SafeSpace Folder">
+	要求的檔案所在的資料夾符合此規則的 SafeSpace 項目清單中的資料夾項目。「符合」顯示符合的項目。
+</Item>
+
+<Item name="SafeSpace">
+	此規則已允許在 SafeSpace 內執行要求。
+</Item>
+
+<Item name="Self-authorized (native)">
+	要求的檔案原先遭拒，之後經使用者自行授權。
+</Item>
+<Item name="Self-authorized (in a SafeSpace)">
+	要求的檔案原先遭拒，之後經使用者自行授權在 SafeSpace 內執行。
+</Item>
+  
+  <Item name="Scripted">
+    執行指令的規則與使用者提供的指令碼結果相關。如果指令碼回傳 &apos;True&apos;，則規則符合。規則定義允許與拒絕的項目清單。
+  </Item>
+
+  <Item name="Trusted Applications">
+    要求的檔案正在由受信任的應用程式執行。只有受信任的應用程式可以執行檔案，否則會遭規則拒絕。
+  </Item>
+
+  <Item name="Trusted Content">
+    受信任的應用程式可以執行的檔案、資料夾和磁碟機清單。
+  
+</Item>
+
+  <Item name="Trusted Vendors">
+    要求的檔案的數位憑證符合受信任的廠商項目清單中的數位憑證。
+  
+</Item>
+
+  <Item name="Certificate Valid">
+    數位憑證已符合且已驗證。
+  
+</Item>
+
+  <Item name="Default Route">
+    預設路由的要求來自 IP 位址 0.0.0.0。此為不知道路由的目的地位址時使用的特殊位址。
+  
+</Item>
+
+  <Item name="Network Item: Resource">
+    要求的網路項目在本規則的拒絕項目清單中。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="Network Item: Host">
+    要求的網路項目在本規則的拒絕項目清單中。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="User Rights Modified">
+    此規則已變更使用者的權限。
+  </Item>
+
+  <Item name="User Rights Elevated">
+    此規則已提高使用者的權限。
+  </Item>
+
+  <Item name="User Rights Restricted">
+    此規則已限制使用者的權限。
+  </Item>
+
+  <Item name="UAC Replacement">
+    此應用程式的資訊清單指出，應以提高的權限執行此應用程式。
+  </Item>
+
+  <Item name="ActiveX">
+    此規則允許 ActiveX 的要求。
+  </Item>
+
+  <Item name="ActiveX Elevated">
+    此規則允許安裝 ActiveX 控制項。
+  </Item>
+
+  <Item name="ActiveX Restricted">
+    此規則禁止安裝 ActiveX 控制項。
+  </Item>
+
+  <Item name="File">
+    要求的檔案符合此規則使用者權限清單中的檔案項目。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="BuiltIn File">
+    要求的檔案符合此規則使用者權限項目清單中的內建元件。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="Signature">
+    要求的檔案的簽章符合此規則的使用者權限項目清單簽章。
+  </Item>
+
+  <Item name="Folder">
+    要求的檔案所在的資料夾符合此規則的使用者權限項目清單中的資料夾項目。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="Self-Elevated">
+    使用者決定透過此規則的設定提高權並限執行要求的檔案。「目標」顯示符合的規則。
+  
+</Item>
+
+  <Item name="User-Requested Rule Change">
+    使用者透過變更要求的功能，有權存取或提高權限以執行此應用程式。
+  
+</Item>
+
+  <Item name="BuiltIn COM Component">
+    要求符合本規則的使用者權限項目清單中的內建 COM 元件。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="Uninstall Control">
+    要求符合本規則的使用者權限系統控制項清單中的解除安裝控制項。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="Service Control">
+    要求符合本規則的使用者權限系統控制清單中的系統控制項目。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="Event Log Control">
+    要求符合本規則的使用者權限系統控制項清單中的事件紀錄檔。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="Prohibited Win Store App">
+    要求的 Windows 市集應用程式符合本規則拒絕項目清單中的項目。「符合」顯示符合的項目。
+  </Item>
+  <Item name="Accessible Win Store App">
+    要求的 Windows 市集應用程式符合本規則允許項目清單中的項目。「符合」顯示符合的項目。
+  </Item>
+  <Item name="Windows Store (Packaged) App">
+    預設允許 Windows 市集 (封裝的) 應用程式。僅適用於 Windows 8 或以上版本的作業系統。
+  </Item>
+  <Item name="Prohibited Win Store App Publisher">
+    要求的 Windows 市集應用程式符合本規則拒絕項目清單中的項目。「符合」顯示符合的項目。
+  </Item>
+  <Item name="Accessible Win Store App Publisher">
+    要求的 Windows 市集應用程式符合本規則允許項目清單中的項目。「符合」顯示符合的項目。
+  </Item>
+
+  <Item name="URL Redirect">
+    此規則已啟用 URL 重新導向。
+  </Item>
+  <Item name="Redirected URL">
+    要求的 URL 符合瀏覽器控制項 URL 重新導向清單中的禁止 URL。
+  </Item>
+
+  <Item name="URL Allow">
+    此規則已允許 URL。
+  </Item>
+  <Item name="Allowed URL">
+    要求的 URL 符合瀏覽器控制項 URL 重新導向清單中的允許 URL。
+  </Item>
+
+  <Item name="URL Elevate">
+    此規則根據要求的 URL 已提高使用者權限。
+  </Item>
+  <Item name="Elevated Website">
+    要求的 URL 符合瀏覽器控制項清單中的高權限網站。
+  </Item>
+
+  <Item name="Exempt for URL redirection">
+    安全性等級原則使自訂設定和符合的原則顯示「不受限制」。
+  </Item>
+
+  <Item name="Exempt for URL elevation">
+    安全性等級原則使自訂設定和符合的原則顯示「不受限制」。
+  </Item>
+  
+  
+  <Item name="User Rights Default">
+    此規則指示使用者權限透過作業系統成為一般權限。
+  </Item>
+  <Item name="Process Termination Control File">
+    要求符合此規則的使用者權限系統控制項清單中的終止處理程序控制項檔案項目。「符合」顯示符合的項目。
+  </Item>
+  <Item name="Process Termination Control Folder">
+    要求符合此規則的使用者權限系統控制項清單中的終止處理程序控制項資料夾項目。「符合」顯示符合的項目。
+  </Item>
+</Explanations>

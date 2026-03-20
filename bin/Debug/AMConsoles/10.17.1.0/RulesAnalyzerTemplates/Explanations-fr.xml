@@ -1,0 +1,342 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Explanations.xsl"?>
+<Explanations>
+
+<Item name="Group">
+	Une règle de groupe s&apos;applique aux utilisateurs membres d&apos;un groupe spécifique. Définit la liste des éléments autorisés et des éléments refusés.
+</Item>
+
+<Item name="Default">
+	Il n&apos;existe qu&apos;un seul jeu de paramètres par défaut, définis sous Règles par défaut. Les règles par défaut s&apos;appliquent à tous les utilisateurs, sauf si elles sont remplacées par une règle d&apos;utilisateur, de groupe, de client ou règle personnalisée correspondante. Exemples pour ces paramètres : Activer la vérification Trusted Ownership, Marquer par défaut les lecteurs locaux comme Autorisés.
+</Item>
+
+<Item name="User">
+	Une règle utilisateur s&apos;applique à un utilisateur spécifique. Définit la liste des éléments autorisés et des éléments refusés.
+</Item>
+  
+<Item name="AADUser">
+	An AAD User Rule applies to a specific user. It defines lists of allowed and denied items.
+</Item>  
+  
+<Item name="AADGroup">
+	An AAD Group Rule applies to users belonging to a specific group. It defines lists of allowed and denied items.
+</Item> 
+
+<Item name="Device">
+  On considère que le terme périphérique désigne tout ordinateur exécutant l&apos;agent Application Control, ou connecté via Terminal Services à un serveur de terminal Microsoft exécutant l&apos;agent Application Control. Les règles de périphérique s&apos;appliquent à un périphérique exécutant l&apos;agent Application Control, ou à un client connecté à un serveur de terminal qui héberge l&apos;agent Application Control. Une règle de périphérique spécifie la liste des éléments autorisés et éléments refusés, et s&apos;applique à tous les utilisateurs connectés sur le périphérique concerné.
+</Item>
+
+<Item name="Exemptions">
+	Une règle d&apos;exemption s&apos;applique à un utilisateur, un groupe ou un client, et garantit qu&apos;aucune autre règle n&apos;est appliquée.
+</Item>
+
+<Item name="Custom">
+	Les règles personnalisées combinent une grande variété de conditions disponibles, pour créer des expressions puissantes et flexibles. Vous pouvez créer des conditions reposant sur l&apos;ordinateur, l&apos;appartenance à un répertoire, l&apos;environnement, des fichiers et des dossiers, le registre, la session et le client, l&apos;utilisateur, et des scripts Visual Basic ou JavaScript. Les conditions peuvent être évaluées une fois par session ou à chaque demande. 
+</Item>
+
+<Item name="Process">
+   Une règle de processus est une règle centrée sur l&apos;application, que vous pouvez configurer pour autoriser ou refuser l&apos;exécution d&apos;un processus en fonction du processus demandeur. La règle permet aussi de définir des restrictions d&apos;accès réseau et des niveaux de privilèges d&apos;application pour une application spécifique plutôt que pour un utilisateur ou un groupe, ce qui signifie que des applications différentes peuvent disposer d&apos;un jeu totalement différent de restrictions, non disponibles dans les règles d&apos;utilisateur, de groupe ou de périphérique. 
+</Item>
+
+<Item name="Deny">
+	Cette règle a refusé la demande.
+</Item>
+
+<Item name="Allow">
+	Cette règle a autorisé la demande.
+</Item>
+
+
+<Item name="Matched Term">
+	Ceci est l&apos;élément autorisé ou refusé correspondant, défini dans la règle. Il a provoqué le déclenchement de cette règle. Il peut s&apos;agir d&apos;une correspondance exacte ou partielle avec caractère générique. Par exemple, mspaint.exe correspond à mspaint.exe et à ms*.exe.
+</Item>
+
+
+<Item name="Trusted Ownership">
+	Le fichier demandé n&apos;appartient pas à un propriétaire de confiance. La vérification Trusted Ownership compare le propriétaire du fichier aux utilisateurs et groupes figurant dans la liste Propriétaires de confiance. La vérification Trusted Ownership refuse l&apos;exécution du fichier si son propriétaire n&apos;est pas un propriétaire de confiance. Vous pouvez désactiver la vérification Trusted Ownership au niveau global, ou pour des fichiers et dossiers spécifiques.
+</Item>
+
+
+<Item name="Deny Script File Program">
+	Cette règle a (temporairement) refusé la demande pour permettre à Application Control de déterminer si le fichier traité (fichier de script) est autorisé.
+</Item>
+
+<Item name="System Process">
+	Le processus ayant émis la demande est un processus système et les processus système ne sont pas validés par Application Control. Il s&apos;agit d&apos;un paramètre sous Règles par défaut.
+</Item>
+
+<Item name="Client Mapped Drive">
+	Le fichier demandé se trouve sur un lecteur mappé de client Citrix. Application Control ne peut pas accéder à ce type de lecteurs, alors les fichiers sont toujours refusés.
+</Item>
+
+
+<Item name="Prohibited Media">
+	Le fichier demandé se trouve sur un support interdit (à savoir, disquette, CD-ROM, etc.). La seule façon d&apos;autoriser ces fichiers consiste à ajouter à une règle une signature numérique autorisée.
+</Item>
+
+
+<Item name="Remote File">
+	Le fichier demandé se trouve sur le réseau. Vous pouvez autoriser ce fichier en ajoutant à une règle soit une signature numérique autorisée, soit un fichier/dossier autorisé.  
+</Item>
+
+<Item name="Local File">
+	Le fichier demandé se trouve sur un lecteur local. Cette demande a été refusée en raison du paramètre Règles par défaut &apos;Marquer par défaut les lecteurs locaux comme Autorisés&apos;.
+</Item>
+
+<Item name="none">
+	Rien, nada, zip
+</Item>
+
+<Item name="None">
+	Aucun paramètre n&apos;a été trouvé qui refuse cette demande.
+</Item>
+
+<Item name="Limit">
+	L&apos;élément correspondant porte soit une limite d&apos;application, soit une limite horaire. Cette demande sera refusée si la limite est dépassée et qu&apos;aucune autre règle n&apos;est prioritaire.
+</Item>
+
+<Item name="Exempt">
+	Cette règle est marquée &apos;Exempté&apos;, alors les utilisateurs correspondants peuvent exécuter tous les fichiers.
+</Item>
+
+<Item name="Accessible Signature">
+	Le fichier demandé porte une signature qui figure dans la liste Éléments autorisés pour cette règle.
+</Item>
+
+<Item name="Prohibited Signature">
+	Le fichier demandé porte une signature qui figure dans la liste Éléments refusés pour cette règle.
+</Item>
+
+<Item name="Accessible File">
+	Le fichier demandé figure dans la liste Éléments autorisés pour cette règle.
+&apos;Correspondance&apos; montre l&apos;élément concordant.  
+</Item>
+
+<Item name="Prohibited File">
+	Le fichier demandé figure dans la liste Éléments refusés pour cette règle.
+&apos;Correspondance&apos; montre l&apos;élément concordant.</Item>
+
+<Item name="Prohibited Folder">
+	Le fichier demandé figure dans un dossier présent dans la liste Éléments refusés pour cette règle.
+&apos;Correspondance&apos; montre l&apos;élément concordant.</Item>
+
+<Item name="Accessible Folder">
+	Le fichier demandé figure dans un dossier présent dans la liste Éléments autorisés pour cette règle. 
+&apos;Correspondance&apos; montre l&apos;élément concordant.</Item>
+
+<Item name="Accessible Drive">
+	Le fichier demandé figure sur un lecteur présent dans la liste Éléments autorisés pour cette règle.
+</Item>
+
+<Item name="Prohibited Drive">
+	Le fichier demandé figure sur un lecteur présent dans la liste Éléments refusés pour cette règle.
+</Item>
+
+<Item name="File Extension">
+	L&apos;extension du fichier demandé est l&apos;une des extensions de la liste &apos;Filtrage des extensions&apos;, sous Règles par défaut. Application Control a ignoré ce fichier.
+	règles.
+</Item>
+
+<Item name="Self-authorized">
+	Le fichier demandé a initialement été refusé, puis auto-autorisé par l&apos;utilisateur.
+</Item>
+
+<Item name="File Exists">
+	La demande a été autorisée parce que le test &quot;Le fichier existe&quot; indique Échec.
+</Item>
+
+<Item name="File Not Found">
+	Le fichier demandé n&apos;existe pas ou est introuvable.
+</Item>
+
+<Item name="Internal">
+	Cette demande a été soumise à un traitement interne spécial par Application Control.
+</Item>
+
+<Item name="Logon">
+	L&apos;utilisateur est encore en train de se connecter.
+</Item>
+
+<Item name="No Configuration">
+	Il n&apos;existe aucune configuration enregistrée ou déployée.
+</Item>
+
+<Item name="SafeSpace File">
+	Le fichier demandé figure dans la liste Éléments SafeSpace pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.  
+</Item>
+
+<Item name="SafeSpace Signature">
+	Le fichier demandé porte une signature qui figure dans la liste Éléments SafeSpace pour cette règle. 
+&apos;Correspondance&apos; montre l&apos;élément concordant.</Item>
+
+<Item name="SafeSpace Folder">
+	Le fichier demandé figure dans un dossier présent dans la liste Éléments SafeSpace pour cette règle. 
+&apos;Correspondance&apos; montre l&apos;élément concordant.</Item>
+
+<Item name="SafeSpace">
+	Cette règle a autorisé la demande d&apos;exécution dans SafeSpace.
+</Item>
+
+<Item name="Self-authorized (native)">
+	Le fichier demandé a initialement été refusé, puis auto-autorisé par l&apos;utilisateur.
+</Item>
+<Item name="Self-authorized (in a SafeSpace)">
+	Le fichier demandé a initialement été refusé, puis auto-autorisé par l&apos;utilisateur pour exécution dans SafeSpace.
+</Item>
+  
+  <Item name="Scripted">
+    Une règle scriptée est associée au résultat d&apos;un script fourni par l&apos;utilisateur. Si le script renvoie &apos;True&apos; (Vrai), il y a correspondance de la règle. La règle définit les listes Éléments autorisés et Éléments refusés.
+  </Item>
+
+  <Item name="Trusted Applications">
+    Le fichier demandé est en cours d&apos;exécution par une application de confiance. Les applications de confiance sont autorisées à exécuter des fichiers qui seraient autrement refusés par les règles.
+  </Item>
+
+  <Item name="Trusted Content">
+    Liste des fichiers, dossiers et lecteurs qu&apos;une application de confiance est autorisée à exécuter.
+  </Item>
+
+  <Item name="Trusted Vendors">
+    Le fichier demandé comporte un certificat numérique qui figure dans la liste Fournisseurs de confiance.
+  </Item>
+
+  <Item name="Certificate Valid">
+    Le certificat numérique a été mis en correspondance et validé.
+  </Item>
+
+  <Item name="Default Route">
+    La route par défaut est une demande provenant de l&apos;adresse IP 0.0.0.0. Il s&apos;agit d&apos;une adresse spéciale utilisée lorsqu&apos;il n&apos;existe aucune autre route connue pour une adresse de destination donnée. 
+  </Item>
+
+  <Item name="Network Item: Resource">
+    L&apos;élément réseau demandé figure dans la liste Éléments refusés pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="Network Item: Host">
+    L&apos;élément réseau demandé figure dans la liste Éléments refusés pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant. 
+  </Item>
+
+  <Item name="User Rights Modified">
+    Cette règle a changé les privilèges de l&apos;utilisateur.
+  </Item>
+
+  <Item name="User Rights Elevated">
+    Cette règle a élevé les privilèges de l&apos;utilisateur.
+  </Item>
+
+  <Item name="User Rights Restricted">
+    Cette règle a restreint les privilèges de l&apos;utilisateur.
+  </Item>
+
+  <Item name="UAC Replacement">
+    Le manifeste de cette application indique qu&apos;elle doit être exécutée en mode Élevé.
+  </Item>
+
+  <Item name="ActiveX">
+    Cette règle a autorisé une demande ActiveX.
+  </Item>
+
+  <Item name="ActiveX Elevated">
+    Cette règle a autorisé l&apos;installation d&apos;un contrôle ActiveX.
+  </Item>
+
+  <Item name="ActiveX Restricted">
+    Cette règle a interdit l&apos;installation d&apos;un contrôle ActiveX.
+  </Item>
+
+  <Item name="File">
+    Le fichier demandé correspond à une entrée de la liste Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="BuiltIn File">
+    Le fichier demandé correspond à un composant intégré figurant dans la liste Éléments Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="Signature">
+    Le fichier demandé porte une signature qui figure dans la liste Éléments Privilèges utilisateur pour cette règle.
+  </Item>
+
+  <Item name="Folder">
+    Le fichier demandé figure dans un dossier présent dans la liste Éléments Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="Self-Elevated">
+    L&apos;utilisateur a choisi d&apos;exécuter le fichier demandé avec des privilèges utilisateur élevés, comme le permettent les paramètres de cette règle. &apos;Cible&apos; montre la règle correspondante.
+  </Item>
+
+  <Item name="User-Requested Rule Change">
+    L&apos;utilisateur a reçu un accès ou des privilèges élevés pour cette application à l&apos;aide de la fonction Demande de changement.
+  </Item>
+
+  <Item name="BuiltIn COM Component">
+    La demande correspond à un composant COM intégré figurant dans la liste Éléments Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="Uninstall Control">
+    La demande correspond à un élément de contrôle Désinstaller figurant dans la liste des contrôles système Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="Service Control">
+    La demande correspond à un élément de contrôle Service figurant dans la liste des contrôles système Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="Event Log Control">
+    La demande correspond à un élément de contrôle Journal d&apos;événements figurant dans la liste des contrôles système Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="Prohibited Win Store App">
+    L&apos;appli Windows Store demandée correspond à une entrée de la liste Éléments refusés pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+  <Item name="Accessible Win Store App">
+    L&apos;appli Windows Store demandée correspond à une entrée de la liste Éléments autorisés pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+  <Item name="Windows Store (Packaged) App">
+    Les applis Windows Store (en paquet) sont autorisées par défaut. Elles sont disponibles uniquement sous les systèmes d&apos;exploitation Windows 8 et supérieur.
+  </Item>
+  <Item name="Prohibited Win Store App Publisher">
+    L&apos;appli Windows Store demandée correspond à une entrée de la liste Éléments refusés pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+  <Item name="Accessible Win Store App Publisher">
+    L&apos;appli Windows Store demandée correspond à une entrée de la liste Éléments autorisés pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+
+  <Item name="URL Redirect">
+    Cette règle a redirigé l&apos;URL.
+  </Item>
+  <Item name="Redirected URL">
+    L&apos;URL demandée correspond à une URL interdite figurant dans la liste Redirection d&apos;URL du contrôle de navigateur (Browser Control).
+  </Item>
+
+  <Item name="URL Allow">
+    Cette règle a autorisé l&apos;URL.
+  </Item>
+  <Item name="Allowed URL">
+    L&apos;URL demandée correspond à une URL autorisée figurant dans la liste Redirection d&apos;URL du contrôle de navigateur (Browser Control).
+  </Item>
+
+  <Item name="URL Elevate">
+    Cette règle a élevé les privilèges de l&apos;utilisateur pour l&apos;URL demandée.
+  </Item>
+  <Item name="Elevated Website">
+    L&apos;URL demandée correspond à un site Web élevé figurant dans la liste Sites Web du contrôle de navigateur (Browser Control).
+  </Item>
+
+  <Item name="Exempt for URL redirection">
+    Le niveau de sécurité de la stratégie est activé sous Paramètres personnalisés et cette stratégie est marquée &apos;Non restreint&apos;.
+  </Item>
+
+  <Item name="Exempt for URL elevation">
+    Le niveau de sécurité de la stratégie est activé sous Paramètres personnalisés et cette stratégie est marquée &apos;Non restreint&apos;.
+  </Item>
+  
+  
+  <Item name="User Rights Default">
+    Cette règle demande que les privilèges de l&apos;utilisateur soient les privilèges habituellement octroyés par le système d&apos;exploitation.
+  </Item>
+  <Item name="Process Termination Control File">
+    La demande correspond à un élément Fichier de contrôle Fin de processus figurant dans la liste des contrôles système Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+  <Item name="Process Termination Control Folder">
+    La demande correspond à un élément Dossier de contrôle Fin de processus figurant dans la liste des contrôles système Privilèges utilisateur pour cette règle. &apos;Correspondance&apos; montre l&apos;élément concordant.
+  </Item>
+</Explanations>

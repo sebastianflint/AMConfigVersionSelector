@@ -1,0 +1,329 @@
+div.group
+{
+	background-color: #ffffff;
+}
+
+div.Main
+{
+    visibility:        hidden;
+    background-color:  #E6E6E6;
+    position:          absolute;
+    left:              0;
+    top:               0;
+    background-image:  url(gradient_background_5.bmp);
+    background-repeat: repeat-x;
+}
+
+div.banner
+{
+	background:	#FFFFFF;
+	filter:		progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#3F7CD8', EndColorStr='#3F7CD8');
+
+	border-style:		solid;
+	border-width:		1;
+	border-bottom: solid 1px #3F7CD8;
+	border-top: solid 0px;
+	border-left: solid 0px;
+	border-right: solid 0px;
+
+	z-order:	5;
+
+	font-family: Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-top: 2px;
+	cursor: default;
+
+	color:	#FFFFFF;
+}
+
+div.grouplabel
+{
+	font-family: Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #ffffff;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #6B6B6B;
+}
+
+div.boldlabel
+{
+	background-color: #E7F1FA;
+	color:		#3c4d81;
+	font-weight: bold;
+	padding-left:		5px;		
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#E7F1FA, EndColorStr=#91A9D0);
+}
+div.boldlabel2
+{
+	background-color: #E7F1FA;
+	color:		#3c4d81;
+	font-weight: bold;
+	padding-left:		5px;		
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#DEFAEC, EndColorStr=#8CE6A9);
+}
+div.boldlabel3
+{
+	background-color: #E7F1FA;
+	color:		#3c4d81;
+	font-weight: bold;
+	padding-left:		5px;		
+	filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#F0F2CF, EndColorStr=#DCE173);
+}
+
+div.label
+{
+	color:		#3c4d81;
+}
+
+div.borderleft
+{
+	border-left:	1px solid #446097;
+}
+
+div.borderright
+{
+	border-right:	1px solid #446097;
+}
+
+div.bordertop
+{
+	border-top:	1px solid #446097;
+	padding-top:    4px;
+}
+
+div.borderbottom
+{
+	border-bottom:	1px solid #446097;
+}
+
+span.AppliedRuleText
+{
+	padding-left: 0px;
+	font-family: Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+p.task
+{
+	text-decoration: none;
+}
+
+p.task.hover
+{
+	text-decoration: underline;
+}
+
+body
+{
+	font-family: Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin:	0px;
+	border: 0px;
+	background-color: #FFFFFF;
+	cursor: default;
+}
+
+p.TaskItem
+{
+	font-family: Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+p.SectionHeading
+{
+	font-family: Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+h4
+{
+	font-family: Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+.formButton 
+{
+	background-color: 	#6699cc;
+	padding: 			2px 4px 3px 4px;
+	color: 				#000000;
+	font-size:			8pt;
+	font-family:		Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height:				17px;
+	filter:				progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#B4C5DF, EndColorStr=#91A9D0);
+	border-width: 		0px;
+}
+
+TEXTAREA
+{
+	font-size:			12pt;
+	font-family:		Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width:				100%;
+	height:				100%;
+	border:				1px solid #7b9ebd;
+
+}
+
+.inputfields
+{
+	font-size:			12pt;
+	font-family:		Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width:				100%;
+	height:				19px;
+	border:				1px solid #7b9ebd;
+}
+
+INPUT.rad
+{
+	width:				15px;
+	border:				0px;
+	cursor:				hand;
+}
+
+DIV.tab
+{
+	padding:			10px;
+}
+
+TD.sec
+{
+	width:				100%;
+	color:				#606050;
+	font-weight:		bold;
+	padding-left:		0px;
+	padding-bottom:		2px;
+	padding-top:        10px;
+}
+
+TD 
+{
+	font-size:			12pt;
+	font-family:		Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+TD.bar 
+{
+	border-bottom:		1px solid #838574;
+}
+
+TD.req 
+{
+	font-weight:		bold;
+	color:				#990000;
+}
+
+TD.statusBar
+{
+	background-color:	#365484;
+	color:				#ffffff;
+	padding-left:		5px;
+}
+
+LABEL
+{
+	cursor:				hand;
+}
+
+TD.radioLabel 
+{
+	padding-left:		2px;
+	padding-right:		10px;
+}
+
+TABLE.layout
+{
+	table-layout:		fixed;
+	width:				100%;
+	height:				100%;
+}
+
+div.tab
+{
+	width: 100%;
+	height: 100%;
+	border: 1px solid #949e9c;
+	background-color: #ffffdf;
+	display: none;
+}
+
+td
+{
+	font-size: 12px;
+}
+
+table
+{
+	cursor: default;
+}
+
+a
+{
+	font-family:    Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:      18px;
+	font-style:     normal;
+	font-weight:    normal;
+}
+
+span.menu
+{
+	height: 100%;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #7288AC;
+}
+
+table.mnuBar
+{
+	color: #ffffff;
+	z-index: 0;
+	height: 23px;
+	width: 100%;
+	position: relative;
+	background-color: #7288AC;
+	border: #abc0e7 1px solid;
+	border-right: #00377a 1px solid;
+	border-bottom: #00377a 1px solid;
+}
+
+td.mnuTitle
+{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: default;
+	color: #ffff00;
+}
+
+td.mnuRight
+{
+	width: 100%;
+	text-align: right;
+	padding-right: 5px;
+}
+
+img.topImage
+{
+	width:128px;
+	height:128px;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='icons/top_header_em.png', sizingMethod='image');
+}
+
+a.SectionHeading
+{
+	font-family:     Trebuchet MS, Trebuchet, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:       18px;
+	text-decoration: none;
+    color:           Black;
+    font-style:      normal;
+	font-weight:     normal;
+}

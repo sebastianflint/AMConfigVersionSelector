@@ -51,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>8059787_maintenance_update device_data processing_setting_configuration_icon.ico</ApplicationIcon>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>D4F5716F6A5743F5DE5C826FD428D10ECF80FC4C</ManifestCertificateThumbprint>
@@ -85,7 +85,9 @@
     <Reference Include="ObjectModel">
       <HintPath>..\..\..\..\..\tmp\2021.3\ObjectModel.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -182,6 +184,7 @@
     <None Include="Resources\330401_about_details_help_info_information_icon.png" />
     <None Include="Resources\ivanti-logo.png" />
     <Content Include="8059787_maintenance_update device_data processing_setting_configuration_icon.ico" />
+    <Content Include="favicon.ico" />
     <Content Include="Zeichnung1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

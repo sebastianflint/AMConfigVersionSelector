@@ -1,0 +1,323 @@
+﻿<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Explanations.xsl"?>
+<Explanations>
+
+<Item name="Group">
+	Una Regla de grupos se aplica a los usuarios que pertenecen a un grupo específico. Define listas de elementos permitidos y rechazados.</Item>
+
+<Item name="Default">
+	Hay un único conjunto de ajustes predeterminados, definidos en Reglas predeterminadas. Las Reglas predeterminadas se aplican a todos los usuarios a menos que las reemplace un usuario, grupo, cliente o regla personalizada correspondiente.Ejemplos de estos ajustes son: habilitar la verificación de propiedad de confianza, permitir las unidades locales por defecto.</Item>
+
+<Item name="User">
+	Una Regla de usuario se aplica a un usuario concreto. Define listas de elementos permitidos y rechazados.</Item>
+  
+<Item name="AADUser">
+	An AAD User Rule applies to a specific user. It defines lists of allowed and denied items.
+</Item>  
+  
+<Item name="AADGroup">
+	An AAD Group Rule applies to users belonging to a specific group. It defines lists of allowed and denied items.
+</Item> 
+
+<Item name="Device">
+  Un dispositivo se considera un equipo que ejecuta el agente de Control de aplicaciones, o se conecta a través de los Servicios de terminal a un Servidor terminal de Microsoft que ejecuta el agente de Control de aplicaciones. Las reglas del dispositivo se pueden aplicar a un dispositivo que ejecuta el agente de Control de aplicaciones o a un cliente que esté conectado al Servidor terminal que aloja el agente de Control de aplicaciones.Una regla de dispositivo especifica la lista de elementos permitidos o rechazados que se aplican a cualquier usuario que haya iniciado sesión en ese dispositivo.
+</Item>
+
+<Item name="Exemptions">
+	Una Regla de exención se aplica a un usuario, grupo o cliente y garantiza que no se aplican más reglas.
+</Item>
+
+<Item name="Custom">
+	Las reglas predeterminadas se combinan con una amplia variedad de condiciones disponibles para crear expresiones poderosas y flexibles. Puede crear condiciones según equipo, pertenencia al directorio, entorno, archivos y carpetas, registro, sesión y cliente, usuario y secuencias de Visual Basic o JavaScript.Las condiciones se pueden evaluar una vez por sesión o en cada solicitud.
+</Item>
+
+<Item name="Process">
+   Una Regla de procesos es una regla central de aplicaciones que se puede configurar para permitir o rechazar la ejecución de un proceso basado en el proceso que lo ha solicitado. La regla también permite colocar a nivel de aplicación las restricciones de acceso a la red y los niveles de privilegios de la aplicación, en lugar de a nivel de usuario o de grupo, lo que significa que distintas aplicaciones pueden tener un conjunto totalmente distinto de restricciones que no están disponibles en las reglas basadas en el usuario, el grupo o el dispositivo.</Item>
+
+<Item name="Deny">
+	Esta regla ha rechazado la solicitud.
+</Item>
+
+<Item name="Allow">
+	Esta regla ha permitido la solicitud.
+</Item>
+
+
+<Item name="Matched Term">
+	Esta es la coincidencia del elemento permitido o rechazado que se define en la regla: provocó que la regla estallase. Puede ser una coincidencia exacta o una coincidencia de asterisco.Por ejemplo, mspaint.exe coincidiría con mspaint.exe y ms*.exe.
+
+</Item>
+
+
+<Item name="Trusted Ownership">
+	El archivo solicitado no pertenece a un Propietario de confianza. La verificación de Propiedad de confianza compara el propietario del archivo con la lista de usuarios y grupos de la lista de Propietarios de confianza.La verificación de proveedores de confianza rechazará la ejecución de cualquier archivo si el propietario no es de confianza.Puede deshabilitar la verificación de Propiedad de confianza a nivel global o en archivos y carpetas individuales.
+</Item>
+
+
+<Item name="Deny Script File Program">
+	Esta regla ha rechazado la solicitud (temporalmente) para habilitar Control de aplicaciones para determinar si se permite el archivo que procesa (un archivo de secuencia).
+</Item>
+
+<Item name="System Process">
+	El proceso que hizo la solicitud es un proceso del sistema y los procesos del sistema no se validan con Control de aplicaciones. Este es un ajuste de Reglas predeterminadas.</Item>
+
+<Item name="Client Mapped Drive">
+	El archivo solicitado está en una unidad asignada a un cliente de Citrix. Control de aplicaciones no puede acceder a estas unidades por lo que los archivos siempre se rechazan.
+</Item>
+
+
+<Item name="Prohibited Media">
+	El archivo solicitado está en un medio prohibido (es decir, disquette, CD-Rom). La única manera de permitir estos archivos es agregando una firma digital permitida a una regla.</Item>
+
+
+<Item name="Remote File">
+	El archivo solicitado está en la red. El archivo se puede permitir agregando una firma digital permitida o un archivo/carpeta permitido a una regla.</Item>
+
+<Item name="Local File">
+	El archivo solicitado está en una unidad local. Esta solicitud se rechazará como resultado del ajuste Reglas predeterminadas &quot;Permitir unidades locales por defecto&quot;.</Item>
+
+<Item name="none">
+	Nothing, nada, zip
+</Item>
+
+<Item name="None">
+	No se ha encontrado ningún ajuste que rechace esta solicitud.
+</Item>
+
+<Item name="Limit">
+	El elemento coincidente tiene un límite de aplicación o un límite de tiempo. Esta solicitud se rechazará si se supera el límite y ninguna regla toma la prioridad.</Item>
+
+<Item name="Exempt">
+	Esta regla se marca como &quot;Exenta&quot;, para que los usuarios coincidentes puedan ejecutar cualquier archivo.
+</Item>
+
+<Item name="Accessible Signature">
+    El archivo solicitado tiene una firma que coincide con una firma de la lista de elementos permitidos para esta regla. </Item>
+
+<Item name="Prohibited Signature">
+    El archivo solicitado tiene una firma que coincide con una firma de la lista de elementos rechazados para esta regla. </Item>
+
+<Item name="Accessible File">
+    El archivo solicitado coincide con un elemento de archivo de la lista de elementos permitidos para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+<Item name="Prohibited File">
+    El archivo solicitado coincide con un elemento de archivo de la lista de elementos rechazados para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+<Item name="Prohibited Folder">
+    El archivo solicitado está en una carpeta que coincide con un elemento de carpeta de la lista de elementos rechazados para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+<Item name="Accessible Folder">
+    El archivo solicitado está en una carpeta que coincide con un elemento de carpeta de la lista de elementos permitidos para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+<Item name="Accessible Drive">
+    El archivo solicitado está en una unidad que se define en la lista de elementos permitidos para esta regla. </Item>
+
+<Item name="Prohibited Drive">
+    El archivo solicitado está en una unidad que se define en la lista de elementos rechazados para esta regla. </Item>
+
+<Item name="File Extension">
+	La extensión del archivo solicitado coincide con una de las extensiones especificadas en &quot;Filtrado de extensiones&quot; en Reglas predeterminadas. Control de aplicaciones ha ignorado este archivo.
+	reglas.
+</Item>
+
+<Item name="Self-authorized">
+	El archivo solicitado se rechazó originalmente y luego fue autorizado por otro usuario.
+</Item>
+
+<Item name="File Exists">
+	La solicitud se ha permitido porque la prueba &quot;El archivo existe&quot; falló.
+</Item>
+
+<Item name="File Not Found">
+	El archivo solicitado no existe o no se ha encontrado.
+</Item>
+
+<Item name="Internal">
+	Esta solicitud estaba sujeta a un proceso interno especial de Control de aplicaciones.
+</Item>
+
+<Item name="Logon">
+	El usuario aun está activo.
+</Item>
+
+<Item name="No Configuration">
+	No hay ninguna configuración guardada ni desplegada.
+</Item>
+
+<Item name="SafeSpace File">
+    El archivo solicitado coincide con un elemento de archivo de la lista de elementos de SafeSpace para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+<Item name="SafeSpace Signature">
+    El archivo solicitado tiene una firma que coincide con una firma de la lista de SafeSpace para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+<Item name="SafeSpace Folder">
+    El archivo solicitado está en una carpeta que coincide con un elemento de carpeta de la lista de elementos de SafeSpace para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+<Item name="SafeSpace">
+	Esta regla ha permitido la solicitud para ejecutarse en un SafeSpace.
+</Item>
+
+<Item name="Self-authorized (native)">
+	El archivo solicitado se rechazó originalmente y luego fue autorizado por otro usuario.
+</Item>
+<Item name="Self-authorized (in a SafeSpace)">
+	El archivo solicitado se rechazó originalmente y luego fue autorizado por otro usuario para ejecutarlo en SafeSpace.
+</Item>
+  
+  <Item name="Scripted">
+    Una regla secuenciada se asocia con el resultado de una secuencia proporcionada por un usuario. Si la secuencia devuelta es &quot;True&quot;, la regla coincidirá.La regla define listas de Elementos permitidos y rechazados.</Item>
+
+  <Item name="Trusted Applications">
+    El archivo solicitado está siendo ejecutado por una Aplicación de confianza. Las aplicaciones de confianza pueden ejecutar archivos que, de lo contrario, se verían rechazados por las reglas.</Item>
+
+  <Item name="Trusted Content">
+    Una lista de archivos, carpetas y unidades que puede ejecutar una Aplicación de confianza.
+  </Item>
+
+  <Item name="Trusted Vendors">
+    El archivo solicitado tiene un certificado digital que coincide con un certificado digital de la lista de Elementos del proveedor de confianza.
+  </Item>
+
+  <Item name="Certificate Valid">
+    El certificado digital coincide y está validado.
+  </Item>
+
+  <Item name="Default Route">
+    La ruta predeterminada es una solicitud de una dirección IP 0.0.0.0. Es una dirección especial que se usa cuando ya no existe ninguna otra ruta para una dirección de destino determinada.</Item>
+
+  <Item name="Network Item: Resource">
+    El elemento de red solicitado está en la lista de elementos rechazados para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="Network Item: Host">
+    El elemento de red solicitado está en la lista de elementos rechazados para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="User Rights Modified">
+    Esta regla ha cambiado los privilegios del usuario.
+  </Item>
+
+  <Item name="User Rights Elevated">
+    Esta regla tiene elevados los privilegios del usuario.
+  </Item>
+
+  <Item name="User Rights Restricted">
+    Esta regla tiene restringidos los privilegios del usuario.
+  </Item>
+
+  <Item name="UAC Replacement">
+    El manifiesto de esta aplicación ha indicado que se debe ejecutar elevado.
+  </Item>
+
+  <Item name="ActiveX">
+    Esta regla ha permitido una solicitud de ActiveX.
+  </Item>
+
+  <Item name="ActiveX Elevated">
+    Esta regla ha permitido la instalación de un control de ActiveX.
+  </Item>
+
+  <Item name="ActiveX Restricted">
+    Esta regla tiene restringida la instalación de un control de ActiveX.
+  </Item>
+
+  <Item name="File">
+    El archivo solicitado coincide con un elemento de archivo de la lista de Privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="BuiltIn File">
+    El archivo solicitado coincide con un componente integrado en la lista de Privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="Signature">
+    El archivo solicitado tiene una firma que coincide con una firma de la lista de Privilegios del usuario para esta regla. </Item>
+
+  <Item name="Folder">
+    El archivo solicitado está en una carpeta que coincide con un elemento de carpeta de la lista de Privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="Self-Elevated">
+    El usuario ha elegido ejecutar el archivo solicitado con privilegios de usuario elevados, como está permitido por los ajustes de esta regla. &quot;Destino&quot; muestra la regla coincidente.
+  </Item>
+
+  <Item name="User-Requested Rule Change">
+    Se ha otorgado acceso o privilegios elevados al usuario para esta aplicación mediante la función Cambiar solicitud.
+  </Item>
+
+  <Item name="BuiltIn COM Component">
+    La solicitud coincide con un componente COM integrado en la lista de Privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="Uninstall Control">
+    La solicitud coincide con un elemento de Control de desinstalación de la lista de Controles del sistema de privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="Service Control">
+    La solicitud coincide con un elemento de Control de servicios de la lista de Controles del sistema de privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="Event Log Control">
+    La solicitud coincide con un elemento de Control de registros de eventos de la lista de Controles del sistema de privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="Prohibited Win Store App">
+    La Aplicación de Windows Store solicitada coincide como elemento en la lista Elementos rechazados para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+  <Item name="Accessible Win Store App">
+    La Aplicación de Windows Store solicitada coincide con un elemento de la lista Elementos permitidos para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+  <Item name="Windows Store (Packaged) App">
+    Las aplicaciones de Windows Store (en paquete) se permiten por defecto. Solo están disponibles en sistemas operativos de Windows 8 y superior.</Item>
+  <Item name="Prohibited Win Store App Publisher">
+    La Aplicación de Windows Store solicitada coincide como elemento en la lista Elementos rechazados para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+  <Item name="Accessible Win Store App Publisher">
+    La Aplicación de Windows Store solicitada coincide con un elemento de la lista Elementos permitidos para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+
+  <Item name="URL Redirect">
+    Esta regla tiene la URL redirigida.</Item>
+  <Item name="Redirected URL">
+    La URL solicitada coincide con una URL prohibida de la lista de redirección de URL de control de exploradores.
+  </Item>
+
+  <Item name="URL Allow">
+    Esta regla ha permitido la URL.
+  </Item>
+  <Item name="Allowed URL">
+    La URL solicitada coincide con una URL permitida en la lista de redirección de URL del control de exploradores.
+  </Item>
+
+  <Item name="URL Elevate">
+    Esta regla tiene elevados los privilegios del usuario para la URL solicitada.
+  </Item>
+  <Item name="Elevated Website">
+    La URL solicitada coincide con un sitio web elevado de la lista de sitios web de Control de exploradores.
+  </Item>
+
+  <Item name="Exempt for URL redirection">
+    El nivel de seguridad de política está habilitado en los Ajustes personalizados y la política coincidente está marcada como &quot;Sin restricción&quot;.
+  </Item>
+
+  <Item name="Exempt for URL elevation">
+    El nivel de seguridad de política está habilitado en los Ajustes personalizados y la política coincidente está marcada como &quot;Sin restricción&quot;.
+  </Item>
+  
+  
+  <Item name="User Rights Default">
+    Esta regla indica que los privilegios del usuario son los privilegios normales del sistema operativo.
+  </Item>
+  <Item name="Process Termination Control File">
+    La solicitud coincide con un elemento del archivo de Control de terminación del proceso de la lista de Controles del sistema de privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+  <Item name="Process Termination Control Folder">
+    La solicitud coincide con un elemento de la carpeta de Control de terminación del proceso de la lista de Controles del sistema de privilegios del usuario para esta regla. &quot;Coincidencia&quot; muestra el elemento coincidente.  
+</Item>
+</Explanations>
