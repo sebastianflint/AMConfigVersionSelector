@@ -49,7 +49,8 @@ No more manually hunting for the right console version. Drop the config, the too
 
 <div align="center">
 
-> *Dark-themed interface with drag & drop config loading, version selection and one-click console launch*
+<img width="780" height="510" alt="image" src="https://github.com/user-attachments/assets/237b332c-70a6-415f-ae78-1b1d5a4b26a8" />
+
 
 </div>
 
