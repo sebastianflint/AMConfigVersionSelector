@@ -125,7 +125,6 @@ cd AMConfigVersionSelector
 
 Open `UWMConfigVersionSelector.sln` in **Visual Studio 2019 or later** and build with `Ctrl+Shift+B`.
 
-> Requires references to `AppSense.Aom.dll` and `EMConsole` assemblies from your Ivanti installation.
 
 ---
 
