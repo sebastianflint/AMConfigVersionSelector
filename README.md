@@ -1,7 +1,5 @@
 <div align="center">
 
-
-
 ### **UWM Config Version Selector**
 *A  tool for managing Ivanti Environment Manager/ Application Control configurations*
 
@@ -50,7 +48,6 @@ No more manually hunting for the right console version. Drop the config, the too
 <div align="center">
 
 <img width="780" height="510" alt="image" src="https://github.com/user-attachments/assets/237b332c-70a6-415f-ae78-1b1d5a4b26a8" />
-
 
 </div>
 
@@ -126,6 +123,11 @@ cd AMConfigVersionSelector
 
 Open `UWMConfigVersionSelector.sln` in **Visual Studio 2019 or later** and build with `Ctrl+Shift+B`.
 
+---
+
+## 📥 Download
+
+[⬇ Download UWM ConfigVersionSelector v4.0](https://cloud.familie-flint.de/index.php/s/qDXDjjxMmGXBjzJ)
 
 ---
 
@@ -140,4 +142,3 @@ Open `UWMConfigVersionSelector.sln` in **Visual Studio 2019 or later** and build
 ## 📄 License
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
-
