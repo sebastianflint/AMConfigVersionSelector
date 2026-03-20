@@ -2,8 +2,8 @@
 
 
 
-### **Config Version Selector**
-*A modern tool for managing Ivanti UWM / Environment Manager configurations*
+### **UWM Config Version Selector**
+*A  tool for managing Ivanti Environment Manager/ Application Control configurations*
 
 <br/>
 
