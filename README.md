@@ -25,7 +25,7 @@
 
 It allows you to:
 - Load `.aamp` (Application Manager) and `.aemp` (Environment Manager) config files
-- Inspect config metadata at a glance
+- Inspect config metadata
 - Launch the correct AM or EM console version that matches the config — automatically
 - Drag & drop configs directly onto the window
 
