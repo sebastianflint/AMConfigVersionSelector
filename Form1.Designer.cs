@@ -113,7 +113,7 @@
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(35, 14);
             this.lblVersion.TabIndex = 1;
-            this.lblVersion.Text = "v4.0";
+            this.lblVersion.Text = "v4.1";
             // 
             // btnWinMinimize
             // 

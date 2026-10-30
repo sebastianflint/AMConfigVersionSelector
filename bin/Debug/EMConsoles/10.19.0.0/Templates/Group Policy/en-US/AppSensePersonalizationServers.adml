@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<policyDefinitionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" revision="2.0" schemaVersion="1.0" xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
+  <displayName>DisplayName</displayName>
+  <description>Description</description>
+  <resources>
+    <stringTable>
+      <string id="AppSense">AppSense</string>
+      <string id="EM">Environment Manager</string>
+      <string id="ServerList">Specify list of personalization servers</string>
+      <string id="ServerList_Help">Specifies the URLs of personalization servers to be used by Environment Manager (overriding the list in configuration.aemp).
+        
+Example: "http://server1,http://server2,http://server3"
+
+Requires Environment Manager Client version 8.3 or greater.
+      </string>
+      <string id="VirtualHostList">Specify which personalization servers are virtual hosts</string>
+      <string id="VirtualHostList_Help"><![CDATA[Specifies which URLs in the personalization server list are virtual hosts, along with associated retry count and delay values for each server. Note that this policy is dependent upon the policy 'Specify list of personalization servers'. Any servers in this list which are not in the personalization server list are ignored.
+	  
+Each item in the list should be in the format: <SERVER>;retries=<RETRIES>;delay=<DELAY>
+	  
+<SERVER> is the server URL.
+<RETRIES> is the number of times to retry that server.
+<DELAY> is the delay between each retry (in milliseconds).
+	  
+Example: "http://server1;retries=2;delay=2000,http://server2;retries=3;delay=4000"
+	  
+Requires Environment Manager Client version 8.5 or greater.]]>
+      </string>
+      <string id="SkipSiteProcessing">Bypass server site processing</string>
+      <string id="SkipSiteProcessing_Help">Determines if a server list supplied by group policy skips the site list processing in the personalization server database.
+
+Valid only if a list of personalization servers is specified above.
+
+Requires Environment Manager Client version 8.3 or greater.
+      </string>
+      <string id="CertificateList">Specify list of thumbprints for Client Certificate Authentication</string>
+      <string id="CertificateList_Help">
+          Specifies the certificate thumbprints to authenticate with the personalization servers to be used by Environment Manager (overriding the list in configuration.aemp).
+
+          Example: "c23271616e8c648669d3480ddacb1cab9961595e,3db02700ab2004da938b548b8d6d85c59a1168b2,1d3440bd1341b5bb5d7536c916e1b7327d6254ea"
+
+          Requires Environment Manager Client 2024.3 or later.
+      </string>
+    </stringTable>
+    <presentationTable>
+      <presentation id="ServerList">
+        <textBox refId="ServerListBox">
+          <label>Comma-separated list of server URLs (Max 255 characters):</label>
+        </textBox>
+      </presentation>
+        <presentation id="CertificateList">
+            <textBox refId="CertificateListBox">
+                <label>Comma-separated list of certificate thumbprints for Client Certificate Authentication:</label>
+            </textBox>
+        </presentation>
+      <presentation id="VirtualHostList">
+        <textBox refId="ServerListBox">
+          <label>Comma-separated list of virtual host configurations:</label>
+        </textBox>
+      </presentation>	  
+    </presentationTable>
+  </resources>
+</policyDefinitionResources>

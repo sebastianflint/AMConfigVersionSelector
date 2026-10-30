@@ -67,126 +67,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="de" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hCPU4eUqbLsEhYsdfjfXVzqRo7/u+qBMo+ZenY/uJ10=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="es" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>V5mXqofzacvsc9PmqaK+i6/dnRbPXpiUVjLy2syCI28=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="fr" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BcmdNUpl1pi7PKdZVkIEfMbr0IQdvrm77N9hHy7TiE0=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="it\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="it" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UeV3XownlakiTcgiNRbz1xy/HxjFWyp6qCy5Mdd2Nfc=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="ja" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DzSVrjQEPx/m4nB4gjdLaVLqkMRRUqE5urL9qPLSTv0=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="nl" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>M4RFzEF/+BQTLcFU7pFcI1D7q8d9sd1LM+HrPuj2xBw=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pt-BR\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="pt-BR" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rXSJxfo2H5LM8Dh7Cxcbw7M0l5FF39v0lJyJcNWzO0E=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="ru" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>YKM2O4rSL/R6oLWi5N7QAgCl/gcHQ0fMMDVcOzrAO2Q=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hans\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="zh-Hans" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sFbUdppJeriIx9aSglsPX1RpTMJpzeHgsuIUT/kYGZM=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hant\AppSense.Sccm.resources.dll" size="3584">
-      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="zh-Hant" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xWMqfcl4nLqfjyBi9HqWNtt4rKCKLpGFk6b/EG/nLjY=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AppSense.Sccm.UI.dll" size="153224">
       <assemblyIdentity name="AppSense.Sccm.UI" version="16.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -315,6 +195,126 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>zdKwRJbZ4yQxN1b5pcbBpACGdCb/XtOaSPT9tjZXMx4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="de" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hCPU4eUqbLsEhYsdfjfXVzqRo7/u+qBMo+ZenY/uJ10=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="es\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="es" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>V5mXqofzacvsc9PmqaK+i6/dnRbPXpiUVjLy2syCI28=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="fr" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BcmdNUpl1pi7PKdZVkIEfMbr0IQdvrm77N9hHy7TiE0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="it\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="it" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UeV3XownlakiTcgiNRbz1xy/HxjFWyp6qCy5Mdd2Nfc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ja\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="ja" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DzSVrjQEPx/m4nB4gjdLaVLqkMRRUqE5urL9qPLSTv0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="nl" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>M4RFzEF/+BQTLcFU7pFcI1D7q8d9sd1LM+HrPuj2xBw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pt-BR\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="pt-BR" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rXSJxfo2H5LM8Dh7Cxcbw7M0l5FF39v0lJyJcNWzO0E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YKM2O4rSL/R6oLWi5N7QAgCl/gcHQ0fMMDVcOzrAO2Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hans\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="zh-Hans" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sFbUdppJeriIx9aSglsPX1RpTMJpzeHgsuIUT/kYGZM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="zh-Hant\AppSense.Sccm.resources.dll" size="3584">
+      <assemblyIdentity name="AppSense.Sccm.resources" version="16.1.0.0" language="zh-Hant" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xWMqfcl4nLqfjyBi9HqWNtt4rKCKLpGFk6b/EG/nLjY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -655,6 +655,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CommonDialogs.XmlSerializers.dll" size="130512">
+      <assemblyIdentity name="CommonDialogs.XmlSerializers" version="16.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>G+f2AnWygtYAJPDJTRnjOT2VM5tFHMeyaES8UWXJ1Ew=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="de\CommonDialogs.resources.dll" size="98816">
       <assemblyIdentity name="CommonDialogs.resources" version="16.1.0.0" language="de" processorArchitecture="msil" />
       <hash>
@@ -771,18 +783,6 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>G6pzZBNRErGGLcL4wINmC59kNekti/tIN1SxpNY917M=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CommonDialogs.XmlSerializers.dll" size="130512">
-      <assemblyIdentity name="CommonDialogs.XmlSerializers" version="16.1.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>G+f2AnWygtYAJPDJTRnjOT2VM5tFHMeyaES8UWXJ1Ew=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2851,18 +2851,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="270336">
-      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="1B44E1D426115821" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>J9Jqq0L3yrNb9R0FNsZ+1VP8l7ZwImuGiAXnxpJ+XIc=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Bcl.AsyncInterfaces.dll" size="22144">
       <assemblyIdentity name="Microsoft.Bcl.AsyncInterfaces" version="6.0.0.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -2919,6 +2907,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>VjYwY13fdpXUYTK9Bgd523UOTDg8QKQs6LyW2DmGChY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PackageManager.XmlSerializers.dll" size="409408">
+      <assemblyIdentity name="PackageManager.XmlSerializers" version="16.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1TtWGyUoyBWJ21w7jWE059L7HikA6e/6v+Tur2VTGRM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3039,18 +3039,6 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>RCwTVv4SXnMZksN3EY6AJafrWVzJaxpoMkOwC9kAvIY=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PackageManager.XmlSerializers.dll" size="409408">
-      <assemblyIdentity name="PackageManager.XmlSerializers" version="16.1.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1TtWGyUoyBWJ21w7jWE059L7HikA6e/6v+Tur2VTGRM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3583,6 +3571,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UWMConfigVersionSelector.exe" size="93184">
+      <assemblyIdentity name="UWMConfigVersionSelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BnoP0gtIA8BAHVJnJAUKBGnv+jfgO5Hbv4Q8/o/Hy+w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UserSettingsPersistence.dll" size="36504">
       <assemblyIdentity name="UserSettingsPersistence" version="16.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -3591,18 +3591,6 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>/U2MXGMA13EbrgPdevKGQYECj1VnCfvVma9WpmndF8c=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UWMConfigVersionSelector.exe" size="93184">
-      <assemblyIdentity name="UWMConfigVersionSelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/1oSX+rtaOHN2UafJuU0WJANnORf6Ry39st22Ai9RWs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -3642,6 +3630,18 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="270336">
+      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="1B44E1D426115821" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>J9Jqq0L3yrNb9R0FNsZ+1VP8l7ZwImuGiAXnxpJ+XIc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
   <file name="8059787_maintenance_update device_data processing_setting_configuration_icon.ico" size="13914">
     <hash>
       <dsig:Transforms>
@@ -3649,15 +3649,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>0QQTJgzM76aehnO5Ykcauj28rl/8ykFDrt8ny1EhpZY=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="favicon.ico" size="15086">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>3giGTdOdfxrKcyGOkf5uF/3wrvrlCLkYnSGtyTzrBgs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="UWMConfigVersionSelector.exe.config" size="802">
@@ -3676,6 +3667,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>/9fT+tPYb3dHlUDJLFMUD2rqMHL9E+mPt05/ltdzt4I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3giGTdOdfxrKcyGOkf5uF/3wrvrlCLkYnSGtyTzrBgs=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

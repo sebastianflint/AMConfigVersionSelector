@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<OperatingSystems version="1">
-  <OperatingSystem DisplayName="Windows XP" DSName="XP" MajorVersion="5" MinorVersion="1" Hide="true"/>
-  <OperatingSystem DisplayName="Windows Vista" DSName="Vista" MajorVersion="6" MinorVersion="0"  Hide="true"/>
-  <OperatingSystem DisplayName="Windows 7" DSName="W7" MajorVersion="6" MinorVersion="1"  Hide="false"/>
-  <OperatingSystem DisplayName="Windows 8" DSName="W8" MajorVersion="6" MinorVersion="2"  Hide="false"/>
-  <OperatingSystem DisplayName="Windows 10+" DSName="W10" MajorVersion="10" MinorVersion="0" Hide="false"/>
-</OperatingSystems>
