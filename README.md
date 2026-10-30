@@ -127,7 +127,7 @@ Open `UWMConfigVersionSelector.sln` in **Visual Studio 2019 or later** and build
 
 ## 📥 Download
 
-[⬇ Download UWM ConfigVersionSelector v4.0](https://cloud.familie-flint.de/index.php/s/qDXDjjxMmGXBjzJ)
+[⬇ Download UWM ConfigVersionSelector v4.1](https://cloud.familie-flint.de/index.php/s/yRDYroDtrg6zAPy)
 
 ---
 
